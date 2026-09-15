@@ -1,0 +1,36 @@
+name: 지방소멸대응기금 뉴스 브리핑
+
+on:
+  schedule:
+    # UTC 기준 실행 시각 (KST = UTC+9)
+    # 00:00 UTC -> 09:00 KST (오전, 최근 16시간 필터)
+    # 08:00 UTC -> 17:00 KST (오후, 최근 8시간 필터)
+    - cron: '0 0,8 * * *'
+  workflow_dispatch: {}  # 수동 실행 버튼 활성화
+
+jobs:
+  send-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 의존성 설치
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 뉴스 스크랩 및 텔레그램 전송
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python main.py
