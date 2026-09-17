@@ -2,11 +2,13 @@
 지방소멸대응기금 뉴스 자동 스크랩 & 텔레그램 전송
 
 - 네이버 뉴스 검색 API + 구글 뉴스 RSS
-- 제목 유사도 / 링크 기준 중복 제거
+- 제목 유사도 / 링크 기준 중복 제거 (같은 실행 내)
+- 저장소에 커밋되는 sent_history.json으로 발송 이력을 기억해서
+  오전 회차에 보낸 기사가 오후 회차에 다시 발송되지 않도록 방지
 - GitHub Actions에서 한국시간 매일 08:50, 16:50 자동 실행
 - 오전 회차: 실제 실행 시각 기준 최근 16시간
 - 오후 회차: 실제 실행 시각 기준 최근 8시간
-- 예약 실행이 지연돼도 GitHub 예약 정보로 회차 구분
+- 예약 실행이 지연돼도 GitHub 예약 정보(NEWS_SCHEDULE)로 회차 구분
 - 메시지에 예약 회차와 실제 시작 시각을 구분해 표시
 - 텔레그램 HTML 포맷 및 분할 전송
 """
@@ -14,6 +16,7 @@
 import os
 import re
 import sys
+import json
 import html
 import time
 import logging
@@ -68,6 +71,12 @@ RUN_SCHEDULE = {
 }
 
 DEFAULT_LOOKBACK_HOURS = 16
+
+# 발송 이력 파일 (저장소 루트에 커밋되어 실행 간에 이어집니다)
+HISTORY_FILE = "sent_history.json"
+# 최대 lookback(16시간)보다 여유 있게 잡아, 지연 실행 상황에서도
+# 과거 발송 기록과 안전하게 대조할 수 있도록 합니다.
+HISTORY_RETENTION_HOURS = 48
 
 
 # ------------------------------------------------------------------
@@ -338,7 +347,7 @@ def filter_recent_articles(
 
 
 # ------------------------------------------------------------------
-# 4. 중복 제거
+# 4. 중복 제거 (같은 실행 내)
 # ------------------------------------------------------------------
 def deduplicate(articles: list) -> list:
     """이번 실행에서 수집한 기사끼리 중복 제거."""
@@ -379,7 +388,102 @@ def deduplicate(articles: list) -> list:
 
 
 # ------------------------------------------------------------------
-# 5. 텔레그램 메시지 작성
+# 5. 발송 이력 (오전/오후 회차 간 중복 방지)
+# ------------------------------------------------------------------
+def load_history() -> list:
+    """저장소에 커밋된 sent_history.json을 읽어온다. 없으면 빈 이력."""
+    if not os.path.exists(HISTORY_FILE):
+        return []
+
+    try:
+        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        if isinstance(data, list):
+            return data
+        logger.warning("발송 이력 파일 형식이 예상과 달라 빈 이력으로 시작합니다.")
+        return []
+    except (json.JSONDecodeError, OSError) as e:
+        logger.warning("발송 이력 파일 읽기 실패, 빈 이력으로 시작: %s", e)
+        return []
+
+
+def prune_history(history: list, now_utc: datetime) -> list:
+    """오래된 이력(HISTORY_RETENTION_HOURS 초과)을 제거해 파일이 계속 커지지 않게 한다."""
+    cutoff = now_utc - timedelta(hours=HISTORY_RETENTION_HOURS)
+    pruned = []
+
+    for entry in history:
+        sent_at_raw = entry.get("sent_at")
+        try:
+            sent_at = datetime.fromisoformat(sent_at_raw)
+        except (TypeError, ValueError):
+            continue  # 형식이 깨진 항목은 버림
+
+        if sent_at >= cutoff:
+            pruned.append(entry)
+
+    logger.info(
+        "발송 이력 정리: %s건 -> %s건 (보관 %s시간)",
+        len(history),
+        len(pruned),
+        HISTORY_RETENTION_HOURS,
+    )
+    return pruned
+
+
+def save_history(history: list) -> None:
+    try:
+        with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+            json.dump(history, f, ensure_ascii=False, indent=2)
+    except OSError as e:
+        logger.error("발송 이력 저장 실패: %s", e)
+
+
+def is_in_history(article: dict, history: list) -> bool:
+    """링크가 같거나 제목이 유사한 기사가 이미 발송 이력에 있는지 확인."""
+    norm_link = normalize_link(article["link"])
+    title_norm = normalize_title(article["title"])
+
+    for entry in history:
+        if norm_link and entry.get("link") == norm_link:
+            return True
+
+        entry_title = entry.get("title_norm", "")
+        if entry_title and title_norm:
+            ratio = SequenceMatcher(None, title_norm, entry_title).ratio()
+            if ratio >= TITLE_SIMILARITY_THRESHOLD:
+                return True
+
+    return False
+
+
+def filter_against_history(articles: list, history: list) -> list:
+    """이전 회차(들)에서 이미 보낸 기사를 제외한다."""
+    filtered = [a for a in articles if not is_in_history(a, history)]
+
+    logger.info(
+        "발송 이력 대조 후 %s건 / 대조 전 %s건",
+        len(filtered),
+        len(articles),
+    )
+    return filtered
+
+
+def append_to_history(history: list, articles: list, now_utc: datetime) -> list:
+    sent_at_str = now_utc.isoformat()
+    for article in articles:
+        history.append(
+            {
+                "link": normalize_link(article["link"]),
+                "title_norm": normalize_title(article["title"]),
+                "sent_at": sent_at_str,
+            }
+        )
+    return history
+
+
+# ------------------------------------------------------------------
+# 6. 텔레그램 메시지 작성
 # ------------------------------------------------------------------
 def escape_html(text: str) -> str:
     return html.escape(text, quote=False)
@@ -395,11 +499,11 @@ def build_messages(articles: list, run_ctx: dict) -> list:
         f"📰 <b>{escape_html(SEARCH_KEYWORD)} 뉴스 브리핑</b>\n"
         f"실행 회차: {escape_html(label)}\n"
         f"실제 시작: {escape_html(actual_start)} KST\n"
-        f"실제 시작 시각 기준 최근 {lookback}시간 이내 기사\n"
+        f"실제 시작 시각 기준 최근 {lookback}시간 이내 기사 (이전 회차 발송분 제외)\n"
     )
 
     if not articles:
-        return [header + "\n해당 시간대 수집된 기사가 없습니다."]
+        return [header + "\n해당 시간대 신규 기사가 없습니다."]
 
     header += f"총 {len(articles)}건\n\n"
 
@@ -435,7 +539,7 @@ def build_messages(articles: list, run_ctx: dict) -> list:
 
 
 # ------------------------------------------------------------------
-# 6. 텔레그램 전송
+# 7. 텔레그램 전송
 # ------------------------------------------------------------------
 def send_telegram_message(text: str) -> bool:
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
@@ -488,6 +592,9 @@ def main():
         run_ctx["cutoff_utc"].isoformat(),
     )
 
+    history = load_history()
+    history = prune_history(history, run_ctx["now_utc"])
+
     naver_articles = fetch_naver_news(SEARCH_KEYWORD)
     google_articles = fetch_google_news(SEARCH_KEYWORD)
 
@@ -510,7 +617,11 @@ def main():
     )
 
     unique_articles = deduplicate(recent_articles)
-    messages = build_messages(unique_articles, run_ctx)
+
+    # 이전 회차(오전/오후)에서 이미 보낸 기사는 제외
+    new_articles = filter_against_history(unique_articles, history)
+
+    messages = build_messages(new_articles, run_ctx)
 
     success_count = 0
 
@@ -525,8 +636,18 @@ def main():
         success_count,
     )
 
+    all_sent = success_count == len(messages)
+
+    # 전부 정상 전송된 경우에만 이번에 보낸 기사를 이력에 추가합니다.
+    # (전송이 실패한 기사를 "보냈다"고 잘못 기록해서 다음 회차에서
+    #  누락되는 것을 방지)
+    if all_sent and new_articles:
+        history = append_to_history(history, new_articles, run_ctx["now_utc"])
+
+    save_history(history)
+
     # 일부 메시지만 전송된 경우도 실패로 표시합니다.
-    if success_count != len(messages):
+    if not all_sent:
         sys.exit(1)
 
 
