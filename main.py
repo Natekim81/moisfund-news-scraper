@@ -1,12 +1,14 @@
 """
-지방소멸대응기금 뉴스 자동 스크랩 & 텔레그램 전송 스크립트
-- 네이버 뉴스 검색 API (JSON)
-- 구글 뉴스 RSS (feedparser)
+지방소멸대응기금 뉴스 자동 스크랩 & 텔레그램 전송
+
+- 네이버 뉴스 검색 API + 구글 뉴스 RSS
 - 제목 유사도 / 링크 기준 중복 제거
-- 실행 시각 기준 최근 N시간 이내 기사만 필터링
-  · 오전(09:00 KST) 실행: 최근 16시간 이내 (전일 17:00 실행 이후 공백 포함)
-  · 오후(17:00 KST) 실행: 최근 8시간 이내 (당일 09:00 실행 이후 공백)
-- 텔레그램 HTML 포맷으로 전송 (4096자 제한 대응 분할 전송)
+- GitHub Actions에서 한국시간 매일 08:50, 16:50 자동 실행
+- 오전 회차: 실제 실행 시각 기준 최근 16시간
+- 오후 회차: 실제 실행 시각 기준 최근 8시간
+- 예약 실행이 지연돼도 GitHub 예약 정보로 회차 구분
+- 메시지에 예약 회차와 실제 시작 시각을 구분해 표시
+- 텔레그램 HTML 포맷 및 분할 전송
 """
 
 import os
@@ -22,6 +24,7 @@ from urllib.parse import quote
 
 import requests
 import feedparser
+
 
 # ------------------------------------------------------------------
 # 기본 설정
@@ -45,27 +48,33 @@ GOOGLE_NEWS_RSS_URL = (
 )
 TELEGRAM_SEND_URL = "https://api.telegram.org/bot{token}/sendMessage"
 
-TITLE_SIMILARITY_THRESHOLD = 0.72  # 이 값 이상이면 같은 기사로 판단
-NAVER_DISPLAY_COUNT = 30           # 네이버 API 최대 수집 개수
-TELEGRAM_MAX_LEN = 4000            # 여유를 둔 텔레그램 메시지 길이 제한
+TITLE_SIMILARITY_THRESHOLD = 0.72
+NAVER_DISPLAY_COUNT = 30
+TELEGRAM_MAX_LEN = 4000
 
 KST = timezone(timedelta(hours=9))
 
-# 실행 시각(UTC hour) -> (한국시간 라벨, lookback 시간)
-# 00:00 UTC = 09:00 KST (오전) -> 최근 16시간
-# 08:00 UTC = 17:00 KST (오후) -> 최근 8시간
+# GitHub 예약식(UTC)을 기준으로 회차를 구분합니다.
+# 실제 실행이 지연돼도 오전·오후 구분은 유지됩니다.
 RUN_SCHEDULE = {
-    0: {"label": "오전 09:00", "lookback_hours": 16},
-    8: {"label": "오후 17:00", "lookback_hours": 8},
+    "50 23 * * *": {
+        "label": "08:50 자동실행",
+        "lookback_hours": 16,
+    },
+    "50 7 * * *": {
+        "label": "16:50 자동실행",
+        "lookback_hours": 8,
+    },
 }
-DEFAULT_LOOKBACK_HOURS = 16  # 수동 실행 등 스케줄 외 시각에 돌릴 때의 기본값
+
+DEFAULT_LOOKBACK_HOURS = 16
 
 
 # ------------------------------------------------------------------
 # 공용 유틸
 # ------------------------------------------------------------------
 def strip_tags(text: str) -> str:
-    """HTML 태그 제거 + 엔티티 언이스케이프"""
+    """HTML 태그 제거 및 엔티티 변환."""
     if not text:
         return ""
     text = re.sub(r"<[^>]+>", "", text)
@@ -73,7 +82,7 @@ def strip_tags(text: str) -> str:
 
 
 def truncate_summary(text: str, max_chars: int = 160) -> str:
-    """요약을 2~3줄 분량으로 자르기"""
+    """요약 길이 제한."""
     text = re.sub(r"\s+", " ", text).strip()
     if len(text) <= max_chars:
         return text
@@ -81,7 +90,7 @@ def truncate_summary(text: str, max_chars: int = 160) -> str:
 
 
 def normalize_title(title: str) -> str:
-    """유사도 비교를 위한 제목 정규화 (공백/기호/대소문자 제거)"""
+    """유사도 비교용 제목 정규화."""
     title = strip_tags(title)
     title = re.sub(r"[^0-9a-zA-Z가-힣]", "", title)
     return title.lower()
@@ -91,46 +100,68 @@ def normalize_link(link: str) -> str:
     if not link:
         return ""
     link = link.strip().rstrip("/")
-    link = re.sub(r"^https?://(www\.)?", "", link)
-    return link
+    return re.sub(r"^https?://(www\.)?", "", link)
 
 
 def is_similar_title(a: str, b: str) -> bool:
-    a_norm, b_norm = normalize_title(a), normalize_title(b)
+    a_norm = normalize_title(a)
+    b_norm = normalize_title(b)
+
     if not a_norm or not b_norm:
         return False
+
     ratio = SequenceMatcher(None, a_norm, b_norm).ratio()
     return ratio >= TITLE_SIMILARITY_THRESHOLD
 
 
 def get_run_context() -> dict:
-    """현재 UTC 시각을 기준으로 이번 실행이 오전/오후 중 어떤 회차인지, lookback 시간은 얼마인지 결정"""
+    """실제 시작 시각이 아닌 GitHub 예약 정보로 오전·오후를 구분."""
     now_utc = datetime.now(timezone.utc)
-    schedule = RUN_SCHEDULE.get(now_utc.hour)
+    now_kst = now_utc.astimezone(KST)
 
-    if schedule is None:
-        logger.warning(
-            f"정해진 스케줄 시각(UTC 0시/8시)이 아닌 {now_utc.hour}시에 실행되어 "
-            f"기본 lookback({DEFAULT_LOOKBACK_HOURS}시간)을 적용합니다."
-        )
-        label = now_utc.astimezone(KST).strftime("%H:%M 수동실행")
-        lookback_hours = DEFAULT_LOOKBACK_HOURS
-    else:
+    event_name = os.environ.get("GITHUB_EVENT_NAME", "").strip()
+    cron = os.environ.get("NEWS_SCHEDULE", "").strip()
+
+    if event_name == "schedule":
+        schedule = RUN_SCHEDULE.get(cron)
+
+        if schedule is None:
+            raise ValueError(
+                f"알 수 없는 예약 설정: {cron!r}. "
+                "news_cron.yml을 확인하세요."
+            )
+
         label = schedule["label"]
         lookback_hours = schedule["lookback_hours"]
+
+    else:
+        label = (
+            "수동실행"
+            if event_name == "workflow_dispatch"
+            else "별도실행"
+        )
+        lookback_hours = DEFAULT_LOOKBACK_HOURS
+
+    logger.info(
+        "실행 유형=%s / 예약=%s",
+        event_name,
+        cron,
+    )
 
     return {
         "now_utc": now_utc,
         "label": label,
+        "actual_start_kst": now_kst.strftime("%Y-%m-%d %H:%M:%S"),
         "lookback_hours": lookback_hours,
         "cutoff_utc": now_utc - timedelta(hours=lookback_hours),
     }
 
 
 def parse_naver_date(pub_date: str):
-    """네이버 API의 RFC 1123 형식 날짜를 UTC datetime으로 변환"""
+    """네이버 기사 발행일을 UTC로 변환."""
     if not pub_date:
         return None
+
     try:
         dt = parsedate_to_datetime(pub_date)
         if dt.tzinfo is None:
@@ -141,10 +172,11 @@ def parse_naver_date(pub_date: str):
 
 
 def parse_google_date(entry):
-    """구글 뉴스 RSS 항목의 published_parsed(struct_time, UTC)를 datetime으로 변환"""
+    """구글 RSS 기사 발행일을 UTC로 변환."""
     struct = entry.get("published_parsed")
     if not struct:
         return None
+
     try:
         return datetime(*struct[:6], tzinfo=timezone.utc)
     except (TypeError, ValueError):
@@ -152,11 +184,13 @@ def parse_google_date(entry):
 
 
 # ------------------------------------------------------------------
-# 1) 네이버 뉴스 API 수집
+# 1. 네이버 뉴스 수집
 # ------------------------------------------------------------------
 def fetch_naver_news(keyword: str) -> list:
     if not NAVER_CLIENT_ID or not NAVER_CLIENT_SECRET:
-        logger.warning("네이버 API 키가 설정되지 않아 네이버 뉴스 수집을 건너뜁니다.")
+        logger.warning(
+            "네이버 API 키가 설정되지 않아 네이버 수집을 건너뜁니다."
+        )
         return []
 
     headers = {
@@ -167,28 +201,34 @@ def fetch_naver_news(keyword: str) -> list:
         "query": keyword,
         "display": NAVER_DISPLAY_COUNT,
         "start": 1,
-        "sort": "date",  # 최신순
+        "sort": "date",
     }
 
     try:
-        resp = requests.get(NAVER_NEWS_URL, headers=headers, params=params, timeout=10)
+        resp = requests.get(
+            NAVER_NEWS_URL,
+            headers=headers,
+            params=params,
+            timeout=10,
+        )
         resp.raise_for_status()
         data = resp.json()
+
     except requests.RequestException as e:
-        logger.error(f"네이버 뉴스 API 요청 실패: {e}")
+        logger.error("네이버 뉴스 API 요청 실패: %s", e)
         return []
+
     except ValueError as e:
-        logger.error(f"네이버 뉴스 API 응답 파싱 실패: {e}")
+        logger.error("네이버 뉴스 API 응답 파싱 실패: %s", e)
         return []
 
     results = []
+
     for item in data.get("items", []):
         title = strip_tags(item.get("title", ""))
         description = strip_tags(item.get("description", ""))
-        # originallink가 있으면 우선 사용, 없으면 link 사용
         link = item.get("originallink") or item.get("link", "")
-        pub_date_raw = item.get("pubDate", "")
-        pub_date = parse_naver_date(pub_date_raw)
+        pub_date = parse_naver_date(item.get("pubDate", ""))
 
         if not title or not link:
             continue
@@ -203,33 +243,44 @@ def fetch_naver_news(keyword: str) -> list:
             }
         )
 
-    logger.info(f"네이버 뉴스 {len(results)}건 수집")
+    logger.info("네이버 뉴스 %s건 수집", len(results))
     return results
 
 
 # ------------------------------------------------------------------
-# 2) 구글 뉴스 RSS 수집
+# 2. 구글 뉴스 RSS 수집
 # ------------------------------------------------------------------
 def fetch_google_news(keyword: str) -> list:
     url = GOOGLE_NEWS_RSS_URL.format(query=quote(keyword))
 
     try:
-        feed = feedparser.parse(url)
+        # 통신 제한시간을 지정한 뒤 RSS 내용을 파싱합니다.
+        resp = requests.get(url, timeout=20)
+        resp.raise_for_status()
+        feed = feedparser.parse(resp.content)
+
     except Exception as e:
-        logger.error(f"구글 뉴스 RSS 파싱 실패: {e}")
+        logger.error("구글 뉴스 RSS 수집 실패: %s", e)
         return []
 
     if getattr(feed, "bozo", 0) and not feed.entries:
-        logger.warning(f"구글 뉴스 RSS 응답에 문제가 있을 수 있습니다: {feed.bozo_exception}")
+        logger.warning(
+            "구글 뉴스 RSS 응답 이상: %s",
+            getattr(feed, "bozo_exception", "원인 미상"),
+        )
 
     results = []
+
     for entry in feed.entries:
         title = strip_tags(entry.get("title", ""))
-        # 구글 뉴스 RSS는 title에 " - 언론사명"이 붙는 경우가 많아 제거
         title = re.sub(r"\s*-\s*[^-]{1,30}$", "", title).strip() or title
-        description = strip_tags(entry.get("summary", "") or entry.get("description", ""))
+
+        description = strip_tags(
+            entry.get("summary", "") or entry.get("description", "")
+        )
         link = entry.get("link", "")
         pub_date = parse_google_date(entry)
+
         source = ""
         if "source" in entry and hasattr(entry.source, "title"):
             source = entry.source.title
@@ -247,22 +298,29 @@ def fetch_google_news(keyword: str) -> list:
             }
         )
 
-    logger.info(f"구글 뉴스 {len(results)}건 수집")
+    logger.info("구글 뉴스 %s건 수집", len(results))
     return results
 
 
 # ------------------------------------------------------------------
-# 3) 시간 필터링
+# 3. 시간 필터링
 # ------------------------------------------------------------------
-def filter_recent_articles(articles: list, cutoff_utc: datetime, now_utc: datetime) -> list:
-    """cutoff_utc 이후 ~ now_utc 이전에 작성된 기사만 남긴다.
-    발행일을 파싱할 수 없는 기사는 판단 불가로 보고 일단 포함시키되 로그를 남긴다."""
+def filter_recent_articles(
+    articles: list,
+    cutoff_utc: datetime,
+    now_utc: datetime,
+) -> list:
+    """조회 범위 안의 기사만 유지. 발행일 불명 기사는 기존 방식대로 포함."""
     filtered = []
+
     for article in articles:
         pub_date = article.get("pub_date")
 
         if pub_date is None:
-            logger.warning(f"발행일 파싱 실패로 필터 없이 포함: {article['title']}")
+            logger.warning(
+                "발행일 파싱 실패로 필터 없이 포함: %s",
+                article["title"],
+            )
             filtered.append(article)
             continue
 
@@ -270,16 +328,20 @@ def filter_recent_articles(articles: list, cutoff_utc: datetime, now_utc: dateti
             filtered.append(article)
 
     logger.info(
-        f"시간 필터링({cutoff_utc.isoformat()} ~ {now_utc.isoformat()}) 후 "
-        f"{len(filtered)}건 남음 (필터 전 {len(articles)}건)"
+        "시간 필터링(%s ~ %s) 후 %s건 / 필터 전 %s건",
+        cutoff_utc.isoformat(),
+        now_utc.isoformat(),
+        len(filtered),
+        len(articles),
     )
     return filtered
 
 
 # ------------------------------------------------------------------
-# 4) 중복 제거 (제목 유사도 + 링크 동일 여부)
+# 4. 중복 제거
 # ------------------------------------------------------------------
 def deduplicate(articles: list) -> list:
+    """이번 실행에서 수집한 기사끼리 중복 제거."""
     unique = []
     seen_links = set()
 
@@ -290,10 +352,12 @@ def deduplicate(articles: list) -> list:
             continue
 
         is_dup = False
+
         for kept in unique:
             if norm_link and normalize_link(kept["link"]) == norm_link:
                 is_dup = True
                 break
+
             if is_similar_title(article["title"], kept["title"]):
                 is_dup = True
                 break
@@ -302,49 +366,60 @@ def deduplicate(articles: list) -> list:
             continue
 
         unique.append(article)
+
         if norm_link:
             seen_links.add(norm_link)
 
-    logger.info(f"중복 제거 후 {len(unique)}건 남음 (원본 {len(articles)}건)")
+    logger.info(
+        "중복 제거 후 %s건 / 원본 %s건",
+        len(unique),
+        len(articles),
+    )
     return unique
 
 
 # ------------------------------------------------------------------
-# 5) 텔레그램 메시지 포맷 & 전송
+# 5. 텔레그램 메시지 작성
 # ------------------------------------------------------------------
 def escape_html(text: str) -> str:
     return html.escape(text, quote=False)
 
 
 def build_messages(articles: list, run_ctx: dict) -> list:
-    """텔레그램 4096자 제한을 고려해 여러 메시지로 분할"""
+    """텔레그램 메시지를 기사 단위로 분할."""
     label = run_ctx["label"]
     lookback = run_ctx["lookback_hours"]
+    actual_start = run_ctx["actual_start_kst"]
 
     header = (
-        f"📰 <b>{escape_html(SEARCH_KEYWORD)} 뉴스 브리핑 ({escape_html(label)})</b>\n"
-        f"최근 {lookback}시간 이내 기사 기준\n"
+        f"📰 <b>{escape_html(SEARCH_KEYWORD)} 뉴스 브리핑</b>\n"
+        f"실행 회차: {escape_html(label)}\n"
+        f"실제 시작: {escape_html(actual_start)} KST\n"
+        f"실제 시작 시각 기준 최근 {lookback}시간 이내 기사\n"
     )
 
     if not articles:
-        return [header + "\n해당 시간대 신규 기사가 없습니다."]
+        return [header + "\n해당 시간대 수집된 기사가 없습니다."]
 
     header += f"총 {len(articles)}건\n\n"
 
     messages = []
     current = header
+
     for idx, article in enumerate(articles, start=1):
         title = escape_html(article["title"])
         summary = escape_html(article["summary"])
-        link = escape_html(article["link"])
+        link = html.escape(article["link"], quote=True)
         source = escape_html(article["source"])
 
         block = (
             f"{idx}. <b>{title}</b>\n"
             f"({source})\n"
         )
+
         if summary:
             block += f"{summary}\n"
+
         block += f'<a href="{link}">기사 원문 보기</a>\n\n'
 
         if len(current) + len(block) > TELEGRAM_MAX_LEN:
@@ -359,9 +434,14 @@ def build_messages(articles: list, run_ctx: dict) -> list:
     return messages
 
 
+# ------------------------------------------------------------------
+# 6. 텔레그램 전송
+# ------------------------------------------------------------------
 def send_telegram_message(text: str) -> bool:
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
-        logger.error("TELEGRAM_TOKEN 또는 TELEGRAM_CHAT_ID가 설정되지 않았습니다.")
+        logger.error(
+            "TELEGRAM_TOKEN 또는 TELEGRAM_CHAT_ID가 설정되지 않았습니다."
+        )
         return False
 
     url = TELEGRAM_SEND_URL.format(token=TELEGRAM_TOKEN)
@@ -375,10 +455,22 @@ def send_telegram_message(text: str) -> bool:
     try:
         resp = requests.post(url, data=payload, timeout=10)
         resp.raise_for_status()
+        result = resp.json()
+
+        if not result.get("ok"):
+            logger.error("텔레그램 API가 전송 실패를 반환했습니다.")
+            return False
+
+        logger.info(
+            "텔레그램 전송 성공 / 한국시간 %s",
+            datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S"),
+        )
         return True
-    except requests.RequestException as e:
-        body = getattr(e.response, "text", "")
-        logger.error(f"텔레그램 전송 실패: {e} / 응답: {body}")
+
+    except (requests.RequestException, ValueError) as e:
+        # 예외 메시지의 요청 URL에 포함될 수 있는 토큰을 가립니다.
+        safe_error = str(e).replace(TELEGRAM_TOKEN, "[REDACTED]")
+        logger.error("텔레그램 전송 실패: %s", safe_error)
         return False
 
 
@@ -387,37 +479,54 @@ def send_telegram_message(text: str) -> bool:
 # ------------------------------------------------------------------
 def main():
     run_ctx = get_run_context()
+
     logger.info(
-        f"실행 회차: {run_ctx['label']} / lookback {run_ctx['lookback_hours']}시간 "
-        f"/ cutoff(UTC) {run_ctx['cutoff_utc'].isoformat()}"
+        "실행 회차=%s / 실제 시작(KST)=%s / 조회=%s시간 / 기준(UTC)=%s",
+        run_ctx["label"],
+        run_ctx["actual_start_kst"],
+        run_ctx["lookback_hours"],
+        run_ctx["cutoff_utc"].isoformat(),
     )
 
     naver_articles = fetch_naver_news(SEARCH_KEYWORD)
     google_articles = fetch_google_news(SEARCH_KEYWORD)
 
     all_articles = naver_articles + google_articles
-    unique_articles = deduplicate(all_articles)
+
+    # 조회 범위를 먼저 적용해 오래된 유사 기사가 최신 기사를
+    # 중복으로 제거하는 상황을 줄입니다.
     recent_articles = filter_recent_articles(
-        unique_articles, run_ctx["cutoff_utc"], run_ctx["now_utc"]
+        all_articles,
+        run_ctx["cutoff_utc"],
+        run_ctx["now_utc"],
     )
 
-    # 최신순 정렬 (발행일 없는 기사는 뒤로)
     recent_articles.sort(
-        key=lambda a: a["pub_date"] or datetime.min.replace(tzinfo=timezone.utc),
+        key=lambda a: (
+            a["pub_date"]
+            or datetime.min.replace(tzinfo=timezone.utc)
+        ),
         reverse=True,
     )
 
-    messages = build_messages(recent_articles, run_ctx)
+    unique_articles = deduplicate(recent_articles)
+    messages = build_messages(unique_articles, run_ctx)
 
     success_count = 0
+
     for msg in messages:
         if send_telegram_message(msg):
             success_count += 1
-        time.sleep(1)  # 텔레그램 API rate limit 대비
+        time.sleep(1)
 
-    logger.info(f"총 {len(messages)}개 메시지 중 {success_count}개 전송 성공")
+    logger.info(
+        "총 %s개 메시지 중 %s개 전송 성공",
+        len(messages),
+        success_count,
+    )
 
-    if success_count == 0 and messages:
+    # 일부 메시지만 전송된 경우도 실패로 표시합니다.
+    if success_count != len(messages):
         sys.exit(1)
 
 
