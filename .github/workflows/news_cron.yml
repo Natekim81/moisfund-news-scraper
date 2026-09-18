@@ -2,25 +2,28 @@ name: 지방소멸대응기금 뉴스 브리핑
 
 on:
   schedule:
-    # UTC 기준 실행 시각 (KST = UTC+9)
-    # 23:50 UTC -> 08:50 KST (오전, 최근 16시간 필터)
-    # 07:50 UTC -> 16:50 KST (오후, 최근 8시간 필터)
-    - cron: '50 23 * * *'
-    - cron: '50 7 * * *'
-
-  workflow_dispatch: {}  # 수동 실행 버튼 활성화
+    - cron: '50 23 * * *'  # 한국시간 매일 08:50
+    - cron: '50 7 * * *'   # 한국시간 매일 16:50
+  workflow_dispatch: {}
 
 permissions:
-  contents: write  # sent_history.json을 저장소에 커밋하기 위해 필요
+  contents: write
+
+# 자동·수동 실행이 겹쳐 동일 기사를 동시에 발송하지 않도록 순차 처리
+concurrency:
+  group: news-briefing-history
+  cancel-in-progress: false
 
 jobs:
   send-news:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
     steps:
-      - name: 저장소 체크아웃
+      - name: 기본 브랜치의 최신 코드와 발송 이력 가져오기
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
 
       - name: Python 설치
         uses: actions/setup-python@v5
@@ -28,9 +31,16 @@ jobs:
           python-version: '3.11'
 
       - name: 의존성 설치
+        run: python -m pip install -r requirements.txt
+
+      - name: 실행 정보 확인
+        env:
+          NEWS_EVENT: ${{ github.event_name }}
+          NEWS_SCHEDULE: ${{ github.event.schedule }}
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          echo "실행 방식: $NEWS_EVENT"
+          echo "예약식: $NEWS_SCHEDULE"
+          TZ=Asia/Seoul date '+실제 작업 시작: %Y-%m-%d %H:%M:%S KST'
 
       - name: 뉴스 스크랩 및 텔레그램 전송
         env:
@@ -39,18 +49,34 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           NEWS_SCHEDULE: ${{ github.event.schedule }}
+          PYTHONUNBUFFERED: '1'
         run: python main.py
 
-      - name: 발송 이력 커밋
-        if: always()  # main.py가 실패해도 정리된 이력은 최대한 저장
+      - name: 발송 이력 저장
+        if: ${{ always() && !cancelled() }}
+        env:
+          NEWS_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
+          if [ ! -f sent_history.json ]; then
+            echo "발송 이력 파일이 없어 저장을 건너뜁니다. 앞선 실패 단계를 확인하세요."
+            exit 0
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add sent_history.json
+          git add -- sent_history.json
           if git diff --cached --quiet; then
-            echo "발송 이력 변경 없음, 커밋 생략"
-          else
-            git commit -m "chore: 발송 이력 업데이트 [skip ci]"
-            git pull --rebase
-            git push
+            echo "발송 이력 변경 없음"
+            exit 0
           fi
+          git commit -m "chore: update news send history [skip ci]"
+          git pull --rebase origin "$NEWS_BRANCH"
+          git push origin "HEAD:$NEWS_BRANCH"
+
+      - name: 실패 시 발송 이력 복구용 파일 보관
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-history-${{ github.run_id }}-${{ github.run_attempt }}
+          path: sent_history.json
+          if-no-files-found: ignore
+          retention-days: 7
