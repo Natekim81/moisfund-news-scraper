@@ -8,6 +8,8 @@
 - GitHub Actions에서 한국시간 매일 08:50, 16:50 자동 실행
 - 오전 회차: 실제 실행 시각 기준 최근 16시간
 - 오후 회차: 실제 실행 시각 기준 최근 8시간
+- 지연·실패 시 마지막 정상 조회 시각부터 재조회 (최대 48시간)
+- 성공한 메시지에 포함된 기사만 즉시 발송 이력에 기록
 - 예약 실행이 지연돼도 GitHub 예약 정보(NEWS_SCHEDULE)로 회차 구분
 - 메시지에 예약 회차와 실제 시작 시각을 구분해 표시
 - 텔레그램 HTML 포맷 및 분할 전송
@@ -77,6 +79,8 @@ HISTORY_FILE = "sent_history.json"
 # 최대 lookback(16시간)보다 여유 있게 잡아, 지연 실행 상황에서도
 # 과거 발송 기록과 안전하게 대조할 수 있도록 합니다.
 HISTORY_RETENTION_HOURS = 48
+MAX_LOOKBACK_HOURS = 48
+WINDOW_OVERLAP_MINUTES = 5
 
 
 # ------------------------------------------------------------------
@@ -197,10 +201,7 @@ def parse_google_date(entry):
 # ------------------------------------------------------------------
 def fetch_naver_news(keyword: str) -> list:
     if not NAVER_CLIENT_ID or not NAVER_CLIENT_SECRET:
-        logger.warning(
-            "네이버 API 키가 설정되지 않아 네이버 수집을 건너뜁니다."
-        )
-        return []
+        raise RuntimeError("네이버 API 키가 설정되지 않았습니다.")
 
     headers = {
         "X-Naver-Client-Id": NAVER_CLIENT_ID,
@@ -224,12 +225,10 @@ def fetch_naver_news(keyword: str) -> list:
         data = resp.json()
 
     except requests.RequestException as e:
-        logger.error("네이버 뉴스 API 요청 실패: %s", e)
-        return []
+        raise RuntimeError("네이버 뉴스 API 요청 실패") from e
 
     except ValueError as e:
-        logger.error("네이버 뉴스 API 응답 파싱 실패: %s", e)
-        return []
+        raise RuntimeError("네이버 뉴스 API 응답 파싱 실패") from e
 
     results = []
 
@@ -269,14 +268,10 @@ def fetch_google_news(keyword: str) -> list:
         feed = feedparser.parse(resp.content)
 
     except Exception as e:
-        logger.error("구글 뉴스 RSS 수집 실패: %s", e)
-        return []
+        raise RuntimeError("구글 뉴스 RSS 수집 실패") from e
 
     if getattr(feed, "bozo", 0) and not feed.entries:
-        logger.warning(
-            "구글 뉴스 RSS 응답 이상: %s",
-            getattr(feed, "bozo_exception", "원인 미상"),
-        )
+        raise RuntimeError("구글 뉴스 RSS 응답 형식 오류")
 
     results = []
 
@@ -390,53 +385,80 @@ def deduplicate(articles: list) -> list:
 # ------------------------------------------------------------------
 # 5. 발송 이력 (오전/오후 회차 간 중복 방지)
 # ------------------------------------------------------------------
-def load_history() -> list:
-    """저장소에 커밋된 sent_history.json을 읽어온다. 없으면 빈 이력."""
+def load_state() -> dict:
+    """기존 목록 형식의 이력도 읽고, 새 형식으로 자동 전환합니다."""
     if not os.path.exists(HISTORY_FILE):
-        return []
-
+        return {"version": 2, "articles": [], "last_checked_utc": None}
     try:
         with open(HISTORY_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
-        if isinstance(data, list):
-            return data
-        logger.warning("발송 이력 파일 형식이 예상과 달라 빈 이력으로 시작합니다.")
-        return []
     except (json.JSONDecodeError, OSError) as e:
-        logger.warning("발송 이력 파일 읽기 실패, 빈 이력으로 시작: %s", e)
-        return []
+        raise RuntimeError("발송 이력 읽기 실패. 기존 파일을 확인하세요.") from e
+    if isinstance(data, list):
+        return {"version": 2, "articles": data, "last_checked_utc": None}
+    if isinstance(data, dict) and isinstance(data.get("articles"), list):
+        return data
+    raise RuntimeError("sent_history.json의 형식이 올바르지 않습니다.")
 
 
 def prune_history(history: list, now_utc: datetime) -> list:
-    """오래된 이력(HISTORY_RETENTION_HOURS 초과)을 제거해 파일이 계속 커지지 않게 한다."""
+    """최근 48시간의 정상적인 발송 기록을 유지합니다."""
     cutoff = now_utc - timedelta(hours=HISTORY_RETENTION_HOURS)
-    pruned = []
-
+    result = []
     for entry in history:
-        sent_at_raw = entry.get("sent_at")
+        if not isinstance(entry, dict):
+            logger.warning("형식이 잘못된 발송 기록 1건 제외")
+            continue
         try:
-            sent_at = datetime.fromisoformat(sent_at_raw)
+            sent_at = datetime.fromisoformat(entry.get("sent_at", ""))
+            if sent_at.tzinfo is None:
+                logger.warning("시간대가 없는 기존 발송 기록은 UTC로 해석합니다.")
+                sent_at = sent_at.replace(tzinfo=timezone.utc)
+            if not isinstance(entry.get("link", ""), str):
+                raise ValueError("잘못된 링크")
+            if not isinstance(entry.get("title_norm", ""), str):
+                raise ValueError("잘못된 제목")
         except (TypeError, ValueError):
-            continue  # 형식이 깨진 항목은 버림
-
+            logger.warning("날짜 또는 내용이 잘못된 발송 기록 1건 제외")
+            continue
         if sent_at >= cutoff:
-            pruned.append(entry)
-
-    logger.info(
-        "발송 이력 정리: %s건 -> %s건 (보관 %s시간)",
-        len(history),
-        len(pruned),
-        HISTORY_RETENTION_HOURS,
-    )
-    return pruned
+            result.append(entry)
+    return result
 
 
-def save_history(history: list) -> None:
+def save_state(state: dict) -> None:
+    """임시 파일을 작성한 뒤 교체하여 이력을 보존합니다."""
+    temp_path = HISTORY_FILE + ".tmp"
     try:
-        with open(HISTORY_FILE, "w", encoding="utf-8") as f:
-            json.dump(history, f, ensure_ascii=False, indent=2)
+        with open(temp_path, "w", encoding="utf-8") as f:
+            json.dump(state, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        os.replace(temp_path, HISTORY_FILE)
     except OSError as e:
-        logger.error("발송 이력 저장 실패: %s", e)
+        raise RuntimeError("발송 이력 저장 실패") from e
+
+
+def extend_window(run_ctx: dict, state: dict) -> dict:
+    """기본 조회 범위와 마지막 정상 조회 시각 중 더 이른 시각부터 조회."""
+    cutoff = run_ctx["cutoff_utc"]
+    raw = state.get("last_checked_utc")
+    if raw:
+        try:
+            last = datetime.fromisoformat(raw)
+            if last.tzinfo is None:
+                raise ValueError("시간대 없음")
+            if last > run_ctx["now_utc"]:
+                raise ValueError("미래 시각")
+            cutoff = min(cutoff, last - timedelta(minutes=WINDOW_OVERLAP_MINUTES))
+        except (TypeError, ValueError):
+            logger.warning("마지막 조회 시각 오류: 최근 48시간을 다시 조회합니다.")
+            cutoff = run_ctx["now_utc"] - timedelta(hours=MAX_LOOKBACK_HOURS)
+    earliest = run_ctx["now_utc"] - timedelta(hours=MAX_LOOKBACK_HOURS)
+    if cutoff < earliest:
+        logger.warning("미조회 기간이 48시간을 초과하여 최근 48시간만 복구 조회합니다.")
+        cutoff = earliest
+    run_ctx["cutoff_utc"] = cutoff
+    return run_ctx
 
 
 def is_in_history(article: dict, history: list) -> bool:
@@ -490,51 +512,41 @@ def escape_html(text: str) -> str:
 
 
 def build_messages(articles: list, run_ctx: dict) -> list:
-    """텔레그램 메시지를 기사 단위로 분할."""
-    label = run_ctx["label"]
-    lookback = run_ctx["lookback_hours"]
-    actual_start = run_ctx["actual_start_kst"]
-
+    """각 메시지와 그 메시지에 포함된 기사 목록을 함께 반환합니다."""
+    start = run_ctx["cutoff_utc"].astimezone(KST).strftime("%m-%d %H:%M")
+    end = run_ctx["now_utc"].astimezone(KST).strftime("%m-%d %H:%M")
     header = (
         f"📰 <b>{escape_html(SEARCH_KEYWORD)} 뉴스 브리핑</b>\n"
-        f"실행 회차: {escape_html(label)}\n"
-        f"실제 시작: {escape_html(actual_start)} KST\n"
-        f"실제 시작 시각 기준 최근 {lookback}시간 이내 기사 (이전 회차 발송분 제외)\n"
+        f"예약 회차: {escape_html(run_ctx['label'])}\n"
+        f"실제 시작: {escape_html(run_ctx['actual_start_kst'])} KST\n"
+        f"조회 범위: {start} ~ {end} KST\n"
+        "이미 발송한 기사 제외\n"
     )
-
+    if run_ctx.get("source_errors"):
+        header += "⚠ 일부 뉴스 수집 실패. 수집된 기사만 전송합니다.\n"
     if not articles:
-        return [header + "\n해당 시간대 신규 기사가 없습니다."]
-
+        return [(header + "\n추가로 발송할 기사가 없습니다.", [])]
     header += f"총 {len(articles)}건\n\n"
-
-    messages = []
+    messages, included = [], []
     current = header
-
     for idx, article in enumerate(articles, start=1):
         title = escape_html(article["title"])
         summary = escape_html(article["summary"])
         link = html.escape(article["link"], quote=True)
         source = escape_html(article["source"])
-
-        block = (
-            f"{idx}. <b>{title}</b>\n"
-            f"({source})\n"
-        )
-
+        block = f"{idx}. <b>{title}</b>\n({source})\n"
         if summary:
-            block += f"{summary}\n"
-
+            block += summary + "\n"
         block += f'<a href="{link}">기사 원문 보기</a>\n\n'
-
-        if len(current) + len(block) > TELEGRAM_MAX_LEN:
-            messages.append(current.rstrip())
-            current = block
-        else:
-            current += block
-
+        if len(block.encode("utf-16-le")) // 2 > TELEGRAM_MAX_LEN:
+            raise ValueError("단일 기사 메시지가 너무 깁니다.")
+        if len((current + block).encode("utf-16-le")) // 2 > TELEGRAM_MAX_LEN:
+            messages.append((current.rstrip(), included))
+            current, included = "", []
+        current += block
+        included.append(article)
     if current.strip():
-        messages.append(current.rstrip())
-
+        messages.append((current.rstrip(), included))
     return messages
 
 
@@ -583,71 +595,50 @@ def send_telegram_message(text: str) -> bool:
 # ------------------------------------------------------------------
 def main():
     run_ctx = get_run_context()
-
+    state = load_state()
+    state["version"] = 2
+    state["articles"] = prune_history(state["articles"], run_ctx["now_utc"])
+    run_ctx = extend_window(run_ctx, state)
+    save_state(state)
     logger.info(
-        "실행 회차=%s / 실제 시작(KST)=%s / 조회=%s시간 / 기준(UTC)=%s",
-        run_ctx["label"],
-        run_ctx["actual_start_kst"],
-        run_ctx["lookback_hours"],
+        "회차=%s / 실제 시작(KST)=%s / 조회 시작(UTC)=%s",
+        run_ctx["label"], run_ctx["actual_start_kst"],
         run_ctx["cutoff_utc"].isoformat(),
     )
+    articles, errors = [], []
+    for name, fetch in [("네이버", fetch_naver_news), ("구글", fetch_google_news)]:
+        try:
+            articles.extend(fetch(SEARCH_KEYWORD))
+        except Exception as e:
+            logger.error("%s 수집 실패 (%s)", name, type(e).__name__)
+            errors.append(name)
+    run_ctx["source_errors"] = errors
+    if len(errors) == 2:
+        raise RuntimeError("모든 뉴스 수집 실패. 조회 완료 시각은 갱신하지 않습니다.")
 
-    history = load_history()
-    history = prune_history(history, run_ctx["now_utc"])
-
-    naver_articles = fetch_naver_news(SEARCH_KEYWORD)
-    google_articles = fetch_google_news(SEARCH_KEYWORD)
-
-    all_articles = naver_articles + google_articles
-
-    # 조회 범위를 먼저 적용해 오래된 유사 기사가 최신 기사를
-    # 중복으로 제거하는 상황을 줄입니다.
-    recent_articles = filter_recent_articles(
-        all_articles,
-        run_ctx["cutoff_utc"],
-        run_ctx["now_utc"],
-    )
-
-    recent_articles.sort(
-        key=lambda a: (
-            a["pub_date"]
-            or datetime.min.replace(tzinfo=timezone.utc)
-        ),
+    recent = filter_recent_articles(articles, run_ctx["cutoff_utc"], run_ctx["now_utc"])
+    recent.sort(
+        key=lambda a: a["pub_date"] or datetime.min.replace(tzinfo=timezone.utc),
         reverse=True,
     )
-
-    unique_articles = deduplicate(recent_articles)
-
-    # 이전 회차(오전/오후)에서 이미 보낸 기사는 제외
-    new_articles = filter_against_history(unique_articles, history)
-
+    new_articles = filter_against_history(deduplicate(recent), state["articles"])
     messages = build_messages(new_articles, run_ctx)
-
     success_count = 0
-
-    for msg in messages:
-        if send_telegram_message(msg):
+    for message, included in messages:
+        if send_telegram_message(message):
             success_count += 1
+            # 일부 메시지만 성공해도 그 메시지에 포함된 기사만 즉시 기록.
+            state["articles"] = append_to_history(
+                state["articles"], included, datetime.now(timezone.utc)
+            )
+            save_state(state)
         time.sleep(1)
-
-    logger.info(
-        "총 %s개 메시지 중 %s개 전송 성공",
-        len(messages),
-        success_count,
-    )
-
     all_sent = success_count == len(messages)
-
-    # 전부 정상 전송된 경우에만 이번에 보낸 기사를 이력에 추가합니다.
-    # (전송이 실패한 기사를 "보냈다"고 잘못 기록해서 다음 회차에서
-    #  누락되는 것을 방지)
-    if all_sent and new_articles:
-        history = append_to_history(history, new_articles, run_ctx["now_utc"])
-
-    save_history(history)
-
-    # 일부 메시지만 전송된 경우도 실패로 표시합니다.
-    if not all_sent:
+    if all_sent and not errors:
+        state["last_checked_utc"] = run_ctx["now_utc"].isoformat()
+    save_state(state)
+    logger.info("메시지 %s/%s개 전송 성공", success_count, len(messages))
+    if not all_sent or errors:
         sys.exit(1)
 
 
