@@ -1,5 +1,11 @@
 {
   "version": 2,
-  "articles": [],
+  "articles": [
+    {
+      "link": "news.google.com/rss/articles/CBMia0FVX3lxTE5KRkVsdmUwTDhpbEtSSkcxZ3E3ZDM0UUlDN1FfcjhBbWZIeWNhTWtNNFo3RzNLcjZ5YS1Wd01FZFdSLWo1SzdNS3V2bFhfcVJVTUJ5T0hkbFZSc2tDWnhxZ2VLYmlUM3Z5TmJj?oc=5",
+      "title_norm": "동두천시인구정책53개사업으로재편지방소멸기금연계추진",
+      "sent_at": "2026-09-21T01:44:37.725454+00:00"
+    }
+  ],
   "last_checked_utc": null
 }
