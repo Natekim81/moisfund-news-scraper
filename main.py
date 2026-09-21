@@ -13,6 +13,16 @@
 - 예약 실행이 지연돼도 GitHub 예약 정보(NEWS_SCHEDULE)로 회차 구분
 - 메시지에 예약 회차와 실제 시작 시각을 구분해 표시
 - 텔레그램 HTML 포맷 및 분할 전송
+
+[수정 사항 - 2026-09]
+- 네이버 API 실패 시 원인(HTTP 상태 코드/응답 본문/예외 메시지)을 로그에 상세히 기록
+- 5xx/일시적 오류로 판단되면 네이버 API 요청을 1회 자동 재시도
+- 뉴스 소스 중 일부만 실패했는데 텔레그램 발송 자체는 성공한 경우,
+  더 이상 워크플로를 실패로 표시하지 않고 경고 로그만 남김
+  (실제 발송이 실패했을 때만 워크플로를 실패 처리)
+- 네이버·구글 뉴스 수집이 모두 실패해 이번 회차에 기사를 하나도
+  보내지 못한 경우, GitHub Actions 로그와 별도로 텔레그램에도
+  오류 알림을 전송
 """
 
 import os
@@ -56,6 +66,11 @@ TELEGRAM_SEND_URL = "https://api.telegram.org/bot{token}/sendMessage"
 TITLE_SIMILARITY_THRESHOLD = 0.72
 NAVER_DISPLAY_COUNT = 30
 TELEGRAM_MAX_LEN = 4000
+
+# 네이버 API가 일시적 오류(5xx, 타임아웃, 연결 오류)로 보일 때
+# 이 시간(초)만큼 대기한 뒤 1회만 재시도합니다. 인증 오류(4xx)는
+# 재시도해도 소용없으므로 재시도하지 않고 바로 실패 처리합니다.
+NAVER_RETRY_DELAY_SECONDS = 3
 
 KST = timezone(timedelta(hours=9))
 
@@ -199,10 +214,8 @@ def parse_google_date(entry):
 # ------------------------------------------------------------------
 # 1. 네이버 뉴스 수집
 # ------------------------------------------------------------------
-def fetch_naver_news(keyword: str) -> list:
-    if not NAVER_CLIENT_ID or not NAVER_CLIENT_SECRET:
-        raise RuntimeError("네이버 API 키가 설정되지 않았습니다.")
-
+def _request_naver(keyword: str) -> dict:
+    """네이버 뉴스 검색 API를 1회 호출. 실패 시 requests 예외를 그대로 전파."""
     headers = {
         "X-Naver-Client-Id": NAVER_CLIENT_ID,
         "X-Naver-Client-Secret": NAVER_CLIENT_SECRET,
@@ -213,22 +226,61 @@ def fetch_naver_news(keyword: str) -> list:
         "start": 1,
         "sort": "date",
     }
+    resp = requests.get(
+        NAVER_NEWS_URL,
+        headers=headers,
+        params=params,
+        timeout=10,
+    )
+    resp.raise_for_status()
+    return resp.json()
 
-    try:
-        resp = requests.get(
-            NAVER_NEWS_URL,
-            headers=headers,
-            params=params,
-            timeout=10,
-        )
-        resp.raise_for_status()
-        data = resp.json()
 
-    except requests.RequestException as e:
-        raise RuntimeError("네이버 뉴스 API 요청 실패") from e
+def fetch_naver_news(keyword: str) -> list:
+    if not NAVER_CLIENT_ID or not NAVER_CLIENT_SECRET:
+        raise RuntimeError("네이버 API 키가 설정되지 않았습니다.")
 
-    except ValueError as e:
-        raise RuntimeError("네이버 뉴스 API 응답 파싱 실패") from e
+    data = None
+    last_error = None
+
+    # 최대 2회 시도(최초 1회 + 일시적 오류로 보일 때 1회 재시도).
+    for attempt in range(2):
+        try:
+            data = _request_naver(keyword)
+            break
+
+        except requests.RequestException as e:
+            status = getattr(e.response, "status_code", None)
+            body = ""
+            if e.response is not None:
+                body = e.response.text[:300]
+
+            last_error = RuntimeError(
+                f"네이버 뉴스 API 요청 실패 "
+                f"(status={status}, body={body!r}, error={e})"
+            )
+
+            # 상태 코드를 알 수 없거나(타임아웃/연결 오류) 5xx면 일시적 문제로
+            # 보고 한 번만 재시도합니다. 401/403/429 같은 4xx는 재시도해도
+            # 같은 결과이므로 바로 실패 처리합니다.
+            transient = status is None or status >= 500
+            if attempt == 0 and transient:
+                logger.warning(
+                    "네이버 뉴스 API 일시 오류로 판단, %s초 후 재시도합니다 "
+                    "(status=%s)",
+                    NAVER_RETRY_DELAY_SECONDS,
+                    status,
+                )
+                time.sleep(NAVER_RETRY_DELAY_SECONDS)
+                continue
+
+            raise last_error from e
+
+        except ValueError as e:
+            raise RuntimeError(f"네이버 뉴스 API 응답 파싱 실패: {e}") from e
+
+    if data is None:
+        raise last_error or RuntimeError("네이버 뉴스 API 요청 실패 (원인 불명)")
 
     results = []
 
@@ -268,7 +320,7 @@ def fetch_google_news(keyword: str) -> list:
         feed = feedparser.parse(resp.content)
 
     except Exception as e:
-        raise RuntimeError("구글 뉴스 RSS 수집 실패") from e
+        raise RuntimeError(f"구글 뉴스 RSS 수집 실패: {e}") from e
 
     if getattr(feed, "bozo", 0) and not feed.entries:
         raise RuntimeError("구글 뉴스 RSS 응답 형식 오류")
@@ -574,7 +626,10 @@ def send_telegram_message(text: str) -> bool:
         result = resp.json()
 
         if not result.get("ok"):
-            logger.error("텔레그램 API가 전송 실패를 반환했습니다.")
+            logger.error(
+                "텔레그램 API가 전송 실패를 반환했습니다: %s",
+                result.get("description", "(설명 없음)"),
+            )
             return False
 
         logger.info(
@@ -610,10 +665,24 @@ def main():
         try:
             articles.extend(fetch(SEARCH_KEYWORD))
         except Exception as e:
-            logger.error("%s 수집 실패 (%s)", name, type(e).__name__)
+            # 실패 원인을 그대로 로그에 남깁니다 (기존에는 예외 타입 이름만
+            # 남아 원인 파악이 불가능했습니다).
+            logger.error("%s 수집 실패: %s", name, e)
             errors.append(name)
     run_ctx["source_errors"] = errors
+
     if len(errors) == 2:
+        # 두 소스 모두 실패해 이번 회차엔 보낼 기사가 전혀 없는 상태.
+        # GitHub Actions 로그만으로는 바로 알기 어려우니 텔레그램에도 알립니다.
+        alert_text = (
+            f"⚠ <b>{escape_html(SEARCH_KEYWORD)} 뉴스 봇 오류</b>\n"
+            f"예약 회차: {escape_html(run_ctx['label'])}\n"
+            f"실제 시작: {escape_html(run_ctx['actual_start_kst'])} KST\n"
+            "네이버·구글 뉴스 수집이 모두 실패하여 "
+            "이번 회차는 기사를 보내지 못했습니다.\n"
+            "GitHub Actions 실행 로그를 확인해주세요."
+        )
+        send_telegram_message(alert_text)
         raise RuntimeError("모든 뉴스 수집 실패. 조회 완료 시각은 갱신하지 않습니다.")
 
     recent = filter_recent_articles(articles, run_ctx["cutoff_utc"], run_ctx["now_utc"])
@@ -633,13 +702,32 @@ def main():
             )
             save_state(state)
         time.sleep(1)
+
     all_sent = success_count == len(messages)
+    # last_checked_utc는 "이번 회차의 모든 소스를 문제없이 확인했다"는
+    # 의미이므로, 일부 소스가 실패했다면 갱신하지 않아 다음 회차가
+    # 그 구간을 다시 조회하도록 그대로 둡니다.
     if all_sent and not errors:
         state["last_checked_utc"] = run_ctx["now_utc"].isoformat()
     save_state(state)
     logger.info("메시지 %s/%s개 전송 성공", success_count, len(messages))
-    if not all_sent or errors:
+
+    if not all_sent:
+        # 텔레그램 발송 자체가 실패한 경우만 워크플로를 실패로 표시합니다.
+        logger.error(
+            "텔레그램 발송 실패: %s/%s개만 성공", success_count, len(messages)
+        )
         sys.exit(1)
+
+    if errors:
+        # 발송은 정상적으로 끝났지만 일부 소스가 실패한 경우.
+        # 메시지 헤더에도 이미 경고가 포함되어 있으므로(build_messages),
+        # 여기서는 워크플로를 실패로 표시하지 않고 로그만 남깁니다.
+        logger.warning(
+            "일부 뉴스 소스 수집 실패로 이번 회차는 해당 소스 기사가 "
+            "빠졌을 수 있습니다: %s",
+            ", ".join(errors),
+        )
 
 
 if __name__ == "__main__":
