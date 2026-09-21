@@ -57,7 +57,12 @@ NAVER_CLIENT_SECRET = (os.environ.get("NAVER_CLIENT_SECRET") or "").strip()
 TELEGRAM_TOKEN = (os.environ.get("TELEGRAM_TOKEN") or "").strip()
 TELEGRAM_CHAT_ID = (os.environ.get("TELEGRAM_CHAT_ID") or "").strip()
 
-NAVER_NEWS_URL = "https://openapi.naver.com/v1/search/news.json"
+# 2026년부터 네이버 검색 오픈API는 NAVER API HUB(네이버클라우드플랫폼)로 이관되어,
+# 요청 주소와 인증 헤더 이름이 기존 개발자센터 방식과 다릅니다.
+# (기존: openapi.naver.com + X-Naver-Client-Id/Secret
+#  신규: naverapihub.apigw.ntruss.com + X-NCP-APIGW-API-KEY-ID/KEY)
+# 응답 JSON 구조(items/title/originallink/link/description/pubDate)는 동일합니다.
+NAVER_NEWS_URL = "https://naverapihub.apigw.ntruss.com/search/v1/news"
 GOOGLE_NEWS_RSS_URL = (
     "https://news.google.com/rss/search?q={query}&hl=ko&gl=KR&ceid=KR:ko"
 )
@@ -217,8 +222,8 @@ def parse_google_date(entry):
 def _request_naver(keyword: str) -> dict:
     """네이버 뉴스 검색 API를 1회 호출. 실패 시 requests 예외를 그대로 전파."""
     headers = {
-        "X-Naver-Client-Id": NAVER_CLIENT_ID,
-        "X-Naver-Client-Secret": NAVER_CLIENT_SECRET,
+        "X-NCP-APIGW-API-KEY-ID": NAVER_CLIENT_ID,
+        "X-NCP-APIGW-API-KEY": NAVER_CLIENT_SECRET,
     }
     params = {
         "query": keyword,
