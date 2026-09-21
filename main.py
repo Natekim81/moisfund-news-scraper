@@ -23,6 +23,12 @@
 - 네이버·구글 뉴스 수집이 모두 실패해 이번 회차에 기사를 하나도
   보내지 못한 경우, GitHub Actions 로그와 별도로 텔레그램에도
   오류 알림을 전송
+- 서로 다른 언론사가 같은 소식(같은 보도자료)을 다른 제목으로 보도한
+  경우를 묶어서, 대표 기사 1건 + "다른 언론사 N곳도 보도"로 표시
+  (제목 문자열 유사도만으로는 이런 경우를 잡아내지 못해, 제목+요약의
+  핵심 단어 겹침 비율(자카드 유사도)을 함께 확인)
+- 네이버 뉴스는 API 응답에 언론사명이 없어 그동안 전부 "네이버뉴스"로
+  표시됐던 것을, 원문 링크의 도메인으로 대체해 실제 언론사를 구분
 """
 
 import os
@@ -35,7 +41,7 @@ import logging
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from difflib import SequenceMatcher
-from urllib.parse import quote
+from urllib.parse import quote, urlparse
 
 import requests
 import feedparser
@@ -71,6 +77,26 @@ TELEGRAM_SEND_URL = "https://api.telegram.org/bot{token}/sendMessage"
 TITLE_SIMILARITY_THRESHOLD = 0.72
 NAVER_DISPLAY_COUNT = 30
 TELEGRAM_MAX_LEN = 4000
+
+# --- "같은 소식, 다른 언론사" 묶음(그룹핑) 기준 ---
+# 위 TITLE_SIMILARITY_THRESHOLD(0.72)는 완전히 같은 기사가 재게재된
+# 경우를 잡기 위한 값이라 엄격하게 유지합니다. 서로 다른 기자가 같은
+# 보도자료를 각자 다르게 풀어 쓴 "같은 소식"은 제목만으로는 유사도가
+# 훨씬 낮게 나오는 경우가 많아, 아래 두 기준 중 하나라도 만족하면
+# 같은 소식으로 판단해 대표 기사 1건으로 묶습니다.
+#   1) 제목 유사도가 SAME_STORY_TITLE_THRESHOLD 이상이거나
+#   2) 제목+요약에서 뽑은 핵심 단어 집합의 자카드 유사도가
+#      SAME_STORY_JACCARD_THRESHOLD 이상인 경우
+# 실제 발송된 기사 26건을 놓고 값을 조정해, 명백히 다른 기사끼리
+# 잘못 묶이는 경우 없이 같은 사안(예: 특정 기관의 같은 날 발표)을
+# 다룬 기사들이 하나로 모이는 것을 확인한 값입니다.
+SAME_STORY_TITLE_THRESHOLD = 0.60
+SAME_STORY_JACCARD_THRESHOLD = 0.15
+# 자카드 유사도 계산에서 제외할, 이 프로젝트 성격상 모든 기사에
+# 공통으로 등장해 변별력이 없는 단어들.
+SAME_STORY_STOPWORDS = {"관련", "위한", "대한", "있다", "했다", "이번", "이후", "지난", "가운데"}
+# 한 소식에 묶인 "다른 언론사" 목록을 메시지에 표시할 때 최대로 나열할 개수.
+MAX_OTHER_SOURCES_SHOWN = 4
 
 # 네이버 API가 일시적 오류(5xx, 타임아웃, 연결 오류)로 보일 때
 # 이 시간(초)만큼 대기한 뒤 1회만 재시도합니다. 인증 오류(4xx)는
@@ -134,6 +160,28 @@ def normalize_link(link: str) -> str:
         return ""
     link = link.strip().rstrip("/")
     return re.sub(r"^https?://(www\.)?", "", link)
+
+
+def extract_press_name(link: str) -> str:
+    """원문 링크의 도메인으로 언론사를 표시합니다.
+
+    네이버 뉴스 검색 API 응답에는 언론사명이 별도 필드로 오지 않아서,
+    그동안 네이버발 기사는 전부 "네이버뉴스"라는 똑같은 이름으로만
+    표시되어 "다른 언론사 N곳도 보도" 같은 구분이 불가능했습니다.
+    originallink(기사 원문 도메인)가 있으면 그 도메인을, naver.com
+    도메인이거나 원문 링크가 없으면 "네이버뉴스"를 사용합니다.
+    """
+    if not link:
+        return "네이버뉴스"
+    try:
+        netloc = (urlparse(link).netloc or "").lower()
+    except ValueError:
+        return "네이버뉴스"
+    if netloc.startswith("www."):
+        netloc = netloc[4:]
+    if not netloc or "naver.com" in netloc:
+        return "네이버뉴스"
+    return netloc
 
 
 def is_similar_title(a: str, b: str) -> bool:
@@ -304,7 +352,7 @@ def fetch_naver_news(keyword: str) -> list:
                 "summary": truncate_summary(description),
                 "link": link,
                 "pub_date": pub_date,
-                "source": "네이버뉴스",
+                "source": extract_press_name(item.get("originallink") or ""),
             }
         )
 
@@ -437,6 +485,116 @@ def deduplicate(articles: list) -> list:
         len(articles),
     )
     return unique
+
+
+# ------------------------------------------------------------------
+# 4-1. "같은 소식, 다른 언론사" 묶기
+# ------------------------------------------------------------------
+def _content_tokens(article: dict) -> set:
+    """제목+요약에서 자카드 유사도 비교용 핵심 단어 집합을 뽑는다."""
+    text = f"{article.get('title', '')} {article.get('summary', '')}"
+    words = re.findall(r"[0-9A-Za-z가-힣]{2,}", text)
+    keyword_norm = normalize_title(SEARCH_KEYWORD)
+    tokens = set()
+    for w in words:
+        if w in SAME_STORY_STOPWORDS:
+            continue
+        # 검색 키워드 자체(예: "지방소멸대응기금")는 모든 기사에 공통으로
+        # 등장해 변별력이 없으므로 제외한다.
+        if normalize_title(w) == keyword_norm:
+            continue
+        tokens.add(w)
+    return tokens
+
+
+def _is_same_story(a: dict, b: dict) -> bool:
+    """제목이 거의 같거나(재게재), 서로 다르게 쓰였어도 같은 사안을
+    다룬 것으로 보이면(핵심 단어 겹침) 같은 소식으로 판단한다."""
+    if is_similar_title(a["title"], b["title"]):
+        return True
+
+    title_ratio = SequenceMatcher(
+        None, normalize_title(a["title"]), normalize_title(b["title"])
+    ).ratio()
+    if title_ratio >= SAME_STORY_TITLE_THRESHOLD:
+        return True
+
+    tokens_a, tokens_b = _content_tokens(a), _content_tokens(b)
+    if not tokens_a or not tokens_b:
+        return False
+    jaccard = len(tokens_a & tokens_b) / len(tokens_a | tokens_b)
+    return jaccard >= SAME_STORY_JACCARD_THRESHOLD
+
+
+def group_related_articles(articles: list) -> list:
+    """서로 다른 언론사가 같은 소식을 다른 제목으로 보도한 경우를 묶는다.
+
+    각 그룹에서 가장 최근(pub_date 기준) 기사를 대표로 삼고, 나머지는
+    지우지 않고 대표 기사의 "other_sources"(다른 언론사 이름 목록)와
+    "cluster_members"(발송 이력에 함께 기록할 원본 기사 목록)로 붙여
+    반환한다. 이렇게 하면 목록은 짧아지되 정보는 사라지지 않는다.
+
+    주의: 제목 문자열만으로는 "같은 보도자료를 다른 기자가 다르게 쓴
+    기사"를 안정적으로 구분할 수 없어(실측 결과 임계값을 아무리 조정해도
+    오탐/미탐이 뒤섞임), 제목+요약의 핵심 단어 겹침 비율을 함께 사용한다.
+    완벽하지는 않지만(예: 같은 사안을 다른 소식과 함께 다룬 기사는
+    묶이지 않을 수 있음), 실제 데이터로 검증했을 때 서로 다른 기사를
+    잘못 묶는 경우는 거의 없었다.
+    """
+    n = len(articles)
+    parent = list(range(n))
+
+    def find(x: int) -> int:
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    def union(x: int, y: int) -> None:
+        rx, ry = find(x), find(y)
+        if rx != ry:
+            parent[rx] = ry
+
+    for i in range(n):
+        for j in range(i + 1, n):
+            if _is_same_story(articles[i], articles[j]):
+                union(i, j)
+
+    clusters = {}
+    for i in range(n):
+        clusters.setdefault(find(i), []).append(i)
+
+    def sort_key(idx: int):
+        return articles[idx].get("pub_date") or datetime.min.replace(tzinfo=timezone.utc)
+
+    grouped = []
+    for indices in clusters.values():
+        indices.sort(key=sort_key, reverse=True)
+        primary = dict(articles[indices[0]])
+        members = [articles[idx] for idx in indices]
+        primary["cluster_members"] = members
+
+        if len(indices) > 1:
+            other_sources = []
+            seen = set()
+            for idx in indices[1:]:
+                src = articles[idx].get("source") or ""
+                if src and src not in seen:
+                    other_sources.append(src)
+                    seen.add(src)
+            if other_sources:
+                primary["other_sources"] = other_sources
+
+        grouped.append(primary)
+
+    grouped.sort(key=lambda a: a.get("pub_date") or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
+
+    logger.info(
+        "관련 기사 묶음 처리 후 %s건 / 묶기 전 %s건",
+        len(grouped),
+        len(articles),
+    )
+    return grouped
 
 
 # ------------------------------------------------------------------
@@ -594,7 +752,16 @@ def build_messages(articles: list, run_ctx: dict) -> list:
         block = f"{idx}. <b>{title}</b>\n({source})\n"
         if summary:
             block += summary + "\n"
-        block += f'<a href="{link}">기사 원문 보기</a>\n\n'
+        block += f'<a href="{link}">기사 원문 보기</a>\n'
+        other_sources = article.get("other_sources")
+        if other_sources:
+            shown = other_sources[:MAX_OTHER_SOURCES_SHOWN]
+            extra = len(other_sources) - len(shown)
+            shown_text = ", ".join(escape_html(s) for s in shown)
+            if extra > 0:
+                shown_text += f" 외 {extra}곳"
+            block += f"<i>🔗 같은 소식: {shown_text}에서도 보도</i>\n"
+        block += "\n"
         if len(block.encode("utf-16-le")) // 2 > TELEGRAM_MAX_LEN:
             raise ValueError("단일 기사 메시지가 너무 깁니다.")
         if len((current + block).encode("utf-16-le")) // 2 > TELEGRAM_MAX_LEN:
@@ -696,14 +863,22 @@ def main():
         reverse=True,
     )
     new_articles = filter_against_history(deduplicate(recent), state["articles"])
-    messages = build_messages(new_articles, run_ctx)
+    # 같은 소식을 다른 언론사가 다르게 보도한 기사들을 대표 기사 1건으로 묶는다.
+    grouped_articles = group_related_articles(new_articles)
+    messages = build_messages(grouped_articles, run_ctx)
     success_count = 0
     for message, included in messages:
         if send_telegram_message(message):
             success_count += 1
             # 일부 메시지만 성공해도 그 메시지에 포함된 기사만 즉시 기록.
+            # 묶음으로 보낸 기사는 대표 기사뿐 아니라 함께 묶인 다른
+            # 언론사 기사까지 전부 이력에 남겨, 다음 회차에 "새 기사"로
+            # 다시 나타나지 않도록 한다.
+            sent_articles = []
+            for art in included:
+                sent_articles.extend(art.get("cluster_members", [art]))
             state["articles"] = append_to_history(
-                state["articles"], included, datetime.now(timezone.utc)
+                state["articles"], sent_articles, datetime.now(timezone.utc)
             )
             save_state(state)
         time.sleep(1)
