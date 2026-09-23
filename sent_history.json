@@ -2,11 +2,6 @@
   "version": 2,
   "articles": [
     {
-      "link": "news.google.com/rss/articles/CBMia0FVX3lxTE5KRkVsdmUwTDhpbEtSSkcxZ3E3ZDM0UUlDN1FfcjhBbWZIeWNhTWtNNFo3RzNLcjZ5YS1Wd01FZFdSLWo1SzdNS3V2bFhfcVJVTUJ5T0hkbFZSc2tDWnhxZ2VLYmlUM3Z5TmJj?oc=5",
-      "title_norm": "동두천시인구정책53개사업으로재편지방소멸기금연계추진",
-      "sent_at": "2026-09-21T01:44:37.725454+00:00"
-    },
-    {
       "link": "news.google.com/rss/articles/CBMiakFVX3lxTE5SNmlJdF9VQWt4bWNZSGRUcFVERzdQd3NSelFObTJXYzI1VVFsSzJ1ak40U015V3cwNWo0RWFtZzZpdTZGQ01pNXFsWE1HbGlGSXlZUGh5NXROR0NGSktJaVNlMGkwbjZobWc?oc=5",
       "title_norm": "미래대응기금배분경북도의회지방소멸위기지역우선",
       "sent_at": "2026-09-21T13:47:21.184731+00:00"
@@ -405,7 +400,77 @@
       "link": "news.google.com/rss/articles/CBMiakFVX3lxTE1xT0t0LTBEWkFLd3lMSUx6SXZzV2xuSjhLejVaNzZjQ3h0cjg4WmdweFhXTDBkazlUN1hGUU8zZDBwSVlCa0J1NmFBbFE4TWlYMnBCOFJnMUFEN1Q3c3hUcXdnbmZ4ZWNtR0E?oc=5",
       "title_norm": "청년의상상력에ai를더하다충남태안군ai전자출판청년창업가11명양성",
       "sent_at": "2026-09-22T12:51:10.392615+00:00"
+    },
+    {
+      "link": "news.google.com/rss/articles/CBMiZkFVX3lxTE1DTmhUWUpVZjUxV2JrQ1ZXcFVzaUdvWER5eWp1eE5VLW1sLXQzV1pDZzloVjJEV0c5eWg3SlFudHFFczlReHl2cHczUTRNT19UaHV0cVRHNWpNX3ZXMklaZ2F5RFBhQQ?oc=5",
+      "title_norm": "기금으로생활인구유입부터주민들삶질적으로향상시킨다",
+      "sent_at": "2026-09-23T01:51:15.610544+00:00"
+    },
+    {
+      "link": "pressian.com/pages/articles/2026092310081756196?utm_source=naver&utm_medium=search",
+      "title_norm": "대통령도칭찬했는데강진반값여행국비20억군의회서전액삭",
+      "sent_at": "2026-09-23T01:51:15.610544+00:00"
+    },
+    {
+      "link": "news.bbsi.co.kr/news/articleView.html?idxno=4108312",
+      "title_norm": "경북도지방소멸대응기금사업시설조성에서주민체감성과로전",
+      "sent_at": "2026-09-23T01:51:15.610544+00:00"
+    },
+    {
+      "link": "news.google.com/rss/articles/CBMiY0FVX3lxTE9uSGQ3TVlrZi0wTGxQd0txaGVqM3dOSG9ocnFtb2pUekVkV3VTWHpkZkM5YV94dkVNMTd1UWdaV2dwZ29IcUZfeUJnOWI4OWdpWkpGNXFLZDQ5d1pBTWI0NmhkUQ?oc=5",
+      "title_norm": "강진반값여행20억삭감지역경제부터다시보라",
+      "sent_at": "2026-09-23T01:51:15.610544+00:00"
+    },
+    {
+      "link": "news.google.com/rss/articles/CBMicEFVX3lxTE9JUlRVX1lDbTE0Nm5uRmdZUDdOLXRNaGdFRENvbXY0ZWdTRW9oU1puRUFvRmVMZDFNamlyZkFGTU0yb2FObWdoa0FwQm5TcXdQVEdwLXI5LWVveW1jRkFvYW1MRWg5VGs2WWR4WUpDYTY?oc=5",
+      "title_norm": "경북소멸대응기금성과중심으로뉴스",
+      "sent_at": "2026-09-23T01:51:15.610544+00:00"
+    },
+    {
+      "link": "ilyoseoul.co.kr/news/articleView.html?idxno=522915",
+      "title_norm": "국세407늘지만지방교부세는2증가미래대응기금에사라진29조",
+      "sent_at": "2026-09-23T01:51:15.610544+00:00"
+    },
+    {
+      "link": "dgmbc.com/NewsArticle/863729",
+      "title_norm": "만평경북교부금65조증발위기아무리미래를준비한다고하지만",
+      "sent_at": "2026-09-23T01:51:15.610544+00:00"
+    },
+    {
+      "link": "yeongnam.com/web/view.php?key=20260922023220083",
+      "title_norm": "동대구로에서예천엔두개의인구시계가돈다",
+      "sent_at": "2026-09-23T01:51:15.610544+00:00"
+    },
+    {
+      "link": "edaily.co.kr/News/Read?newsId=02066406645583072&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "title_norm": "200조원쓰고도수도권쏠림균형발전예산도인지예산으로",
+      "sent_at": "2026-09-23T01:51:15.610544+00:00"
+    },
+    {
+      "link": "womennews.co.kr/news/articleView.html?idxno=282216",
+      "title_norm": "제4회양성평등정책대상여성안전부터남녀공동돌봄까지지역곳곳",
+      "sent_at": "2026-09-23T01:51:15.610544+00:00"
+    },
+    {
+      "link": "busan.com/view/busan/view.php?code=2026092217593367919",
+      "title_norm": "사설재정분권역행하는정부의지방교부세재원축소시도",
+      "sent_at": "2026-09-23T01:51:15.610544+00:00"
+    },
+    {
+      "link": "jnilbo.com/news/articleView.html?idxno=90000067973",
+      "title_norm": "진도군간호복지인력기숙사로인력이탈막는다",
+      "sent_at": "2026-09-23T01:51:15.610544+00:00"
+    },
+    {
+      "link": "newsworker.co.kr/news/articleView.html?idxno=505739",
+      "title_norm": "강진군의회정례회폐회반값여행20억원등추경삭감",
+      "sent_at": "2026-09-23T01:51:15.610544+00:00"
+    },
+    {
+      "link": "mpmbc.co.kr/NewsArticle/1538135",
+      "title_norm": "강진반값여행20억삭감본회의장주민항의까지",
+      "sent_at": "2026-09-23T01:51:17.146280+00:00"
     }
   ],
-  "last_checked_utc": "2026-09-22T12:51:05.587433+00:00"
+  "last_checked_utc": "2026-09-23T01:51:11.785831+00:00"
 }
