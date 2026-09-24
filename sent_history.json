@@ -2,251 +2,6 @@
   "version": 2,
   "articles": [
     {
-      "link": "ggilbo.com/news/articleView.html?idxno=1183196",
-      "title_norm": "태안군ai전자출판청년창업가11명양성",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "chungnamilbo.co.kr/news/articleView.html?idxno=911241",
-      "title_norm": "영동군제4회추가경정예산7436억원확정",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "newspim.com/news/view/20260922000113",
-      "title_norm": "영동군7436억원규모제4회추경확정524억원증액",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "gukjenews.com/news/articleView.html?idxno=3702870",
-      "title_norm": "영동군7436억원규모4회추경확정관광청년농촌등사업확대",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "newsis.com/view/NISX20260922_0003799426",
-      "title_norm": "영동군4회추경7436억확정기정예산보다76",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "naeil.com/news/read/603155?ref=naver",
-      "title_norm": "추경호대구시장지역패싱엄연한현실지방몫까지가져가선안돼",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "newsmin.co.kr/news/137423",
-      "title_norm": "추경호tk패싱은엄연한정치현실정부에균형투자재원배",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "kbmaeil.com/article/20260922500145",
-      "title_norm": "추경호tk패싱엄연한정치현실여야없이힘모아야",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "asiatoday.co.kr/kn/view.php?key=20260922010008222",
-      "title_norm": "고흥공공임대주택500호조성순항목표93확보",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "jnilbo.com/news/articleView.html?idxno=90000067528",
-      "title_norm": "고흥군맞춤형주거지원통한인구감소대응총력",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "ekn.kr/web/view.php?key=20260921023027623",
-      "title_norm": "패트롤장흥군고흥군함평군",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "biz.newdaily.co.kr/site/data/html/2026/09/22/2026092200066.html",
-      "title_norm": "162조미래대응기금쓰던돈또쓰고지방몫은줄이고기묘한재정",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "cnbnews.com/news/articleView.html?idxno=1016853",
-      "title_norm": "추경호대구시장미래대응기금지방의미래빼앗는기금",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "cnbnews.com/news/articleView.html?idxno=1016852",
-      "title_norm": "경북도의회지방몫줄이는미래대응기금안된다",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "cnbnews.com/news/articleView.html?idxno=1016844",
-      "title_norm": "지방소멸기금어디에썼나삼척삼척시483억원절반넘게수소산",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "cnbnews.com/news/articleView.html?idxno=1016845",
-      "title_norm": "지방소멸기금어디에썼나동해동해시127억원관광은숫자로성",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "cnbnews.com/news/articleView.html?idxno=1016813",
-      "title_norm": "지방소멸기금어디에썼나양양양양군320억원중305억원오색지",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "cnbnews.com/news/articleView.html?idxno=1016810",
-      "title_norm": "지방소멸기금어디에썼나강릉시91억원중74억원집행성과숫자",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "news.google.com/rss/articles/CBMia0FVX3lxTE9lNG0wNEVabU5jM2tkYTU0QTJZSUpJcDNaeC1tYnpscWNycDQ2S0hNdnpEcDR1QmU4YS0yelRGRXQ5aWhWLUdCRG84dEx2elFmT1BENlF5R1VORnMySnIzcnIyajVJeWJLU1dF?oc=5",
-      "title_norm": "지방소멸기금어디에썼나속초속초시138억원중135억원시설사업에배정됐다",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "financialpost.co.kr/news/articleView.html?idxno=276928",
-      "title_norm": "고흥군공공임대500호승부수",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "ekn.kr/web/view.php?key=20260922021087755",
-      "title_norm": "패트롤경북개발공사경북도의회",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "knnews.co.kr/news/articleView.php?idxno=1551422",
-      "title_norm": "연1조지방소멸대응기금실효성한계",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "lifein.news/news/articleView.html?idxno=20446",
-      "title_norm": "로컬바꿀주체는청년사람잇는중간조직필요",
-      "sent_at": "2026-09-22T01:55:56.420519+00:00"
-    },
-    {
-      "link": "mhns.co.kr/news/articleView.html?idxno=761517",
-      "title_norm": "경남도의회미래대응기금에지방재정보전책요구사전협의의무화",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "enewstoday.co.kr/news/articleView.html?idxno=2473714",
-      "title_norm": "경남도의회정부미래대응기금신설지방재정안정성확보해야",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "cnbnews.com/news/articleView.html?idxno=1017022",
-      "title_norm": "경남도의회미래대응기금신설전지방재정보전대책마련하라",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "sedaily.com/article/20094077?ref=naver",
-      "title_norm": "늘어날교부세3조3744억사라진다경남전역반발확산",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "ekn.kr/web/view.php?key=20260922026078100",
-      "title_norm": "패트롤해남군완도군진도군",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "breaknews.com/1238712",
-      "title_norm": "영동군524억원증액된7436억원규모제4회추경안확정",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "bzeronews.com/news/articleView.html?idxno=823031",
-      "title_norm": "영동군7436억추경확정관광생활기반사업에524억증액",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "sisajournal.com/news/articleView.html?idxno=388136",
-      "title_norm": "완주정읍장수24시완주군피지컬ai비전선포인공지능산업",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "sjbnews.com/news/news.php?number=888495",
-      "title_norm": "최훈식군수장수군청년활력센터시설점검",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "dkilbo.com/news/articleView.html?idxno=555387",
-      "title_norm": "추경호대구시장tk소외유감지역살리려민주당과협치",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "betanews.net/article/view/beta202609220081",
-      "title_norm": "강진반값여행제동강진군의회지방소멸기금20억원삭감",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "newscj.com/news/articleView.html?idxno=3434876",
-      "title_norm": "대통령도주목한강진반값여행사라지나군의회국비20억삭감",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "pn.or.kr/news/articleView.html?idxno=34139",
-      "title_norm": "대구중남구의회의정비7셀프인상산정기준논란",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "domin.co.kr/news/articleView.html?idxno=1569836",
-      "title_norm": "추석전북특별자치도공공기관이전집적으로승부건다",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "newsmaker.or.kr/news/articleView.html?idxno=183119",
-      "title_norm": "고흥군공공임대주택500호조성속도올해105호추가공급",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "joongdo.co.kr/web/view.php?key=20260922010006908",
-      "title_norm": "고흥군귀농인정착주거기반확충속도",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "news.google.com/rss/articles/CBMiXkFVX3lxTE40aEtpbDNOR3B2dDRVNTFkbTJCWFBTU3kzRThQRDZBQVFGbmx5ZDJ1NDdJRzllTlA1ZGtsU3ptWXE3M1NJbWVZcGFQelJyd19Xa29heUtBMmNUMnhjWHc?oc=5",
-      "title_norm": "강진군의회반값여행사업예산삭감에주민들반발",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "kyeonggi.com/article/20260922580570",
-      "title_norm": "가평군의회행감230건개선요구군정견제고삐죘다",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "inews24.com/view/2008408",
-      "title_norm": "농어촌기본소득에허리휜다충북도의회국비상향건의",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "kmaeil.com/news/articleView.html?idxno=652641",
-      "title_norm": "강화군제2기뉴로컬ai캠프열려",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "news.google.com/rss/articles/CBMiakFVX3lxTE55a2duVldHMEZDQU5QWFh2MWJZLURYVjlQZFRhVXNDNnFUUU1Oemk2Ylk0Y19RZWZGV0haSGpCZVpjdmpZc1lXeFF3NDVMQlNfNEJvNE02dkc0LWxiZzlYVlRvZm5WNWwzSGc?oc=5",
-      "title_norm": "강진군의회반값여행예산20억삭감사업재개차질",
-      "sent_at": "2026-09-22T12:51:08.907065+00:00"
-    },
-    {
-      "link": "newsis.com/view/NISX20260922_0003800765",
-      "title_norm": "박병천도의원증평재정공백해소할균형발전대책필요",
-      "sent_at": "2026-09-22T12:51:10.392615+00:00"
-    },
-    {
-      "link": "gukjenews.com/news/articleView.html?idxno=3703664",
-      "title_norm": "충북도의회박병천의원증평재정지원공백균형발전대책촉구",
-      "sent_at": "2026-09-22T12:51:10.392615+00:00"
-    },
-    {
-      "link": "edaily.co.kr/News/Read?newsId=04362406645582744&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "title_norm": "협동조합예산29억818억아동노인돌봄등지원확대",
-      "sent_at": "2026-09-22T12:51:10.392615+00:00"
-    },
-    {
-      "link": "news.google.com/rss/articles/CBMiQ0FVX3lxTFA2bjQwaXV6VE93RFVWQTlaRzh5LVVvanhjNEUyNG5aRG9KQ1RGc0c2TUZUanpLY0VnU2VFR0haX0V6dzg?oc=5",
-      "title_norm": "강화군ai로청년과지역잇는다2박3일뉴로컬캠프성료",
-      "sent_at": "2026-09-22T12:51:10.392615+00:00"
-    },
-    {
-      "link": "news.google.com/rss/articles/CBMiakFVX3lxTE1xT0t0LTBEWkFLd3lMSUx6SXZzV2xuSjhLejVaNzZjQ3h0cjg4WmdweFhXTDBkazlUN1hGUU8zZDBwSVlCa0J1NmFBbFE4TWlYMnBCOFJnMUFEN1Q3c3hUcXdnbmZ4ZWNtR0E?oc=5",
-      "title_norm": "청년의상상력에ai를더하다충남태안군ai전자출판청년창업가11명양성",
-      "sent_at": "2026-09-22T12:51:10.392615+00:00"
-    },
-    {
       "link": "news.google.com/rss/articles/CBMiZkFVX3lxTE1DTmhUWUpVZjUxV2JrQ1ZXcFVzaUdvWER5eWp1eE5VLW1sLXQzV1pDZzloVjJEV0c5eWg3SlFudHFFczlReHl2cHczUTRNT19UaHV0cVRHNWpNX3ZXMklaZ2F5RFBhQQ?oc=5",
       "title_norm": "기금으로생활인구유입부터주민들삶질적으로향상시킨다",
       "sent_at": "2026-09-23T01:51:15.610544+00:00"
@@ -425,7 +180,32 @@
       "link": "news.google.com/rss/articles/CBMibEFVX3lxTFBoMDRDLS1OcE94SWhVNDBVbzhWR1ZpbHlCV1I1QXdVYnFvS0FMVkVaazhrRjVRRGZTVVRRWTZIRXY5aUR4SW9DSEpxeEZlcTBmc2s5OVhYZnlfQVJIVlltLUVfX0RrdjVfZU1hNA?oc=5",
       "title_norm": "강진군의회반값여행20억삭감에군민들지역경제살리겠다는데왜발목잡나",
       "sent_at": "2026-09-24T01:40:51.584936+00:00"
+    },
+    {
+      "link": "news.google.com/rss/articles/CBMiR0FVX3lxTE50NGNZSlRQZEQ2VzVzUE5leWZTSjlNc09GaVRwVG9IVElnZzB1UDlaTTZkZjNWaGJhTHdVUFlPb1U1aVBaaFpB?oc=5",
+      "title_norm": "시설보다주민체감경북도기금사업성과중심으로전환",
+      "sent_at": "2026-09-24T12:55:25.909623+00:00"
+    },
+    {
+      "link": "mdilbo.com/detail/0kIA7d/759082",
+      "title_norm": "인구소멸위기놓인전남인공지능전환ax이살길",
+      "sent_at": "2026-09-24T12:55:25.909623+00:00"
+    },
+    {
+      "link": "dailian.co.kr/news/view/1694338/?sc=Naver",
+      "title_norm": "공룡부처된행안부거대수사권력통제할수있나미리보는국",
+      "sent_at": "2026-09-24T12:55:25.909623+00:00"
+    },
+    {
+      "link": "metroseoul.co.kr/article/20260923500231",
+      "title_norm": "경북도지방소멸대응기금시군간담회향후투자방향모색",
+      "sent_at": "2026-09-24T12:55:25.909623+00:00"
+    },
+    {
+      "link": "newsfreezone.co.kr/news/articleView.html?idxno=711050",
+      "title_norm": "태안군체류형관광도시전환나선다",
+      "sent_at": "2026-09-24T12:55:25.909623+00:00"
     }
   ],
-  "last_checked_utc": "2026-09-24T01:40:47.686553+00:00"
+  "last_checked_utc": "2026-09-24T12:55:21.763794+00:00"
 }
