@@ -2,76 +2,6 @@
   "version": 2,
   "articles": [
     {
-      "link": "news.google.com/rss/articles/CBMiZkFVX3lxTE1DTmhUWUpVZjUxV2JrQ1ZXcFVzaUdvWER5eWp1eE5VLW1sLXQzV1pDZzloVjJEV0c5eWg3SlFudHFFczlReHl2cHczUTRNT19UaHV0cVRHNWpNX3ZXMklaZ2F5RFBhQQ?oc=5",
-      "title_norm": "기금으로생활인구유입부터주민들삶질적으로향상시킨다",
-      "sent_at": "2026-09-23T01:51:15.610544+00:00"
-    },
-    {
-      "link": "pressian.com/pages/articles/2026092310081756196?utm_source=naver&utm_medium=search",
-      "title_norm": "대통령도칭찬했는데강진반값여행국비20억군의회서전액삭",
-      "sent_at": "2026-09-23T01:51:15.610544+00:00"
-    },
-    {
-      "link": "news.bbsi.co.kr/news/articleView.html?idxno=4108312",
-      "title_norm": "경북도지방소멸대응기금사업시설조성에서주민체감성과로전",
-      "sent_at": "2026-09-23T01:51:15.610544+00:00"
-    },
-    {
-      "link": "news.google.com/rss/articles/CBMiY0FVX3lxTE9uSGQ3TVlrZi0wTGxQd0txaGVqM3dOSG9ocnFtb2pUekVkV3VTWHpkZkM5YV94dkVNMTd1UWdaV2dwZ29IcUZfeUJnOWI4OWdpWkpGNXFLZDQ5d1pBTWI0NmhkUQ?oc=5",
-      "title_norm": "강진반값여행20억삭감지역경제부터다시보라",
-      "sent_at": "2026-09-23T01:51:15.610544+00:00"
-    },
-    {
-      "link": "news.google.com/rss/articles/CBMicEFVX3lxTE9JUlRVX1lDbTE0Nm5uRmdZUDdOLXRNaGdFRENvbXY0ZWdTRW9oU1puRUFvRmVMZDFNamlyZkFGTU0yb2FObWdoa0FwQm5TcXdQVEdwLXI5LWVveW1jRkFvYW1MRWg5VGs2WWR4WUpDYTY?oc=5",
-      "title_norm": "경북소멸대응기금성과중심으로뉴스",
-      "sent_at": "2026-09-23T01:51:15.610544+00:00"
-    },
-    {
-      "link": "ilyoseoul.co.kr/news/articleView.html?idxno=522915",
-      "title_norm": "국세407늘지만지방교부세는2증가미래대응기금에사라진29조",
-      "sent_at": "2026-09-23T01:51:15.610544+00:00"
-    },
-    {
-      "link": "dgmbc.com/NewsArticle/863729",
-      "title_norm": "만평경북교부금65조증발위기아무리미래를준비한다고하지만",
-      "sent_at": "2026-09-23T01:51:15.610544+00:00"
-    },
-    {
-      "link": "yeongnam.com/web/view.php?key=20260922023220083",
-      "title_norm": "동대구로에서예천엔두개의인구시계가돈다",
-      "sent_at": "2026-09-23T01:51:15.610544+00:00"
-    },
-    {
-      "link": "edaily.co.kr/News/Read?newsId=02066406645583072&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "title_norm": "200조원쓰고도수도권쏠림균형발전예산도인지예산으로",
-      "sent_at": "2026-09-23T01:51:15.610544+00:00"
-    },
-    {
-      "link": "womennews.co.kr/news/articleView.html?idxno=282216",
-      "title_norm": "제4회양성평등정책대상여성안전부터남녀공동돌봄까지지역곳곳",
-      "sent_at": "2026-09-23T01:51:15.610544+00:00"
-    },
-    {
-      "link": "busan.com/view/busan/view.php?code=2026092217593367919",
-      "title_norm": "사설재정분권역행하는정부의지방교부세재원축소시도",
-      "sent_at": "2026-09-23T01:51:15.610544+00:00"
-    },
-    {
-      "link": "jnilbo.com/news/articleView.html?idxno=90000067973",
-      "title_norm": "진도군간호복지인력기숙사로인력이탈막는다",
-      "sent_at": "2026-09-23T01:51:15.610544+00:00"
-    },
-    {
-      "link": "newsworker.co.kr/news/articleView.html?idxno=505739",
-      "title_norm": "강진군의회정례회폐회반값여행20억원등추경삭감",
-      "sent_at": "2026-09-23T01:51:15.610544+00:00"
-    },
-    {
-      "link": "mpmbc.co.kr/NewsArticle/1538135",
-      "title_norm": "강진반값여행20억삭감본회의장주민항의까지",
-      "sent_at": "2026-09-23T01:51:17.146280+00:00"
-    },
-    {
       "link": "newsworks.co.kr/news/articleView.html?idxno=854802",
       "title_norm": "수혜편중vs들어온국비도못지키나강진반값여행20억삭감",
       "sent_at": "2026-09-23T13:02:19.400142+00:00"
@@ -205,7 +135,17 @@
       "link": "newsfreezone.co.kr/news/articleView.html?idxno=711050",
       "title_norm": "태안군체류형관광도시전환나선다",
       "sent_at": "2026-09-24T12:55:25.909623+00:00"
+    },
+    {
+      "link": "newscj.com/news/articleView.html?idxno=3435488",
+      "title_norm": "인천백령도30년방치된서해최북단백령호명품생태관광자원",
+      "sent_at": "2026-09-25T01:58:09.910957+00:00"
+    },
+    {
+      "link": "yna.co.kr/view/AKR20260923107600065?input=1195m",
+      "title_norm": "농업용수기능상실백령도담수호관광자원탈바꿈모색",
+      "sent_at": "2026-09-25T01:58:09.910957+00:00"
     }
   ],
-  "last_checked_utc": "2026-09-24T12:55:21.763794+00:00"
+  "last_checked_utc": "2026-09-25T01:58:06.359862+00:00"
 }
