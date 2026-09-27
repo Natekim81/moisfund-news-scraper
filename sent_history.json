@@ -2,21 +2,6 @@
   "version": 2,
   "articles": [
     {
-      "link": "newscj.com/news/articleView.html?idxno=3435488",
-      "title_norm": "인천백령도30년방치된서해최북단백령호명품생태관광자원",
-      "sent_at": "2026-09-25T01:58:09.910957+00:00"
-    },
-    {
-      "link": "yna.co.kr/view/AKR20260923107600065?input=1195m",
-      "title_norm": "농업용수기능상실백령도담수호관광자원탈바꿈모색",
-      "sent_at": "2026-09-25T01:58:09.910957+00:00"
-    },
-    {
-      "link": "yeongnam.com/web/view.php?key=20260925029030473",
-      "title_norm": "추석밥상오른고령군수보궐선거8인8색셈법",
-      "sent_at": "2026-09-25T13:01:21.650942+00:00"
-    },
-    {
       "link": "jeonmae.co.kr/news/articleView.html?idxno=1296483",
       "title_norm": "전남광주통합특별시40년경계허물고남부권중심축도약",
       "sent_at": "2026-09-27T01:54:11.901485+00:00"
@@ -40,7 +25,42 @@
       "link": "fnnews.com/news/202609230725545439",
       "title_norm": "강원도내접경지역20대10년새435급감",
       "sent_at": "2026-09-27T01:54:11.901485+00:00"
+    },
+    {
+      "link": "gnmaeil.com/news/articleView.html?idxno=595526",
+      "title_norm": "사설미래대응기금놓고지방현재희생은안돼",
+      "sent_at": "2026-09-27T13:19:53.306672+00:00"
+    },
+    {
+      "link": "dynews.co.kr/news/articleView.html?idxno=867303",
+      "title_norm": "기획인구소멸선제적으로대비하자",
+      "sent_at": "2026-09-27T13:19:53.306672+00:00"
+    },
+    {
+      "link": "news.google.com/rss/articles/CBMiVEFVX3lxTE5uOTM0Nm4tb2M1aExGSUhtaTBScFQ3d2N4dUhnZ01uVXlRWG9najVHSnY1eWJVVzJUbWJfSUtsN3dhVVFtZlVseUpyZG5lN2JaTkZjeg?oc=5",
+      "title_norm": "경북도기금사업성과중심전환한다",
+      "sent_at": "2026-09-27T13:19:53.306672+00:00"
+    },
+    {
+      "link": "dynews.co.kr/news/articleView.html?idxno=867294",
+      "title_norm": "태안군최대50만원돌려받는반값여행5년더",
+      "sent_at": "2026-09-27T13:19:53.306672+00:00"
+    },
+    {
+      "link": "ccdn.co.kr/news/articleView.html?idxno=1101688",
+      "title_norm": "충남태안군세일즈관광대전환사계절체류형관광체질개선",
+      "sent_at": "2026-09-27T13:19:53.306672+00:00"
+    },
+    {
+      "link": "goodmorningcc.com/news/articleView.html?idxno=452943",
+      "title_norm": "공산성미디어아트백제만화경하나의빛무한한상상10월2일개막",
+      "sent_at": "2026-09-27T13:19:53.306672+00:00"
+    },
+    {
+      "link": "ajunews.com/view/20260926091447655",
+      "title_norm": "김평희칼럼보이는물량으로는이길수없다",
+      "sent_at": "2026-09-27T13:19:53.306672+00:00"
     }
   ],
-  "last_checked_utc": "2026-09-27T01:54:08.476979+00:00"
+  "last_checked_utc": "2026-09-27T13:19:48.519118+00:00"
 }
