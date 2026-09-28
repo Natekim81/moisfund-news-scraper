@@ -1,15 +1,35 @@
 name: 지방소멸대응기금 뉴스 브리핑
 
+# [실행 방식]
+# 1) 정시 실행: 외부 스케줄러(cron-job.org)가 GitHub API로 workflow_dispatch를
+#    호출합니다. slot=am(오전 09시), slot=pm(오후 17시).
+#    예약 대기열을 거치지 않아 호출 직후 실행됩니다.
+# 2) 백업 실행: 아래 schedule은 외부 호출이 실패한 날을 대비한 예비용입니다.
+#    같은 날 같은 회차가 이미 발송됐으면 main.py가 아무것도 보내지 않고 종료합니다.
+#    cron 값을 바꾸면 main.py의 BACKUP_CRON_TO_SLOT도 같이 바꿔야 합니다.
+# 3) 수동 실행: Actions 화면의 Run workflow에서 slot=manual(기본값)로 실행하면
+#    회차와 무관하게 즉시 발송합니다.
+
 on:
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: '발송 회차 (manual=수동 즉시 발송, am=오전 회차, pm=오후 회차)'
+        required: false
+        default: 'manual'
+        type: choice
+        options:
+          - manual
+          - am
+          - pm
   schedule:
-    - cron: '50 23 * * *'  # 한국시간 매일 08:50
-    - cron: '50 7 * * *'   # 한국시간 매일 16:50
-  workflow_dispatch: {}
+    - cron: '20 0 * * *'  # 백업: 한국시간 09:20 (오전 회차 미발송 시에만 발송)
+    - cron: '20 8 * * *'  # 백업: 한국시간 17:20 (오후 회차 미발송 시에만 발송)
 
 permissions:
   contents: write
 
-# 자동·수동 실행이 겹쳐 동일 기사를 동시에 발송하지 않도록 순차 처리
+# 외부 호출·백업·수동 실행이 겹쳐도 순서대로 처리해 중복 발송을 막음
 concurrency:
   group: news-briefing-history
   cancel-in-progress: false
@@ -37,9 +57,11 @@ jobs:
         env:
           NEWS_EVENT: ${{ github.event_name }}
           NEWS_SCHEDULE: ${{ github.event.schedule }}
+          NEWS_SLOT: ${{ inputs.slot }}
         run: |
           echo "실행 방식: $NEWS_EVENT"
-          echo "예약식: $NEWS_SCHEDULE"
+          echo "회차 입력: ${NEWS_SLOT:--}"
+          echo "예약식: ${NEWS_SCHEDULE:--}"
           TZ=Asia/Seoul date '+실제 작업 시작: %Y-%m-%d %H:%M:%S KST'
 
       - name: 뉴스 스크랩 및 텔레그램 전송
@@ -49,6 +71,7 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           NEWS_SCHEDULE: ${{ github.event.schedule }}
+          NEWS_SLOT: ${{ inputs.slot }}
           PYTHONUNBUFFERED: '1'
         run: python main.py
 
