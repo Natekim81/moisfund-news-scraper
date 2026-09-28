@@ -5,14 +5,26 @@
 - 제목 유사도 / 링크 기준 중복 제거 (같은 실행 내)
 - 저장소에 커밋되는 sent_history.json으로 발송 이력을 기억해서
   오전 회차에 보낸 기사가 오후 회차에 다시 발송되지 않도록 방지
-- GitHub Actions에서 한국시간 매일 08:50, 16:50 자동 실행
 - 오전 회차: 실제 실행 시각 기준 최근 16시간
 - 오후 회차: 실제 실행 시각 기준 최근 8시간
 - 지연·실패 시 마지막 정상 조회 시각부터 재조회 (최대 48시간)
 - 성공한 메시지에 포함된 기사만 즉시 발송 이력에 기록
-- 예약 실행이 지연돼도 GitHub 예약 정보(NEWS_SCHEDULE)로 회차 구분
-- 메시지에 예약 회차와 실제 시작 시각을 구분해 표시
+- 메시지에 회차와 실제 시작 시각을 구분해 표시
 - 텔레그램 HTML 포맷 및 분할 전송
+
+[실행 방식 변경 - 2026-09 (방안 B)]
+GitHub 예약(schedule) 실행이 매번 2~5시간씩 지연되어, 정시 발송은
+외부 스케줄러(cron-job.org)가 GitHub API로 workflow_dispatch를
+호출하는 방식으로 바꿨습니다. 수동 실행과 같은 경로라 예약 대기열의
+지연을 받지 않습니다.
+- 정시 실행: 외부 스케줄러가 slot=am(오전 09시), slot=pm(오후 17시)으로 호출
+- 백업 실행: GitHub 예약(schedule)은 외부 호출이 실패한 날을 대비한
+  예비용으로만 남겨두고, 같은 날 같은 회차가 이미 발송됐으면 아무것도
+  보내지 않고 조용히 종료
+- 수동 실행: Actions 화면에서 slot=manual(기본값)로 실행하면 회차와
+  무관하게 즉시 발송하며, 회차 발송 기록은 남기지 않음
+- 회차 발송 기록은 sent_history.json의 slot_runs 항목에 저장
+  (텔레그램 발송이 모두 성공했을 때만 기록 → 실패 시 백업이 재시도)
 
 [수정 사항 - 2026-09]
 - 네이버 API 실패 시 원인(HTTP 상태 코드/응답 본문/예외 메시지)을 로그에 상세히 기록
@@ -105,17 +117,28 @@ NAVER_RETRY_DELAY_SECONDS = 3
 
 KST = timezone(timedelta(hours=9))
 
-# GitHub 예약식(UTC)을 기준으로 회차를 구분합니다.
-# 실제 실행이 지연돼도 오전·오후 구분은 유지됩니다.
-RUN_SCHEDULE = {
-    "50 23 * * *": {
-        "label": "08:50 자동실행",
+# 회차 설정.
+# slot_date_offset_hours: "이 실행이 며칠자 회차인가"를 정할 때 현재
+# 한국시간에서 빼는 시간입니다. 목표 시각보다 2시간 이른 시점부터를
+# 그날 회차로 봅니다. 예) 오후 백업 실행이 자정을 넘겨 다음 날 00:30에
+# 돌아도 전날 오후 회차로 판정되어, 다음 날 오후 발송을 막지 않습니다.
+SLOTS = {
+    "am": {
+        "label": "오전 회차(09:00)",
         "lookback_hours": 16,
+        "slot_date_offset_hours": 7,
     },
-    "50 7 * * *": {
-        "label": "16:50 자동실행",
+    "pm": {
+        "label": "오후 회차(17:00)",
         "lookback_hours": 8,
+        "slot_date_offset_hours": 15,
     },
+}
+
+# 백업용 GitHub 예약식(UTC) → 회차. news_cron.yml의 cron과 반드시 일치해야 합니다.
+BACKUP_CRON_TO_SLOT = {
+    "20 0 * * *": "am",  # 한국시간 09:20
+    "20 8 * * *": "pm",  # 한국시간 17:20
 }
 
 DEFAULT_LOOKBACK_HOURS = 16
@@ -196,42 +219,57 @@ def is_similar_title(a: str, b: str) -> bool:
 
 
 def get_run_context() -> dict:
-    """실제 시작 시각이 아닌 GitHub 예약 정보로 오전·오후를 구분."""
+    """실행 경로(외부 호출·백업 예약·수동)에 따라 회차를 판정."""
     now_utc = datetime.now(timezone.utc)
     now_kst = now_utc.astimezone(KST)
 
     event_name = os.environ.get("GITHUB_EVENT_NAME", "").strip()
     cron = os.environ.get("NEWS_SCHEDULE", "").strip()
+    slot_input = os.environ.get("NEWS_SLOT", "").strip().lower()
+
+    slot = None
+    is_backup = False
 
     if event_name == "schedule":
-        schedule = RUN_SCHEDULE.get(cron)
-
-        if schedule is None:
+        slot = BACKUP_CRON_TO_SLOT.get(cron)
+        if slot is None:
             raise ValueError(
                 f"알 수 없는 예약 설정: {cron!r}. "
-                "news_cron.yml을 확인하세요."
+                "news_cron.yml과 main.py의 BACKUP_CRON_TO_SLOT을 확인하세요."
             )
-
-        label = schedule["label"]
-        lookback_hours = schedule["lookback_hours"]
-
+        is_backup = True
+    elif event_name == "workflow_dispatch" and slot_input in SLOTS:
+        slot = slot_input
+    elif event_name == "workflow_dispatch" and slot_input in ("", "manual"):
+        slot = None
     else:
-        label = (
-            "수동실행"
-            if event_name == "workflow_dispatch"
-            else "별도실행"
+        raise ValueError(
+            f"알 수 없는 실행 방식입니다: event={event_name!r}, slot={slot_input!r}"
         )
+
+    if slot:
+        conf = SLOTS[slot]
+        label = conf["label"] + (" · 백업 실행" if is_backup else "")
+        lookback_hours = conf["lookback_hours"]
+        slot_date = (
+            now_kst - timedelta(hours=conf["slot_date_offset_hours"])
+        ).strftime("%Y-%m-%d")
+    else:
+        label = "수동실행"
         lookback_hours = DEFAULT_LOOKBACK_HOURS
+        slot_date = None
 
     logger.info(
-        "실행 유형=%s / 예약=%s",
-        event_name,
-        cron,
+        "실행 유형=%s / 예약식=%s / 회차=%s / 회차 날짜=%s",
+        event_name, cron or "-", slot or "수동", slot_date or "-",
     )
 
     return {
         "now_utc": now_utc,
         "label": label,
+        "slot": slot,
+        "slot_date": slot_date,
+        "is_backup": is_backup,
         "actual_start_kst": now_kst.strftime("%Y-%m-%d %H:%M:%S"),
         "lookback_hours": lookback_hours,
         "cutoff_utc": now_utc - timedelta(hours=lookback_hours),
@@ -823,6 +861,21 @@ def send_telegram_message(text: str) -> bool:
 def main():
     run_ctx = get_run_context()
     state = load_state()
+
+    slot_runs = state.get("slot_runs")
+    if not isinstance(slot_runs, dict):
+        slot_runs = {}
+    slot = run_ctx["slot"]
+    if slot and slot_runs.get(slot) == run_ctx["slot_date"]:
+        # 외부 호출로 이미 이 회차를 보냈거나, 백업이 먼저 보낸 경우.
+        # 이력 파일을 건드리지 않고 조용히 종료합니다(텔레그램 메시지 없음).
+        logger.info(
+            "%s 회차(%s)는 이미 발송되어 이번 실행은 건너뜁니다.",
+            slot, run_ctx["slot_date"],
+        )
+        return
+
+    state["slot_runs"] = slot_runs
     state["version"] = 2
     state["articles"] = prune_history(state["articles"], run_ctx["now_utc"])
     run_ctx = extend_window(run_ctx, state)
@@ -889,6 +942,11 @@ def main():
     # 그 구간을 다시 조회하도록 그대로 둡니다.
     if all_sent and not errors:
         state["last_checked_utc"] = run_ctx["now_utc"].isoformat()
+    # 텔레그램 발송이 모두 성공했으면 이 회차는 끝난 것으로 기록합니다.
+    # (일부 소스만 실패한 경우도 브리핑은 이미 나갔으므로 기록하며,
+    #  빠진 구간은 last_checked_utc가 그대로라 다음 회차에서 다시 조회됩니다.)
+    if all_sent and slot:
+        state["slot_runs"][slot] = run_ctx["slot_date"]
     save_state(state)
     logger.info("메시지 %s/%s개 전송 성공", success_count, len(messages))
 
