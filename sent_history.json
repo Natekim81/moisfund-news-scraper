@@ -2,41 +2,6 @@
   "version": 2,
   "articles": [
     {
-      "link": "gnmaeil.com/news/articleView.html?idxno=595526",
-      "title_norm": "사설미래대응기금놓고지방현재희생은안돼",
-      "sent_at": "2026-09-27T13:19:53.306672+00:00"
-    },
-    {
-      "link": "dynews.co.kr/news/articleView.html?idxno=867303",
-      "title_norm": "기획인구소멸선제적으로대비하자",
-      "sent_at": "2026-09-27T13:19:53.306672+00:00"
-    },
-    {
-      "link": "news.google.com/rss/articles/CBMiVEFVX3lxTE5uOTM0Nm4tb2M1aExGSUhtaTBScFQ3d2N4dUhnZ01uVXlRWG9najVHSnY1eWJVVzJUbWJfSUtsN3dhVVFtZlVseUpyZG5lN2JaTkZjeg?oc=5",
-      "title_norm": "경북도기금사업성과중심전환한다",
-      "sent_at": "2026-09-27T13:19:53.306672+00:00"
-    },
-    {
-      "link": "dynews.co.kr/news/articleView.html?idxno=867294",
-      "title_norm": "태안군최대50만원돌려받는반값여행5년더",
-      "sent_at": "2026-09-27T13:19:53.306672+00:00"
-    },
-    {
-      "link": "ccdn.co.kr/news/articleView.html?idxno=1101688",
-      "title_norm": "충남태안군세일즈관광대전환사계절체류형관광체질개선",
-      "sent_at": "2026-09-27T13:19:53.306672+00:00"
-    },
-    {
-      "link": "goodmorningcc.com/news/articleView.html?idxno=452943",
-      "title_norm": "공산성미디어아트백제만화경하나의빛무한한상상10월2일개막",
-      "sent_at": "2026-09-27T13:19:53.306672+00:00"
-    },
-    {
-      "link": "ajunews.com/view/20260926091447655",
-      "title_norm": "김평희칼럼보이는물량으로는이길수없다",
-      "sent_at": "2026-09-27T13:19:53.306672+00:00"
-    },
-    {
       "link": "g1tv.co.kr/news?mid=1_207_6&newsid=349072",
       "title_norm": "지역소멸공공빵집1년만에운영중단",
       "sent_at": "2026-09-28T16:46:42.308884+00:00"
@@ -210,11 +175,56 @@
       "link": "ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003271173&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
       "title_norm": "162조미래대응기금농어촌기본소득청년정책등에써야",
       "sent_at": "2026-09-29T05:52:10.429195+00:00"
+    },
+    {
+      "link": "mpmbc.co.kr/NewsArticle/1538897",
+      "title_norm": "진도군간호복지인력기숙사보배리움개소",
+      "sent_at": "2026-09-29T14:51:55.272616+00:00"
+    },
+    {
+      "link": "queen.co.kr/news/articleView.html?idxno=464055",
+      "title_norm": "진도군2026진도군보배섬문화예술제열린다10월9일부터11일까",
+      "sent_at": "2026-09-29T14:51:55.272616+00:00"
+    },
+    {
+      "link": "sportsseoul.com/news/read/1638327?ref=naver",
+      "title_norm": "진도군간호복지인재품을보금자리열었다",
+      "sent_at": "2026-09-29T14:51:55.272616+00:00"
+    },
+    {
+      "link": "jndn.com/article.php?aid=1790676804440445001",
+      "title_norm": "강진발반값여행전남광주통합특별시전역으로넓힌다",
+      "sent_at": "2026-09-29T14:51:55.272616+00:00"
+    },
+    {
+      "link": "mdilbo.com/detail/0kIA7d/759187",
+      "title_norm": "김병내전국시군구협의회장지역마다다른여건목소리귀기울일것",
+      "sent_at": "2026-09-29T14:51:55.272616+00:00"
+    },
+    {
+      "link": "incheontoday.com/news/articleView.html?idxno=324287",
+      "title_norm": "인천섬햇빛소득마을용지계통사업비마련관건맞춤형설계",
+      "sent_at": "2026-09-29T14:51:55.272616+00:00"
+    },
+    {
+      "link": "enewstoday.co.kr/news/articleView.html?idxno=2475172",
+      "title_norm": "평창군지역자활센터신축준공자활사업기반강화",
+      "sent_at": "2026-09-29T14:51:55.272616+00:00"
+    },
+    {
+      "link": "kukinews.com/article/view/kuk202609290167",
+      "title_norm": "전남광주단신해남장흥에장립종벼생산거점120조성외",
+      "sent_at": "2026-09-29T14:51:55.272616+00:00"
+    },
+    {
+      "link": "news.google.com/rss/articles/CBMibEFVX3lxTE0yNDlCNWpSMmR4V1BmV3FiYnZjWlY0YjJ0MEk4TUN4cFVRV0VnWmlkYVNaVi1ERTFwM0g0Qy1zWk9XczRSOEhhNU1pdzRUTVJiUWxid1QwNVUtM1dkbkFGZVRfWHQ4R21pVVpkTA?oc=5",
+      "title_norm": "진도군지방소멸대응기금활용간호복지인력정주여건개선",
+      "sent_at": "2026-09-29T14:51:55.272616+00:00"
     }
   ],
-  "last_checked_utc": "2026-09-29T05:52:07.373020+00:00",
+  "last_checked_utc": "2026-09-29T14:51:52.394654+00:00",
   "slot_runs": {
-    "pm": "2026-09-28",
+    "pm": "2026-09-29",
     "am": "2026-09-29"
   }
 }
