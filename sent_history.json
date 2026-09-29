@@ -2,31 +2,6 @@
   "version": 2,
   "articles": [
     {
-      "link": "jeonmae.co.kr/news/articleView.html?idxno=1296483",
-      "title_norm": "전남광주통합특별시40년경계허물고남부권중심축도약",
-      "sent_at": "2026-09-27T01:54:11.901485+00:00"
-    },
-    {
-      "link": "cctimes.kr/news/articleView.html?idxno=929318",
-      "title_norm": "이제기다리는관광은끝났다태안군세일즈관광대전환연중북적",
-      "sent_at": "2026-09-27T01:54:11.901485+00:00"
-    },
-    {
-      "link": "straightnews.co.kr/news/articleView.html?idxno=311983",
-      "title_norm": "올해남는세금50조이상내년미래대응기금200조훌쩍",
-      "sent_at": "2026-09-27T01:54:11.901485+00:00"
-    },
-    {
-      "link": "yeongnam.com/web/view.php?key=20260927020227753",
-      "title_norm": "tk행정통합다중심에서길을찾다정책의중개자윈린현기획",
-      "sent_at": "2026-09-27T01:54:11.901485+00:00"
-    },
-    {
-      "link": "fnnews.com/news/202609230725545439",
-      "title_norm": "강원도내접경지역20대10년새435급감",
-      "sent_at": "2026-09-27T01:54:11.901485+00:00"
-    },
-    {
       "link": "gnmaeil.com/news/articleView.html?idxno=595526",
       "title_norm": "사설미래대응기금놓고지방현재희생은안돼",
       "sent_at": "2026-09-27T13:19:53.306672+00:00"
@@ -185,10 +160,61 @@
       "link": "tournews21.com/news/articleView.html?idxno=144322",
       "title_norm": "잠깐스쳐가는바다에서사계절머무는태안으로태안군관광대전",
       "sent_at": "2026-09-28T16:46:45.060897+00:00"
+    },
+    {
+      "link": "wikitree.co.kr/articles/1162774",
+      "title_norm": "경북도국정감사에서지방정부입장전달한다",
+      "sent_at": "2026-09-29T05:52:10.429195+00:00"
+    },
+    {
+      "link": "jbnews.com/news/articleView.html?idxno=1512474",
+      "title_norm": "진보당충남도당정부미래대응기금불평등해소에투입해야",
+      "sent_at": "2026-09-29T05:52:10.429195+00:00"
+    },
+    {
+      "link": "the-pr.co.kr/news/articleView.html?idxno=62759",
+      "title_norm": "평창군양성평등자활지원강화지역사회기반넓힌다",
+      "sent_at": "2026-09-29T05:52:10.429195+00:00"
+    },
+    {
+      "link": "weeklytoday.com/news/articleView.html?idxno=796189",
+      "title_norm": "위클리오늘평창군2026년양성평등대회기념식및한마음대회개최",
+      "sent_at": "2026-09-29T05:52:10.429195+00:00"
+    },
+    {
+      "link": "shinailbo.co.kr/news/articleView.html?idxno=5066785",
+      "title_norm": "평창지역자활센터신축완료55억원투입",
+      "sent_at": "2026-09-29T05:52:10.429195+00:00"
+    },
+    {
+      "link": "kukinews.com/article/view/kuk202609290042",
+      "title_norm": "55억원들인평창지역자활센터신축개원자립지원거점새출발",
+      "sent_at": "2026-09-29T05:52:10.429195+00:00"
+    },
+    {
+      "link": "hidomin.com/news/articleView.html?idxno=722933",
+      "title_norm": "현금지원보다투자로경북도재정위기속선택과집중선언",
+      "sent_at": "2026-09-29T05:52:10.429195+00:00"
+    },
+    {
+      "link": "beyondpost.co.kr/view.php?ud=2026092912584926974c878f8fa1_30",
+      "title_norm": "김보라안성시장국회서지역이살아나는관광기부승부수지방",
+      "sent_at": "2026-09-29T05:52:10.429195+00:00"
+    },
+    {
+      "link": "news1.kr/local/gwangju-jeonnam/6304468",
+      "title_norm": "전남광주통합특별시전역으로반값여행확대검토",
+      "sent_at": "2026-09-29T05:52:10.429195+00:00"
+    },
+    {
+      "link": "ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003271173&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+      "title_norm": "162조미래대응기금농어촌기본소득청년정책등에써야",
+      "sent_at": "2026-09-29T05:52:10.429195+00:00"
     }
   ],
-  "last_checked_utc": "2026-09-28T16:46:38.421566+00:00",
+  "last_checked_utc": "2026-09-29T05:52:07.373020+00:00",
   "slot_runs": {
-    "pm": "2026-09-28"
+    "pm": "2026-09-28",
+    "am": "2026-09-29"
   }
 }
