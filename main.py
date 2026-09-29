@@ -70,6 +70,24 @@ logger = logging.getLogger(__name__)
 
 SEARCH_KEYWORD = "지방소멸대응기금"
 
+# --- 키워드 정확도 필터 ---
+# 네이버·구글 검색은 "지방소멸대응기금"을 지방/소멸/대응/기금으로 쪼개
+# 부분 일치 기사까지 돌려주기 때문에 "미래대응기금", "○○기금" 기사가
+# 섞여 들어옵니다. 그래서 수집 후 한 번 더 걸러냅니다.
+# 비교할 때는 띄어쓰기·기호를 무시합니다("지방소멸 대응기금"도 인정).
+#
+# REQUIRED_PHRASES: 네이버 기사는 제목+요약문에 이 중 하나가 있어야 통과.
+#   (네이버 요약문은 검색어가 등장한 문장을 보여주므로 본문 언급도 대부분 잡힙니다.)
+#   구글 뉴스는 요약문이 제목만 담고 있어 이 검사 대신 검색 단계에서
+#   큰따옴표 정확 일치 검색(GOOGLE_QUERY)을 사용합니다.
+REQUIRED_PHRASES = ["지방소멸대응기금", "지방소멸기금"]
+
+# EXCLUDE_TITLE_PHRASES: 제목에 이 단어가 있고 REQUIRED_PHRASES는 없으면 제외.
+#   (두 소스 모두 적용. 원치 않는 주제가 또 보이면 여기에 추가하세요.)
+EXCLUDE_TITLE_PHRASES = ["미래대응기금"]
+
+GOOGLE_QUERY = f'"{SEARCH_KEYWORD}"'
+
 NAVER_CLIENT_ID = (os.environ.get("NAVER_CLIENT_ID") or "").strip()
 NAVER_CLIENT_SECRET = (os.environ.get("NAVER_CLIENT_SECRET") or "").strip()
 TELEGRAM_TOKEN = (os.environ.get("TELEGRAM_TOKEN") or "").strip()
@@ -388,6 +406,8 @@ def fetch_naver_news(keyword: str) -> list:
             {
                 "title": title,
                 "summary": truncate_summary(description),
+                "match_text": f"{title} {description}",
+                "source_type": "naver",
                 "link": link,
                 "pub_date": pub_date,
                 "source": extract_press_name(item.get("originallink") or ""),
@@ -439,6 +459,8 @@ def fetch_google_news(keyword: str) -> list:
             {
                 "title": title,
                 "summary": truncate_summary(description),
+                "match_text": f"{title} {description}",
+                "source_type": "google",
                 "link": link,
                 "pub_date": pub_date,
                 "source": source or "구글뉴스",
@@ -447,6 +469,38 @@ def fetch_google_news(keyword: str) -> list:
 
     logger.info("구글 뉴스 %s건 수집", len(results))
     return results
+
+
+# ------------------------------------------------------------------
+# 2-1. 키워드 정확도 필터
+# ------------------------------------------------------------------
+def _has_phrase(text: str, phrases: list) -> bool:
+    text_norm = normalize_title(text)
+    return any(normalize_title(p) in text_norm for p in phrases)
+
+
+def filter_by_keyword(articles: list) -> list:
+    """검색어가 부분 일치로만 걸린 기사를 걸러낸다."""
+    kept = []
+    for article in articles:
+        title = article["title"]
+
+        if _has_phrase(title, EXCLUDE_TITLE_PHRASES) and not _has_phrase(
+            title, REQUIRED_PHRASES
+        ):
+            logger.info("제외(제외 단어): %s", title)
+            continue
+
+        if article.get("source_type") == "naver" and not _has_phrase(
+            article.get("match_text", title), REQUIRED_PHRASES
+        ):
+            logger.info("제외(검색어 없음): %s", title)
+            continue
+
+        kept.append(article)
+
+    logger.info("키워드 필터: %s건 중 %s건 유지", len(articles), len(kept))
+    return kept
 
 
 # ------------------------------------------------------------------
@@ -886,9 +940,12 @@ def main():
         run_ctx["cutoff_utc"].isoformat(),
     )
     articles, errors = [], []
-    for name, fetch in [("네이버", fetch_naver_news), ("구글", fetch_google_news)]:
+    for name, fetch, query in [
+        ("네이버", fetch_naver_news, SEARCH_KEYWORD),
+        ("구글", fetch_google_news, GOOGLE_QUERY),
+    ]:
         try:
-            articles.extend(fetch(SEARCH_KEYWORD))
+            articles.extend(fetch(query))
         except Exception as e:
             # 실패 원인을 그대로 로그에 남깁니다 (기존에는 예외 타입 이름만
             # 남아 원인 파악이 불가능했습니다).
@@ -910,6 +967,7 @@ def main():
         send_telegram_message(alert_text)
         raise RuntimeError("모든 뉴스 수집 실패. 조회 완료 시각은 갱신하지 않습니다.")
 
+    articles = filter_by_keyword(articles)
     recent = filter_recent_articles(articles, run_ctx["cutoff_utc"], run_ctx["now_utc"])
     recent.sort(
         key=lambda a: a["pub_date"] or datetime.min.replace(tzinfo=timezone.utc),
