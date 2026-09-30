@@ -1,4 +1,5 @@
 name: 지방소멸대응기금 뉴스 브리핑
+# 한 번 실행에 기금·인구감소지역 두 주제를 각각의 텔레그램 탭으로 발송합니다.
 
 # [실행 방식]
 # 1) 정시 실행: 외부 스케줄러(cron-job.org)가 GitHub API로 workflow_dispatch를
@@ -70,6 +71,9 @@ jobs:
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # 텔레그램 그룹의 주제 탭 번호 (비어 있으면 그룹 기본 대화로 발송)
+          TELEGRAM_TOPIC_FUND: ${{ secrets.TELEGRAM_TOPIC_FUND }}
+          TELEGRAM_TOPIC_POP: ${{ secrets.TELEGRAM_TOPIC_POP }}
           NEWS_SCHEDULE: ${{ github.event.schedule }}
           NEWS_SLOT: ${{ inputs.slot }}
           PYTHONUNBUFFERED: '1'
