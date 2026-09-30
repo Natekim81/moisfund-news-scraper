@@ -382,9 +382,44 @@
           "link": "news.google.com/rss/articles/CBMiZkFVX3lxTE9pTkM3Y25fTGJjWUd2aF84bmVBbHJ6SEJrWVJ1UXEta3AzY1VLYWpNdjU3d3lOcmNjTGtoMThwU2dyVjNlbS1JTWtXem9GY2ZhZ2lQeTVLWWF4UUxuRHNsU1Zud0Izdw?oc=5",
           "title_norm": "지방소멸및인구위기공동대응강화",
           "sent_at": "2026-09-30T08:10:18.079535+00:00"
+        },
+        {
+          "link": "ttlnews.com/news/articleView.html?idxno=3147812",
+          "title_norm": "이슈뉴스충북단양서지방소멸해법모색시설보다주민체감형",
+          "sent_at": "2026-09-30T14:56:48.179625+00:00"
+        },
+        {
+          "link": "ksmnews.co.kr/news/view.php?idx=624018",
+          "title_norm": "지방소멸기금확보보다집행과성과가중요",
+          "sent_at": "2026-09-30T14:56:48.179625+00:00"
+        },
+        {
+          "link": "incheonilbo.com/news/articleView.html?idxno=1333221",
+          "title_norm": "인천도서지역햇빛소득마을도입방안논의",
+          "sent_at": "2026-09-30T14:56:48.179625+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibEFVX3lxTE1JMGVmTU5ESXlkVDhrOFY0U0hTVHZ0bkE1dkt3cGpTb19UUkhSRkloXzBZbmpYNHNOaV9YREYxNXp0djgxVnI1Sl9QeXZLaXAtNXQ5bWZGck96ODVLbVJzdHk2Y3AxcUk3QXlXZg?oc=5",
+          "title_norm": "단양서충북제주인구감소지역정책논의지방소멸대응성과공유",
+          "sent_at": "2026-09-30T14:56:48.179625+00:00"
+        },
+        {
+          "link": "betanews.net/article/view/beta202609300080",
+          "title_norm": "전북도지방소멸대응기금성과점검2027년투자계획공유",
+          "sent_at": "2026-09-30T14:56:48.179625+00:00"
+        },
+        {
+          "link": "breaknews.com/1240174",
+          "title_norm": "단양군행안부충북도제주도참여속주민정주여건개선성과관리",
+          "sent_at": "2026-09-30T14:56:48.179625+00:00"
+        },
+        {
+          "link": "newsis.com/view/NISX20260930_0003809494",
+          "title_norm": "단양소식적성면공동체거점어울림센터준공등",
+          "sent_at": "2026-09-30T14:56:48.179625+00:00"
         }
       ],
-      "last_checked_utc": "2026-09-30T08:10:12.982371+00:00"
+      "last_checked_utc": "2026-09-30T14:56:42.929373+00:00"
     },
     "pop": {
       "articles": [
@@ -399,11 +434,11 @@
           "sent_at": "2026-09-30T08:10:21.823909+00:00"
         }
       ],
-      "last_checked_utc": "2026-09-30T08:10:12.982371+00:00"
+      "last_checked_utc": "2026-09-30T14:56:42.929373+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-09-29",
+    "pm": "2026-09-30",
     "am": "2026-09-30"
   }
 }
