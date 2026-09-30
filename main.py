@@ -1,5 +1,13 @@
 """
-지방소멸대응기금 뉴스 자동 스크랩 & 텔레그램 전송
+지방소멸대응기금 · 인구감소지역 뉴스 자동 스크랩 & 텔레그램 전송
+
+[주제별 분리 발송 - 2026-09]
+한 번 실행할 때 TOPICS에 정의된 주제(기금, 인구감소지역)를 차례로
+수집해, 텔레그램 그룹의 주제(Topics) 탭으로 각각 보냅니다.
+- 발송 이력과 마지막 조회 시각은 주제별로 따로 관리
+- 두 주제에 모두 해당하는 기사는 기금 탭에만 발송
+- 탭 번호(TELEGRAM_TOPIC_FUND / TELEGRAM_TOPIC_POP)가 비어 있으면
+  그룹의 기본(General) 대화로 보냄 → 탭 설정 전에도 발송은 정상 동작
 
 - 네이버 뉴스 검색 API + 구글 뉴스 RSS
 - 제목 유사도 / 링크 기준 중복 제거 (같은 실행 내)
@@ -68,25 +76,51 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-SEARCH_KEYWORD = "지방소멸대응기금"
-
-# --- 키워드 정확도 필터 ---
-# 네이버·구글 검색은 "지방소멸대응기금"을 지방/소멸/대응/기금으로 쪼개
-# 부분 일치 기사까지 돌려주기 때문에 "미래대응기금", "○○기금" 기사가
-# 섞여 들어옵니다. 그래서 수집 후 한 번 더 걸러냅니다.
-# 비교할 때는 띄어쓰기·기호를 무시합니다("지방소멸 대응기금"도 인정).
+# ------------------------------------------------------------------
+# 주제(탭)별 검색 설정
+# ------------------------------------------------------------------
+# 네이버·구글 검색은 검색어를 단어 단위로 쪼개 부분 일치 기사까지
+# 돌려주므로, 수집 후 required_phrases로 한 번 더 걸러냅니다.
+# 비교할 때는 띄어쓰기·기호를 무시합니다("소멸 기금" = "소멸기금").
 #
-# REQUIRED_PHRASES: 네이버 기사는 제목+요약문에 이 중 하나가 있어야 통과.
-#   (네이버 요약문은 검색어가 등장한 문장을 보여주므로 본문 언급도 대부분 잡힙니다.)
-#   구글 뉴스는 요약문이 제목만 담고 있어 이 검사 대신 검색 단계에서
-#   큰따옴표 정확 일치 검색(GOOGLE_QUERY)을 사용합니다.
-REQUIRED_PHRASES = ["지방소멸대응기금", "지방소멸기금"]
-
-# EXCLUDE_TITLE_PHRASES: 제목에 이 단어가 있고 REQUIRED_PHRASES는 없으면 제외.
-#   (두 소스 모두 적용. 원치 않는 주제가 또 보이면 여기에 추가하세요.)
-EXCLUDE_TITLE_PHRASES = ["미래대응기금"]
-
-GOOGLE_QUERY = f'"{SEARCH_KEYWORD}"'
+# naver_queries / google_queries : 검색어 목록(구글은 큰따옴표 = 정확 일치)
+# required_phrases     : 기사에 반드시 있어야 하는 표현(하나라도 있으면 통과)
+# require_in_title     : True면 제목에 있어야 통과(네이버·구글 모두)
+#                        False면 네이버는 제목+요약문, 구글은 정확 일치 검색을 신뢰
+# exclude_title_phrases: 제목에 이 단어가 있고 required_phrases가 없으면 제외
+# naver_display        : 네이버 검색어 1개당 가져올 기사 수(최대 100)
+# thread_env           : 텔레그램 주제 탭 번호를 담은 환경변수 이름
+# skip_if_topic        : 이 주제 기준에도 맞는 기사는 여기서 제외(중복 발송 방지)
+TOPICS = [
+    {
+        "key": "fund",
+        "name": "지방소멸대응기금",
+        "emoji": "📰",
+        "naver_queries": ["지방소멸대응기금", "소멸기금"],
+        "google_queries": ['"지방소멸대응기금"', '"소멸기금"'],
+        "required_phrases": ["지방소멸대응기금", "소멸기금"],
+        "require_in_title": False,
+        "exclude_title_phrases": ["미래대응기금"],
+        "naver_display": 30,
+        "thread_env": "TELEGRAM_TOPIC_FUND",
+        "skip_if_topic": None,
+    },
+    {
+        "key": "pop",
+        "name": "인구감소지역",
+        "emoji": "🏘",
+        "naver_queries": ["인구감소지역"],
+        "google_queries": ['"인구감소지역"'],
+        "required_phrases": ["인구감소지역"],
+        # 인구감소지역은 지역 기사가 많아 제목에 등장한 기사만 받습니다.
+        "require_in_title": True,
+        "exclude_title_phrases": [],
+        "naver_display": 100,
+        "thread_env": "TELEGRAM_TOPIC_POP",
+        "skip_if_topic": "fund",
+    },
+]
+TOPIC_BY_KEY = {t["key"]: t for t in TOPICS}
 
 NAVER_CLIENT_ID = (os.environ.get("NAVER_CLIENT_ID") or "").strip()
 NAVER_CLIENT_SECRET = (os.environ.get("NAVER_CLIENT_SECRET") or "").strip()
@@ -105,7 +139,6 @@ GOOGLE_NEWS_RSS_URL = (
 TELEGRAM_SEND_URL = "https://api.telegram.org/bot{token}/sendMessage"
 
 TITLE_SIMILARITY_THRESHOLD = 0.72
-NAVER_DISPLAY_COUNT = 30
 TELEGRAM_MAX_LEN = 4000
 
 # --- "같은 소식, 다른 언론사" 묶음(그룹핑) 기준 ---
@@ -323,7 +356,7 @@ def parse_google_date(entry):
 # ------------------------------------------------------------------
 # 1. 네이버 뉴스 수집
 # ------------------------------------------------------------------
-def _request_naver(keyword: str) -> dict:
+def _request_naver(keyword: str, display: int = 30) -> dict:
     """네이버 뉴스 검색 API를 1회 호출. 실패 시 requests 예외를 그대로 전파."""
     headers = {
         "X-NCP-APIGW-API-KEY-ID": NAVER_CLIENT_ID,
@@ -331,7 +364,7 @@ def _request_naver(keyword: str) -> dict:
     }
     params = {
         "query": keyword,
-        "display": NAVER_DISPLAY_COUNT,
+        "display": display,
         "start": 1,
         "sort": "date",
     }
@@ -345,7 +378,7 @@ def _request_naver(keyword: str) -> dict:
     return resp.json()
 
 
-def fetch_naver_news(keyword: str) -> list:
+def fetch_naver_news(keyword: str, display: int = 30) -> list:
     if not NAVER_CLIENT_ID or not NAVER_CLIENT_SECRET:
         raise RuntimeError("네이버 API 키가 설정되지 않았습니다.")
 
@@ -355,7 +388,7 @@ def fetch_naver_news(keyword: str) -> list:
     # 최대 2회 시도(최초 1회 + 일시적 오류로 보일 때 1회 재시도).
     for attempt in range(2):
         try:
-            data = _request_naver(keyword)
+            data = _request_naver(keyword, display)
             break
 
         except requests.RequestException as e:
@@ -479,27 +512,36 @@ def _has_phrase(text: str, phrases: list) -> bool:
     return any(normalize_title(p) in text_norm for p in phrases)
 
 
-def filter_by_keyword(articles: list) -> list:
-    """검색어가 부분 일치로만 걸린 기사를 걸러낸다."""
+def filter_by_keyword(articles: list, topic: dict) -> list:
+    """검색어가 부분 일치로만 걸린 기사, 다른 주제로 보낼 기사를 걸러낸다."""
+    required = topic["required_phrases"]
+    other = TOPIC_BY_KEY.get(topic.get("skip_if_topic") or "")
     kept = []
     for article in articles:
         title = article["title"]
+        text = article.get("match_text", title)
 
-        if _has_phrase(title, EXCLUDE_TITLE_PHRASES) and not _has_phrase(
-            title, REQUIRED_PHRASES
+        if _has_phrase(title, topic["exclude_title_phrases"]) and not _has_phrase(
+            title, required
         ):
-            logger.info("제외(제외 단어): %s", title)
+            logger.info("[%s] 제외(제외 단어): %s", topic["key"], title)
             continue
 
-        if article.get("source_type") == "naver" and not _has_phrase(
-            article.get("match_text", title), REQUIRED_PHRASES
-        ):
-            logger.info("제외(검색어 없음): %s", title)
+        if topic["require_in_title"]:
+            if not _has_phrase(title, required):
+                logger.info("[%s] 제외(제목에 검색어 없음): %s", topic["key"], title)
+                continue
+        elif article.get("source_type") == "naver" and not _has_phrase(text, required):
+            logger.info("[%s] 제외(검색어 없음): %s", topic["key"], title)
+            continue
+
+        if other and _has_phrase(text, other["required_phrases"]):
+            logger.info("[%s] 제외(%s 탭으로 발송): %s", topic["key"], other["key"], title)
             continue
 
         kept.append(article)
 
-    logger.info("키워드 필터: %s건 중 %s건 유지", len(articles), len(kept))
+    logger.info("[%s] 키워드 필터: %s건 중 %s건 유지", topic["key"], len(articles), len(kept))
     return kept
 
 
@@ -586,14 +628,14 @@ def _content_tokens(article: dict) -> set:
     """제목+요약에서 자카드 유사도 비교용 핵심 단어 집합을 뽑는다."""
     text = f"{article.get('title', '')} {article.get('summary', '')}"
     words = re.findall(r"[0-9A-Za-z가-힣]{2,}", text)
-    keyword_norm = normalize_title(SEARCH_KEYWORD)
+    key_norms = {normalize_title(p) for t in TOPICS for p in t["required_phrases"]}
     tokens = set()
     for w in words:
         if w in SAME_STORY_STOPWORDS:
             continue
         # 검색 키워드 자체(예: "지방소멸대응기금")는 모든 기사에 공통으로
         # 등장해 변별력이 없으므로 제외한다.
-        if normalize_title(w) == keyword_norm:
+        if normalize_title(w) in key_norms:
             continue
         tokens.add(w)
     return tokens
@@ -692,20 +734,50 @@ def group_related_articles(articles: list) -> list:
 # ------------------------------------------------------------------
 # 5. 발송 이력 (오전/오후 회차 간 중복 방지)
 # ------------------------------------------------------------------
+def _empty_topic_state() -> dict:
+    return {"articles": [], "last_checked_utc": None}
+
+
 def load_state() -> dict:
-    """기존 목록 형식의 이력도 읽고, 새 형식으로 자동 전환합니다."""
-    if not os.path.exists(HISTORY_FILE):
-        return {"version": 2, "articles": [], "last_checked_utc": None}
-    try:
-        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-    except (json.JSONDecodeError, OSError) as e:
-        raise RuntimeError("발송 이력 읽기 실패. 기존 파일을 확인하세요.") from e
-    if isinstance(data, list):
-        return {"version": 2, "articles": data, "last_checked_utc": None}
-    if isinstance(data, dict) and isinstance(data.get("articles"), list):
-        return data
-    raise RuntimeError("sent_history.json의 형식이 올바르지 않습니다.")
+    """이전 형식(v1 목록, v2 단일 주제)도 읽어 주제별 형식(v3)으로 전환합니다."""
+    data = None
+    if os.path.exists(HISTORY_FILE):
+        try:
+            with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except (json.JSONDecodeError, OSError) as e:
+            raise RuntimeError("발송 이력 읽기 실패. 기존 파일을 확인하세요.") from e
+
+    if data is None:
+        state = {"version": 3, "topics": {}, "slot_runs": {}}
+    elif isinstance(data, list):
+        # v1: 기사 목록만 있던 형식 → 기금 주제의 이력으로 이전
+        state = {"version": 3, "topics": {"fund": {"articles": data, "last_checked_utc": None}}, "slot_runs": {}}
+    elif isinstance(data, dict) and isinstance(data.get("topics"), dict):
+        state = data
+    elif isinstance(data, dict) and isinstance(data.get("articles"), list):
+        # v2: 기금 단일 주제 형식 → 기금 주제로 이전
+        state = {
+            "version": 3,
+            "topics": {
+                "fund": {
+                    "articles": data["articles"],
+                    "last_checked_utc": data.get("last_checked_utc"),
+                }
+            },
+            "slot_runs": data.get("slot_runs") or {},
+        }
+    else:
+        raise RuntimeError("sent_history.json의 형식이 올바르지 않습니다.")
+
+    state["version"] = 3
+    if not isinstance(state.get("slot_runs"), dict):
+        state["slot_runs"] = {}
+    for topic in TOPICS:
+        ts = state["topics"].get(topic["key"])
+        if not isinstance(ts, dict) or not isinstance(ts.get("articles"), list):
+            state["topics"][topic["key"]] = _empty_topic_state()
+    return state
 
 
 def prune_history(history: list, now_utc: datetime) -> list:
@@ -745,10 +817,10 @@ def save_state(state: dict) -> None:
         raise RuntimeError("발송 이력 저장 실패") from e
 
 
-def extend_window(run_ctx: dict, state: dict) -> dict:
-    """기본 조회 범위와 마지막 정상 조회 시각 중 더 이른 시각부터 조회."""
+def extend_window(run_ctx: dict, topic_state: dict) -> datetime:
+    """기본 조회 범위와 (주제별) 마지막 정상 조회 시각 중 더 이른 시각을 반환."""
     cutoff = run_ctx["cutoff_utc"]
-    raw = state.get("last_checked_utc")
+    raw = topic_state.get("last_checked_utc")
     if raw:
         try:
             last = datetime.fromisoformat(raw)
@@ -764,8 +836,7 @@ def extend_window(run_ctx: dict, state: dict) -> dict:
     if cutoff < earliest:
         logger.warning("미조회 기간이 48시간을 초과하여 최근 48시간만 복구 조회합니다.")
         cutoff = earliest
-    run_ctx["cutoff_utc"] = cutoff
-    return run_ctx
+    return cutoff
 
 
 def is_in_history(article: dict, history: list) -> bool:
@@ -818,12 +889,12 @@ def escape_html(text: str) -> str:
     return html.escape(text, quote=False)
 
 
-def build_messages(articles: list, run_ctx: dict) -> list:
+def build_messages(articles: list, run_ctx: dict, topic: dict) -> list:
     """각 메시지와 그 메시지에 포함된 기사 목록을 함께 반환합니다."""
     start = run_ctx["cutoff_utc"].astimezone(KST).strftime("%m-%d %H:%M")
     end = run_ctx["now_utc"].astimezone(KST).strftime("%m-%d %H:%M")
     header = (
-        f"📰 <b>{escape_html(SEARCH_KEYWORD)} 뉴스 브리핑</b>\n"
+        f"{topic['emoji']} <b>{escape_html(topic['name'])} 뉴스 브리핑</b>\n"
         f"예약 회차: {escape_html(run_ctx['label'])}\n"
         f"실제 시작: {escape_html(run_ctx['actual_start_kst'])} KST\n"
         f"조회 범위: {start} ~ {end} KST\n"
@@ -869,7 +940,18 @@ def build_messages(articles: list, run_ctx: dict) -> list:
 # ------------------------------------------------------------------
 # 7. 텔레그램 전송
 # ------------------------------------------------------------------
-def send_telegram_message(text: str) -> bool:
+def get_thread_id(topic: dict):
+    """주제 탭 번호. 비어 있으면 None(그룹 기본 대화로 발송)."""
+    raw = (os.environ.get(topic["thread_env"]) or "").strip()
+    if not raw:
+        return None
+    if not raw.isdigit():
+        logger.error("%s 값이 숫자가 아닙니다(%r). 기본 대화로 보냅니다.", topic["thread_env"], raw)
+        return None
+    return int(raw)
+
+
+def send_telegram_message(text: str, thread_id=None) -> bool:
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
         logger.error(
             "TELEGRAM_TOKEN 또는 TELEGRAM_CHAT_ID가 설정되지 않았습니다."
@@ -883,6 +965,8 @@ def send_telegram_message(text: str) -> bool:
         "parse_mode": "HTML",
         "disable_web_page_preview": True,
     }
+    if thread_id:
+        payload["message_thread_id"] = thread_id
 
     try:
         resp = requests.post(url, data=payload, timeout=10)
@@ -912,15 +996,92 @@ def send_telegram_message(text: str) -> bool:
 # ------------------------------------------------------------------
 # 메인 실행
 # ------------------------------------------------------------------
+def collect_topic(topic: dict) -> tuple:
+    """주제의 모든 검색어로 수집. (기사 목록, 실패 목록, 전부 실패 여부)"""
+    articles, errors, calls = [], [], 0
+    jobs = [("네이버", q, lambda q: fetch_naver_news(q, topic["naver_display"])) for q in topic["naver_queries"]]
+    jobs += [("구글", q, fetch_google_news) for q in topic["google_queries"]]
+    for name, query, fetch in jobs:
+        calls += 1
+        try:
+            articles.extend(fetch(query))
+        except Exception as e:
+            logger.error("[%s] %s 수집 실패(%s): %s", topic["key"], name, query, e)
+            errors.append(f"{name}({query})")
+    return articles, errors, len(errors) == calls
+
+
+def process_topic(topic: dict, state: dict, run_ctx: dict) -> tuple:
+    """주제 1개를 수집·발송. (텔레그램 전부 성공 여부, 수집 전부 실패 여부)"""
+    key = topic["key"]
+    ts = state["topics"][key]
+    ts["articles"] = prune_history(ts["articles"], run_ctx["now_utc"])
+    thread_id = get_thread_id(topic)
+
+    ctx = dict(run_ctx)
+    ctx["cutoff_utc"] = extend_window(run_ctx, ts)
+    logger.info("[%s] 조회 시작(UTC)=%s / 탭 번호=%s", key, ctx["cutoff_utc"].isoformat(), thread_id or "기본")
+
+    articles, errors, all_failed = collect_topic(topic)
+    ctx["source_errors"] = errors
+
+    if all_failed:
+        alert_text = (
+            f"⚠ <b>{escape_html(topic['name'])} 뉴스 봇 오류</b>\n"
+            f"예약 회차: {escape_html(run_ctx['label'])}\n"
+            f"실제 시작: {escape_html(run_ctx['actual_start_kst'])} KST\n"
+            "네이버·구글 뉴스 수집이 모두 실패하여 "
+            "이번 회차는 기사를 보내지 못했습니다.\n"
+            "GitHub Actions 실행 로그를 확인해주세요."
+        )
+        send_telegram_message(alert_text, thread_id)
+        return False, True
+
+    articles = filter_by_keyword(articles, topic)
+    recent = filter_recent_articles(articles, ctx["cutoff_utc"], ctx["now_utc"])
+    recent.sort(
+        key=lambda a: a["pub_date"] or datetime.min.replace(tzinfo=timezone.utc),
+        reverse=True,
+    )
+    # 다른 주제(예: 기금)에서 이미 보낸 기사도 이 주제에서 다시 보내지 않음
+    history_for_check = list(ts["articles"])
+    if topic.get("skip_if_topic"):
+        history_for_check += state["topics"][topic["skip_if_topic"]]["articles"]
+    new_articles = filter_against_history(deduplicate(recent), history_for_check)
+    grouped_articles = group_related_articles(new_articles)
+    messages = build_messages(grouped_articles, ctx, topic)
+
+    success_count = 0
+    for message, included in messages:
+        if send_telegram_message(message, thread_id):
+            success_count += 1
+            # 묶음으로 보낸 기사는 함께 묶인 다른 언론사 기사까지 이력에 기록
+            sent_articles = []
+            for art in included:
+                sent_articles.extend(art.get("cluster_members", [art]))
+            ts["articles"] = append_to_history(
+                ts["articles"], sent_articles, datetime.now(timezone.utc)
+            )
+            save_state(state)
+        time.sleep(1)
+
+    all_sent = success_count == len(messages)
+    # 일부 소스가 실패했다면 조회 완료 시각을 갱신하지 않아 다음 회차가 다시 조회
+    if all_sent and not errors:
+        ts["last_checked_utc"] = run_ctx["now_utc"].isoformat()
+    save_state(state)
+    logger.info("[%s] 메시지 %s/%s개 전송 성공", key, success_count, len(messages))
+    if errors:
+        logger.warning("[%s] 일부 수집 실패: %s", key, ", ".join(errors))
+    return all_sent, False
+
+
 def main():
     run_ctx = get_run_context()
     state = load_state()
 
-    slot_runs = state.get("slot_runs")
-    if not isinstance(slot_runs, dict):
-        slot_runs = {}
     slot = run_ctx["slot"]
-    if slot and slot_runs.get(slot) == run_ctx["slot_date"]:
+    if slot and state["slot_runs"].get(slot) == run_ctx["slot_date"]:
         # 외부 호출로 이미 이 회차를 보냈거나, 백업이 먼저 보낸 경우.
         # 이력 파일을 건드리지 않고 조용히 종료합니다(텔레그램 메시지 없음).
         logger.info(
@@ -929,101 +1090,32 @@ def main():
         )
         return
 
-    state["slot_runs"] = slot_runs
-    state["version"] = 2
-    state["articles"] = prune_history(state["articles"], run_ctx["now_utc"])
-    run_ctx = extend_window(run_ctx, state)
     save_state(state)
-    logger.info(
-        "회차=%s / 실제 시작(KST)=%s / 조회 시작(UTC)=%s",
-        run_ctx["label"], run_ctx["actual_start_kst"],
-        run_ctx["cutoff_utc"].isoformat(),
-    )
-    articles, errors = [], []
-    for name, fetch, query in [
-        ("네이버", fetch_naver_news, SEARCH_KEYWORD),
-        ("구글", fetch_google_news, GOOGLE_QUERY),
-    ]:
+    logger.info("회차=%s / 실제 시작(KST)=%s", run_ctx["label"], run_ctx["actual_start_kst"])
+
+    send_failed, collect_failed = [], []
+    for topic in TOPICS:
+        # 한 주제에서 예외가 나도 다른 주제는 계속 발송
         try:
-            articles.extend(fetch(query))
+            all_sent, all_failed = process_topic(topic, state, run_ctx)
         except Exception as e:
-            # 실패 원인을 그대로 로그에 남깁니다 (기존에는 예외 타입 이름만
-            # 남아 원인 파악이 불가능했습니다).
-            logger.error("%s 수집 실패: %s", name, e)
-            errors.append(name)
-    run_ctx["source_errors"] = errors
+            logger.exception("[%s] 처리 중 오류: %s", topic["key"], e)
+            all_sent, all_failed = False, False
+        if not all_sent and not all_failed:
+            send_failed.append(topic["key"])
+        if all_failed:
+            collect_failed.append(topic["key"])
 
-    if len(errors) == 2:
-        # 두 소스 모두 실패해 이번 회차엔 보낼 기사가 전혀 없는 상태.
-        # GitHub Actions 로그만으로는 바로 알기 어려우니 텔레그램에도 알립니다.
-        alert_text = (
-            f"⚠ <b>{escape_html(SEARCH_KEYWORD)} 뉴스 봇 오류</b>\n"
-            f"예약 회차: {escape_html(run_ctx['label'])}\n"
-            f"실제 시작: {escape_html(run_ctx['actual_start_kst'])} KST\n"
-            "네이버·구글 뉴스 수집이 모두 실패하여 "
-            "이번 회차는 기사를 보내지 못했습니다.\n"
-            "GitHub Actions 실행 로그를 확인해주세요."
-        )
-        send_telegram_message(alert_text)
-        raise RuntimeError("모든 뉴스 수집 실패. 조회 완료 시각은 갱신하지 않습니다.")
-
-    articles = filter_by_keyword(articles)
-    recent = filter_recent_articles(articles, run_ctx["cutoff_utc"], run_ctx["now_utc"])
-    recent.sort(
-        key=lambda a: a["pub_date"] or datetime.min.replace(tzinfo=timezone.utc),
-        reverse=True,
-    )
-    new_articles = filter_against_history(deduplicate(recent), state["articles"])
-    # 같은 소식을 다른 언론사가 다르게 보도한 기사들을 대표 기사 1건으로 묶는다.
-    grouped_articles = group_related_articles(new_articles)
-    messages = build_messages(grouped_articles, run_ctx)
-    success_count = 0
-    for message, included in messages:
-        if send_telegram_message(message):
-            success_count += 1
-            # 일부 메시지만 성공해도 그 메시지에 포함된 기사만 즉시 기록.
-            # 묶음으로 보낸 기사는 대표 기사뿐 아니라 함께 묶인 다른
-            # 언론사 기사까지 전부 이력에 남겨, 다음 회차에 "새 기사"로
-            # 다시 나타나지 않도록 한다.
-            sent_articles = []
-            for art in included:
-                sent_articles.extend(art.get("cluster_members", [art]))
-            state["articles"] = append_to_history(
-                state["articles"], sent_articles, datetime.now(timezone.utc)
-            )
-            save_state(state)
-        time.sleep(1)
-
-    all_sent = success_count == len(messages)
-    # last_checked_utc는 "이번 회차의 모든 소스를 문제없이 확인했다"는
-    # 의미이므로, 일부 소스가 실패했다면 갱신하지 않아 다음 회차가
-    # 그 구간을 다시 조회하도록 그대로 둡니다.
-    if all_sent and not errors:
-        state["last_checked_utc"] = run_ctx["now_utc"].isoformat()
-    # 텔레그램 발송이 모두 성공했으면 이 회차는 끝난 것으로 기록합니다.
-    # (일부 소스만 실패한 경우도 브리핑은 이미 나갔으므로 기록하며,
-    #  빠진 구간은 last_checked_utc가 그대로라 다음 회차에서 다시 조회됩니다.)
-    if all_sent and slot:
+    # 모든 주제가 정상 발송됐을 때만 이 회차를 완료로 기록합니다.
+    # (하나라도 실패하면 백업 실행이 다시 시도하며, 이미 보낸 기사는 이력으로 걸러집니다.)
+    if slot and not send_failed and not collect_failed:
         state["slot_runs"][slot] = run_ctx["slot_date"]
     save_state(state)
-    logger.info("메시지 %s/%s개 전송 성공", success_count, len(messages))
 
-    if not all_sent:
-        # 텔레그램 발송 자체가 실패한 경우만 워크플로를 실패로 표시합니다.
-        logger.error(
-            "텔레그램 발송 실패: %s/%s개만 성공", success_count, len(messages)
-        )
+    if send_failed or collect_failed:
+        logger.error("발송 실패 주제: %s / 수집 전부 실패 주제: %s",
+                     send_failed or "-", collect_failed or "-")
         sys.exit(1)
-
-    if errors:
-        # 발송은 정상적으로 끝났지만 일부 소스가 실패한 경우.
-        # 메시지 헤더에도 이미 경고가 포함되어 있으므로(build_messages),
-        # 여기서는 워크플로를 실패로 표시하지 않고 로그만 남깁니다.
-        logger.warning(
-            "일부 뉴스 소스 수집 실패로 이번 회차는 해당 소스 기사가 "
-            "빠졌을 수 있습니다: %s",
-            ", ".join(errors),
-        )
 
 
 if __name__ == "__main__":
