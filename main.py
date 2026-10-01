@@ -1,12 +1,12 @@
 """
-지방소멸대응기금 · 인구감소지역 뉴스 자동 스크랩 & 텔레그램 전송
+지방소멸대응기금 · 인구감소지역 · 생활인구 뉴스 자동 스크랩 & 텔레그램 전송
 
 [주제별 분리 발송 - 2026-09]
 한 번 실행할 때 TOPICS에 정의된 주제(기금, 인구감소지역)를 차례로
 수집해, 텔레그램 그룹의 주제(Topics) 탭으로 각각 보냅니다.
 - 발송 이력과 마지막 조회 시각은 주제별로 따로 관리
-- 두 주제에 모두 해당하는 기사는 기금 탭에만 발송
-- 탭 번호(TELEGRAM_TOPIC_FUND / TELEGRAM_TOPIC_POP)가 비어 있으면
+- 여러 주제에 해당하는 기사는 기금 > 인구감소지역 > 생활인구 순으로 한 탭에만 발송
+- 탭 번호(TELEGRAM_TOPIC_FUND / _POP / _LIFE)가 비어 있으면
   그룹의 기본(General) 대화로 보냄 → 탭 설정 전에도 발송은 정상 동작
 
 - 네이버 뉴스 검색 API + 구글 뉴스 RSS
@@ -25,7 +25,7 @@ GitHub 예약(schedule) 실행이 매번 2~5시간씩 지연되어, 정시 발�
 외부 스케줄러(cron-job.org)가 GitHub API로 workflow_dispatch를
 호출하는 방식으로 바꿨습니다. 수동 실행과 같은 경로라 예약 대기열의
 지연을 받지 않습니다.
-- 정시 실행: 외부 스케줄러가 slot=am(오전 09시), slot=pm(오후 17시)으로 호출
+- 정시 실행: 외부 스케줄러가 slot=am(오전 08시), slot=pm(오후 17시)으로 호출
 - 백업 실행: GitHub 예약(schedule)은 외부 호출이 실패한 날을 대비한
   예비용으로만 남겨두고, 같은 날 같은 회차가 이미 발송됐으면 아무것도
   보내지 않고 조용히 종료
@@ -90,7 +90,8 @@ logger = logging.getLogger(__name__)
 # exclude_title_phrases: 제목에 이 단어가 있고 required_phrases가 없으면 제외
 # naver_display        : 네이버 검색어 1개당 가져올 기사 수(최대 100)
 # thread_env           : 텔레그램 주제 탭 번호를 담은 환경변수 이름
-# skip_if_topic        : 이 주제 기준에도 맞는 기사는 여기서 제외(중복 발송 방지)
+# skip_if_topics       : 이 주제들의 기준에도 맞는 기사는 여기서 제외(중복 발송 방지)
+#                        우선순위: 기금 > 인구감소지역 > 생활인구
 TOPICS = [
     {
         "key": "fund",
@@ -103,7 +104,7 @@ TOPICS = [
         "exclude_title_phrases": ["미래대응기금"],
         "naver_display": 30,
         "thread_env": "TELEGRAM_TOPIC_FUND",
-        "skip_if_topic": None,
+        "skip_if_topics": [],
     },
     {
         "key": "pop",
@@ -112,12 +113,25 @@ TOPICS = [
         "naver_queries": ["인구감소지역"],
         "google_queries": ['"인구감소지역"'],
         "required_phrases": ["인구감소지역"],
-        # 인구감소지역은 지역 기사가 많아 제목에 등장한 기사만 받습니다.
+        # 지역 기사가 많아 제목에 등장한 기사만 받습니다.
         "require_in_title": True,
         "exclude_title_phrases": [],
         "naver_display": 100,
         "thread_env": "TELEGRAM_TOPIC_POP",
-        "skip_if_topic": "fund",
+        "skip_if_topics": ["fund"],
+    },
+    {
+        "key": "life",
+        "name": "생활인구",
+        "emoji": "👥",
+        "naver_queries": ["생활인구"],
+        "google_queries": ['"생활인구"'],
+        "required_phrases": ["생활인구"],
+        "require_in_title": True,
+        "exclude_title_phrases": [],
+        "naver_display": 100,
+        "thread_env": "TELEGRAM_TOPIC_LIFE",
+        "skip_if_topics": ["fund", "pop"],
     },
 ]
 TOPIC_BY_KEY = {t["key"]: t for t in TOPICS}
@@ -175,20 +189,20 @@ KST = timezone(timedelta(hours=9))
 # 돌아도 전날 오후 회차로 판정되어, 다음 날 오후 발송을 막지 않습니다.
 SLOTS = {
     "am": {
-        "label": "오전 회차(09:00)",
-        "lookback_hours": 16,
-        "slot_date_offset_hours": 7,
+        "label": "오전 회차(08:00)",
+        "lookback_hours": 15,
+        "slot_date_offset_hours": 6,
     },
     "pm": {
         "label": "오후 회차(17:00)",
-        "lookback_hours": 8,
+        "lookback_hours": 9,
         "slot_date_offset_hours": 15,
     },
 }
 
 # 백업용 GitHub 예약식(UTC) → 회차. news_cron.yml의 cron과 반드시 일치해야 합니다.
 BACKUP_CRON_TO_SLOT = {
-    "20 0 * * *": "am",  # 한국시간 09:20
+    "20 23 * * *": "am",  # 한국시간 08:20
     "20 8 * * *": "pm",  # 한국시간 17:20
 }
 
@@ -512,10 +526,16 @@ def _has_phrase(text: str, phrases: list) -> bool:
     return any(normalize_title(p) in text_norm for p in phrases)
 
 
+def _qualifies_for(article: dict, topic: dict) -> bool:
+    """다른 주제의 기준(제목 필수 여부 포함)으로 봐도 해당되는 기사인지."""
+    target = article["title"] if topic["require_in_title"] else article.get("match_text", article["title"])
+    return _has_phrase(target, topic["required_phrases"])
+
+
 def filter_by_keyword(articles: list, topic: dict) -> list:
     """검색어가 부분 일치로만 걸린 기사, 다른 주제로 보낼 기사를 걸러낸다."""
     required = topic["required_phrases"]
-    other = TOPIC_BY_KEY.get(topic.get("skip_if_topic") or "")
+    others = [TOPIC_BY_KEY[k] for k in topic.get("skip_if_topics", [])]
     kept = []
     for article in articles:
         title = article["title"]
@@ -535,8 +555,9 @@ def filter_by_keyword(articles: list, topic: dict) -> list:
             logger.info("[%s] 제외(검색어 없음): %s", topic["key"], title)
             continue
 
-        if other and _has_phrase(text, other["required_phrases"]):
-            logger.info("[%s] 제외(%s 탭으로 발송): %s", topic["key"], other["key"], title)
+        owner = next((o for o in others if _qualifies_for(article, o)), None)
+        if owner:
+            logger.info("[%s] 제외(%s 탭으로 발송): %s", topic["key"], owner["key"], title)
             continue
 
         kept.append(article)
@@ -1045,8 +1066,8 @@ def process_topic(topic: dict, state: dict, run_ctx: dict) -> tuple:
     )
     # 다른 주제(예: 기금)에서 이미 보낸 기사도 이 주제에서 다시 보내지 않음
     history_for_check = list(ts["articles"])
-    if topic.get("skip_if_topic"):
-        history_for_check += state["topics"][topic["skip_if_topic"]]["articles"]
+    for other_key in topic.get("skip_if_topics", []):
+        history_for_check += state["topics"][other_key]["articles"]
     new_articles = filter_against_history(deduplicate(recent), history_for_check)
     grouped_articles = group_related_articles(new_articles)
     messages = build_messages(grouped_articles, ctx, topic)
