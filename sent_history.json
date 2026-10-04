@@ -4,81 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "agrinet.co.kr/news/articleView.html?idxno=407615",
-          "title_norm": "강원도빈축사청년에임대제공",
-          "sent_at": "2026-10-02T07:57:24.199629+00:00"
-        },
-        {
-          "link": "bzeronews.com/news/articleView.html?idxno=823371",
-          "title_norm": "영동가을길달린뒤국악축제까지funrun18일출발",
-          "sent_at": "2026-10-02T07:57:24.199629+00:00"
-        },
-        {
-          "link": "newsis.com/view/NISX20261002_0003811937",
-          "title_norm": "달리며먹고즐겨요영동군포레스트펀앤런18일개최",
-          "sent_at": "2026-10-02T07:57:24.199629+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiREFVX3lxTFBKWFdNQXlJaU5vZEVOb2dZWmZRa1VLclVKQTAyYjltSzEwaHMzSE9URUluLXlaZGdDMjZ3WUo1R1BTM3pB?oc=5",
-          "title_norm": "고흥군지방소멸대응기금투자사업추진상황점검",
-          "sent_at": "2026-10-02T07:57:24.199629+00:00"
-        },
-        {
-          "link": "daily.hankooki.com/news/articleView.html?idxno=1411794",
-          "title_norm": "고흥군지방소멸대응기금사업점검추진방향공유",
-          "sent_at": "2026-10-02T07:57:24.199629+00:00"
-        },
-        {
-          "link": "cnbnews.com/news/articleView.html?idxno=1018010",
-          "title_norm": "지방소멸기금어디에썼나영덕s등급받은영덕군지역살이청년",
-          "sent_at": "2026-10-02T07:57:24.199629+00:00"
-        },
-        {
-          "link": "viva100.com/article/20261002500445",
-          "title_norm": "경북테크노파크2026창업실무교육및네트워킹워크숍실시",
-          "sent_at": "2026-10-02T07:57:24.199629+00:00"
-        },
-        {
-          "link": "incheonin.com/news/articleView.html?idxno=121205",
-          "title_norm": "인천시제2차인구감소지역대응기본계획안주민의견수렴공고",
-          "sent_at": "2026-10-02T07:57:24.199629+00:00"
-        },
-        {
-          "link": "cnbnews.com/news/articleView.html?idxno=1017971",
-          "title_norm": "지방소멸기금어디에썼나정선강원유일s등급정선군408억원을",
-          "sent_at": "2026-10-02T07:57:24.199629+00:00"
-        },
-        {
-          "link": "viva100.com/article/20261002500298",
-          "title_norm": "기자수첩군위군tk신공항과군부대이전으로미래청사진제시",
-          "sent_at": "2026-10-02T07:57:24.199629+00:00"
-        },
-        {
-          "link": "cnbnews.com/news/articleView.html?idxno=1017959",
-          "title_norm": "지방소멸기금어디에썼나청도청도군492억원주거에서돌봄청",
-          "sent_at": "2026-10-02T07:57:24.199629+00:00"
-        },
-        {
-          "link": "cnbnews.com/news/articleView.html?idxno=1017958",
-          "title_norm": "지방소멸기금어디에썼나봉화봉화군376억원주거농업관광",
-          "sent_at": "2026-10-02T07:57:24.199629+00:00"
-        },
-        {
-          "link": "cnbnews.com/news/articleView.html?idxno=1017960",
-          "title_norm": "지방소멸기금어디에썼나성주a등급받은성주군390억원중315억",
-          "sent_at": "2026-10-02T07:57:24.199629+00:00"
-        },
-        {
-          "link": "cnbnews.com/news/articleView.html?idxno=1017961",
-          "title_norm": "지방소멸기금어디에썼나청송청송군지방소멸기금a등급80억원",
-          "sent_at": "2026-10-02T07:57:24.199629+00:00"
-        },
-        {
-          "link": "gukjenews.com/news/articleView.html?idxno=3711260",
-          "title_norm": "영동군포레스트영동funrun10월18일개최러닝국악관광결합",
-          "sent_at": "2026-10-02T07:57:24.199629+00:00"
-        },
-        {
           "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8676979&ref=A",
           "title_norm": "인구감소지역재지정추진강원도시군촉각",
           "sent_at": "2026-10-02T22:57:18.189051+00:00"
@@ -107,21 +32,66 @@
           "link": "fnnews.com/news/202610041035012017",
           "title_norm": "인구감소지역이달재지정강원도산정방식개선요구나서야",
           "sent_at": "2026-10-04T07:57:18.312404+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1018119",
+          "title_norm": "지방소멸기금어디에썼나횡성a등급횡성군꿈틀센터상반기566",
+          "sent_at": "2026-10-04T22:57:15.798561+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1018107",
+          "title_norm": "기획지방소멸기금어디에썼나문경문경시348억원관광도시에",
+          "sent_at": "2026-10-04T22:57:15.798561+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1018123",
+          "title_norm": "지방소멸기금어디에썼나속초산모162명품은공공산후조리원",
+          "sent_at": "2026-10-04T22:57:15.798561+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1018122",
+          "title_norm": "지방소멸기금어디에썼나동해동해청년도담센터공사단계로",
+          "sent_at": "2026-10-04T22:57:15.798561+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1018120",
+          "title_norm": "지방소멸기금어디에썼나삼척a등급삼척문화관광귀농기반",
+          "sent_at": "2026-10-04T22:57:15.798561+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1018118",
+          "title_norm": "지방소멸기금어디에썼나고성고성군a등급80억원확보해",
+          "sent_at": "2026-10-04T22:57:15.798561+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1018110",
+          "title_norm": "지방소멸기금어디에썼나영주a등급받은영주시늦어진사업다",
+          "sent_at": "2026-10-04T22:57:15.798561+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE5YanhKcnJKOW85RnRyVHczQ0pBZlJWcU1namRxREdqdktmT2dkcy1mU2ZmM1B5c0pEZmJDMXNVLXNTbTNVVXdSamoyU3lZNWNtSTlLQUdFTzFtd0FtTk9WNkd2VlhKd3BjY2N3?oc=5",
+          "title_norm": "지방소멸기금어디에썼나울진집행늦었던울진체류시설내년34월문연다",
+          "sent_at": "2026-10-04T22:57:15.798561+00:00"
+        },
+        {
+          "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8677448&ref=A",
+          "title_norm": "지방소멸기금으로농업기술센터신축실효성한계",
+          "sent_at": "2026-10-04T22:57:15.798561+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-04T07:57:12.903731+00:00"
+      "last_checked_utc": "2026-10-04T22:57:11.280783+00:00"
     },
     "pop": {
       "articles": [],
-      "last_checked_utc": "2026-10-04T07:57:12.903731+00:00"
+      "last_checked_utc": "2026-10-04T22:57:11.280783+00:00"
     },
     "life": {
       "articles": [],
-      "last_checked_utc": "2026-10-04T07:57:12.903731+00:00"
+      "last_checked_utc": "2026-10-04T22:57:11.280783+00:00"
     }
   },
   "slot_runs": {
     "pm": "2026-10-04",
-    "am": "2026-10-04"
+    "am": "2026-10-05"
   }
 }
