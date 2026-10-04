@@ -4,46 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "kwangju.co.kr/article.php?aid=1790892000803899004",
-          "title_norm": "새집넘치는광주빈집넘치는전남맞춤주택정책시급",
-          "sent_at": "2026-10-01T22:57:16.701973+00:00"
-        },
-        {
-          "link": "seoul.co.kr/news/plan/youngman_area_future/2026/10/02/20261002012003?wlog_tag3=naver",
-          "title_norm": "서울신문삼성공동캠페인시설넘어사람투자100만유튜버",
-          "sent_at": "2026-10-01T22:57:16.701973+00:00"
-        },
-        {
-          "link": "kwnews.co.kr/article/20261001501387",
-          "title_norm": "사설도정질문집행부비판넘어현실적대안제시를",
-          "sent_at": "2026-10-01T22:57:16.701973+00:00"
-        },
-        {
-          "link": "weeklytoday.com/news/articleView.html?idxno=796698",
-          "title_norm": "위클리오늘경북tp2026창업실무교육및네트워킹워크숍개최",
-          "sent_at": "2026-10-01T22:57:16.701973+00:00"
-        },
-        {
-          "link": "dkilbo.com/news/articleView.html?idxno=555996",
-          "title_norm": "청년ceo성장이끈다경북tp창업실무교육워크숍열어",
-          "sent_at": "2026-10-01T22:57:16.701973+00:00"
-        },
-        {
-          "link": "jndn.com/article.php?aid=1790849137440612001",
-          "title_norm": "전남광주인구감소지역dx활용맞춤형ax전략필요",
-          "sent_at": "2026-10-01T22:57:16.701973+00:00"
-        },
-        {
-          "link": "kwnews.co.kr/article/20261001501515",
-          "title_norm": "강원디자인진흥원디자인으로지역소멸해법모색",
-          "sent_at": "2026-10-01T22:57:16.701973+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiVEFVX3lxTE5iTXBqWHJZVF8wSHZ2VGVFc3pYS0lQTVVRcVFWaDdWeDNnWVd1bkg0ZVdQQm5GQ3Q0bUdmY3o3aUhya243UFZtVTFwRFBxSk9jODhTLdIBWkFVX3lxTE5lTUYteGVSMl9qdFdZamVsQXI1RDRmNWhTSnc0MExzOTRHOVA2WlAzX3R3U1lZbkluUFJ2THFJYnhySS1CVzJZRmlLX1EzQmtjNU51azJab0JDdw?oc=5",
-          "title_norm": "전북진안군인구마지노선2만5000명대다시회복",
-          "sent_at": "2026-10-01T22:57:16.701973+00:00"
-        },
-        {
           "link": "agrinet.co.kr/news/articleView.html?idxno=407615",
           "title_norm": "강원도빈축사청년에임대제공",
           "sent_at": "2026-10-02T07:57:24.199629+00:00"
@@ -137,32 +97,31 @@
           "link": "breaknews.com/1240821",
           "title_norm": "영동군제57회영동난계국악축제와손잡고funrun체류형관광콘텐",
           "sent_at": "2026-10-02T22:57:18.189051+00:00"
-        }
-      ],
-      "last_checked_utc": "2026-10-03T22:57:11.720448+00:00"
-    },
-    "pop": {
-      "articles": [
-        {
-          "link": "ngonews.kr/news/articleView.html?idxno=239694",
-          "title_norm": "새마을금고중앙회비수도권인구감소지역취약계층금융사기예방교육",
-          "sent_at": "2026-10-01T22:57:20.216422+00:00"
         },
         {
-          "link": "news.google.com/rss/articles/CBMicEFVX3lxTE15TVR5NTdNSVZWXy1sYmVoaUlISnNpVW4xb2hXM0N2OE40X2FhQXlaSkI2OWZ3T3pwM05DRm9Ud0J4cDBBaG92V1VsR3psYWpmY0h6LVBKSU53RWlQNDU1NnV5eVVJSDR5NEpSVXVyaE0?oc=5",
-          "title_norm": "시니어와함께금융안전망새마을금고중앙회한국노인인력개발원비수도권인구감소지역금융사기예방교육확대",
-          "sent_at": "2026-10-01T22:57:20.216422+00:00"
+          "link": "ccdailynews.com/news/articleView.html?idxno=2444503",
+          "title_norm": "영동군가을관광과러닝결합한funrun개최",
+          "sent_at": "2026-10-04T07:57:18.312404+00:00"
+        },
+        {
+          "link": "fnnews.com/news/202610041035012017",
+          "title_norm": "인구감소지역이달재지정강원도산정방식개선요구나서야",
+          "sent_at": "2026-10-04T07:57:18.312404+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-03T22:57:11.720448+00:00"
+      "last_checked_utc": "2026-10-04T07:57:12.903731+00:00"
+    },
+    "pop": {
+      "articles": [],
+      "last_checked_utc": "2026-10-04T07:57:12.903731+00:00"
     },
     "life": {
       "articles": [],
-      "last_checked_utc": "2026-10-03T22:57:11.720448+00:00"
+      "last_checked_utc": "2026-10-04T07:57:12.903731+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-10-03",
+    "pm": "2026-10-04",
     "am": "2026-10-04"
   }
 }
