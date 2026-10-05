@@ -87,9 +87,34 @@
           "link": "idomin.com/news/articleView.html?idxno=2016284",
           "title_norm": "경남7개시군주택시장복합위기상황미분양노후주택빈집현황모",
           "sent_at": "2026-10-05T07:57:53.608736+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiT0FVX3lxTE5PSkxxNGRzZE9kTDlPOVdsOF9VekR4SUpBamFVSkVwYi1pUGdSWHRoR3QyNHJnWUlNeHlQcXJsVVdpSFExRGNuZVdtS2hIcFE?oc=5",
+          "title_norm": "인구제자리강화군인구감소지역재지정소멸구조여전",
+          "sent_at": "2026-10-05T22:57:21.364573+00:00"
+        },
+        {
+          "link": "hankyung.com/article/2026100537671",
+          "title_norm": "이심기칼럼재정경제부는완벽히해체됐다",
+          "sent_at": "2026-10-05T22:57:21.364573+00:00"
+        },
+        {
+          "link": "idaegu.co.kr/news/articleView.html?idxno=561396",
+          "title_norm": "청문리답조재구대구남구청장한번실패해도다시일어서는기회",
+          "sent_at": "2026-10-05T22:57:21.364573+00:00"
+        },
+        {
+          "link": "tk.newdaily.co.kr/site/data/html/2026/10/05/2026100500084.html",
+          "title_norm": "경북테크노파크청년기업80개사한자리에창업네트워크확대",
+          "sent_at": "2026-10-05T22:57:21.364573+00:00"
+        },
+        {
+          "link": "ccdn.co.kr/news/articleView.html?idxno=1103254",
+          "title_norm": "충북주택시장온도차청주안정옥천보은복합위기",
+          "sent_at": "2026-10-05T22:57:21.364573+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-05T07:57:48.136727+00:00"
+      "last_checked_utc": "2026-10-05T22:57:15.964825+00:00"
     },
     "pop": {
       "articles": [
@@ -102,17 +127,38 @@
           "link": "news.google.com/rss/articles/CBMiakFVX3lxTE5TcFhYZHRLb25XMHJEZ0h2aFFvR3Rybm5seFR1UjVLYlN6YmkzS1Q3b0ItZ29zSTdTR2wybWFKeDFZdGRodmFjeTlNVVNfVmpPYm90Q0twdHh2TmlaYUp2bnU1XzVZQUNma1E?oc=5",
           "title_norm": "박지원간병비급여화의역설농어촌인구감소지역또소외되나",
           "sent_at": "2026-10-05T07:57:57.294978+00:00"
+        },
+        {
+          "link": "sejungilbo.com/news/articleView.html?idxno=60428",
+          "title_norm": "서영교인구감소지역주택양도세종부세특례32년까지연장추진",
+          "sent_at": "2026-10-05T22:57:25.272038+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiakFVX3lxTE1CNmM4SThBTTV6Slc4QkdaQVREa19SRzhxTVdEVmhhN1lMbEh4d25QaDg1eUhLTTlGY0ZRVm1rWUZOVm4tWWdGcTVHTmFMN0VkcGpLVGcyOENNYktlSV9BcGNZTlF4WDRlYUE?oc=5",
+          "title_norm": "박지원의원장기요양병원동행시범사업지역격차인구감소지역10곳중8곳참여기관0",
+          "sent_at": "2026-10-05T22:57:25.272038+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZEFVX3lxTFBVaUVkSHhDNzB4OXdmU3kzRV9yQjFCTS1JMnQxZXVuV3JfNzhSenlyd3B6STY1OWxQc3RZNHdDRnkxemJMUDVEYkRPZWMydlc1NnAwMjFQVkJ0MzZvWGVDWDBQN2I?oc=5",
+          "title_norm": "노인일자리로인구감소지역취약계층금융사기예방나선다",
+          "sent_at": "2026-10-05T22:57:25.272038+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-05T07:57:48.136727+00:00"
+      "last_checked_utc": "2026-10-05T22:57:15.964825+00:00"
     },
     "life": {
-      "articles": [],
-      "last_checked_utc": "2026-10-05T07:57:48.136727+00:00"
+      "articles": [
+        {
+          "link": "news.google.com/rss/articles/CBMiZEFVX3lxTE5RUUUwQzhvMHptVmVTaldReFE4Tkp0UGs5NVI0eEFqS3p1SDBkNERhaDdKYjc1T014YzctYVRjMXBBS056eWRUTDdBOFJCZUYtTDYtb3lKdm1iVkNycHZuZXVxN1o?oc=5",
+          "title_norm": "화천군생활인구500만명유치목표제시",
+          "sent_at": "2026-10-05T22:57:28.909890+00:00"
+        }
+      ],
+      "last_checked_utc": "2026-10-05T22:57:15.964825+00:00"
     }
   },
   "slot_runs": {
     "pm": "2026-10-05",
-    "am": "2026-10-05"
+    "am": "2026-10-06"
   }
 }
