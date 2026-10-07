@@ -4,36 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "inews365.com/news/article.html?no=938009",
-          "title_norm": "영동군가을길달리고국악에빠지고18일funrun",
-          "sent_at": "2026-10-05T07:57:53.608736+00:00"
-        },
-        {
-          "link": "ccdn.co.kr/news/articleView.html?idxno=1103041",
-          "title_norm": "영동의가을길을달리고국악축제를즐긴다",
-          "sent_at": "2026-10-05T07:57:53.608736+00:00"
-        },
-        {
-          "link": "chungnamilbo.co.kr/news/articleView.html?idxno=913063",
-          "title_norm": "영동군포레스트fourstfourrest영동funrun18일개최",
-          "sent_at": "2026-10-05T07:57:53.608736+00:00"
-        },
-        {
-          "link": "cctimes.kr/news/articleView.html?idxno=930495",
-          "title_norm": "영동명소달리며관광문화도만끽",
-          "sent_at": "2026-10-05T07:57:53.608736+00:00"
-        },
-        {
-          "link": "fnnews.com/news/202610040902008432",
-          "title_norm": "단독지방재정공제회대체투자빨간불539억투자해328억손실",
-          "sent_at": "2026-10-05T07:57:53.608736+00:00"
-        },
-        {
-          "link": "idomin.com/news/articleView.html?idxno=2016284",
-          "title_norm": "경남7개시군주택시장복합위기상황미분양노후주택빈집현황모",
-          "sent_at": "2026-10-05T07:57:53.608736+00:00"
-        },
-        {
           "link": "news.google.com/rss/articles/CBMiT0FVX3lxTE5PSkxxNGRzZE9kTDlPOVdsOF9VekR4SUpBamFVSkVwYi1pUGdSWHRoR3QyNHJnWUlNeHlQcXJsVVdpSFExRGNuZVdtS2hIcFE?oc=5",
           "title_norm": "인구제자리강화군인구감소지역재지정소멸구조여전",
           "sent_at": "2026-10-05T22:57:21.364573+00:00"
@@ -397,22 +367,182 @@
           "link": "news.google.com/rss/articles/CBMiaEFVX3lxTFBqRUdMdXBDZVpkTHNQYk5nVjZEUVNiQkhqWFRXS2xKQ2FoRmxlSGFQQlpyTXRHSmVfdUpvV29nWEZIRUNOZjk2UW9nM0F2cjZhTXR6OG1RNWQwVHlPY3Y4STB2bDVYZU5G?oc=5",
           "title_norm": "강원인구감소지역12곳5년만재지정강릉속초인제는인구활력지역",
           "sent_at": "2026-10-07T07:57:20.519421+00:00"
+        },
+        {
+          "link": "biz.heraldcorp.com/article/10896329?ref=naver",
+          "title_norm": "경북인구감소지역15개시군유지예천칠곡관심지역신규지정",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "mt.co.kr/policy/2026/10/08/2026100719594659816",
+          "title_norm": "5년새또줄었다인구감소지역3곳추가",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "kado.net/news/articleView.html?idxno=2077045",
+          "title_norm": "자격유지12곳혜택관심강릉속초인제인구활력지역포함",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "idaegu.co.kr/news/articleView.html?idxno=561716",
+          "title_norm": "인구감소지역대구3곳경북15곳유지",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "knnews.co.kr/news/articleView.php?idxno=1552386",
+          "title_norm": "통영도인구감소지역경남12곳소멸경고등",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "pressian.com/pages/articles/2026100807465679146?utm_source=naver&utm_medium=search",
+          "title_norm": "예천군인구감소관심지역신규지정인구위기대응나선다",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "munhwa.com/article/11622071?ref=naver",
+          "title_norm": "동두천시인구감소지역지정위기를변화의기회로",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZkFVX3lxTE5kV0NQTFVKeTlNZ3BNMk1PdlVoMDQ5LU5QVll5bnAzQWYwQXlGRE50cFJkMUd1SGRhTVNKS1ZmZThjcE5MR2tYNHl2UnN5MV82NjVJOHJYV21qaG1QdzZvcmExZEZ6QQ?oc=5",
+          "title_norm": "예천군정부지원새발판인구감소관심지역신규지정",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "yeongnam.com/web/view.php?key=20261007021113087",
+          "title_norm": "대구서구5년만에인구감소지역오명씻어내",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "incheonilbo.com/news/articleView.html?idxno=1333709",
+          "title_norm": "정부강화옹진군인구감소지역재지정",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiY0FVX3lxTE5Kb0lEQm54ZjhPMUdQckJTOUVISkdnUy0zU1Z3UmViVFNHcGpRSzhBakQ0RDNkaG9SdlFvTm5DakpwQlhHaHVwNExSbW5pSXBZU1Z3VVR4R2NKalhQdEZDaG92dw?oc=5",
+          "title_norm": "대구서구경주인구활력지역전환예천칠곡인구감소관심지역신규지정",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiYEFVX3lxTE1TZ3FrcExkNWxndUc3SEtYcHRldjdESE1WR0UzbnU5UXlZR1VjR1F3REZoUVd0VGs3dHp4M3JZS0tHb3A5TDNNd1BpYTE3bTVQSHA2SkZRUDlVX09LaTIxONIBWEFVX3lxTE1zOEJkWE1uREtpNVFGRWJmeWFMNmJDQlZyTVFGcldtUGVsTTVMOWFiQllkOEIxU1MtTHM0UDl3WEd3Nk9jZThWazJYWkt4eVVqUmZKRTUtdVI?oc=5",
+          "title_norm": "동두천시인구감소지역지정지방소멸대응기금주민생활에무엇이달라지나",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiQkFVX3lxTE5yTnpmVGpQdWhuZWdLbzlRaW85NWRITUl0dlJBTnpzT3ozTExweXl5VnhadGFncmh5RlZiclZPVGlSZw?oc=5",
+          "title_norm": "전북10개시군인구감소지역에재지정",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTFBkajN5b1c4VWJjTTNnUGNra2ZrQml4akc3d2dOUzZULTlHRE9xX3hhNWdHVXVOM2cxQ3JpVURleGNsRm1oOU1USHh4eE9NNDFSTEdQaVRQZ2d2azN3QkNseWVLakk5T0hpdnVKWlNB?oc=5",
+          "title_norm": "동두천시인구감소지역신규지정지방소멸위기전환점으로",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiQ0FVX3lxTE12OGxSQVRaRXc2YlJqMVVfM3lMb1RxbkxTcFJJOWNPMHZsQ0g4T3RYclpMS2w5T240YWVBYk5WYXJxUTQ?oc=5",
+          "title_norm": "동두천시행정안전부인구감소지역지정",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE5OSF91bzc4endnTm5NaVoxVWJMTFBQY04waTk5dTJEak5zM01FblNKMS1SNnU3TVJLdXdZRGZUaHNFQ0xSNENab0lRbUhJRkFMWmFwdTNuS21QMXNCa3FnTFctcFhUSHJOcmJR?oc=5",
+          "title_norm": "충청권15곳인구감소지역재지정",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiYEFVX3lxTE51Z2s1cXpzbExpZnZXQm5ud3RoV0hNay1qQ3NpczhmeUJYdlBaR1dYTG0wRGJHSW84SXVQSVZFSF9xRjNpSlZ2UE1KNTdSekRTNUI5Z2ZmM1pmbllzbkowQdIBeEFVX3lxTE5WNnFmYzNfZHlmTjVLLVpISktNN1ZFa3FXRUQtR2FTRlpONDFZQ05CYkRXM3FRWWtZUWMtZWxVTC1SQ0dJbU9scHlhNlRqM3FkbkVJU25rclpIUEpHTnZxa2ZhMHA4UG9wTHJLRkt4RlVKbzMwaXV3UQ?oc=5",
+          "title_norm": "동두천시인구감소지역지정에미래세대감소엄중인식",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "segye.com/newsView/20261008502296?OutUrl=naver",
+          "title_norm": "오늘아침짚어볼4가지누리호는우주로정부는녹색전환에1000조",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "donga.com/news/Society/article/all/20261008/134805818/2",
+          "title_norm": "부산금정통영동두천인구감소지역새로편입",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "yonhapnewstv.co.kr/news/MYH20261007231614OEV",
+          "title_norm": "부산금정동두천통영새인구감소지역총92곳으로늘어",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "khan.co.kr/article/202610072153005",
+          "title_norm": "부산금정경기동두천경남통영인구감소지역됐다",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "kwnews.co.kr/article/20261007501255",
+          "title_norm": "5년만에인구감소지역재지정강원인구사수절박함제대로반영됐나",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "kado.net/news/articleView.html?idxno=2077036",
+          "title_norm": "인제인구감소지역제외소멸가속반발",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "gnmaeil.com/news/articleView.html?idxno=596133",
+          "title_norm": "통영인구감소지역신규지정",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "knnews.co.kr/news/articleView.php?idxno=1552387",
+          "title_norm": "통영인구감소지역지정활력회복전환점만들것",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "ekn.kr/web/view.php?key=20261007020373562",
+          "title_norm": "패트롤경기도동두천시남양주시양주시의정부시",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "idaegu.co.kr/news/articleView.html?idxno=561708",
+          "title_norm": "인구여건개선대구서구한시름덜었다",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "ysmbc.co.kr/NewsArticle/1540077",
+          "title_norm": "광주전남인구감소지역16곳전국최다",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiakFVX3lxTFBPZDI3NlRnTWxEeDJ1Z2JWVWVXMEwxSkhMSnJSR05iQmQtdHJWT2ZzeVdXZUROU19VNlE3emw1TE82UmVnRkZCMHhhOVNwWGRhWWJBMnhzV2ZlUVJxM0hVT29sZ3R5T2NmOUE?oc=5",
+          "title_norm": "수도권대도시도못피했다동두천통영부산금정구인구감소지역추가",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiY0FVX3lxTE83Z0ItZGtublFYTzd1cmwydElkekExZzVBRGdJR1VXX0JlVENPNWU0R3FFcktnN3JYMC05S3RLR0YzRmtkQ3NBWnVHdVFmdC1GeGhidEVzVWpnSXpvcVBzQTJ3MA?oc=5",
+          "title_norm": "행정안전부5년만의인구감소지역재지정지역활력회복을위한지원을강화한다",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiakFVX3lxTE54NVV0MjBQUnlZWjRKNTIybUhGM3pOajZwLTdpQXgtSXVLQnJpcDJKOENuai1JNHdRaHMwWTI2b1k0T3lXSkNTRmh4OC1HYUJxVTdTb05QUE0xVWxldVpXMUtHeVRtUkJ3aXc?oc=5",
+          "title_norm": "2300억쏟고도충북6곳인구감소지역꼬리표여전",
+          "sent_at": "2026-10-07T22:57:18.402255+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMifEFVX3lxTE9LTko2WVdJNEFlYXdrZDNQOHRiVkdGRmxkcHg5NlBVc3FuSW1wQzBWOXN5WkxHeHdMQ1dYbTNYei1veThZYnFUNnBMR0pTdEZ2aDMwVDVCV3BDRG84Q3RDWWlMbXRkTFV2MVYtZWZTUFB4V1gyWmQ4TV9ENnk?oc=5",
+          "title_norm": "인구감소지역5년만에재지정부산금정경남통영새로편입부산4곳경남12곳",
+          "sent_at": "2026-10-07T22:57:19.990241+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMib0FVX3lxTE1sUGR3UkYyYkVhNnF4Qnlzd2Z3OVlLdFBSWGNXeGMzUVRjdXFuVFYxTnFXOTNKR2p6RTBkZjNEbHo3dnVXeEhlU3VYRDdPZFgxMXRiNDd2Wlg0R1lJSVF0dkJjb1A4VzdxV3plSjNiUdIBb0FVX3lxTE1sUGR3UkYyYkVhNnF4Qnlzd2Z3OVlLdFBSWGNXeGMzUVRjdXFuVFYxTnFXOTNKR2p6RTBkZjNEbHo3dnVXeEhlU3VYRDdPZFgxMXRiNDd2Wlg0R1lJSVF0dkJjb1A4VzdxV3plSjNiUQ?oc=5",
+          "title_norm": "박형덕동두천시장인구감소지역지정에전화위복기회삼겠다머니투데이",
+          "sent_at": "2026-10-07T22:57:19.990241+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMic0FVX3lxTE56ZV9MbWZUb1IwcU1JWXZZbTJUZzJUVXhiQkZXazlDVnlVTl9nY3NSSVdPbmlGT3NGWV9VTGxJQTNfTnBPMUV1VWNwZEliRDJPZkFraTRLVlRObHdUekpQTE5tWjh2a05qUjBXTDBNcm4ydVnSAXNBVV95cUxOemVfTG1mVG9SMHFNSVl2WW0yVGcyVFV4YkJGV2s5Q1Z5VU5fZ2NzUklXT25pRk9zRllfVUxsSUEzX05wTzFFdVVjcGRJYkQyT2ZBa2k0S1ZUTmx3VHpKUExObVo4dmtOalIwV0wwTXJuMnVZ?oc=5",
+          "title_norm": "인구20만부산금정구왜인구감소지역4만동구는활력찾았다",
+          "sent_at": "2026-10-07T22:57:19.990241+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-07T07:57:13.324981+00:00"
+      "last_checked_utc": "2026-10-07T22:57:13.347393+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "hankyung.com/article/2026100531991",
-          "title_norm": "인구감소지역여행땐기찻값0원해안도시선렌터카할인",
-          "sent_at": "2026-10-05T07:57:57.294978+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiakFVX3lxTE5TcFhYZHRLb25XMHJEZ0h2aFFvR3Rybm5seFR1UjVLYlN6YmkzS1Q3b0ItZ29zSTdTR2wybWFKeDFZdGRodmFjeTlNVVNfVmpPYm90Q0twdHh2TmlaYUp2bnU1XzVZQUNma1E?oc=5",
-          "title_norm": "박지원간병비급여화의역설농어촌인구감소지역또소외되나",
-          "sent_at": "2026-10-05T07:57:57.294978+00:00"
-        },
         {
           "link": "sejungilbo.com/news/articleView.html?idxno=60428",
           "title_norm": "서영교인구감소지역주택양도세종부세특례32년까지연장추진",
@@ -637,9 +767,84 @@
           "link": "news.google.com/rss/articles/CBMiowJBVV95cUxQYUpwOGFISk5WNUhqaF93VlhEbF81cWZCUnJVdW1MaG10d1djQjNxSkZPOUVCUXFZSHBHeDMxZGUtWU9EZU5HeE5tTENBWHl6OGVJWWNGVGRUcHEzX3p0UWtKOVVyMnVBYjR2bFpPaWtucGhwQUJBR3hoZzVDdnp0blFYVVV1RkZkczFwTElDNEFCWkM0ajlYbTFYaHp2ZHRGOWJhN1BXN0xXU21tcDdndHIwenN1cjktZ3dMdTlZSkItcEt1S0M5eENWc05JWU5NU2NPRGZ3MDE0elNjU0xZZU9ycVVYMWJUOS1iWTBYdEJmX0RnRS1peEpEdHZVUDh2Tkotb0ZkZXB2eFVDdXNQZ20zWk5wejl6MTdXbkVSOEliRnM?oc=5",
           "title_norm": "인구감소경고등도시도예외없다인구감소지역5년만8992곳",
           "sent_at": "2026-10-07T07:57:24.520153+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiREFVX3lxTE5ndFlici1RaGZybWFzOXlOcHB5WWJwTHgyNFR2TnhWYkNFWDRBaG9kUzVSNFpBN1NsOTFPV2NhOEdKLTFD?oc=5",
+          "title_norm": "경북인구감소지역15개시군유지",
+          "sent_at": "2026-10-07T22:57:24.040768+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZEFVX3lxTE9DTW1zaHpJTVJRVlgxOC03cU9wb3ZJZS1kNTNCOElKeUVnOW9UMGk2eGN5Y1BIUE1aZmVsSjJoVGhQeG0tbDg0S3dOczJ3aF9RZ0owTXc3VWEybEVTZlo2c1RIcnE?oc=5",
+          "title_norm": "경북인구감소지역15곳유지예천칠곡새로포함",
+          "sent_at": "2026-10-07T22:57:24.040768+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiY0FVX3lxTFBZeWk2SXJBeU41dUVaVUt1ZlFzN2c3QmpSRl9KbnZ4SURacTlRV2xubHZQUThTem5mM1JYaTA2VlhlbWM0M1dDMXRFY20tZ1ZCcUJ5dHllbWJBY1p6UlJtYTljZw?oc=5",
+          "title_norm": "인구감소지역8992곳정부소멸위기엔더하고회복지역지원도잇는다",
+          "sent_at": "2026-10-07T22:57:24.040768+00:00"
+        },
+        {
+          "link": "kmib.co.kr/article/view.asp?arcid=9000020817&cp=nv",
+          "title_norm": "사설92곳으로늘어난인구감소지역영광군이말하는해법",
+          "sent_at": "2026-10-07T22:57:24.040768+00:00"
+        },
+        {
+          "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8680306&ref=A",
+          "title_norm": "부산금정구인구감소지역북구관심지역지정",
+          "sent_at": "2026-10-07T22:57:24.040768+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMihgFBVV95cUxONHZPVVhLOHEzRGZQSldhMWg4R2RKUFZYYVdrUGdrQllCd3ZVUG5tcDVmZGxWN2dFN0laRVNDTDVKTGpJMnItNHBoYkhlc3dkelZQQV84RlBlRmRjeUpnX25XcEpRM0ZDQVktVFl3MEZRa3NiRmtnU1p6NWF1elVLZU5Ma2pZdw?oc=5",
+          "title_norm": "대구경북18곳인구감소지역재지정",
+          "sent_at": "2026-10-07T22:57:24.040768+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE0xWnFZSlpYVE5jNEJjNXlSZGhQREJoQTIwUmtNcEJIRFltLUpkenZjSTNSemZ0M0tvTmMzRlhCd2JBZVd4M0phbk55RFJSU0pnVGxhNWZTUmMteDFGT2F5LXZuRDIwNndxNjVz?oc=5",
+          "title_norm": "장성군인구감소지역으로재지정",
+          "sent_at": "2026-10-07T22:57:24.040768+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMihAFBVV95cUxNR0JmczdWU1p5eEg0RkpUVFhSVWVfMGVXbDROakk0Tk1JeXlkLVNHM1NHWThtS0lQdEJDTHpGSWFBWmFmZk1SR0dPUGRoeGIxMnNkNGtIZHZkTkFWSUIwNGlDclNMLVZQOXpVUjJvVzdrUEdEcXZ3TW9BdFBqQ2FKX2tuUHk?oc=5",
+          "title_norm": "인구감소지역지정통영시청년붙잡고생활인구늘린다",
+          "sent_at": "2026-10-07T22:57:24.040768+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiWEFVX3lxTE0zTzlMU2xsUVpnMlpYZ29qSFJQckpQWEk3ME9pcWs3MEtlQXRrQWE4NTFhS2poaGQ5WUJXZzZpTnpJVWJ3QXRMb2FEb1dWVVhhd0RqN3EtcjXSAVRBVV95cUxPakl6azBGdVBzVFV2MndncFoyN0RoVVk2bkg1Mk5pZTFNWm1mYnc3MVFvV2hNanF2ZjJFdTJLYkdGcHVUUGtzaVpwUFhKUUtMMXdiRDI?oc=5",
+          "title_norm": "부산금정동두천통영도정부5년만에인구감소지역재지정",
+          "sent_at": "2026-10-07T22:57:24.040768+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiW0FVX3lxTFBpYUtPWXhicE9hWmd1STZRUGxNcmJRVUxCYUYtWERwTkYxOWxzS2NjMTVTYmh2T1JhZjVPMDFWTUpJc1VJdnFlMGI4UXViczlfaDRKSFBUWFoxN2M?oc=5",
+          "title_norm": "인제군인구감소지역지정제도개선촉구",
+          "sent_at": "2026-10-07T22:57:24.040768+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMijgFBVV95cUxQWkVPV1AtNFExOWFnUWZ2TmNzOFgyRGVsRF9qSFNBOFgtOEZuZDJUMjZKYzU0NHpLcGQwSm5IQTU0TTZmTmMxc3VDUHFVaHl5by0zaWRSU3huTTdjTFdJMTV0bXZhdmItVlAwNU9ST19zYWxjS01CRklpalowNFNNNmZSR09nNDZ3V2d2R09B?oc=5",
+          "title_norm": "부산금정구경남통영시정부인구감소지역추가종합",
+          "sent_at": "2026-10-07T22:57:24.040768+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiX0FVX3lxTE9PRkx0STNGcVhrbWpWcm5FbkthWjdIeXJsbGpRMVJkS0JrUWFGaTNjZEd1T1FvWFpmcHdobXJ4d2o5WkVzUlZPcmVFbW82UHozWEZiVHJKOWtRYTVVVXZj?oc=5",
+          "title_norm": "인구3686명늘렸는데도신안군인구감소지역재지정왜",
+          "sent_at": "2026-10-07T22:57:24.040768+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibEFVX3lxTE54Qi1zZTVERHZVSndrYjhOajdER0JxcjRma0M4RjMxWXVBVWJxaEpCVHU1cFE2WmI0Vkg3Z3Z2Qlc5TE5OVzNsdm5vWUwtbTg1eEY3WC1NMXdsT0pOZ2RoY0hpWVQ4Z29rRjBietIBbEFVX3lxTE54Qi1zZTVERHZVSndrYjhOajdER0JxcjRma0M4RjMxWXVBVWJxaEpCVHU1cFE2WmI0Vkg3Z3Z2Qlc5TE5OVzNsdm5vWUwtbTg1eEY3WC1NMXdsT0pOZ2RoY0hpWVQ4Z29rRjBieg?oc=5",
+          "title_norm": "동두천시인구감소지역지정정부지원활용해흐름바꿀것",
+          "sent_at": "2026-10-07T22:57:24.040768+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiYkFVX3lxTFAzaG9aZE42d1I1VTktU0FhMGp2dGRjcl9ZaGFoQmxiOXpDZ1NLZkxVR09ldmRhUzZCTld1QWtkNS1zMzA1ZU01aFFtQWNnSkhCZnpWTWJNbDJ4OWFMQkNpYWV3?oc=5",
+          "title_norm": "5년만의인구감소지역재지정서구활력플러스지역남구군위자격유지",
+          "sent_at": "2026-10-07T22:57:25.590160+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiaEFVX3lxTE5IRm9PS1pvZEg5dXRZbGw5V3dHTTlhSWV3cG5JYXFEN0dsMWFnaEpyWHdMVEpHUURMRTAyVXE2OHlNUFVuOGc3ZmpUZ3A3ZGxVVnU5Q2VRUlRZY0RiNlRoSG1JcDZieWdX?oc=5",
+          "title_norm": "동두천시인구감소지역포함됐다",
+          "sent_at": "2026-10-07T22:57:25.590160+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-07T07:57:13.324981+00:00"
+      "last_checked_utc": "2026-10-07T22:57:13.347393+00:00"
     },
     "life": {
       "articles": [
@@ -672,13 +877,53 @@
           "link": "news.google.com/rss/articles/CBMibkFVX3lxTE56RUc4REdEcVkzbDJFQnMwWTZLOXhoY3p3aWdVbzN4WHRvR21MT05seHBzSjJzb25wd0kzZjJGaDFJYjhRdHpiLXNtWDVmMFJvdGZZX1ZRVklkdnhpeU02NUdMaWFpUFhYa1liYnFR?oc=5",
           "title_norm": "충남보령시민선9기100일선택과집중스마트행정의료인재생활인구에승부수",
           "sent_at": "2026-10-07T07:57:28.235390+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiYEFVX3lxTE1XM3RrSUdLR1RCZWctNzlwS0ltMjRUSDc5bEx5azFpTGVwaV9iWU5QYmtjT3FZRDBYWk1sel9mUGhDVEVMaHZJaUQ4SklfLVJxaTRtQjUwcHQ1Y0FkSzlYWtIBeEFVX3lxTE4wLVJmTVRYaXR1bFpBNjNMRWotdWtsd2tNYTkzT2lFd0lMWnFCYkwxV01rUmF4Y1dKTHpPaXFSaHV2RUx0ajJGYkpxeFZGZHBDR0JJRUFEUk5reHJ0U2hBQXhTeHZudk9pTDlyZ0VLU3ZjYlhMZXJVUA?oc=5",
+          "title_norm": "영천시생활인구늘리기체류프로젝트전문가공론장마련",
+          "sent_at": "2026-10-07T22:57:29.277522+00:00"
+        },
+        {
+          "link": "sentv.co.kr/article/view/sentv202610070215",
+          "title_norm": "영천시생활인구확대위한3박4일체류프로젝트추진",
+          "sent_at": "2026-10-07T22:57:29.277522+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3715476",
+          "title_norm": "영천checkin2629일진행공설시장서생활인구정책토론마련",
+          "sent_at": "2026-10-07T22:57:29.277522+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiYkFVX3lxTFBKMUpaTWhsVm4wdG42TVhaYnpUcGR3WWl5RjhvWkRkd2hITVEzQjVNR1Bka1R6OGVHam55MTN0dzhCMDAzNlB0RU1YcHFEUUlJUmI5SlpxMXd0dURnQlZaR1Fn?oc=5",
+          "title_norm": "경북영천시3박4일생활인구체류프로젝트영천체크인진행",
+          "sent_at": "2026-10-07T22:57:29.277522+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiaEFVX3lxTE1oNGJ1UjZmc1pwQi05Mk8zVmhNSk9RcWt1VlJudDRVb3JoS21melhSaWtzMFVVZGlublJDcnRELUxzSkVxQ3RTYWZ5UFktR3pKRXJoT1ZtOGVHS0RyNUh0NXNhTUIzTnJI0gFsQVVfeXFMTzBhTDFjVmVwSG94c2s0aDJkYTN1cUlmQ0RzVHhEdU1DcENxeUVNYkwwVWVNazVWNXM3NlBualpmUnZ5cmtMdmd1QUJwamRnaHh5UmF5cnR6OTBxbURhVHNhQXIzLVZITUJnYlpo?oc=5",
+          "title_norm": "부여군의회부여형생활인구유입확대해법찾는다",
+          "sent_at": "2026-10-07T22:57:29.277522+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3715725",
+          "title_norm": "부여에더머물게하자부여군의회생활인구유입해법찾는다",
+          "sent_at": "2026-10-07T22:57:29.277522+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibEFVX3lxTFBBdVJoZGxfUGhrRmxIa21WRHE4Q0JCZElYS0dQbzdhaFZhWXJvTGdsT1FjVnpFa1NIdHFVTGZKWEkxekdwdVhlSThSZ2NfUmd1Ul93cER0ZmgxSDI1bDFFQWQ0RVJVUVpvZHRkdQ?oc=5",
+          "title_norm": "월생활인구30만명신용한지사영동서체류형관광해법모색",
+          "sent_at": "2026-10-07T22:57:29.277522+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMib0FVX3lxTE1qY04tMjQyQXZ0cXlGcnRSSTZkSTFFcFoyOGktN3U4bk9kQmFkeUtTQy1jLWdkdEgwMDlKUF9rMWdobThLTmE3OUlMejZ0NnZ6aUFFdl9HWjdhblU1U0M0cGc2bWphU1Q4V2JWNFQwcw?oc=5",
+          "title_norm": "경북도의회인구특위청년정착돌봄생활인구정책점검",
+          "sent_at": "2026-10-07T22:57:29.277522+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-07T07:57:13.324981+00:00"
+      "last_checked_utc": "2026-10-07T22:57:13.347393+00:00"
     }
   },
   "slot_runs": {
     "pm": "2026-10-07",
-    "am": "2026-10-07"
+    "am": "2026-10-08"
   }
 }
