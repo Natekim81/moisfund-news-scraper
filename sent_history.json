@@ -4,21 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "jnilbo.com/news/articleView.html?idxno=90000071341",
-          "title_norm": "곡성청년하우징타운순항1인신혼가구수요챙긴다",
-          "sent_at": "2026-10-06T22:57:20.550734+00:00"
-        },
-        {
-          "link": "cctimes.kr/news/articleView.html?idxno=930879",
-          "title_norm": "제천보은옥천영동괴산단양인구감소지역재지정되나",
-          "sent_at": "2026-10-06T22:57:20.550734+00:00"
-        },
-        {
-          "link": "newsworker.co.kr/news/articleView.html?idxno=507381",
-          "title_norm": "해남군의회10일간의의정활동44개군정질문으로정책실효성검",
-          "sent_at": "2026-10-06T22:57:20.550734+00:00"
-        },
-        {
           "link": "edaily.co.kr/News/Read?newsId=04788806645610624&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
           "title_norm": "동두천부산금정도인구감소지역포함지정지역92곳으로증가종합",
           "sent_at": "2026-10-07T07:57:18.958762+00:00"
@@ -662,9 +647,49 @@
           "link": "newsworks.co.kr/news/articleView.html?idxno=856013",
           "title_norm": "2026국감임이자미래대응기금은미래소멸기금즉각철회하라",
           "sent_at": "2026-10-08T22:57:18.661595+00:00"
+        },
+        {
+          "link": "sedaily.com/article/20099905?ref=naver",
+          "title_norm": "인구늘어야인구감소지역탈출5년간뭐가달라졌나",
+          "sent_at": "2026-10-09T07:57:22.209851+00:00"
+        },
+        {
+          "link": "khan.co.kr/article/202610091406001",
+          "title_norm": "수도권기초단체동두천이인구감소지역으로편입된이유는",
+          "sent_at": "2026-10-09T07:57:22.209851+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3717196",
+          "title_norm": "청년금정산앞세워금정구인구감소돌파구찾는다",
+          "sent_at": "2026-10-09T07:57:22.209851+00:00"
+        },
+        {
+          "link": "korea.kr/news/contributePolicyView.do?newsId=148973218&call_from=naver_news",
+          "title_norm": "인구의규모에서지역의활력으로정책전환을기대하며",
+          "sent_at": "2026-10-09T07:57:22.209851+00:00"
+        },
+        {
+          "link": "viva100.com/article/20261009500061",
+          "title_norm": "통영시인구감소지역신규지정청년정착지역경제활성화추진",
+          "sent_at": "2026-10-09T07:57:22.209851+00:00"
+        },
+        {
+          "link": "thepublic.kr/news/articleView.html?idxno=321443",
+          "title_norm": "송인헌괴산군수인구대책부총리신설해야국가차원컨트롤타워필",
+          "sent_at": "2026-10-09T07:57:22.209851+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiU0FVX3lxTE4xR21sZU9SMjgxSG1kVmQ5N3F5aFdxMnQxT1hkYm9BajRIRU9ENnI5aVNCaGV0RHNMbms0UDBkTUlWMG5XN0J0SE01eWlYODhZSi1F?oc=5",
+          "title_norm": "지방소멸지도5년만에수술인구감소지역92곳",
+          "sent_at": "2026-10-09T07:57:22.209851+00:00"
+        },
+        {
+          "link": "tjmbc.co.kr/NewsArticle/866540",
+          "title_norm": "대전동구중구대덕구인구감소관심지역벗어나",
+          "sent_at": "2026-10-09T07:57:22.209851+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-08T22:57:13.515143+00:00"
+      "last_checked_utc": "2026-10-09T07:57:16.594580+00:00"
     },
     "pop": {
       "articles": [
@@ -997,17 +1022,22 @@
           "link": "news.google.com/rss/articles/CBMicEFVX3lxTE82QVluSXU0ZHJrd1JTazhXZ1ViRV9iTUdQNVBPTUdBQUVJYnlQNEVEeDlKaW5mRFhzdUpab1FtS1RscWJYendzVkdsOFJ1dnBULUNRS1MxWTFxNW82RmxuN1VOYVJWQklGWnczU0Fpd28?oc=5",
           "title_norm": "고성군제2차인구감소지역대응기본계획확정",
           "sent_at": "2026-10-08T22:57:22.457274+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiSkFVX3lxTE1tbXI2RXh5ZUlGODVGWWg1XzY1WnY5eTJVSi1LNkxTTzBUeDBtSzNOQkZFWTNlbHBZd20zNFJWcWtwN1ZwQnpxODFn?oc=5",
+          "title_norm": "92곳으로늘어난인구감소지역연1조기금으로지방소멸막을수있나",
+          "sent_at": "2026-10-09T07:57:25.940825+00:00"
+        },
+        {
+          "link": "news1.kr/local/daegu-gyeongbuk/6314353",
+          "title_norm": "인구감소지역대구서구활력지역으로바뀐이유는",
+          "sent_at": "2026-10-09T07:57:25.940825+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-08T22:57:13.515143+00:00"
+      "last_checked_utc": "2026-10-09T07:57:16.594580+00:00"
     },
     "life": {
       "articles": [
-        {
-          "link": "news.google.com/rss/articles/CBMiVEFVX3lxTE1Ba0N3RmRNcVRka2ZDMlRORHNSUzhMWGQ3cDNOYk02V0RaWHAtZzVVM0xiTkZxYXlqRzltVnNsOGYweDR5WFdKTlFKN3pLUTdVWllwcw?oc=5",
-          "title_norm": "단순스쳐지나가는관광의관성과감히타치월생활인구30만영동형체류관광백본망수혈신용한지사영동현장소통행보전격가동",
-          "sent_at": "2026-10-06T22:57:27.914624+00:00"
-        },
         {
           "link": "breaknews.com/1241539",
           "title_norm": "영천시3박4일체류형프로젝트로생활인구확대모색",
@@ -1117,13 +1147,18 @@
           "link": "news.google.com/rss/articles/CBMiakFVX3lxTE1PSzF2a2YzTVlsUTFfX3lBV0lNbG1IeUo3TWZBZUVQVUhqR1dFVFdPSC1Hd0owdWN0Qlc0Q1FvcVVrYjc3VnVmSHRRLXoySUhCZmplMWgwYXEzeGRVcTZTWmJVMnpleDNyRmc?oc=5",
           "title_norm": "인구10만사수했던영천시민선9기들어선생활인구운운하며맥없이포기",
           "sent_at": "2026-10-08T22:57:26.153419+00:00"
+        },
+        {
+          "link": "shinailbo.co.kr/news/articleView.html?idxno=5070091",
+          "title_norm": "창녕군민선9기공약86개사업구체화생활인구500만시대추진",
+          "sent_at": "2026-10-09T07:57:29.648359+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-08T22:57:13.515143+00:00"
+      "last_checked_utc": "2026-10-09T07:57:16.594580+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-10-08",
+    "pm": "2026-10-09",
     "am": "2026-10-09"
   }
 }
