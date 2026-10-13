@@ -4,11 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "news.google.com/rss/articles/CBMia0FVX3lxTFB4OU9mSDRPN3pBdE9lT0hlUUFMQWFNTmcxbTcycFRYcXRpRF9lQ2c5LTcwb1RvVV9jcWgyTTV2OFd5Q2dQSGMxcTBRWlV5cG00M1UxUTBuSVB5QkdScUZfOWVhZFR0Y01iVW1Z?oc=5",
-          "title_norm": "심층인구감소지역92곳으로확대연1조원기금인구뺏기넘을까",
-          "sent_at": "2026-10-10T22:57:17.577350+00:00"
-        },
-        {
           "link": "mt.co.kr/policy/2026/10/11/2026101116085981274",
           "title_norm": "지방소멸대응기금광역계정500억첫평가배분강원충남최우수",
           "sent_at": "2026-10-11T07:57:17.113064+00:00"
@@ -532,42 +527,117 @@
           "link": "news.google.com/rss/articles/CBMiQEFVX3lxTE54cWxhMGxGcDNrcFZ3c2lYbElUTlNVTkx5T2NLUnRwb3c1cFZHQzF5LXM2RWFkV01yS0dqYTlfaUY?oc=5",
           "title_norm": "전북자치도지방소멸대응기금광역지원계정우수지역선정",
           "sent_at": "2026-10-12T22:57:20.638554+00:00"
+        },
+        {
+          "link": "idaegu.co.kr/news/articleView.html?idxno=562146",
+          "title_norm": "대구시행안부지방소멸대응기금34억원추가확보",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMic0FVX3lxTE8tQi13NkpSLTV5VTJkT19HWkw0SDJXU25ETnlhd3Y2eGFUQ1hYVGRJajlsWGxyclhpQWE5T1JfVmNkMXVVNFlHWWdENHRlMmx3X0RLalJrTHNvRXBFUDJXMlNjQ25tTkRqWUl0NGVtb2hSZm8?oc=5",
+          "title_norm": "대구시지방소멸대응기금34억원추가확보24시간돌봄청년정착지원",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiekFVX3lxTE9jdzFlRmFHRVNWckdhRGpJNGZuQ3pyM3d3RXRFVGFNdDdrYUZWeXhqVjJ2YnN2cTRaNU1GLTJYV19XSEZjTDZ5R1hBS1EydnVDRUtLSGRPVW0xdUMyaWktY2xicFIxeXRBU3NlSGNpQi1McEFsMVV5b1VB0gF_QVVfeXFMTWZoRU5IdE5vX3I5aUcwYXpEZUNZM1RyLWFZSnFYLU9qdTBfUlhUMU9lcUVrenF5VDV5aHdLVDZ5c1FoUlU3MXdVOXZNOTEzOGFtLUk1djlVZlBiV1ZzQmlyb3M5OXIyMWN1LWFldVpXTmkyUXQ0VW9MR0taRUVhZw?oc=5",
+          "title_norm": "대구시지방소멸대응34억추가확보돌봄생활체육에투입",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMic0FVX3lxTE4wVmhRTWtSbWpNZk85LUpPSlFhZXhNWXg4RXRPYXlNSXhVLUJQbWRPaVNzRHhvTE1LOHNndGRjNkNOSDRqcVJqRWxRbjZndkgwejItUEVfQzk5LVY2dV9lcWpYSDdxbk1ZQWdvN0hQUTdNTlXSAXdBVV95cUxOdDV5XzJMcTYxZnhxeW11WkRkcmRnS1VQZ2xEc3Itb1BGbFBsNFlCVW9VcFdwM3pXejlzS1lFcUpwTWd0bk5OT3Q1QnU0QVhwNzZuSDdnbkMySXFmLW9GZGpYclo1LWZDVFh0cE5kSGhvd3I3Y1Fvaw?oc=5",
+          "title_norm": "제주도지방소멸대응에34억원투입청년농지역서비스지원",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE1kbEJ3Sm82cWFaRFVSLTVJdzNrSTNUbGdMV3dWQ2lDbFEwMm80VUJ2bHdrMnctVWowM0RqMVVFWFpsc2lhSjJVVnBFQmRIMm4yU3ZpaXE2aV9aRExZMDE0eW9BbElObzgyTGNj0gFuQVVfeXFMUE91WllBaUNUMnRHTDFRaDFZLUttd05MYVJfQXpRQW9raXdBdnJELTAxRVZxVEtFaWJMZWNOSXA3cnlGeDhNMHV2R1pERzFXTnBKMFFmR0FEX0hYQ1JudWpjaWpZUnMxMFFZM0cxdmc?oc=5",
+          "title_norm": "제주지방소멸대응기금34억원추가확보청년농스마트팜사회연대경제투입",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiWkFVX3lxTE9lNjVaSW54a2NCWmRycDVqQS1BdkNxempjcnoxQjRuenY1QlNmeERzWUZlSUN4aHpWSHZRLWVuSjAzUHFsSE9lUjhoSVJKc3UydnkwSm9pemxTUQ?oc=5",
+          "title_norm": "지방소멸기금34억더받는제주24억은청년농스마트팜에",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMicEFVX3lxTE1vbVVRemc1UE5YejBlaUpXenRVQVhuZ29FUFQ1ZkpIZkdOLXdOc3YyS2NhTDNsUHlrRGVCckQ3a0I3UGN4bzVUQm45NlZkd1dfWENac2RNeUNzVGxqWjdwVjFHM1dMajR1d0w1Z01FXznSAXBBVV95cUxNb21VUXpnNVBOWHowZWlKV3p0VUFYbmdvRVBUNWZKSGZHTi13TnN2MktjYUwzbFB5a0RlQnJEN2tCN1BjeG81VEJuOTZWZHdXX1hDWnNkTXlDc1Rsalo3cFYxRzNXTGo0dXdMNWdNRV85?oc=5",
+          "title_norm": "제주지방소멸대응34억예산확보청년스마트팜에24억투입",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "m-i.kr/news/articleView.html?idxno=2005432",
+          "title_norm": "해남군월10만원청년공공임대주택입주자모집",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "ekn.kr/web/view.php?key=20261013028445700",
+          "title_norm": "패트롤해남군완도군진도군",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "jjn.co.kr/news/articleView.html?idxno=1054363",
+          "title_norm": "전북소멸대응기금반토막비상",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiWEFVX3lxTE1aTGFBRnZCRWg2cGR0bmp6X1QyV3pxMmxtbjlXdGszZ1I5eGhKNUJTTjBpWjcwRUhhc1NnSlpWVEF2bndTaVg2LVlSV2NXcGVoSkYwQ0hLem4?oc=5",
+          "title_norm": "대구시지방소멸대응계획평가우수",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "imaeil.com/page/view/2026101308553664795",
+          "title_norm": "경주역세권에105억원규모돌봄통합지원센터들어선다2029년조성",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "wikitree.co.kr/articles/1165902",
+          "title_norm": "경주에돌봄통합지원센터조성한다",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "hansbiz.co.kr/news/articleView.html?idxno=872306",
+          "title_norm": "임신부터양육까지한곳에서경북도돌봄통합센터조성",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "weeklytoday.com/news/articleView.html?idxno=797878",
+          "title_norm": "위클리오늘김학조강원도의원인구유입정착위한전략사업집중",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "eroun.net/news/articleView.html?idxno=92265",
+          "title_norm": "김학조도의원영월23조5천억원강원인구정책실제인구유입성과",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "pressian.com/pages/articles/2026101313015163328?utm_source=naver&utm_medium=search",
+          "title_norm": "전북동부권발전사업예산투입보다주민체감성과중요",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "ajunews.com/view/20261013154402898",
+          "title_norm": "진안군진안형기본사회본격준비",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "kihoilbo.co.kr/news/articleView.html?idxno=3037408",
+          "title_norm": "열린광장장애교육소외특수학교유치로돌파구를",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiWkFVX3lxTE1JMjRFVkY4TVlsY0M4OXJaVVBsRW9YMlhTbGRON2M3QkFkbHZvYUdRb1VwTmV6Nkp5Rjk2bmQxWGxvbm9ZRDE2a0p4SjItOUUxX1NMMDZ1Z0dEQQ?oc=5",
+          "title_norm": "정주여건개선지방활력회복도모박차대구시",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiWkFVX3lxTFBiMzFtUkFkMlFleUZDeXRKaUtCcDhPd2tJSUhNbkl2RzgwNDh2TUhsQ01XT2UtUlFfSVpTYXZ1Zl9uN0VhbGFOVUdlc2VMaVFSbDUwM1Ztb2d4UQ?oc=5",
+          "title_norm": "지방소멸대응기금성과따라차등지급지역별최대4배차이",
+          "sent_at": "2026-10-13T07:57:16.870861+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-12T22:57:14.355481+00:00"
+      "last_checked_utc": "2026-10-13T07:57:11.600691+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "jeollailbo.com/news/articleView.html?idxno=813197",
-          "title_norm": "전북농공단지82가인구감소지역정부지원사각지대",
-          "sent_at": "2026-10-10T22:57:21.250050+00:00"
-        },
-        {
-          "link": "pressian.com/pages/articles/2026101106134742680?utm_source=naver&utm_medium=search",
-          "title_norm": "전북농공단지82인구감소지역집중역설지원필요하지만되레",
-          "sent_at": "2026-10-10T22:57:21.250050+00:00"
-        },
-        {
-          "link": "sentv.co.kr/article/view/sentv202610100026",
-          "title_norm": "박희승전국농공단지68인구감소지역전북은82",
-          "sent_at": "2026-10-10T22:57:21.250050+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiakFVX3lxTE12alRCbmhKVzFoeC1KdDdON1YtMkExWFJieFFXdi1EZ1VNX255d0dLSld2YnFvLXA4NkFDQjliMkVaTEx1dE9sTlFoMVBRRFBmZjBXaEswTElKVjUyYjJKTmpwY2o5cnZNOXc?oc=5",
-          "title_norm": "농공단지10곳중7곳인구감소지역전북은82전국최고",
-          "sent_at": "2026-10-10T22:57:21.250050+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiaEFVX3lxTE1kaUZsXy1mZ1FrLTFncU1GYllMRk9aTHl1SHExM3ZMeXBrejY3OGZRRUlqN1NUVHpWYjAyQUxTNDB3TElhQk8zNGpDTXFfTi1DM1BjQkF4Y3JNSmVZS3dOUEw3QlhMZ2lk0gFsQVVfeXFMT3Q5WWVyYU9CWkZPMUljYW1VWlJYS1JxNnVvLUZ5THNTTHQySFNsRXAyZHR4YnN1TkRFQldreUwxRzFYWEM3TnM3M2pyakNWamFZdTVjUFlrZmpERmtYa0ZHaXUxbE1ILS1CaWdH?oc=5",
-          "title_norm": "5년만의인구감소지역재지정지역활력회복을위한지원을강화한다",
-          "sent_at": "2026-10-10T22:57:21.250050+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE9ja1JSNkZRTF94VGZWaTNEQ25qNzZZbmtiY0g4UFdqNmVRNGViaUppSUVXWlJiMVJveDVNY0hZTGtsQnA3THZzTGJSY0dTMV9SMjdqWUFzTy1MWldHSmFSTlRQT3RjOURNTVhN?oc=5",
-          "title_norm": "박희승의원농공단지10곳중7곳이인구감소지역스마트산단의온기농촌까지닿아야",
-          "sent_at": "2026-10-10T22:57:21.250050+00:00"
-        },
         {
           "link": "newsgn.com/news/articleView.html?idxno=578358",
           "title_norm": "고성군인구감소지역대응기본계획확정",
@@ -632,17 +702,107 @@
           "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8683558&ref=A",
           "title_norm": "전북농공단지60곳중49곳인구감소지역소재",
           "sent_at": "2026-10-12T22:57:24.509426+00:00"
+        },
+        {
+          "link": "hankookilbo.com/news/article/A2026101310380005458?did=NA",
+          "title_norm": "인구감소지역벗어난대구서구청년유소년인구늘었다",
+          "sent_at": "2026-10-13T07:57:20.679414+00:00"
+        },
+        {
+          "link": "kmib.co.kr/article/view.asp?arcid=9000022180&cp=nv",
+          "title_norm": "단독따로노는지방살리기정책인구감소지역공공계약2년째",
+          "sent_at": "2026-10-13T07:57:20.679414+00:00"
+        },
+        {
+          "link": "busan.com/view/busan/view.php?code=2026101315030497952",
+          "title_norm": "통합돌봄고수요저공급68가인구감소지역부산에선영도기장",
+          "sent_at": "2026-10-13T07:57:20.679414+00:00"
+        },
+        {
+          "link": "hemophilia.co.kr/news/articleView.html?idxno=45014",
+          "title_norm": "통합돌봄수요높은데공급부족한지역59곳678가인구감소지역",
+          "sent_at": "2026-10-13T07:57:20.679414+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiYEFVX3lxTE1TcmJMVmtFS0ltRFhWeFBvMkR5UUU4RVJOeDVQUTNwMnUyZDBRSTRMbmdwcF8tcnFDV1p2Z1J2WU1hOHA1RkxPSy1WcUc0dmNnTTBnVnZXZU9XenJQejI0Nw?oc=5",
+          "title_norm": "복지부통합돌봄실태조사결과보니고수요저공급중68가인구감소지역",
+          "sent_at": "2026-10-13T07:57:20.679414+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiYEFVX3lxTE11cDRQTzdPdmN4NjZQMjhCUkhySzNpMUVfbjJQcncwTkRDMk5mZDZ1NHVZSXl3clVSYTZieVJUSWxNbTlDTTVXS2VJeC1wRlJuNmJ6bkpOZEQ5cG54WkpYMNIBYEFVX3lxTE11cDRQTzdPdmN4NjZQMjhCUkhySzNpMUVfbjJQcncwTkRDMk5mZDZ1NHVZSXl3clVSYTZieVJUSWxNbTlDTTVXS2VJeC1wRlJuNmJ6bkpOZEQ5cG54WkpYMA?oc=5",
+          "title_norm": "통합돌봄고수요저공급시군구59개678는인구감소지역",
+          "sent_at": "2026-10-13T07:57:20.679414+00:00"
+        },
+        {
+          "link": "newsworker.co.kr/news/articleView.html?idxno=508410",
+          "title_norm": "전남광주시의회건설산업활성화인구감소지역육성착수",
+          "sent_at": "2026-10-13T07:57:20.679414+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiTEFVX3lxTE9fQ3ExbmR3Y2tzaEs0X0ZpSjFWd090alpKcEhUMkIwZUhXZlFxY0xRbFgxYW10WDNmak9TVUFzQkVBNUMzUmt0MXhtTzY?oc=5",
+          "title_norm": "농공단지70가인구감소지역설비노후화",
+          "sent_at": "2026-10-13T07:57:20.679414+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMid0FVX3lxTE9kd1FZbHpmQk5vSlVDMDFJajQ3ZlBvamJPSDZRQU5uOWlTcEFNOU9rUEU2R0habkxBLW1XRkE2MEJtQ3RfaFdHT0hlMnNfUVNIeExKNzdySjI4RjAwNWdaSUZiZ25QcmlrLVdyX244UGo1QVZiaWdv?oc=5",
+          "title_norm": "돌봄취약지역59곳중40곳이인구감소지역",
+          "sent_at": "2026-10-13T07:57:20.679414+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE1pNUJqdW1YTGlqOV9TYjRFTkRxeGREVkVvLWZPaHJLQmFIZU5xY3hOcWgwMEI1WklPN0s5ZllUNW1TQ1A4NFR6c1lKX0JIa3Nsa3hwUXdZcDh2LThjN3lsQnpXbldIYVQ3dmpIUk9R0gFzQVVfeXFMT2l6UTVaTEZqS0xUb0l4czNiN1dLOHNWbHdqRVJ4UFpSZXFOUEdWLTRJYWYzMnFfbHJ0MWFKYjhiYkY2SFFpR2xwRUNTTXduLUM0aEdxRUhmSzNjSmdQdU1ERlFSU2p4YXBybERpTzMtcm1sMA?oc=5",
+          "title_norm": "인구감소지역서더취약한통합돌봄원하는사람많은데서비스부족",
+          "sent_at": "2026-10-13T07:57:20.679414+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiVEFVX3lxTE9nNGdtZWsyM0dXRE0tN3pQa1lYdlUyVkRDbkFUdWxqRnhOX21oc051dGRMVFhFTktiZ2VYbHd3bGVjNldfSVhBRFFiUEYwTDJ0aklodtIBVEFVX3lxTE9nNGdtZWsyM0dXRE0tN3pQa1lYdlUyVkRDbkFUdWxqRnhOX21oc051dGRMVFhFTktiZ2VYbHd3bGVjNldfSVhBRFFiUEYwTDJ0aklodg?oc=5",
+          "title_norm": "인구감소지역통합돌봄수요대비공급부족재택의료센터충족률은83뿐",
+          "sent_at": "2026-10-13T07:57:20.679414+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZkFVX3lxTE1qcjV5WXdyaFpuT1JwNEVXaHRpZ2dsd3Z2TWstMWMyang0R3cxMDN0TFVEUU1wM0I4OFcxczdRTmVScFQ5TzF6U05HQkE5NGtFd0tKeEpiczhYNzAzVzVmQ1lNRzZtZw?oc=5",
+          "title_norm": "통합돌봄지역격차심화수요많지만공급적은40곳인구감소지역",
+          "sent_at": "2026-10-13T07:57:20.679414+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiVkFVX3lxTE01bGM2d1Q1NWZjWk9nSjVFeV95c29RZlZaNklZeW1FNHZQckVKMFYxT21vd3lUbnNPcTVncmtRaERKQlBiZi1LN1lhcURWSUE2RGFHdU1B?oc=5",
+          "title_norm": "79만명받는통합돌봄단기보호수요대비공급인구감소지역은기관접근성취약",
+          "sent_at": "2026-10-13T07:57:20.679414+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMic0FVX3lxTE1ORDctMHFpREE2clJuQnZxU3dhQW4yNWFwSVlVY01LQUpKcksxNDlSaTVVX0JqMnkyemRHYWlUcy11M1BlTG9GcmxLU25oUnBwSWNTREZzbVRHNDBuak5sUVlwc01Vc3lwYW1BWGdnd3ZUSGfSAXNBVV95cUxNTkQ3LTBxaURBNnJSbkJ2cVN3YUFuMjVhcElZVWNNS0FKSnJLMTQ5Umk1VV9CajJ5MnpkR2FpVHMtdTNQZUxvRnJsS1NuaFJwcEljU0RGc21URzQwbmpObFFZcHNNVXN5cGFtQVhnZ3d2VEhn?oc=5",
+          "title_norm": "사설인구감소지역지정이제는인구소멸을이길때다",
+          "sent_at": "2026-10-13T07:57:20.679414+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiWEFVX3lxTE9nN20wZWtFekIwTzM3RjhOUHJMYndyLTNHTEFMLVRsZWdRenpzWm11c0c1RzZNOFVtUVhteTVPT3lYblozcmdqTllBM3QtSl96czVkbnVXUm4?oc=5",
+          "title_norm": "대구서구인구감소지역벗어나인구활력지역전환",
+          "sent_at": "2026-10-13T07:57:20.679414+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiY0FVX3lxTE9JMUFXYUNwRU91TWJzaVZKeEdRZGlCc3o3MXk2ZDJfSDQ2TVprTm9tMGRCZWlaNlRSS2t5N1M1LTZkVGdKRmwwT1RoUEg4ZHA2M0FKd0RUOTNhcV9aTDlSd1dhWQ?oc=5",
+          "title_norm": "대구서구인구감소지역에서인구활력지역으로전환정주여건개선성과가시화",
+          "sent_at": "2026-10-13T07:57:20.679414+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiWEFVX3lxTE02NWtrdUUzQ1FncENJVTEzRjZ1d3pVaW5hSEp2MW9UbEVsaHdTV0tJdGJFYkJ2VXVlOU9TbkdxYjFmWlh3V29sZkhvUWFzV1NEZnlxNEhkR0zSAVhBVV95cUxNNjVra3VFM0NRZ3BDSVUxM0Y2dXd6VWluYUhKdjFvVGxFbGh3U1dLSXRiRWJCdlV1ZTlPU25HcWIxZlpYd1dvbGZIb1Fhc1dTRGZ5cTRIZEdM?oc=5",
+          "title_norm": "전북자율학교운영구체화인구감소지역지방의료원기부금모집허용",
+          "sent_at": "2026-10-13T07:57:20.679414+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMigAFBVV95cUxNXy1fTjh5LWg1eW1VOFlOR09yN2ZFVWJPTFRaLVBoaGVDNWt6cGFEdEk0YXF3dk1oZVR5S19aUHhDSVRkWjlYd21aS09lV2tFRy16UXZyeFBaSGNxLU9OcFdOWkxRcEwtUnFqZlFjVFhvNDM0LWVVOFBhMXRWWm12TQ?oc=5",
+          "title_norm": "아파도집에올의사가없다인구감소지역방문진료공급10뿐종합",
+          "sent_at": "2026-10-13T07:57:22.307436+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiWkFVX3lxTE53OTlXd0I4bm52TEhiX1dZV0hlQ0hSTFRrY0VEbUxybWQtTFhha29DTDJWcGxjdUNHb3d1aGQwbmxhWGg3Q1hCMldQS0IyTUpBRi1JSVFfVlRwdw?oc=5",
+          "title_norm": "인구감소지역방문진료충족률107돌봄접근성격차커",
+          "sent_at": "2026-10-13T07:57:22.307436+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-12T22:57:14.355481+00:00"
+      "last_checked_utc": "2026-10-13T07:57:11.600691+00:00"
     },
     "life": {
       "articles": [
-        {
-          "link": "shinailbo.co.kr/news/articleView.html?idxno=5069973",
-          "title_norm": "부여군의회생활인구유입확대방안모색",
-          "sent_at": "2026-10-10T22:57:24.971233+00:00"
-        },
         {
           "link": "shinailbo.co.kr/news/articleView.html?idxno=5070409",
           "title_norm": "영천시생활인구확대위한체류형프로젝트추진27일정책공론장",
@@ -699,11 +859,11 @@
           "sent_at": "2026-10-12T22:57:28.198891+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-12T22:57:14.355481+00:00"
+      "last_checked_utc": "2026-10-13T07:57:11.600691+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-10-12",
+    "pm": "2026-10-13",
     "am": "2026-10-13"
   }
 }
