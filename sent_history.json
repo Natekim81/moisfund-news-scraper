@@ -4,76 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "bzeronews.com/news/articleView.html?idxno=823812",
-          "title_norm": "단양매포유휴공간30억들여아이돌봄거점만든다",
-          "sent_at": "2026-10-13T22:57:21.224583+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiSkFVX3lxTE0yVmZjS0FUcUs0bHI3akVwY0tkWm9Ua3dQZWJDZlp0VHZrVEVPa3lCUjNiams1UnlVN1VNVjVLUkJId3c4VVg1eUZ3?oc=5",
-          "title_norm": "행정안전부충청남도대전광역시태안서지방소멸대응기금정주여건성과관리머리맞댔다",
-          "sent_at": "2026-10-13T22:57:21.224583+00:00"
-        },
-        {
-          "link": "ajunews.com/view/20261014001455880",
-          "title_norm": "경주역세권에돌봄통합지원센터조성2029년까지105억원투입",
-          "sent_at": "2026-10-13T22:57:21.224583+00:00"
-        },
-        {
-          "link": "tk.newdaily.co.kr/site/data/html/2026/10/13/2026101300383.html",
-          "title_norm": "경북도경주역세권돌봄통합지원센터조성특교세5억확보",
-          "sent_at": "2026-10-13T22:57:21.224583+00:00"
-        },
-        {
-          "link": "news1.kr/local/moi/6318633",
-          "title_norm": "수도권쏠림심화속커지는세종역할이전효과검증과제",
-          "sent_at": "2026-10-13T22:57:21.224583+00:00"
-        },
-        {
-          "link": "newsfarm.co.kr/news/articleView.html?idxno=102614",
-          "title_norm": "농어촌정책시설중심서생활권지역계획중심으로전환검토",
-          "sent_at": "2026-10-13T22:57:21.224583+00:00"
-        },
-        {
-          "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8684801&ref=A",
-          "title_norm": "도정질문이틀째도청사이전ai데이터센터질의",
-          "sent_at": "2026-10-13T22:57:21.224583+00:00"
-        },
-        {
-          "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8684755&ref=A",
-          "title_norm": "매장에서보행교로사업지연변경에기금집행0",
-          "sent_at": "2026-10-13T22:57:21.224583+00:00"
-        },
-        {
-          "link": "newstnt.com/news/articleView.html?idxno=722744",
-          "title_norm": "태백시의회주요사업장7곳현장점검안전예산효율성점검",
-          "sent_at": "2026-10-13T22:57:21.224583+00:00"
-        },
-        {
-          "link": "newsclaim.co.kr/news/articleView.html?idxno=3078351",
-          "title_norm": "폐교는체육관으로군위경로당은스마트복지로",
-          "sent_at": "2026-10-13T22:57:21.224583+00:00"
-        },
-        {
-          "link": "agrinet.co.kr/news/articleView.html?idxno=407897",
-          "title_norm": "인구감소지역8992곳으로늘었다",
-          "sent_at": "2026-10-13T22:57:21.224583+00:00"
-        },
-        {
-          "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8684624&ref=A",
-          "title_norm": "합천기억채움농장열어지방소멸대응기금사업",
-          "sent_at": "2026-10-13T22:57:21.224583+00:00"
-        },
-        {
-          "link": "inews24.com/view/2014637",
-          "title_norm": "제주광역지원계정평가우수등급지방소멸대응기금34억원확보",
-          "sent_at": "2026-10-13T22:57:21.224583+00:00"
-        },
-        {
-          "link": "sjbnews.com/news/news.php?number=889744",
-          "title_norm": "아이돌봄센터해바라기사회적협동조합선정",
-          "sent_at": "2026-10-13T22:57:21.224583+00:00"
-        },
-        {
           "link": "kgnews.co.kr/news/article.html?no=915151",
           "title_norm": "동두천반려동물테마파크조성본격화수도권북부반려문화거점기",
           "sent_at": "2026-10-14T07:57:22.428788+00:00"
@@ -552,17 +482,92 @@
           "link": "kihoilbo.co.kr/news/articleView.html?idxno=3037732",
           "title_norm": "연천군미래기틀다진100일김덕현연천군수인터뷰",
           "sent_at": "2026-10-15T22:57:23.620388+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1019731",
+          "title_norm": "지방소멸기금어디에썼나청송청년주택44세대준공청송군지역",
+          "sent_at": "2026-10-16T07:57:21.680743+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1019720",
+          "title_norm": "지방소멸기금어디에썼나고령40억원가공센터가동농업인8명",
+          "sent_at": "2026-10-16T07:57:21.680743+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1019727",
+          "title_norm": "지방소멸기금어디에썼나성주놀이터누적8600명영어교육월2",
+          "sent_at": "2026-10-16T07:57:21.680743+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE1JQ0NFQzdxS1QtQTQ2U3psNnhLUnppZ3M2ZHNNM2plOUEyYVV3aXVmMFhwSDRSbUpSM21lajYybXlyYUt2RjVmUXh3U29IY3p0WGdvMkt3Rjh0dDZ2SlNaTzlNWkg5M1lGemdn?oc=5",
+          "title_norm": "지방소멸기금어디에썼나영월농촌유학315명청년창업71팀강원유일우수지역다운실적",
+          "sent_at": "2026-10-16T07:57:21.680743+00:00"
+        },
+        {
+          "link": "enewstoday.co.kr/news/articleView.html?idxno=2480835",
+          "title_norm": "장세일군수송미령장관만나인구활력지역우대요청",
+          "sent_at": "2026-10-16T07:57:21.680743+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiS0FVX3lxTE9YWVZJeGVPQWc4WFhha2Q1OGh3WjZhdGNrbDRWUFNJSDVGQkpJZFZoMjF1SmtyWlF4TTlicGFndVJUNmotaWRaWmxIcw?oc=5",
+          "title_norm": "지방소멸대응기금사업현장서간담회하는윤호중장관",
+          "sent_at": "2026-10-16T07:57:21.680743+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMidEFVX3lxTE1mYnpZSVVndTBrWV9mSUxiQ0JDQVg5cUlBbEtmT2RxU1Zrc2U4TFlvdk5QQ1hBdXEtRXh5NXJfUHR5Mm03NGRSdVN4WXlBRzdOd251YlgtRTFFQXNwTC1LSmw4c0E2dmZBRUFMT2tuckk2QnM4?oc=5",
+          "title_norm": "발언하는윤호중장관",
+          "sent_at": "2026-10-16T07:57:21.680743+00:00"
+        },
+        {
+          "link": "news1.kr/photos/8162911",
+          "title_norm": "윤호중장관지방소멸대응기금사업현장방문",
+          "sent_at": "2026-10-16T07:57:21.680743+00:00"
+        },
+        {
+          "link": "news1.kr/photos/8162913",
+          "title_norm": "윤호중장관청년창업가와의소통간담회",
+          "sent_at": "2026-10-16T07:57:21.680743+00:00"
+        },
+        {
+          "link": "news.bbsi.co.kr/news/articleView.html?idxno=4112707",
+          "title_norm": "전남광주동구지원1동노후골목새단장7억원투입",
+          "sent_at": "2026-10-16T07:57:21.680743+00:00"
+        },
+        {
+          "link": "newsworker.co.kr/news/articleView.html?idxno=508927",
+          "title_norm": "전남광주동구머굴마을특화지원1동골목재생사업착수",
+          "sent_at": "2026-10-16T07:57:21.680743+00:00"
+        },
+        {
+          "link": "news.bbsi.co.kr/news/articleView.html?idxno=4112693",
+          "title_norm": "동해시의회곽준수의원청년유출대응장기거주가점제도입촉구",
+          "sent_at": "2026-10-16T07:57:21.680743+00:00"
+        },
+        {
+          "link": "agrinet.co.kr/news/articleView.html?idxno=407917",
+          "title_norm": "제주지방소멸대응기금으로청년농임대형스마트팜조성",
+          "sent_at": "2026-10-16T07:57:21.680743+00:00"
+        },
+        {
+          "link": "enewstoday.co.kr/news/articleView.html?idxno=2480818",
+          "title_norm": "단양군10억확보매포읍방치사택임대주택30세대로탈바꿈",
+          "sent_at": "2026-10-16T07:57:21.680743+00:00"
+        },
+        {
+          "link": "knpnews.com/news/articleView.html?idxno=34667",
+          "title_norm": "금정구인구감소지역전환의료주거여건개선시급",
+          "sent_at": "2026-10-16T07:57:21.680743+00:00"
+        },
+        {
+          "link": "etoday.co.kr/news/view/2636472",
+          "title_norm": "청년공공임대40가구해남군입주자모집",
+          "sent_at": "2026-10-16T07:57:21.680743+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-15T22:57:15.656917+00:00"
+      "last_checked_utc": "2026-10-16T07:57:15.362689+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "khan.co.kr/article/202610132128015",
-          "title_norm": "통합돌봄방문진료수행역량인구감소지역두배이상낮다",
-          "sent_at": "2026-10-13T22:57:24.849291+00:00"
-        },
         {
           "link": "news.google.com/rss/articles/CBMiZkFVX3lxTFBEaHVpY2QwTmFxZ1VGdHFOYlJHVk9XMVcxMWJOMHAwYWhreTRuQzZKN1R4V0R2VG5fX2ctTm1tUUI4N1NmTG9mRzlWLWxSb3ZYYkxQbUdFbGRUMzNuakc4UnlPOXVCdw?oc=5",
           "title_norm": "10년동안1만명인구감소지역지정딜라이브뉴스shorts",
@@ -682,17 +687,17 @@
           "link": "safetimes.co.kr/news/articleView.html?idxno=246534",
           "title_norm": "오늘의주요일정16일윤호중장관인구감소지역지방소멸대응현장",
           "sent_at": "2026-10-15T22:57:28.576280+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiigFBVV95cUxNTTlLMlc1LWFUYzB4Qk54b1FKbURDbFpMeC1oVURaejdwLWdydTJMcVljSzhrVlh0dkxzMURIZUJIS2J5YzA1TWdoR3VCQUlJbVpZc1N1aFA3NVI0X0JlWDFnTlJ4SDkwb0p3YWFuVEhXcXlVcXA3X3d0My1vWm5LY0drSVRLLWpHbGc?oc=5",
+          "title_norm": "인구감소지역기차여행인기코레일9개월만지난해실적돌파",
+          "sent_at": "2026-10-16T07:57:25.489641+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-15T22:57:15.656917+00:00"
+      "last_checked_utc": "2026-10-16T07:57:15.362689+00:00"
     },
     "life": {
       "articles": [
-        {
-          "link": "news.google.com/rss/articles/CBMickFVX3lxTE5MNkRGUERZSHQwWFBYSmVnS1o3QjJGZFBZT0FDaUhQTk5wTF9vV3V3OXVhdlhueG5hY3BEOWNKa2VaSzZwaDZPcTVpZGRhZTM2UEtqMlQ0X1NLeVJiT05WS3dZbWdvd0EwX3AzNVVrOVI4dw?oc=5",
-          "title_norm": "한국지방정부신문한국언론진흥재단공동기획사라지는마을다시살아나는공동체생활인구관계인구가바꾸는한국과일본의지역재생현장보고서",
-          "sent_at": "2026-10-13T22:57:28.590956+00:00"
-        },
         {
           "link": "news.google.com/rss/articles/CBMiZkFVX3lxTE1MQXI1Y3IxdERvNTkzamlwQlpqYVJIanJxZ3Q2U0RIUHotbHVhRGlFeGZTUjFSc1AxUkYxYWNEWEdFa2I5T1ZGaG56UFZjSnhhamtpR2ZvdHRfTVhRQWhxWkR0Q3JSZw?oc=5",
           "title_norm": "생활인구161만인데재정지원은제자리전주시의회교부세산정개선촉구",
@@ -729,11 +734,11 @@
           "sent_at": "2026-10-15T07:57:26.985061+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-15T22:57:15.656917+00:00"
+      "last_checked_utc": "2026-10-16T07:57:15.362689+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-10-15",
+    "pm": "2026-10-16",
     "am": "2026-10-16"
   }
 }
