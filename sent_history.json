@@ -4,26 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8687845&ref=A",
-          "title_norm": "사람중심지방소멸대응기금실효성높이려면",
-          "sent_at": "2026-10-16T22:57:17.779148+00:00"
-        },
-        {
-          "link": "dgmbc.com/NewsArticle/867830",
-          "title_norm": "경북86인구소멸위험소멸대응전략바꿔야",
-          "sent_at": "2026-10-16T22:57:17.779148+00:00"
-        },
-        {
-          "link": "newsmaker.or.kr/news/articleView.html?idxno=184244",
-          "title_norm": "완도군42억투입해28병상혈액투석시설건립추진",
-          "sent_at": "2026-10-16T22:57:17.779148+00:00"
-        },
-        {
-          "link": "chmbc.co.kr/article/6XqtlI8C1b6SWJogg1AeIX",
-          "title_norm": "강원도지방소멸대응기금투자계획최우수66억원배분",
-          "sent_at": "2026-10-16T22:57:17.779148+00:00"
-        },
-        {
           "link": "newstnt.com/news/articleView.html?idxno=723446",
           "title_norm": "곽준수동해시의원청년유출심각장기거주가점제도입해야",
           "sent_at": "2026-10-17T07:57:17.319061+00:00"
@@ -112,9 +92,124 @@
           "link": "news.google.com/rss/articles/CBMicEFVX3lxTE1OZjlZV2tYOFFxdk1yR2YxOGRGQW1QVEJtNE54VGhkSXJvUVhyaDdUbDluWGpaUVhhZWhRMi1mMHhjREtWM0otUUtZOFRCTURMOFJfRFFVYzZJZ3RXcExKTHdydW13MGNad29XODVsSk8?oc=5",
           "title_norm": "이현명특별시의원지역현안산적지방소멸대응기금주민생활에써야뉴스",
           "sent_at": "2026-10-18T22:57:21.529533+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZ0FVX3lxTE93bUt2TEllaU9wdXZxMkd1eTFIdmwtc3lNdGpudmwwODhTOHl3Q0hUS0xsMWloS3RzQ3NueDc5UW93ajN1N3FhWUwtVnBFV2Y1NDg3MUx3NG5ob2dZTXQyemMwYWRISkE?oc=5",
+          "title_norm": "단순시설건립지양주민체감형정주여건개선위해총력",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "idomin.com/news/articleView.html?idxno=2017317",
+          "title_norm": "100만지켜야하고인구줄어도지원없고제도에갇힌창원",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "news.lghellovision.net/news/articleView.html?idxno=558856",
+          "title_norm": "화천군지방소멸대응기금투자평가최우수",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTFBIY3pfdTBJajhONV9QSEpXMnN5Q3lNamZHNUpWSTgyclQyRm1NSVhSUWptckM5SDZ5Z1dMd2lHVXRQSEVwYkJPNWZJeS0zUi1IM25mREE5VGJDZzQ2Nm1Xc1YyMGpEVHRsRVFv?oc=5",
+          "title_norm": "화천군지방소멸대응기금평가전국최우수광역기금30억원더받는다",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "mk.co.kr/article/12179504",
+          "title_norm": "화천군지방소멸대응평가최우수30억원추가확보",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3725547",
+          "title_norm": "화천군지방소멸대응기금전국최우수쾌거김세훈군수정주환경",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "daily.hankooki.com/news/articleView.html?idxno=1416099",
+          "title_norm": "대전동구소식지역맞춤형저출산대응공모사업선정특별교부세5억",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "newsworker.co.kr/news/articleView.html?idxno=509226",
+          "title_norm": "대전동구7억5천만원투입해330규모공공형실내놀이터10월개",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "ppss.kr/news/articleView.html?idxno=316127",
+          "title_norm": "대전동구저출산대응공모사업선정",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "kado.net/news/articleView.html?idxno=2079015",
+          "title_norm": "평창군인구감소지역대응기본계획수립중간보고회",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "yna.co.kr/view/AKR20261019069100062?input=1195m",
+          "title_norm": "평창소식중장기인구감소대응전략중간보고회개최",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "m-i.kr/news/articleView.html?idxno=2007630",
+          "title_norm": "영광군인구감소회복세군단위유일인구활력플러스지역지정",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "pressian.com/pages/articles/2026101914504715373?utm_source=naver&utm_medium=search",
+          "title_norm": "영광군인구5년새1541명늘었다전국군단위유일인구활력플러",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "newsis.com/view/NISX20261019_0003831923",
+          "title_norm": "영광군인구회복새5년연다정주여건대폭강화",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "m-i.kr/news/articleView.html?idxno=2007327",
+          "title_norm": "완도군42억원투입인공신장실신축내년4월완공목표",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "ccdn.co.kr/news/articleView.html?idxno=1105551",
+          "title_norm": "대전시인구감소대응특교세5억확보",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "newspim.com/news/view/20261019000927",
+          "title_norm": "대전동구에어린이실내놀이터생긴다75억투입내년10월개관",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "segye.com/newsView/20261019514449?OutUrl=naver",
+          "title_norm": "산후조리원금액천차만별5000만원대vs95만원",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "pressian.com/pages/articles/2026101913383559741?utm_source=naver&utm_medium=search",
+          "title_norm": "동두천시노인의날기념식지역사회유공자20명표창",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE9FN2dsM2g1RUEyZ2RLeGg3a19fbnRLREl6SmVmWVliemsyWkFVcGxyMzl5NzJxbUd0TG8yWDZ4NzNSMVZJeHhVT2lhbWVfc0FIbnlvUVp4LXJuMG55V0M4amVfZEVnWGllZDk4?oc=5",
+          "title_norm": "기획지방소멸기금어디에썼나태백핵심광물로일자리기반만들고주택돌봄채운다",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE9aRzJKcnNma25RWDJ1b1VYVEktTE1BSlloV2pLc190TFVZNU1GemE0ZGZaZjJObnY5am83QnctTFI1RU1Ic3VzbFdMWUdtUWFzc3NaeGUwNW9PNmotbElzNlhMSlM4d0ZpRGY0?oc=5",
+          "title_norm": "기획지방소멸기금어디에썼나고성a등급고성군오호리생활환경과관광기반함께바꾼다",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE9Uajk5ZllqSFVjVmwtZTdKazF0Q2dXa2k3Y0VjcE9ISGZHSW1vUl9pS3pCRjBpd3dpQmZDazhxMkg0b09DQ2drTjRQcVVlc2R5MloxdW5zaVpvUHpPeUV0ZHNwRklHUDJ1cEdn?oc=5",
+          "title_norm": "기획지방소멸기금어디에썼나속초문연기금시설3곳속초시는지속운영기반만든다",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTFBJSDR6OVhpQTB1T0dKcjhBWUhKTldRSkxoeHlKWGF3cDZwS0FWYkduZGg1QXROTGZ4RVVOUjRkczhoaHA5cDVrOUQ4RDM5dHVZREhNYTNRMjEzQURBZ0RjVVZxVjVEZzRUSkJn?oc=5",
+          "title_norm": "기획지방소멸기금어디에썼나양양기금305억원집중한양양오색관광거점으로승부건다",
+          "sent_at": "2026-10-19T07:57:20.273189+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-18T22:57:16.339267+00:00"
+      "last_checked_utc": "2026-10-19T07:57:14.424434+00:00"
     },
     "pop": {
       "articles": [
@@ -127,17 +222,17 @@
           "link": "knnews.co.kr/news/articleView.php?idxno=1553017",
           "title_norm": "인구감소지역또배제된창원행정구법개정재도전",
           "sent_at": "2026-10-18T22:57:25.090395+00:00"
+        },
+        {
+          "link": "mk.co.kr/article/12179700",
+          "title_norm": "한국철도공사인구감소지역여행가면기차표값100환급혜택",
+          "sent_at": "2026-10-19T07:57:23.844200+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-18T22:57:16.339267+00:00"
+      "last_checked_utc": "2026-10-19T07:57:14.424434+00:00"
     },
     "life": {
       "articles": [
-        {
-          "link": "mpmbc.co.kr/NewsArticle/1541331",
-          "title_norm": "데이터로증명한다지만생활인구측정은어떻게",
-          "sent_at": "2026-10-16T22:57:25.009216+00:00"
-        },
         {
           "link": "news.google.com/rss/articles/CBMiZkFVX3lxTE9xUzlGck9LMmZTbUcyeFYyUm56OHdXNDZrMjlJVjhVZHdLaHo1RTdtS0xHU2c2cVNxT2lWbklyVDJybVJSNGZlQ3VlX3lOb002c1FJZi1DMDNLQU85YU16a0pvMU9HQdIBakFVX3lxTE1DUkczdEtfWFA3VGNMdVc2aFZBN0hfc1I0SUNCQ1BDdG5zRlN3OEdwaUZmNHZRREx1Q1o5SUdubGctenVfMXJEYjJsNWRZdVBzNVhvQlhqaXA4ZEotZ2RYcWJBU1ljNGVkWXc?oc=5",
           "title_norm": "생활인구정책이제는머무는사람에주목할때",
@@ -157,13 +252,23 @@
           "link": "fnnews.com/news/202610181036212044",
           "title_norm": "강원도생활인구효과보통교부세251억원더받았다",
           "sent_at": "2026-10-18T07:57:25.950833+00:00"
+        },
+        {
+          "link": "newsworker.co.kr/news/articleView.html?idxno=509302",
+          "title_norm": "목포시시민주권실신설생활인구100만조직개편",
+          "sent_at": "2026-10-19T07:57:27.463462+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiaEFVX3lxTE9BaVI0M01rbzRyRVc4R1hOYkNmdUdydm1GYUFGQzM3WlZaeTZpSHFBSDB0UC14R3VIcHI0Q1VnaTh2dkplSHRzRkNGeGh0Y1MyU0xhUkVDUENzTGdsdGhuRklNQVNlcXpD?oc=5",
+          "title_norm": "목포시민선9기첫조직개편입법예고생활인구100만체감복지실현",
+          "sent_at": "2026-10-19T07:57:27.463462+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-18T22:57:16.339267+00:00"
+      "last_checked_utc": "2026-10-19T07:57:14.424434+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-10-18",
+    "pm": "2026-10-19",
     "am": "2026-10-19"
   }
 }
