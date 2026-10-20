@@ -4,21 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8688293&ref=A",
-          "title_norm": "충청북도지방소멸대응기금투자계획우수34억원확보",
-          "sent_at": "2026-10-17T22:57:21.279600+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMif0FVX3lxTE9OZDNWWXpDTVNhUE5yTlIzS0Nqci13eHliS3BtZHNzeDZ4a0VfMl9WVlNJR04xb3JpRElwYW8xWGxZUm9vV1d2cml1c0JPQUw0SEdmVW5sTmhMVHE3VGdiZG5ScHRCd3FrZVRVWTNBbE5uN0ZrcW1zaDZmUEFmR0U?oc=5",
-          "title_norm": "장흥군지방소멸대응기금212억확보로인구정책뜀박질",
-          "sent_at": "2026-10-17T22:57:21.279600+00:00"
-        },
-        {
-          "link": "polinews.co.kr/news/articleView.html?idxno=746010",
-          "title_norm": "산청군인구감소대응조직개편으로경제활로찾는다",
-          "sent_at": "2026-10-17T22:57:21.279600+00:00"
-        },
-        {
           "link": "kyongbuk.co.kr/news/articleView.html?idxno=4087505",
           "title_norm": "의성군청년창업가에1대1맞춤경영컨설팅",
           "sent_at": "2026-10-18T07:57:18.543939+00:00"
@@ -247,9 +232,134 @@
           "link": "ccdailynews.com/news/articleView.html?idxno=2446965",
           "title_norm": "신흥동에들어설영유아공공실내놀이공간",
           "sent_at": "2026-10-19T22:57:18.725941+00:00"
+        },
+        {
+          "link": "mt.co.kr/politics/2026/10/20/2026102016174643563",
+          "title_norm": "는1조채무는특보임용충북국감도재정인사도마",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "newsis.com/view/NISX20261020_0003833315",
+          "title_norm": "지사빚1조vs전과자보좌관충북국감공방",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "ccreview.co.kr/news/articleView.html?idxno=360350",
+          "title_norm": "충북도국감여야공방국힘전과보좌관민주전임지사빚1조",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "yna.co.kr/view/AKR20261020141700064?input=1195m",
+          "title_norm": "2년만의충북도현장국감쟁점없이현안점검에그쳐",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "hansbiz.co.kr/news/articleView.html?idxno=874501",
+          "title_norm": "강진군다시반값여행지역경제살리기연말까지지속",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiakFVX3lxTFBJUkhtOWZkd1FmYW9rNmhlV0cxQ1dUenh2UXJLaVFFQlRkUS1yaUlsWEFMbENHLTF1cUhMVUxTalZiMEEyQjhYWDkzTnlfQTg0RGR0OURHN1VHQWMtLU54UkZjT1RTSjlzTnc?oc=5",
+          "title_norm": "강진반값여행올연말까지계속",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "sedaily.com/article/20103815?ref=naver",
+          "title_norm": "갈대축제즐기고여행비부담은반으로강진군반값여행재개",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiaEFVX3lxTFB4UG4zSVpZVjg5QlRBS1U5VGZlcDlZWEJSWTJULURjYmlNN1k3LTBTblJMVVNBLXdxdEVRNFk3c0pPcWIwd244aHFueHd1UDdDNzA1UXZtQXFPQTJSbXRvaDdpZ1dITGtJ?oc=5",
+          "title_norm": "강진군지방소멸대응기금20억원투입반값여행갈대축제골목상권풍성",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "imaeil.com/page/view/2026102015180598655",
+          "title_norm": "산불이재민1천898가구임시주택생활경북도국감서행정부실질타",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "ekn.kr/web/view.php?key=20261020020268723",
+          "title_norm": "경북도국감행정통합신공항해법집중추궁북부권균형발전주민",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "yna.co.kr/view/AKR20261020109551053?input=1195m",
+          "title_norm": "행정통합신공항지지부진산불복구는미흡경북도국감쟁점종합",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "polinews.co.kr/news/articleView.html?idxno=746289",
+          "title_norm": "무거운이불대신빨아드립니다고흥군찾아가는복지확대",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "ytn.co.kr/_ln/0115_202610201456159564",
+          "title_norm": "이철우국감서tk행정통합법안통과협조요청",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "breaknews.com/1244248",
+          "title_norm": "경북국정감사산불이재민임시주택안전울릉도의료신공항등지",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "ekn.kr/web/view.php?key=20261020022058639",
+          "title_norm": "패트롤장성군보성군고흥군영광군무안군",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "breaknews.com/1244185",
+          "title_norm": "경북도국감서행정통합신공항산불복구도마석포제련소이전관",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "imaeil.com/page/view/2026101316055041772",
+          "title_norm": "의정외전전규호영주시의회부의장현장의목소리를정책과조례로",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "news1.kr/local/busan-gyeongnam/6325794",
+          "title_norm": "인구감소지역통영시지방세감면확대주택기업혜택강화",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "newsgn.com/news/articleView.html?idxno=580191",
+          "title_norm": "통영시인구감소지역지정지방세감면확대",
+          "sent_at": "2026-10-20T07:57:17.104409+00:00"
+        },
+        {
+          "link": "naeil.com/news/read/605732?ref=naver",
+          "title_norm": "프랑스시위에온도차여침묵야남의일아냐",
+          "sent_at": "2026-10-20T07:57:18.622715+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiX0FVX3lxTE04UU1tSFotdHdtYXd2R3J1WG5ZSW4zTXFITG1GWFJJQlpTVUdMVUJJVEU1cVNQOFBkRC1HSHRrdWRYTmRLSVJyM1NQRkVWWU90alpKclhyZUhXc2VpN2Zr?oc=5",
+          "title_norm": "영광군인구활력플러스지역선정지방소멸대응기금활용정주여건개선보도자료기사",
+          "sent_at": "2026-10-20T07:57:18.622715+00:00"
+        },
+        {
+          "link": "seongjuro.co.kr/news/view.php?idx=61202",
+          "title_norm": "성주의빈집지역자산이될수있을까빈집폐교에새쓰임청",
+          "sent_at": "2026-10-20T07:57:18.622715+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1020018",
+          "title_norm": "기획지방소멸기금어디에썼나홍천외지청년불러온홍천스마트",
+          "sent_at": "2026-10-20T07:57:18.622715+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE1rYU1ON0hJbHhQLXVjeS0zM0xBYWEyTjRVakdHUTJWaU1LcmsxbnkzV0l2NlRBNXpHcllMZ3FNSGJOcGdmQ0VDUjFaeVExZW1iMDNxVEozaXNtck5XdU1xYjJZTGZwcE5XRVRR?oc=5",
+          "title_norm": "기획지방소멸기금어디에썼나삼척수도권수소기업5곳삼척으로임대형공장6개사입주",
+          "sent_at": "2026-10-20T07:57:18.622715+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTFB4YTRhYVJLYnM1RXpLR1pjR1Y0S1ZRM1NaRExuYndURzBLRERCbU5uWFd2N2RNeVJocFpqLW9TOVF1a21udzFnaWdSbW5Zamdlcjl4X0VVRHZaWlRpZGZKbkQzVmZGc3d3eTVj?oc=5",
+          "title_norm": "기획지방소멸기금어디에썼나울릉임대주택20세대모두입주울릉군은청년정착넓힌다",
+          "sent_at": "2026-10-20T07:57:18.622715+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-19T22:57:13.893237+00:00"
+      "last_checked_utc": "2026-10-20T07:57:12.162551+00:00"
     },
     "pop": {
       "articles": [
@@ -267,9 +377,49 @@
           "link": "mk.co.kr/article/12179700",
           "title_norm": "한국철도공사인구감소지역여행가면기차표값100환급혜택",
           "sent_at": "2026-10-19T07:57:23.844200+00:00"
+        },
+        {
+          "link": "seoul.co.kr/news/society/2026/10/20/20261020500223?wlog_tag3=naver",
+          "title_norm": "자살률높은데정신과의사0명인구감소지역의이중고",
+          "sent_at": "2026-10-20T07:57:22.240241+00:00"
+        },
+        {
+          "link": "m-joongang.com/news/articleView.html?idxno=403204",
+          "title_norm": "2026국감인구감소지역자살률더높은데92곳중25곳은정신과",
+          "sent_at": "2026-10-20T07:57:22.240241+00:00"
+        },
+        {
+          "link": "sisajournal.com/news/articleView.html?idxno=390923",
+          "title_norm": "인구감소지역자살률높은데정신과의사도부족25곳은0명",
+          "sent_at": "2026-10-20T07:57:22.240241+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMickFVX3lxTFA3ekxhWEJObWJpckQyN2R1Q2g4dF9DcjZIUDQ3alRiZkVfVUdNT3d5eXFVS3A4R1lwQ0xxZ1BaeTVFc0RZdTZPQVJySGdwWTA4d2Q0T0lENFI5emZQWVNsMzA2bThWR1RhLW9fVUlyNnpwUQ?oc=5",
+          "title_norm": "인구감소지역자살률높아정신건강의료인프라도부족뉴스",
+          "sent_at": "2026-10-20T07:57:22.240241+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMickFVX3lxTE5NTXVxMlhLaFFyemFUc3lORkJsbS1TSHZwNTJOMFZkcDNhV1I3MnpJcWVXQzJlbHhhNzRLSkQ0MFJ5cHF0NEZWb0xWSzF3NWpYQkJmcEp1eWNNbER3RzhHeHRqOTUwbG53eDVHNG4zNllXZw?oc=5",
+          "title_norm": "인구감소지역자살률전국평균웃돌아정신과의사도부족",
+          "sent_at": "2026-10-20T07:57:22.240241+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiVkFVX3lxTE5EMGhXaGltanpqRzZ3Q0Y2WU44TkpFX1Zvc01kQXVmOW5ia2otSl9TdmZWclNRckZxZTZNS196cV9NZ1hOWVo2S2lPVEYyZkJva2x5dk13?oc=5",
+          "title_norm": "인구감소지역금융서비스공백막는다",
+          "sent_at": "2026-10-20T07:57:22.240241+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiWEFVX3lxTE8yRXA4MVBfTm4wdlF3bTBOdXRqUE9NbHVQb1JDWThwZzJrMFNyZnlTc0RaSVJiMXd2dHpXVXRhZGEyTGk1OVl2TWtMWldhTDFoQlZoWUdGYXY?oc=5",
+          "title_norm": "국립김천치유의숲인구감소지역정주교육활동참여",
+          "sent_at": "2026-10-20T07:57:22.240241+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiREFVX3lxTE1raDZoUkJnM2VEWWdDSkZ2QXp5NWRwa2VfRF9qVXBzbHozYXhHUDY1NDEzNjdlRnFCYS0wcXUyTHFULTlL?oc=5",
+          "title_norm": "국감인구감소지역25곳정신과의사0명",
+          "sent_at": "2026-10-20T07:57:22.240241+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-19T22:57:13.893237+00:00"
+      "last_checked_utc": "2026-10-20T07:57:12.162551+00:00"
     },
     "life": {
       "articles": [
@@ -292,13 +442,18 @@
           "link": "news.google.com/rss/articles/CBMiaEFVX3lxTE9BaVI0M01rbzRyRVc4R1hOYkNmdUdydm1GYUFGQzM3WlZaeTZpSHFBSDB0UC14R3VIcHI0Q1VnaTh2dkplSHRzRkNGeGh0Y1MyU0xhUkVDUENzTGdsdGhuRklNQVNlcXpD?oc=5",
           "title_norm": "목포시민선9기첫조직개편입법예고생활인구100만체감복지실현",
           "sent_at": "2026-10-19T07:57:27.463462+00:00"
+        },
+        {
+          "link": "idomin.com/news/articleView.html?idxno=2017469",
+          "title_norm": "성낙인창녕군수예산1조생활인구500만시대군민과함께열어갈것",
+          "sent_at": "2026-10-20T07:57:25.715048+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-19T22:57:13.893237+00:00"
+      "last_checked_utc": "2026-10-20T07:57:12.162551+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-10-19",
+    "pm": "2026-10-20",
     "am": "2026-10-20"
   }
 }
