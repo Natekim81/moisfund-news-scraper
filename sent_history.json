@@ -4,26 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "kyongbuk.co.kr/news/articleView.html?idxno=4087505",
-          "title_norm": "의성군청년창업가에1대1맞춤경영컨설팅",
-          "sent_at": "2026-10-18T07:57:18.543939+00:00"
-        },
-        {
-          "link": "dynews.co.kr/news/articleView.html?idxno=869697",
-          "title_norm": "행사영동군19일",
-          "sent_at": "2026-10-18T07:57:18.543939+00:00"
-        },
-        {
-          "link": "geconomy.co.kr/news/article.html?no=324476",
-          "title_norm": "보성군294억지방소멸대응사업에힘싣는다청년일자리정주기반",
-          "sent_at": "2026-10-18T07:57:18.543939+00:00"
-        },
-        {
-          "link": "joongdo.co.kr/web/view.php?key=20261018010003962",
-          "title_norm": "완도군주민원정진료부담해소인공신장실건립",
-          "sent_at": "2026-10-18T07:57:18.543939+00:00"
-        },
-        {
           "link": "kado.net/news/articleView.html?idxno=2078784",
           "title_norm": "돌봄확대로주민일자리창출선순환",
           "sent_at": "2026-10-18T22:57:21.529533+00:00"
@@ -357,17 +337,102 @@
           "link": "news.google.com/rss/articles/CBMia0FVX3lxTFB4YTRhYVJLYnM1RXpLR1pjR1Y0S1ZRM1NaRExuYndURzBLRERCbU5uWFd2N2RNeVJocFpqLW9TOVF1a21udzFnaWdSbW5Zamdlcjl4X0VVRHZaWlRpZGZKbkQzVmZGc3d3eTVj?oc=5",
           "title_norm": "기획지방소멸기금어디에썼나울릉임대주택20세대모두입주울릉군은청년정착넓힌다",
           "sent_at": "2026-10-20T07:57:18.622715+00:00"
+        },
+        {
+          "link": "jnilbo.com/news/articleView.html?idxno=90000075078",
+          "title_norm": "숙박더하고쏠림막고강진군반값여행재개된다",
+          "sent_at": "2026-10-20T22:57:22.889762+00:00"
+        },
+        {
+          "link": "betanews.net/article/view/beta202610200143",
+          "title_norm": "강진군반값여행재개국비20억원투입",
+          "sent_at": "2026-10-20T22:57:22.889762+00:00"
+        },
+        {
+          "link": "jnilbo.com/news/articleView.html?idxno=90000074971",
+          "title_norm": "고흥군취약계층대상찾아가는이동빨래서비스가동",
+          "sent_at": "2026-10-20T22:57:22.889762+00:00"
+        },
+        {
+          "link": "ksilbo.co.kr/news/articleView.html?idxno=1070104",
+          "title_norm": "청년이희망이다꿈과희망이현실이되는청년이만드는행복도시울",
+          "sent_at": "2026-10-20T22:57:22.889762+00:00"
+        },
+        {
+          "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8690714&ref=A",
+          "title_norm": "2년만의경북도국감행정통합신공항소멸기금도마",
+          "sent_at": "2026-10-20T22:57:22.889762+00:00"
+        },
+        {
+          "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8690662&ref=A",
+          "title_norm": "청년공공주택1만호공급청년유출해법될까",
+          "sent_at": "2026-10-20T22:57:22.889762+00:00"
+        },
+        {
+          "link": "newspim.com/news/view/20261020001217",
+          "title_norm": "곽준수동해시의원장기거주청년에채용가점부여해야",
+          "sent_at": "2026-10-20T22:57:22.889762+00:00"
+        },
+        {
+          "link": "cctimes.kr/news/articleView.html?idxno=933026",
+          "title_norm": "국감충북도민선8기24억학습멘토링사업도마위",
+          "sent_at": "2026-10-20T22:57:22.889762+00:00"
+        },
+        {
+          "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8690532&ref=A",
+          "title_norm": "뉴스초대석인구감소지역재지정경북의변화와대응은",
+          "sent_at": "2026-10-20T22:57:22.889762+00:00"
+        },
+        {
+          "link": "ccdn.co.kr/news/articleView.html?idxno=1105966",
+          "title_norm": "국감특보전과vs1조부채전현임충북도정송곳질의",
+          "sent_at": "2026-10-20T22:57:22.889762+00:00"
+        },
+        {
+          "link": "newsworker.co.kr/news/articleView.html?idxno=509661",
+          "title_norm": "기획영암군민선9기100일군민체감기본사회망확장",
+          "sent_at": "2026-10-20T22:57:22.889762+00:00"
+        },
+        {
+          "link": "ikbc.co.kr/article/view/kbc202610200061",
+          "title_norm": "강진반값여행인기행진올해말까지연장운영",
+          "sent_at": "2026-10-20T22:57:22.889762+00:00"
+        },
+        {
+          "link": "yna.co.kr/view/AKR20261020163600062?input=1195m",
+          "title_norm": "낙후도최하위권인데2권역인제군지방우대지수에반발",
+          "sent_at": "2026-10-20T22:57:22.889762+00:00"
+        },
+        {
+          "link": "yeongnam.com/web/view.php?key=20261020022385769",
+          "title_norm": "대구경북행정통합tk공항산불이재민대책집중거론",
+          "sent_at": "2026-10-20T22:57:22.889762+00:00"
+        },
+        {
+          "link": "newsworker.co.kr/news/articleView.html?idxno=509653",
+          "title_norm": "강진군의회군민생활밀착조례심의제324회임시회개회",
+          "sent_at": "2026-10-20T22:57:22.889762+00:00"
+        },
+        {
+          "link": "mt.co.kr/politics/2026/10/20/2026102016452438909",
+          "title_norm": "tk통합속도신공항지원형평성경북국감달군지역현안들",
+          "sent_at": "2026-10-20T22:57:24.509850+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMicEFVX3lxTE1BdkVEbnVUYk5lM0xXN011dVM0MlNyc1lSUFZ2M0VRSFRjZkVuY05QRll4LVVMVXZGLVBadjIyRHBkeGxlWThuM0V5Z1BhSFFpRTE5dUJnTmRoZVpUdjc1eEdaSm9hd1hkQTl1bEVUU2k?oc=5",
+          "title_norm": "강진반값여행12월까지연장지방소멸기금국비투입뉴스",
+          "sent_at": "2026-10-20T22:57:24.509850+00:00"
+        },
+        {
+          "link": "kwnews.co.kr/article/20261020500780",
+          "title_norm": "강원특별자치도청년신혼부부집고민잡는다공공임대주택1만",
+          "sent_at": "2026-10-20T22:57:24.509850+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-20T07:57:12.162551+00:00"
+      "last_checked_utc": "2026-10-20T22:57:17.626406+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "gukjenews.com/news/articleView.html?idxno=3724734",
-          "title_norm": "한국관광공사지역관광부스터사업추진인구감소지역관광객유치",
-          "sent_at": "2026-10-18T07:57:22.244196+00:00"
-        },
         {
           "link": "knnews.co.kr/news/articleView.php?idxno=1553017",
           "title_norm": "인구감소지역또배제된창원행정구법개정재도전",
@@ -417,22 +482,22 @@
           "link": "news.google.com/rss/articles/CBMiREFVX3lxTE1raDZoUkJnM2VEWWdDSkZ2QXp5NWRwa2VfRF9qVXBzbHozYXhHUDY1NDEzNjdlRnFCYS0wcXUyTHFULTlL?oc=5",
           "title_norm": "국감인구감소지역25곳정신과의사0명",
           "sent_at": "2026-10-20T07:57:22.240241+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiXEFVX3lxTE1YY0J2NVN1T2pSUEVxVUJxRksyVnNneXJ4a3NTUk9keHJ2ZWVfamxUSWlqVzdsVksxRWdVbHIzQWtyQ29Pb3lvVHQyTkxaMktlODNETkdsOFZyMEtj?oc=5",
+          "title_norm": "인구감소지역자살률비감소지역보다높아지원책절실",
+          "sent_at": "2026-10-20T22:57:28.419789+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE9NRGJnendDdWRQeEM0VzNybVBMN1hxNXY1RGtaQWh3aWxrTXpyTVp6OUIzLUFscWl2dnlFSmZsT0dmN1VERWRmanV6WEVPTTYzaXNRSEctMFBsRDhLaXJoU2c1WGNCT3JEc1YyVUxR?oc=5",
+          "title_norm": "줄건많은데쓸지침이없다인구감소지역특례현장서겉도는이유",
+          "sent_at": "2026-10-20T22:57:28.419789+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-20T07:57:12.162551+00:00"
+      "last_checked_utc": "2026-10-20T22:57:17.626406+00:00"
     },
     "life": {
       "articles": [
-        {
-          "link": "mbceg.co.kr/post/141084",
-          "title_norm": "생활인구반영하니강원도보통교부세증가효과쑥251억원늘어",
-          "sent_at": "2026-10-18T07:57:25.950833+00:00"
-        },
-        {
-          "link": "fnnews.com/news/202610181036212044",
-          "title_norm": "강원도생활인구효과보통교부세251억원더받았다",
-          "sent_at": "2026-10-18T07:57:25.950833+00:00"
-        },
         {
           "link": "newsworker.co.kr/news/articleView.html?idxno=509302",
           "title_norm": "목포시시민주권실신설생활인구100만조직개편",
@@ -447,13 +512,18 @@
           "link": "idomin.com/news/articleView.html?idxno=2017469",
           "title_norm": "성낙인창녕군수예산1조생활인구500만시대군민과함께열어갈것",
           "sent_at": "2026-10-20T07:57:25.715048+00:00"
+        },
+        {
+          "link": "kado.net/news/articleView.html?idxno=2079360",
+          "title_norm": "태백시생활인구반영교부세증가효과도내최저",
+          "sent_at": "2026-10-20T22:57:32.061035+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-20T07:57:12.162551+00:00"
+      "last_checked_utc": "2026-10-20T22:57:17.626406+00:00"
     }
   },
   "slot_runs": {
     "pm": "2026-10-20",
-    "am": "2026-10-20"
+    "am": "2026-10-21"
   }
 }
