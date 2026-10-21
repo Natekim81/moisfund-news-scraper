@@ -4,51 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "kado.net/news/articleView.html?idxno=2078784",
-          "title_norm": "돌봄확대로주민일자리창출선순환",
-          "sent_at": "2026-10-18T22:57:21.529533+00:00"
-        },
-        {
-          "link": "kado.net/news/articleView.html?idxno=2078788",
-          "title_norm": "춘천원주거점홍천횡성평창잇는생활권만들어야",
-          "sent_at": "2026-10-18T22:57:21.529533+00:00"
-        },
-        {
-          "link": "kado.net/news/articleView.html?idxno=2078787",
-          "title_norm": "첨단산업유치넘어주거교육문화갖춰야청년머문다",
-          "sent_at": "2026-10-18T22:57:21.529533+00:00"
-        },
-        {
-          "link": "kado.net/news/articleView.html?idxno=2078786",
-          "title_norm": "그린바이오벤처캠청년정착뒷받침",
-          "sent_at": "2026-10-18T22:57:21.529533+00:00"
-        },
-        {
-          "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8688542&ref=A",
-          "title_norm": "예천칠곡도인구감소경고등대응전략은",
-          "sent_at": "2026-10-18T22:57:21.529533+00:00"
-        },
-        {
-          "link": "idaegu.co.kr/news/articleView.html?idxno=562633",
-          "title_norm": "국감후반전신공항건설행정통합등현안집중다뤄질듯",
-          "sent_at": "2026-10-18T22:57:21.529533+00:00"
-        },
-        {
-          "link": "geconomy.co.kr/news/article.html?no=324506",
-          "title_norm": "완도군지연됐던인공신장실공사재개42억투입28병상조성",
-          "sent_at": "2026-10-18T22:57:21.529533+00:00"
-        },
-        {
-          "link": "namdonews.com/news/articleView.html?idxno=926457",
-          "title_norm": "전남광주동구지원1동노후골목길새단장7억원투입",
-          "sent_at": "2026-10-18T22:57:21.529533+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMicEFVX3lxTE1OZjlZV2tYOFFxdk1yR2YxOGRGQW1QVEJtNE54VGhkSXJvUVhyaDdUbDluWGpaUVhhZWhRMi1mMHhjREtWM0otUUtZOFRCTURMOFJfRFFVYzZJZ3RXcExKTHdydW13MGNad29XODVsSk8?oc=5",
-          "title_norm": "이현명특별시의원지역현안산적지방소멸대응기금주민생활에써야뉴스",
-          "sent_at": "2026-10-18T22:57:21.529533+00:00"
-        },
-        {
           "link": "news.google.com/rss/articles/CBMiZ0FVX3lxTE93bUt2TEllaU9wdXZxMkd1eTFIdmwtc3lNdGpudmwwODhTOHl3Q0hUS0xsMWloS3RzQ3NueDc5UW93ajN1N3FhWUwtVnBFV2Y1NDg3MUx3NG5ob2dZTXQyemMwYWRISkE?oc=5",
           "title_norm": "단순시설건립지양주민체감형정주여건개선위해총력",
           "sent_at": "2026-10-19T07:57:20.273189+00:00"
@@ -427,17 +382,162 @@
           "link": "kwnews.co.kr/article/20261020500780",
           "title_norm": "강원특별자치도청년신혼부부집고민잡는다공공임대주택1만",
           "sent_at": "2026-10-20T22:57:24.509850+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiX0FVX3lxTFBKem5Qb0hDLThTaWdudE5zOXpyZENSY25NSkN3Wldtc0c1cGR4SHg0UzFZbEkzRGp6WFpVa3NnUk1pNVNycHRid1cyNEViSV92T25oV05uODRVVlZjbjdj?oc=5",
+          "title_norm": "장세일영광군수국회에인구회복성과보상촉구",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "asiatoday.co.kr/kn/view.php?key=20261021010007105",
+          "title_norm": "장세일영광군수인구늘린지역에실질적보상국회에제도개선",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "financialpost.co.kr/news/articleView.html?idxno=281717",
+          "title_norm": "인구증가회복보인영광군우리도성과보상금달라",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "news1.kr/local/gwangju-jeonnam/6327303",
+          "title_norm": "장세일영광군수출산율전국1위성과이어가도록적극지원을",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "thereport.co.kr/news/articleView.html?idxno=92515",
+          "title_norm": "인구회복이되레불이익영광군재정지원기준손질요구",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "newsworker.co.kr/news/articleView.html?idxno=509740",
+          "title_norm": "장세일영광군수인구반등성과보상촉구국회방문해4대과제",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiYEFVX3lxTE55aUxQcWlYQ1lFRkxjS3laaXpSVU1zNXdrTnRndkdqUGJ2UEtfdWVtRFRIa1VRcDlYV1VmdklLUzdzQVNkU0xHMW5xc1V4c0lZZ2lMLU9Ea0R3TGQzSXNUX9IBeEFVX3lxTE9jSzB5Ul92TnlLdnlEYW1uUVcxeVdkZWJaNWhPX2xzZ0VNZVNNZmxMY0V2ckdJd0VQRzZmRTRHWTdsXzRXMkw0c0RqcHA1d2hXS2ZaR01XMDN2ZkdVdzZXNGE5NFV3cXRVSHNIUU82NmZjd3BkTkNCVw?oc=5",
+          "title_norm": "장세일영광군수인구늘린지자체에재정인센티브더",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "pressian.com/pages/articles/2026102111050600316?utm_source=naver&utm_medium=search",
+          "title_norm": "영광군인구늘린지자체에인센티브줘야농어촌기본소득기준개",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "seoul.co.kr/news/publicnews/2026/10/21/20261021500099?wlog_tag3=naver",
+          "title_norm": "장세일영광군수국회찾아인구늘린지자체에성과보상줘야",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "thefairnews.co.kr/news/articleView.html?idxno=91408",
+          "title_norm": "장세일영광군수농어촌기본소득우대재정인센티브확대요청",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE52aU1FNmRQVnoydWlUZjV4ZnhqVERNbkJlQUU3bkl1X0dWMG1wOXFxT1U0aS1oWXVqNzdLTFBIMVBjSjRkTGx2RGo4MWkzbG5UVUlIbi1GdzluVEtHS0FiZnE4U1pqWnRUYVV3?oc=5",
+          "title_norm": "영광군인구회복성과보상건의기금10별도배분제안",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "ekn.kr/web/view.php?key=20261021020329131",
+          "title_norm": "패트롤목포시영광군화순군신안군",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "viva100.com/article/20261020500565",
+          "title_norm": "청년창업의꿈춘천서날개펼친다",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiaEFVX3lxTE41S2hQUkxRa01TekswMXctcWVIR0ZzMTdsLUJfTlFFN0ZtX05rTU5uWS13SHl1NXkwcTFiQkV2VndjYUtpOWI0VlR5dmNDeWlHRm5CYU53T0V6R3VBTWV1VDlnWkYyRHU2?oc=5",
+          "title_norm": "고흥군지방소멸대응기금투입이동세탁차량운행취약계층찾아간다",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "segye.com/newsView/20261021509384?OutUrl=naver",
+          "title_norm": "강진반값여행12월까지연장국비20억확보지방자치투데이",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "yna.co.kr/view/AKR20261021052000054?input=1195m",
+          "title_norm": "강진반값여행12월까지쭉국비20억으로운영",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "thereport.co.kr/news/articleView.html?idxno=92476",
+          "title_norm": "강진반값여행재개12월부터한업소10만원상한",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "dnews.co.kr/uhtml/view.jsp?idxno=202610210710025890401",
+          "title_norm": "경북도국감행정통합신공항집중질의북부권1조원배분구상",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1020234",
+          "title_norm": "취재수첩직접찾아가협조구했지만무응답동해시홍보팀이래도",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1020238",
+          "title_norm": "기획지방소멸기금어디에썼나영주계절근로자교육로컬관광영",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1020239",
+          "title_norm": "기획지방소멸기금어디에썼나봉화관광객8만명정착100가구목",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1020235",
+          "title_norm": "기획지방소멸기금어디에썼나영양임대주택30호만든영양군4",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1020240",
+          "title_norm": "기획지방소멸기금어디에썼나의성청년기업10곳일자리17개의",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE9CY3YzS0YwVjh5U1p1eXU5TnFfX1RrY1VoZFNkWFF0T0t0cHFtcTFVOC00ZF9FMl83b0ItUElFM2psaUpLRHljVHJ4WWlJM05MOUFQMzF1cGNfS1dOSE82UVEzXzRfRFBoVlpB?oc=5",
+          "title_norm": "기획지방소멸기금어디에썼나안동특례보증으로대출28억원기업34곳일자리170개목표",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTFB3S0J0NGN2clF3NERjbVFXbEJlaUs0T3I0My1aTmFJSy11bTRoOHlPQmpic3NGWlljUWRZSGdzUWtfaFhxZlpHVGo2YTU5VTVNWnlVSnlVYV9IeW11aF9tclJNeHFCbEhobllV?oc=5",
+          "title_norm": "기획지방소멸기금어디에썼나영천영천시376억원누적집행률542",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTFBJWk1PajRmd3dhdW9LZ2RRdF9fZWRIZE1WRnFGX29CRlRocGF5OWhrLU1xeFJ4WmU1dFF1ZzFPMUdiSW14bFJEQ21lVXpEVEg2eExvNWV6SkwxZ1N0aHNzenhKV2FCb2hWd1Nz?oc=5",
+          "title_norm": "기획지방소멸기금어디에썼나동해관광객늘어난동해상권매출일자리효과는답하지않았다",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE5xR3B3TXY5alg1VzVWSDdWWDZVN0hxNy02U3pkY1czUFJEaGpBclBRQ0x3bG5LLXAtbGZBUEQxVEJnYnBrMDV1ZjNsVHBzY20zV0pwVE9vaEpqYnYtZnh1NjNFUFNRVElFSGJ3?oc=5",
+          "title_norm": "기획지방소멸기금어디에썼나김천76억원체류형귀농귀촌학교김천서살아보고정착까지",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE5VUlFsNmJRbnRodnZ1M3VkOGRFX2stMkJ0UHctbld4bjVuRmpPclBZQW1fMm9QWW1CWlo2NnpLR3ljelJvZk4wODVVWlAtalNyY0pzN1NUejJ0Z0RkLUNmNElhdDQ1T2E3czgw?oc=5",
+          "title_norm": "기획지방소멸기금어디에썼나청도월1만원주택부터공공임대44세대까지청도군은살집부터만든다",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE1adjZjTmlnQnZXZ3lmdUZ4dng3eHU3MWVkbWJpSFp4bXAtSG9ZeEpSNEZySVFvYVl3WWNvZE9rVWlNaFlUa2FQU0I4WmdiNkdZcWY0a3kxb0JmajZYOWU1UVN2Zlkyakt1RzRn?oc=5",
+          "title_norm": "기획지방소멸기금어디에썼나평창청년주거부터기업지원까지평창군그린바이오에승부건다",
+          "sent_at": "2026-10-21T07:57:21.001288+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1020242",
+          "title_norm": "기획지방소멸기금어디에썼나횡성건중년350명참여55명자격",
+          "sent_at": "2026-10-21T07:57:22.481779+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-20T22:57:17.626406+00:00"
+      "last_checked_utc": "2026-10-21T07:57:15.019637+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "knnews.co.kr/news/articleView.php?idxno=1553017",
-          "title_norm": "인구감소지역또배제된창원행정구법개정재도전",
-          "sent_at": "2026-10-18T22:57:25.090395+00:00"
-        },
         {
           "link": "mk.co.kr/article/12179700",
           "title_norm": "한국철도공사인구감소지역여행가면기차표값100환급혜택",
@@ -494,7 +594,7 @@
           "sent_at": "2026-10-20T22:57:28.419789+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-20T22:57:17.626406+00:00"
+      "last_checked_utc": "2026-10-21T07:57:15.019637+00:00"
     },
     "life": {
       "articles": [
@@ -519,11 +619,11 @@
           "sent_at": "2026-10-20T22:57:32.061035+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-20T22:57:17.626406+00:00"
+      "last_checked_utc": "2026-10-21T07:57:15.019637+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-10-20",
+    "pm": "2026-10-21",
     "am": "2026-10-21"
   }
 }
