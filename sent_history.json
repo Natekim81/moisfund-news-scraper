@@ -4,36 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "naeil.com/news/read/605732?ref=naver",
-          "title_norm": "프랑스시위에온도차여침묵야남의일아냐",
-          "sent_at": "2026-10-20T07:57:18.622715+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiX0FVX3lxTE04UU1tSFotdHdtYXd2R3J1WG5ZSW4zTXFITG1GWFJJQlpTVUdMVUJJVEU1cVNQOFBkRC1HSHRrdWRYTmRLSVJyM1NQRkVWWU90alpKclhyZUhXc2VpN2Zr?oc=5",
-          "title_norm": "영광군인구활력플러스지역선정지방소멸대응기금활용정주여건개선보도자료기사",
-          "sent_at": "2026-10-20T07:57:18.622715+00:00"
-        },
-        {
-          "link": "seongjuro.co.kr/news/view.php?idx=61202",
-          "title_norm": "성주의빈집지역자산이될수있을까빈집폐교에새쓰임청",
-          "sent_at": "2026-10-20T07:57:18.622715+00:00"
-        },
-        {
-          "link": "cnbnews.com/news/articleView.html?idxno=1020018",
-          "title_norm": "기획지방소멸기금어디에썼나홍천외지청년불러온홍천스마트",
-          "sent_at": "2026-10-20T07:57:18.622715+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE1rYU1ON0hJbHhQLXVjeS0zM0xBYWEyTjRVakdHUTJWaU1LcmsxbnkzV0l2NlRBNXpHcllMZ3FNSGJOcGdmQ0VDUjFaeVExZW1iMDNxVEozaXNtck5XdU1xYjJZTGZwcE5XRVRR?oc=5",
-          "title_norm": "기획지방소멸기금어디에썼나삼척수도권수소기업5곳삼척으로임대형공장6개사입주",
-          "sent_at": "2026-10-20T07:57:18.622715+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMia0FVX3lxTFB4YTRhYVJLYnM1RXpLR1pjR1Y0S1ZRM1NaRExuYndURzBLRERCbU5uWFd2N2RNeVJocFpqLW9TOVF1a21udzFnaWdSbW5Zamdlcjl4X0VVRHZaWlRpZGZKbkQzVmZGc3d3eTVj?oc=5",
-          "title_norm": "기획지방소멸기금어디에썼나울릉임대주택20세대모두입주울릉군은청년정착넓힌다",
-          "sent_at": "2026-10-20T07:57:18.622715+00:00"
-        },
-        {
           "link": "jnilbo.com/news/articleView.html?idxno=90000075078",
           "title_norm": "숙박더하고쏠림막고강진군반값여행재개된다",
           "sent_at": "2026-10-20T22:57:22.889762+00:00"
@@ -512,52 +482,147 @@
           "link": "news.google.com/rss/articles/CBMiaEFVX3lxTFBJcVlhTG11Wk9xX3Z0aTNjUFltajFpRk90LVpXTmlaQzVUQmZOUURDekVSRGx2SEt4NnBlczhITUlodkJnR2oyZGVOX2s0bGoxQ0VMbFdPdDdWOVVMam1DYkZyNXZ2U1lI?oc=5",
           "title_norm": "부산시부산경제진흥원로컬산업의지속가능한성장방안모색",
           "sent_at": "2026-10-22T07:57:25.542979+00:00"
+        },
+        {
+          "link": "segye.com/newsView/20261022519021?OutUrl=naver",
+          "title_norm": "인구줄어도늘어도정부지원소외아우성",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "yonhapnewstv.co.kr/news/MYH20261023053229tbH",
+          "title_norm": "인제군인구감소지방우대외면제도개선촉구",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "donga.com/news/Society/article/all/20261022/134892648/2",
+          "title_norm": "사람떠나는인제군이인구활력지역",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "donga.com/news/Society/article/all/20261022/134892535/2",
+          "title_norm": "인구늘면기본소득선정때반영해야",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "ekn.kr/web/view.php?key=20261023026540135",
+          "title_norm": "패트롤고양시동두천시양주시의정부시포천시",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "kwnews.co.kr/article/20261022501249",
+          "title_norm": "인구정책분류행안부자료공개반드시필요",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "newstown.co.kr/news/articleView.html?idxno=719426",
+          "title_norm": "부산경제진흥원로컬기업50명한자리에10월28일영도서성장전략",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1020605",
+          "title_norm": "부산로컬기업이제시하는지역산업의생존비법은",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "kfenews.co.kr/news/articleView.html?idxno=666756",
+          "title_norm": "남해군청년농업인정착지원방안논의",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiakFVX3lxTE94TTVxZlBHR05oMFphSm9nakVfTkpfOWFCb1h0ZG5yc1FVR3VEVzU5MWpUc09TS1c3alotdlNfUGZDb1BwdnEtOFIwNVNlc2U1RUpkdkM1YzIwZjJfUExaeDhFdU1UUHNHbnc?oc=5",
+          "title_norm": "조주홍영덕군수전국인구감소지역협의회부회장선임지방소멸대응지역간연대가핵심",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "etoday.co.kr/news/view/2639136",
+          "title_norm": "지방소멸위기앞장선영덕조주홍군수전국89개지자체연대이끈다",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "dkilbo.com/news/articleView.html?idxno=558072",
+          "title_norm": "조주홍영덕군수제3기인구감소지역시장군수구청장협의회부회장",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "eroun.net/news/articleView.html?idxno=93218",
+          "title_norm": "조주홍영덕군수지방소멸대응전국공조이끈다",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "g1tv.co.kr/news?mid=1_207_6&newsid=350051",
+          "title_norm": "인제군지방우대지수2권역지정에역차별반발",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "khan.co.kr/article/202610222116005",
+          "title_norm": "인제군인구감소지역지정지방우대지수산정현실반영못해불이",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3729971",
+          "title_norm": "정선군전기버스충전시설확충에10억9600만원투입",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "kado.net/news/articleView.html?idxno=2079862",
+          "title_norm": "정선공영버스터미널전기버스전용충전시설확충",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "g1tv.co.kr/news?mid=1_207_5&newsid=350024",
+          "title_norm": "정선군와와버스전기충전시설확충",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "knnews.co.kr/news/articleView.php?idxno=1553437",
+          "title_norm": "밀양아리랑에정신더해관광도시경쟁력키운다",
+          "sent_at": "2026-10-22T22:57:20.847155+00:00"
+        },
+        {
+          "link": "kyongbuk.co.kr/news/articleView.html?idxno=4088228",
+          "title_norm": "수영장부터키즈카페까지대구서구헬스앤키즈드림센터순차개관",
+          "sent_at": "2026-10-22T22:57:22.512008+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMidEFVX3lxTE1LcEtwS3lYR2ZtZThFYWdSb1UtS3p4Qk53R00ybUJBdFYtT0s3Tk9sWFNhdjVLNUVCenB0b3JtYWo5TTJWbW80anNFNTFLLWxBYkdMOWZ2WmpHUVlHaUU2VTd5ckZIOXExamo5bWlJRlJCR1hz0gF0QVVfeXFMTUtwS3BLeVhHZm1lOEVhZ1JvVS1LenhCTndHTTJtQkF0Vi1PSzdOT2xYU2F2NUs1RUJ6cHRvcm1hajlNMlZtbzRqc0U1MUstbEFiR0w5ZnZaakdRWUdpRTZVN3lyRkg5cTFqajltaUlGUkJHWHM?oc=5",
+          "title_norm": "사라지는도시위기서기회의도시로동두천연120억원재도약승부수",
+          "sent_at": "2026-10-22T22:57:22.512008+00:00"
+        },
+        {
+          "link": "gndomin.com/news/articleView.html?idxno=493909",
+          "title_norm": "남해군청년농업인소통간담회개최",
+          "sent_at": "2026-10-22T22:57:22.512008+00:00"
+        },
+        {
+          "link": "pennmike.com/news/articleView.html?idxno=130081",
+          "title_norm": "청년창업에날개지역정착에뿌리부산금정구행안부장관과청",
+          "sent_at": "2026-10-22T22:57:22.512008+00:00"
+        },
+        {
+          "link": "news.tvchosun.com/site/data/html_dir/2026/10/22/2026102290198.html",
+          "title_norm": "군사규제등으로낙후도최하위인재군지방우대지수개선촉구",
+          "sent_at": "2026-10-22T22:57:22.512008+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE9ZaVBKR0ZmLU9yb3g1VXlKa1lPeDY3TlFNRFc2WG43NHgwNHZtb0Q4OVVET2trWWtvbzZ2RERTajlYQ2xtN2tKNGVJbWg1VWtrV0d3LVFld0wtM2wtcDQxdWVadHRBTEM4ekcyc3Jn0gFyQVVfeXFMTklBVFZVOUZ1VWVFV0RrOVh5eG8za2t4QjkwSUlYVXIzUHFodFRJNWJsUmlZX1FJa1dFRkVJMHpqVXJnYUFnLUpWbWxGMnZEVHR0TFUtTTd2MEpCZnV5OXNmZll0RkgzbENBNE1xbV9VNWp3?oc=5",
+          "title_norm": "지방소멸대응기금투자계획평가화천군최우수등급30억원확보",
+          "sent_at": "2026-10-22T22:57:22.512008+00:00"
+        },
+        {
+          "link": "kwnews.co.kr/article/20261022501370",
+          "title_norm": "영상인구는줄어드는데지원은왜인제군정부지표에강력",
+          "sent_at": "2026-10-22T22:57:22.512008+00:00"
+        },
+        {
+          "link": "weeklytoday.com/news/articleView.html?idxno=799183",
+          "title_norm": "위클리오늘금정구소식1022",
+          "sent_at": "2026-10-22T22:57:22.512008+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-22T07:57:17.243789+00:00"
+      "last_checked_utc": "2026-10-22T22:57:13.896968+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "seoul.co.kr/news/society/2026/10/20/20261020500223?wlog_tag3=naver",
-          "title_norm": "자살률높은데정신과의사0명인구감소지역의이중고",
-          "sent_at": "2026-10-20T07:57:22.240241+00:00"
-        },
-        {
-          "link": "m-joongang.com/news/articleView.html?idxno=403204",
-          "title_norm": "2026국감인구감소지역자살률더높은데92곳중25곳은정신과",
-          "sent_at": "2026-10-20T07:57:22.240241+00:00"
-        },
-        {
-          "link": "sisajournal.com/news/articleView.html?idxno=390923",
-          "title_norm": "인구감소지역자살률높은데정신과의사도부족25곳은0명",
-          "sent_at": "2026-10-20T07:57:22.240241+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMickFVX3lxTFA3ekxhWEJObWJpckQyN2R1Q2g4dF9DcjZIUDQ3alRiZkVfVUdNT3d5eXFVS3A4R1lwQ0xxZ1BaeTVFc0RZdTZPQVJySGdwWTA4d2Q0T0lENFI5emZQWVNsMzA2bThWR1RhLW9fVUlyNnpwUQ?oc=5",
-          "title_norm": "인구감소지역자살률높아정신건강의료인프라도부족뉴스",
-          "sent_at": "2026-10-20T07:57:22.240241+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMickFVX3lxTE5NTXVxMlhLaFFyemFUc3lORkJsbS1TSHZwNTJOMFZkcDNhV1I3MnpJcWVXQzJlbHhhNzRLSkQ0MFJ5cHF0NEZWb0xWSzF3NWpYQkJmcEp1eWNNbER3RzhHeHRqOTUwbG53eDVHNG4zNllXZw?oc=5",
-          "title_norm": "인구감소지역자살률전국평균웃돌아정신과의사도부족",
-          "sent_at": "2026-10-20T07:57:22.240241+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiVkFVX3lxTE5EMGhXaGltanpqRzZ3Q0Y2WU44TkpFX1Zvc01kQXVmOW5ia2otSl9TdmZWclNRckZxZTZNS196cV9NZ1hOWVo2S2lPVEYyZkJva2x5dk13?oc=5",
-          "title_norm": "인구감소지역금융서비스공백막는다",
-          "sent_at": "2026-10-20T07:57:22.240241+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiWEFVX3lxTE8yRXA4MVBfTm4wdlF3bTBOdXRqUE9NbHVQb1JDWThwZzJrMFNyZnlTc0RaSVJiMXd2dHpXVXRhZGEyTGk1OVl2TWtMWldhTDFoQlZoWUdGYXY?oc=5",
-          "title_norm": "국립김천치유의숲인구감소지역정주교육활동참여",
-          "sent_at": "2026-10-20T07:57:22.240241+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiREFVX3lxTE1raDZoUkJnM2VEWWdDSkZ2QXp5NWRwa2VfRF9qVXBzbHozYXhHUDY1NDEzNjdlRnFCYS0wcXUyTHFULTlL?oc=5",
-          "title_norm": "국감인구감소지역25곳정신과의사0명",
-          "sent_at": "2026-10-20T07:57:22.240241+00:00"
-        },
         {
           "link": "news.google.com/rss/articles/CBMiXEFVX3lxTE1YY0J2NVN1T2pSUEVxVUJxRksyVnNneXJ4a3NTUk9keHJ2ZWVfamxUSWlqVzdsVksxRWdVbHIzQWtyQ29Pb3lvVHQyTkxaMktlODNETkdsOFZyMEtj?oc=5",
           "title_norm": "인구감소지역자살률비감소지역보다높아지원책절실",
@@ -637,17 +702,27 @@
           "link": "news.google.com/rss/articles/CBMiWkFVX3lxTE9RbDVPcWJiY1JNLTl5dHdpT0lfZjFZYTVESTA3R1pwZGJSRDJjRVp1X0RFOUp1OHFyZ2xZYWZvWWRWZUpuMzhJb09TSU5XeDJYb3V1d01LbHlwZw?oc=5",
           "title_norm": "인제군민들고일어났다인구감소지역제외도시급등급에즉각재검토하라",
           "sent_at": "2026-10-22T07:57:29.502593+00:00"
+        },
+        {
+          "link": "kado.net/news/articleView.html?idxno=2079978",
+          "title_norm": "인구감소지역제외지방우대지수불합리인제군반발",
+          "sent_at": "2026-10-22T22:57:26.806057+00:00"
+        },
+        {
+          "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8692972&ref=A",
+          "title_norm": "전북인구감소지역생활인구254만명체류인구205만명",
+          "sent_at": "2026-10-22T22:57:26.806057+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiUkFVX3lxTE5DZ1FfTXZhOENtSzA2andwY2FraEhJMG12R0ZLcXRYTXdjcXpYdWxyZHBnRGJRQ3FmanFXZVE2U2VIR0QxWWUxeXJ1Q1dZWHJ6MGc?oc=5",
+          "title_norm": "전북인구감소지역방문객은많은데지갑은덜열린다",
+          "sent_at": "2026-10-22T22:57:26.806057+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-22T07:57:17.243789+00:00"
+      "last_checked_utc": "2026-10-22T22:57:13.896968+00:00"
     },
     "life": {
       "articles": [
-        {
-          "link": "idomin.com/news/articleView.html?idxno=2017469",
-          "title_norm": "성낙인창녕군수예산1조생활인구500만시대군민과함께열어갈것",
-          "sent_at": "2026-10-20T07:57:25.715048+00:00"
-        },
         {
           "link": "kado.net/news/articleView.html?idxno=2079360",
           "title_norm": "태백시생활인구반영교부세증가효과도내최저",
@@ -672,13 +747,23 @@
           "link": "news.google.com/rss/articles/CBMicEFVX3lxTFAtbFdsUDRPWURuMFpvbkJpOEZoMlViODV2X2ZpcU5DeTZ4TXMzSjMtS095Y2E1Z3JXeENwWXp4clcyTEc0MVIzbHVMcnNlTFhBZFNMNTVabTNpZER1dnNoSHQxMERxY3BENUFnd2JpbDQ?oc=5",
           "title_norm": "인구소멸지역살릴해법떴다백성욱세종대콘텐츠소프트웨어학과교수연구팀생활인구변화예측분석ai기술개발",
           "sent_at": "2026-10-22T07:57:33.130354+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTFBtZXhYRjFqZmdTMWZidGF0NnExZ09JdFJjZDg0MGlyNllXVE43SjZBNjVUR1NZb21WTU4tQTY5blBRN3hpc01FYVBvWThjZ1NiM1J0NUdhSUNTemExUDNyMHNkNzdYYlFLVW04?oc=5",
+          "title_norm": "김제시정신건강워크숍에300여명방문생활인구확대기대",
+          "sent_at": "2026-10-22T22:57:30.912317+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiakFVX3lxTE1EbHgwTVMyWXhkUndvejh6X1BCQVRYVjhyRHFXUW5Gb184VWN5UEZqd2xWVFRDYmpnWWhoelNxdHpwTzUxbXVCVU5tNExsOUtJaEJsb3RuWDQ0M0hlS21HcEhDNHc5Rzd0VEE?oc=5",
+          "title_norm": "세종대연구팀생활인구변화예측분석ai기술개발",
+          "sent_at": "2026-10-22T22:57:30.912317+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-22T07:57:17.243789+00:00"
+      "last_checked_utc": "2026-10-22T22:57:13.896968+00:00"
     }
   },
   "slot_runs": {
     "pm": "2026-10-22",
-    "am": "2026-10-22"
+    "am": "2026-10-23"
   }
 }
