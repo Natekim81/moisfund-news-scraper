@@ -4,61 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "donga.com/news/Society/article/all/20261022/134884844/2",
-          "title_norm": "빵지순례군인들외출지방소멸지도바꿨다",
-          "sent_at": "2026-10-21T22:57:31.528069+00:00"
-        },
-        {
-          "link": "hankookilbo.com/news/article/A2026102116220004285?did=NA",
-          "title_norm": "단독소방청내년예산안늘었지만화학물질관련예산93억에서2억",
-          "sent_at": "2026-10-21T22:57:31.528069+00:00"
-        },
-        {
-          "link": "jnilbo.com/news/articleView.html?idxno=90000075341",
-          "title_norm": "영광군국회에인구활력지역재정지원확대촉구",
-          "sent_at": "2026-10-21T22:57:31.528069+00:00"
-        },
-        {
-          "link": "kado.net/news/articleView.html?idxno=2079628",
-          "title_norm": "고성지역소멸위기극복사업속도낸다",
-          "sent_at": "2026-10-21T22:57:31.528069+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE0zUkdiMFdYZ1NVc1BidEpWWU1BRWNmaWtvbTFfcms3c0R2WS1PSUVybTVCM0piRDNIbDZkeVlhV3Z4blM4VlF5ZDUtQlZHNkczcHpTMWlOWndiVlJLN1RtLXRHSGw1cl82ZjRSRDdn?oc=5",
-          "title_norm": "장세일영광군수인구회복성과재정인센티브요청",
-          "sent_at": "2026-10-21T22:57:31.528069+00:00"
-        },
-        {
-          "link": "breaknews.com/1244632",
-          "title_norm": "장세일영광군수국회찾아인구회복성과낸지자체에실질적인센",
-          "sent_at": "2026-10-21T22:57:31.528069+00:00"
-        },
-        {
-          "link": "polinews.co.kr/news/articleView.html?idxno=746455",
-          "title_norm": "강진만갈대축제d3관광객발길골목상권까지잇는다",
-          "sent_at": "2026-10-21T22:57:31.528069+00:00"
-        },
-        {
-          "link": "seoul.co.kr/news/plan/Kangjournalist-Sejong/2026/10/21/20261021500301?wlog_tag3=naver",
-          "title_norm": "같은청년인데지원금1320만원차이취업지역이혜택가른다강기자",
-          "sent_at": "2026-10-21T22:57:31.528069+00:00"
-        },
-        {
-          "link": "joongboo.com/news/articleView.html?idxno=363740086",
-          "title_norm": "중첩규제갇힌강화도뚫는다인천시강화북단평화특구용역착",
-          "sent_at": "2026-10-21T22:57:31.528069+00:00"
-        },
-        {
-          "link": "breaknews.com/1244633",
-          "title_norm": "영광군전국군단위유일인구활력플러스지역선정7년연속출",
-          "sent_at": "2026-10-21T22:57:31.528069+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMidEFVX3lxTFB3RDBseDIzdTNLdTlHZGZEdWM0cFZkM0VQOU1qVkV4b2tUTzN5b1ZYV0pXa1IxT0xCcVFQYThrX0VySkl4QTRMREdEMEItcHoxWmlpeGdoZXp4MnNNWWhXbFpjVEJVM3BmbkZXY0piYU5qS2Rl0gF0QVVfeXFMUHdEMGx4MjN1M0t1OUdkZkR1YzRwVmQzRVA5TWpWRXhva1RPM3lvVlhXSldrUjFPTEJxUVBhOGtfRXJKSXhBNExER0QwQi1wejFaaWl4Z2hlengyc01ZaFdsWmNUQlUzcGZuRldjSmJhTmpLZGU?oc=5",
-          "title_norm": "장세일군수지방소멸대응기금10인구회복성과배분제안",
-          "sent_at": "2026-10-21T22:57:31.528069+00:00"
-        },
-        {
           "link": "ggilbo.com/news/articleView.html?idxno=1188626",
           "title_norm": "충남도3년간45억원투입해사회연대경제사업추진",
           "sent_at": "2026-10-22T07:57:23.922868+00:00"
@@ -442,9 +387,14 @@
           "link": "newspim.com/news/view/20261023001209",
           "title_norm": "강남집값부산해운대의5배지방은미분양빈집으로이중고",
           "sent_at": "2026-10-23T22:57:20.105682+00:00"
+        },
+        {
+          "link": "news1.kr/local/kangwon/6330655",
+          "title_norm": "인구감소지역제외2권역지정에군민반발인제뒤덮은규탄현수막",
+          "sent_at": "2026-10-24T07:57:18.443020+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-23T22:57:15.998438+00:00"
+      "last_checked_utc": "2026-10-24T07:57:13.293813+00:00"
     },
     "pop": {
       "articles": [
@@ -547,9 +497,14 @@
           "link": "enewstoday.co.kr/news/articleView.html?idxno=2483967",
           "title_norm": "담양군의회농어촌기본소득공모폐지인구감소지역확대건의",
           "sent_at": "2026-10-23T22:57:23.901233+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiVEFVX3lxTE5fckJuaTJzQTRxZWR3d1RXVzNNNldMQlJTM1ZhLWNUSnF5d1BIWjJ2TlduWEtreVBWV3MwU3B0eDVoRDloZEtsTGxITHdnX1JxakY2bA?oc=5",
+          "title_norm": "인구감소지역92곳으로확대5년지원회복의불씨살릴까",
+          "sent_at": "2026-10-24T07:57:22.169018+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-23T22:57:15.998438+00:00"
+      "last_checked_utc": "2026-10-24T07:57:13.293813+00:00"
     },
     "life": {
       "articles": [
@@ -607,13 +562,18 @@
           "link": "news.google.com/rss/articles/CBMiX0FVX3lxTFBILWNSWnBvUk52QmtoYXZJcjFVU3BFUW5JN05UbDlsblFfUlRmWWRfSDZ5ak1sQ1d1Z1RqSUxyc2xINjlBQXhiUWFhMjRQbEd3OTh0RFVGRm0zWE9iU3lr?oc=5",
           "title_norm": "제주생활인구는체류규모관광객수는입도흐름",
           "sent_at": "2026-10-23T22:57:27.407243+00:00"
+        },
+        {
+          "link": "lecturernews.com/news/articleView.html?idxno=212505",
+          "title_norm": "세종대학교백성욱교수팀생활인구변화예측하는설명가능한ai기술",
+          "sent_at": "2026-10-24T07:57:25.869310+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-23T22:57:15.998438+00:00"
+      "last_checked_utc": "2026-10-24T07:57:13.293813+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-10-23",
+    "pm": "2026-10-24",
     "am": "2026-10-24"
   }
 }
