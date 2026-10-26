@@ -4,11 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "news1.kr/local/kangwon/6330655",
-          "title_norm": "인구감소지역제외2권역지정에군민반발인제뒤덮은규탄현수막",
-          "sent_at": "2026-10-24T07:57:18.443020+00:00"
-        },
-        {
           "link": "news1.kr/local/gwangju-jeonnam/6329652",
           "title_norm": "정부100지원20억사상초유의전액삭감강진군의회해프닝전말",
           "sent_at": "2026-10-24T22:57:18.884962+00:00"
@@ -192,17 +187,97 @@
           "link": "m-i.kr/news/articleView.html?idxno=2010007",
           "title_norm": "강진군강진만춤추는갈대축제개막11월1일까지",
           "sent_at": "2026-10-26T07:57:17.784476+00:00"
+        },
+        {
+          "link": "sisain.co.kr/news/articleView.html?idxno=58668",
+          "title_norm": "k관광열풍과인구소멸이공존하는곳부산의미래를묻다",
+          "sent_at": "2026-10-26T22:57:19.317523+00:00"
+        },
+        {
+          "link": "tournews21.com/news/articleView.html?idxno=146726",
+          "title_norm": "공주시의회행정사무감사칼날시정171건등총352건개선요구",
+          "sent_at": "2026-10-26T22:57:19.317523+00:00"
+        },
+        {
+          "link": "newstnt.com/news/articleView.html?idxno=725060",
+          "title_norm": "공주시의회2026년행정사무감사마무리",
+          "sent_at": "2026-10-26T22:57:19.317523+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3733231",
+          "title_norm": "집행기관행정전반분석공주시의회첫행정사무감사서352건개선",
+          "sent_at": "2026-10-26T22:57:19.317523+00:00"
+        },
+        {
+          "link": "daily.hankooki.com/news/articleView.html?idxno=1418556",
+          "title_norm": "포토뉴스공주시의회행정사무감사종료시정건의등352건도출",
+          "sent_at": "2026-10-26T22:57:19.317523+00:00"
+        },
+        {
+          "link": "jnilbo.com/news/articleView.html?idxno=90000076654",
+          "title_norm": "결혼출산전남광주에답이있다전남출산율전국1위결혼장려금",
+          "sent_at": "2026-10-26T22:57:19.317523+00:00"
+        },
+        {
+          "link": "ytn.co.kr/_ln/0115_202610270029486492",
+          "title_norm": "월세10만원의실험강원도청년주택1만호선언",
+          "sent_at": "2026-10-26T22:57:19.317523+00:00"
+        },
+        {
+          "link": "joongang.co.kr/article/25473016",
+          "title_norm": "인구감소지역제외된인제군전면재평가하라",
+          "sent_at": "2026-10-26T22:57:19.317523+00:00"
+        },
+        {
+          "link": "kado.net/news/articleView.html?idxno=2080639",
+          "title_norm": "인제군민인구정책항의국회앞삭발투쟁나선다",
+          "sent_at": "2026-10-26T22:57:19.317523+00:00"
+        },
+        {
+          "link": "kado.net/news/articleView.html?idxno=2080581",
+          "title_norm": "정선청아랑몰유휴공간청년활동거점탈바꿈",
+          "sent_at": "2026-10-26T22:57:19.317523+00:00"
+        },
+        {
+          "link": "kwnews.co.kr/article/20261026500345",
+          "title_norm": "발언대인제군의2단계지정역차별탁상통계를바로잡아야산다",
+          "sent_at": "2026-10-26T22:57:19.317523+00:00"
+        },
+        {
+          "link": "newsworker.co.kr/news/articleView.html?idxno=510619",
+          "title_norm": "전남광주곡성군주거치유융합복합빌리지53명정착",
+          "sent_at": "2026-10-26T22:57:19.317523+00:00"
+        },
+        {
+          "link": "geconomy.co.kr/news/article.html?no=324875",
+          "title_norm": "곡성군돌아오지촌53명보금자리기존시설묶어정착여건넓힌",
+          "sent_at": "2026-10-26T22:57:19.317523+00:00"
+        },
+        {
+          "link": "betanews.net/article/view/beta202610260112",
+          "title_norm": "집만으로는부족한농촌정착곡성군돌아오지촌중심으로복합생",
+          "sent_at": "2026-10-26T22:57:19.317523+00:00"
+        },
+        {
+          "link": "segye.com/newsView/20261026518640?OutUrl=naver",
+          "title_norm": "조주홍영덕군수인구감소지역시장군수구청장협의회부회장선임",
+          "sent_at": "2026-10-26T22:57:19.317523+00:00"
+        },
+        {
+          "link": "newsfreezone.co.kr/news/articleView.html?idxno=716093",
+          "title_norm": "전북인구171만명대정책성과검증시급",
+          "sent_at": "2026-10-26T22:57:19.317523+00:00"
+        },
+        {
+          "link": "kjdaily.com/article.php?aid=1793009787690337008",
+          "title_norm": "영광군인구증가발판지속가능정착청사진내놨다",
+          "sent_at": "2026-10-26T22:57:19.317523+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-26T07:57:11.687364+00:00"
+      "last_checked_utc": "2026-10-26T22:57:14.825229+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "news.google.com/rss/articles/CBMiVEFVX3lxTE5fckJuaTJzQTRxZWR3d1RXVzNNNldMQlJTM1ZhLWNUSnF5d1BIWjJ2TlduWEtreVBWV3MwU3B0eDVoRDloZEtsTGxITHdnX1JxakY2bA?oc=5",
-          "title_norm": "인구감소지역92곳으로확대5년지원회복의불씨살릴까",
-          "sent_at": "2026-10-24T07:57:22.169018+00:00"
-        },
         {
           "link": "yna.co.kr/view/AKR20261025020500062?input=1195m",
           "title_norm": "보상은커녕역차별인구감소지역제외에뿔난인제군민들",
@@ -254,15 +329,10 @@
           "sent_at": "2026-10-26T07:57:21.334617+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-26T07:57:11.687364+00:00"
+      "last_checked_utc": "2026-10-26T22:57:14.825229+00:00"
     },
     "life": {
       "articles": [
-        {
-          "link": "lecturernews.com/news/articleView.html?idxno=212505",
-          "title_norm": "세종대학교백성욱교수팀생활인구변화예측하는설명가능한ai기술",
-          "sent_at": "2026-10-24T07:57:25.869310+00:00"
-        },
         {
           "link": "naeil.com/news/read/606289?ref=naver",
           "title_norm": "세종대생활인구변화예측분석인공지능기술개발",
@@ -289,11 +359,11 @@
           "sent_at": "2026-10-26T07:57:24.914874+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-26T07:57:11.687364+00:00"
+      "last_checked_utc": "2026-10-26T22:57:14.825229+00:00"
     }
   },
   "slot_runs": {
     "pm": "2026-10-26",
-    "am": "2026-10-26"
+    "am": "2026-10-27"
   }
 }
