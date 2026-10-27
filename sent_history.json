@@ -4,11 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "news1.kr/local/gwangju-jeonnam/6329652",
-          "title_norm": "정부100지원20억사상초유의전액삭감강진군의회해프닝전말",
-          "sent_at": "2026-10-24T22:57:18.884962+00:00"
-        },
-        {
           "link": "jeonmin.co.kr/news/articleView.html?idxno=449207",
           "title_norm": "부안콩닥콩닥폐교활용우수사례선정도전",
           "sent_at": "2026-10-25T07:57:18.525831+00:00"
@@ -272,9 +267,124 @@
           "link": "kjdaily.com/article.php?aid=1793009787690337008",
           "title_norm": "영광군인구증가발판지속가능정착청사진내놨다",
           "sent_at": "2026-10-26T22:57:19.317523+00:00"
+        },
+        {
+          "link": "viva100.com/article/20261027501044",
+          "title_norm": "돌봄늘리고빈집고친다울산정주여건개선사업추진",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "news.bbsi.co.kr/news/articleView.html?idxno=4115024",
+          "title_norm": "울산시지방소멸대응기금26억추가확보정주여건개선",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "hankookilbo.com/news/article/A2026102714150001003?did=NA",
+          "title_norm": "울산시지방소멸대응기금평가보통26억원확보",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiW0FVX3lxTE1lUC1NaklHNjVaOFo1UmJKSGEyMmgyS19oRWtKcFkxMFNTa1NVWFFoWk5iQjBBb09JZ3VaR3VoWGsxVmZzdm9nWGpvdmFaVzVhMUVuR3pMU2hQYWvSAVZBVV95cUxOeW1UUkVCdmU1MHJOZkhMazdUTl9EbkU0R3U4WFh1bWpOTnhIdzFWX2x0bnpsbWtobEwzanducjRFczdqdWJYOWV0Q1BWa0pZSlBPck5Bdw?oc=5",
+          "title_norm": "울산시상수도예산안1600억원편성지방소멸대응기금26억원추가확보",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE96YmZmQWNaV2FGR2V2emdFeGoyRWllX0JHWWxVUVZQbXUwY1JMaXdtUk5udzhOQXp6MmRDNUhoTlBxR2dmUDZSSGVJOV9Xczg2WTQwbFdMbXBsSlJteHZaZ1Z3d0NzUzJjZjAwRTJ3?oc=5",
+          "title_norm": "울산시지방소멸대응기금추가확보지역활력의마중물되길",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiaEFVX3lxTE5NUjVEaHd1UWRSVXRtRU9faFRnWUw3TmU0VTk0VWdNUDc1WkxuUFFZdUNFc1FqM0JYeDA4ajFmNWZ6bVZSdEJJekZrQlZMWWlSQkF3ZlZKckxYem93Q0ExQXF4ZGpuQjdo?oc=5",
+          "title_norm": "울산시지방소멸대응기금26억추가확보돌봄교통등5개사업추진",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "etoday.co.kr/news/view/2640688",
+          "title_norm": "지방소멸정책10년의경고한국도인구정책전면재설계해야",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "agrinet.co.kr/news/articleView.html?idxno=408261",
+          "title_norm": "함양군계절근로자지원센터2호점개소",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "aflnews.co.kr/news/articleView.html?idxno=330445",
+          "title_norm": "공주시의회행감마무리재정관광산업등352건개선요구",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "shinailbo.co.kr/news/articleView.html?idxno=5076568",
+          "title_norm": "고흥군청년정착지원에지방소멸대응기금투입",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiakFVX3lxTFBQelZyOXFfYXVFWFllM3N3ZlJBc3hOVG50aWxpWnQzYjRfMXJaNUlLcGplcHROcUZNTFdrakZUem9xbUJMQ3JES3VURjFnQnFhZnNlVUNzbENpenZLUnJqWlRTMGJIQjJJOXc?oc=5",
+          "title_norm": "고흥군지방소멸대응기금으로청년정착생활복지강화",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "metroseoul.co.kr/article/20261027500285",
+          "title_norm": "고흥군청년정착과어르신복지까지활력고흥실현",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "newspim.com/news/view/20261027000673",
+          "title_norm": "고흥군지방소멸대응기금주민생활속으로",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTFBtQUdWVGZiV0tzc1hZSWZfenZZTDVqenQ3ZUEtU3l3SDZQd3ZQOTBGdW52S3hYa3BzcldhZFZWVU54SmsteTdkWGdtcU5pell2alB0WHd3Skp4aXFvZFYzbjlTMWhLVEdFcjVKOWh3?oc=5",
+          "title_norm": "고흥군지방소멸대응기금활용지역활력증진",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "enewstoday.co.kr/news/articleView.html?idxno=2484857",
+          "title_norm": "고흥군지방소멸대응기금으로활력고흥실현한다",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE1oZGEtbDRxNlFFcF9PR2s5WmJEelBRZmk1Y1hLY1NEdFNlUWpJQ2VZakNVQkZ3Rk5RNGdJczNzQkJGZFBxRmdoN29jWXVmbXFZcUUtQjAwcUR6YlNMbVplSVFESkVaS1hlMDVv?oc=5",
+          "title_norm": "심층공주시쪼개기계약행감서또거론재단이어시기금공사도도마",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "sedaily.com/article/20106645?ref=naver",
+          "title_norm": "이럴거면왜인구늘리나소멸막은영광군되레역차별논란",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "joongdo.co.kr/web/view.php?key=20261027010005904",
+          "title_norm": "위기탈출지방을가다소멸위기를넘어선충남도시군의인구유입",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "ggilbo.com/news/articleView.html?idxno=1189365",
+          "title_norm": "공주시의회2026년행감서개선사항352건도출",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "goodmorningcc.com/news/articleView.html?idxno=454716",
+          "title_norm": "공주시의회시정171건건의검토181건등총352건지적",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "yna.co.kr/view/AKR20261027070500064?input=1195m",
+          "title_norm": "농어촌기본소득사업넉달보은군에1천721명전입",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "daily.hankooki.com/news/articleView.html?idxno=1418789",
+          "title_norm": "울산소식노후수도관교체에역대최대1600억투입외",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "gjdream.com/news/articleView.html?idxno=673751",
+          "title_norm": "곡성형복합빌리지농촌정착모델될까",
+          "sent_at": "2026-10-27T07:57:22.334431+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-26T22:57:14.825229+00:00"
+      "last_checked_utc": "2026-10-27T07:57:16.670523+00:00"
     },
     "pop": {
       "articles": [
@@ -327,9 +437,24 @@
           "link": "news.google.com/rss/articles/CBMiaEFVX3lxTE1EVHBnVWx0UFFNSUJLUkRyRHB2ZnZCNGhuRWZzVjdERkM0WkIxQzQ2MXB2YUpaMjNFWVNtenplbVlPNUhCMTRXSThHRHdnM2dsU3pWbDZ3TEZKTjlVejBNMHlmU3RISS04?oc=5",
           "title_norm": "담양군의회농어촌기본소득인구감소지역모두지급해야",
           "sent_at": "2026-10-26T07:57:21.334617+00:00"
+        },
+        {
+          "link": "kwnews.co.kr/article/20261027501119",
+          "title_norm": "국민의힘도당인제인구감소지역지정지방우대지수재검토해야",
+          "sent_at": "2026-10-27T07:57:25.825729+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiW0FVX3lxTE45QWpjUVZKcjN5OTlQSVY3RExaU2FKVVF0Tk52WkRIU2h0RXRCX28xZmdjckpkOEJKMG5yZ0J3eFdycFpQUkhZRnpqeklOQ1VtMVd3a1hjYlNNS03SAWBBVV95cUxNZkMwa1dJamV6NXNIRDhPV3BQamxjaDFGeDh1MzZlUHpjaDJmSzBHaEZHNk12bk5WanYwOXpieldjYWFCYUxRMDlaNzBLb0JSRXAwMHZxeS1xT0VWLXBGS0g?oc=5",
+          "title_norm": "국민의힘강원도당인제군인구감소지역재지정정부에촉구",
+          "sent_at": "2026-10-27T07:57:25.825729+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE1HTVc2dm9IcGZkYVpfbnFENkFWelNZTklLd3BrRFh0MEZYWEZVZi1zNGluSVA4MERrMHl3eHROSlRNRW80cHF2OTdNMmY2Wkp1VVpuZ2phODZQX1Q0Y3hqSUFMS29Jc3l2YndoR3Rn0gFzQVVfeXFMTUlXTXAyQ3ByNmR1T045MEF0WkxnRGhRbFRPMUJVc3VQSWJ5a2RBVU9pUVc0QmdYdkJfZy1EYk1CN0FhQ1J3THJIUWU5cEYzSXpKRXFKVnk2OTJvWWhvN3pXelJSTlpBNGdlaktoNWVtOFVZVQ?oc=5",
+          "title_norm": "인구감소지역에서빠진강원인제군뿔났다지역현실외면",
+          "sent_at": "2026-10-27T07:57:25.825729+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-26T22:57:14.825229+00:00"
+      "last_checked_utc": "2026-10-27T07:57:16.670523+00:00"
     },
     "life": {
       "articles": [
@@ -357,13 +482,28 @@
           "link": "news.google.com/rss/articles/CBMib0FVX3lxTE9STm5IczlwcGpzX085N01rUWFOQjJRMDhNNERIYnNJRzBqbzk5bUxLUjk2ZUFVSjVXbkd4RVVic2kzNVhFMTduUGRYVHppTGFhOW9GTC1MWUp3RHh1dm1PWlQ5UF9LbnN6aGg1MmFscw?oc=5",
           "title_norm": "안동시워크스테이in안동성과공유회개최생활인구정책제안모색",
           "sent_at": "2026-10-26T07:57:24.914874+00:00"
+        },
+        {
+          "link": "news.tf.co.kr/read/national/2381419.htm",
+          "title_norm": "보령시ai행정의료인재양성생활인구혁신추진",
+          "sent_at": "2026-10-27T07:57:29.369616+00:00"
+        },
+        {
+          "link": "news.lghellovision.net/news/articleView.html?idxno=559916",
+          "title_norm": "영천생활인구아이디어공론장개최",
+          "sent_at": "2026-10-27T07:57:29.369616+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMib0FVX3lxTE5IVjV2cEFVdWpvZ0lfaDBpdlktX2kwQkZwSFI1YmNWTnhvR3RhTzMyMGFKSFVnX2xMTXVBWUMxZ2FLV3JhbG4wdGdDZE9tZ1ZWbHNydE15bmgtWTVpeWpUVldKX210TWZBNG5GcnJxZw?oc=5",
+          "title_norm": "영천시영천체크인통해생활인구확대가능성모색",
+          "sent_at": "2026-10-27T07:57:29.369616+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-26T22:57:14.825229+00:00"
+      "last_checked_utc": "2026-10-27T07:57:16.670523+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-10-26",
+    "pm": "2026-10-27",
     "am": "2026-10-27"
   }
 }
