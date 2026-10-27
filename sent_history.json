@@ -4,36 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "jeonmin.co.kr/news/articleView.html?idxno=449207",
-          "title_norm": "부안콩닥콩닥폐교활용우수사례선정도전",
-          "sent_at": "2026-10-25T07:57:18.525831+00:00"
-        },
-        {
-          "link": "viva100.com/article/20261025500532",
-          "title_norm": "수도권옆이라우대제외인제군민600명국회앞으로간다",
-          "sent_at": "2026-10-25T07:57:18.525831+00:00"
-        },
-        {
-          "link": "mhns.co.kr/news/articleView.html?idxno=765780",
-          "title_norm": "영남대외국인유학생들청도감수확일손돕기구슬땀",
-          "sent_at": "2026-10-25T07:57:18.525831+00:00"
-        },
-        {
-          "link": "geconomy.co.kr/news/article.html?no=324789",
-          "title_norm": "강진반값여행에3만5천팀신청관광소비75억원돌파",
-          "sent_at": "2026-10-25T07:57:18.525831+00:00"
-        },
-        {
-          "link": "cbci.co.kr/news/articleView.html?idxno=619035",
-          "title_norm": "반값여행으로즐기는강진만춤추는갈대축제개막",
-          "sent_at": "2026-10-25T07:57:18.525831+00:00"
-        },
-        {
-          "link": "fnnews.com/news/202610250854018723",
-          "title_norm": "인제군민국회앞상경집회인구줄었는데춘천원주급이라니분노",
-          "sent_at": "2026-10-25T07:57:18.525831+00:00"
-        },
-        {
           "link": "dnews.co.kr/uhtml/view.jsp?idxno=202610221102161760682",
           "title_norm": "인허가단축공공기여조정통해공급속도높여야",
           "sent_at": "2026-10-25T22:57:18.385646+00:00"
@@ -382,17 +352,122 @@
           "link": "gjdream.com/news/articleView.html?idxno=673751",
           "title_norm": "곡성형복합빌리지농촌정착모델될까",
           "sent_at": "2026-10-27T07:57:22.334431+00:00"
+        },
+        {
+          "link": "joongang.co.kr/article/25473443",
+          "title_norm": "152만원우린5만원기본소득절실한농어촌특급각오",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "jnilbo.com/news/articleView.html?idxno=90000077125",
+          "title_norm": "곡성군돌아오지촌으로농촌정주패러다임확바꾼다",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "jndn.com/article.php?aid=1793090687441895107",
+          "title_norm": "집일자리배움치유곡성복합빌리지조성",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "m-i.kr/news/articleView.html?idxno=2011056",
+          "title_norm": "곡성군주거일자리문화치유잇는라이프융합복합빌리지조성",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiakFVX3lxTE9DS2VDYUFGamU0RzlFbGNrRHpKbGxfM1JZVXJGXzdzMDc1WTNRUUFXcDRuQ0hZRDctMGg4ZVdxWmpPR1Y2YnNnV05SUkk3Sl9QRDZkVjNEYUJBQ05kS2RhRDM4czhoS005LXc?oc=5",
+          "title_norm": "울산소식상수도정주여건개선에재원확대",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "ksilbo.co.kr/news/articleView.html?idxno=1070774",
+          "title_norm": "행자위재정건전성인구감소대책등점검",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3733568",
+          "title_norm": "응급환자절반넘게이용한영천응급실지정만료앞두고위기",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiVkFVX3lxTE10cl9McXcwUXZwbmRuZXctVy1yeTY5MkU0d3RmWDdKdVhjWS1DdFRlNGRJWWVHemRQS2JTY3FXQm5rc043MjNCZWdzQ2Vkbkx3V0NiZzVB?oc=5",
+          "title_norm": "울산시지방소멸대응기금26억추가확보아이청년이동권묶은5대정주혁신",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "ujeil.com/news/articleView.html?idxno=394184",
+          "title_norm": "지방소멸대응기금정주여건체감높여야",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "ujeil.com/news/articleView.html?idxno=394261",
+          "title_norm": "울산시정주여건개선속도낸다",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "ujeil.com/news/articleView.html?idxno=394240",
+          "title_norm": "2차공공기관이전준비도마",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "ujeil.com/news/articleView.html?idxno=394247",
+          "title_norm": "서범수울주군통합키움센터건립16억확보",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "gnnews.co.kr/news/articleView.html?idxno=648373",
+          "title_norm": "경남9개군지역농어촌기본소득유치전도전",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "sedaily.com/article/20106852?ref=naver",
+          "title_norm": "묻지도따지지도않고매달16만원씩따박따박기본소득줬더니지",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "inews365.com/news/article.html?no=940983",
+          "title_norm": "1천700명전입가맹점151곳증가송미령장관보은군농어촌기본소",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "news1.kr/local/sejong-chungbuk/6333733",
+          "title_norm": "송미령농식품부장관보은서농어촌기본소득시범사업점검",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "kwnews.co.kr/article/20261027501314",
+          "title_norm": "지방우대지수2권역인제군인근시군보다정부지원61개항목불이",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "jnilbo.com/news/articleView.html?idxno=90000077054",
+          "title_norm": "당일치기는돈안쓴다전남체류인구8할이지만소비는저조",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "news.ifm.kr/news/articleView.html?idxno=482711",
+          "title_norm": "배준영의원재외동포청항만공사통합은인천수탈시민힘으로",
+          "sent_at": "2026-10-27T22:57:20.553667+00:00"
+        },
+        {
+          "link": "m-i.kr/news/articleView.html?idxno=2011054",
+          "title_norm": "고흥군지방소멸대응기금활용해청년정착고령층복지지원확대",
+          "sent_at": "2026-10-27T22:57:22.057609+00:00"
+        },
+        {
+          "link": "news.lghellovision.net/news/articleView.html?idxno=559960",
+          "title_norm": "빈틈마산수백억지원만약마산이부산동구였다면",
+          "sent_at": "2026-10-27T22:57:22.057609+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZ0FVX3lxTFB4bDFkS1M3Q01OZEtLeUFNanM1emRHalJBV2NBbmFEanhVemR1NmVtNXRVam0tWmt3bnQwcFhoTXUtNjczVU9jX085TDkzQXZOOHZuMnhCMlQzQnVVTGZtSkpKdzZfYVk?oc=5",
+          "title_norm": "서범수울주출신국회의원우리동네통합키움센터건립사업행안부소멸대응기금16억원확보쾌거",
+          "sent_at": "2026-10-27T22:57:22.057609+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-27T07:57:16.670523+00:00"
+      "last_checked_utc": "2026-10-27T22:57:16.103305+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "yna.co.kr/view/AKR20261025020500062?input=1195m",
-          "title_norm": "보상은커녕역차별인구감소지역제외에뿔난인제군민들",
-          "sent_at": "2026-10-25T07:57:22.168353+00:00"
-        },
         {
           "link": "chmbc.co.kr/article/UHVStS7Ei1CH4ndN8USe",
           "title_norm": "인제군주민들27일국회앞집회인구감소지역제외등반발",
@@ -452,9 +527,19 @@
           "link": "news.google.com/rss/articles/CBMibkFVX3lxTE1HTVc2dm9IcGZkYVpfbnFENkFWelNZTklLd3BrRFh0MEZYWEZVZi1zNGluSVA4MERrMHl3eHROSlRNRW80cHF2OTdNMmY2Wkp1VVpuZ2phODZQX1Q0Y3hqSUFMS29Jc3l2YndoR3Rn0gFzQVVfeXFMTUlXTXAyQ3ByNmR1T045MEF0WkxnRGhRbFRPMUJVc3VQSWJ5a2RBVU9pUVc0QmdYdkJfZy1EYk1CN0FhQ1J3THJIUWU5cEYzSXpKRXFKVnk2OTJvWWhvN3pXelJSTlpBNGdlaktoNWVtOFVZVQ?oc=5",
           "title_norm": "인구감소지역에서빠진강원인제군뿔났다지역현실외면",
           "sent_at": "2026-10-27T07:57:25.825729+00:00"
+        },
+        {
+          "link": "ccreview.co.kr/news/articleView.html?idxno=361041",
+          "title_norm": "충북인구감소지역6곳중4권역은영동뿐",
+          "sent_at": "2026-10-27T22:57:25.586225+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiWkFVX3lxTE9keXJpeDlERGxoSVJoU0Ric0JyWTh5WG00Skh6T2JsS2FmMFA4RVhuUV9xUVQ2T2dKeC01ajRjZVBWakNzRjhLalRTQnR4RnQwMmFUdGYwa0ZzUdIBWEFVX3lxTE1CZlNTTEhCNmhTWjUtZjRCMGxQS283aXhmVjFCQUZtWXk5UWxhV0J3THlHeUNZcG83Y0VvRzNncjktaHBxTkRrNVA2eUxVVEx4TkJJNGlfMWw?oc=5",
+          "title_norm": "단독서울과직선거리로지방우대지수책정무의무변인구감소지역15곳최고우대제외",
+          "sent_at": "2026-10-27T22:57:25.586225+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-27T07:57:16.670523+00:00"
+      "last_checked_utc": "2026-10-27T22:57:16.103305+00:00"
     },
     "life": {
       "articles": [
@@ -497,13 +582,28 @@
           "link": "news.google.com/rss/articles/CBMib0FVX3lxTE5IVjV2cEFVdWpvZ0lfaDBpdlktX2kwQkZwSFI1YmNWTnhvR3RhTzMyMGFKSFVnX2xMTXVBWUMxZ2FLV3JhbG4wdGdDZE9tZ1ZWbHNydE15bmgtWTVpeWpUVldKX210TWZBNG5GcnJxZw?oc=5",
           "title_norm": "영천시영천체크인통해생활인구확대가능성모색",
           "sent_at": "2026-10-27T07:57:29.369616+00:00"
+        },
+        {
+          "link": "munhwa.com/article/11626781?ref=naver",
+          "title_norm": "연725만생활인구붙잡는다보령시민선9기체류형혁신",
+          "sent_at": "2026-10-27T22:57:29.002761+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3734559",
+          "title_norm": "영천시생활인구확대위한3박4일프로젝트마무리",
+          "sent_at": "2026-10-27T22:57:29.002761+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE56NUlETE5VbVNYNllLUjRnZTBEQWppMGFLd0lwbkJDVnY1dS1GODRnNTVEUU5GZWdQUjNFVkMtTHVYeGozZjllZ1RobVVDY0FQYXFTSG5mV0p6TVlBWmtmUmhqYjhzaC1icDJj?oc=5",
+          "title_norm": "영천시영천checkin마무리생활인구확대해법찾았다",
+          "sent_at": "2026-10-27T22:57:29.002761+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-27T07:57:16.670523+00:00"
+      "last_checked_utc": "2026-10-27T22:57:16.103305+00:00"
     }
   },
   "slot_runs": {
     "pm": "2026-10-27",
-    "am": "2026-10-27"
+    "am": "2026-10-28"
   }
 }
