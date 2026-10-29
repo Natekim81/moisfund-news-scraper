@@ -4,91 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "sisain.co.kr/news/articleView.html?idxno=58668",
-          "title_norm": "k관광열풍과인구소멸이공존하는곳부산의미래를묻다",
-          "sent_at": "2026-10-26T22:57:19.317523+00:00"
-        },
-        {
-          "link": "tournews21.com/news/articleView.html?idxno=146726",
-          "title_norm": "공주시의회행정사무감사칼날시정171건등총352건개선요구",
-          "sent_at": "2026-10-26T22:57:19.317523+00:00"
-        },
-        {
-          "link": "newstnt.com/news/articleView.html?idxno=725060",
-          "title_norm": "공주시의회2026년행정사무감사마무리",
-          "sent_at": "2026-10-26T22:57:19.317523+00:00"
-        },
-        {
-          "link": "gukjenews.com/news/articleView.html?idxno=3733231",
-          "title_norm": "집행기관행정전반분석공주시의회첫행정사무감사서352건개선",
-          "sent_at": "2026-10-26T22:57:19.317523+00:00"
-        },
-        {
-          "link": "daily.hankooki.com/news/articleView.html?idxno=1418556",
-          "title_norm": "포토뉴스공주시의회행정사무감사종료시정건의등352건도출",
-          "sent_at": "2026-10-26T22:57:19.317523+00:00"
-        },
-        {
-          "link": "jnilbo.com/news/articleView.html?idxno=90000076654",
-          "title_norm": "결혼출산전남광주에답이있다전남출산율전국1위결혼장려금",
-          "sent_at": "2026-10-26T22:57:19.317523+00:00"
-        },
-        {
-          "link": "ytn.co.kr/_ln/0115_202610270029486492",
-          "title_norm": "월세10만원의실험강원도청년주택1만호선언",
-          "sent_at": "2026-10-26T22:57:19.317523+00:00"
-        },
-        {
-          "link": "joongang.co.kr/article/25473016",
-          "title_norm": "인구감소지역제외된인제군전면재평가하라",
-          "sent_at": "2026-10-26T22:57:19.317523+00:00"
-        },
-        {
-          "link": "kado.net/news/articleView.html?idxno=2080639",
-          "title_norm": "인제군민인구정책항의국회앞삭발투쟁나선다",
-          "sent_at": "2026-10-26T22:57:19.317523+00:00"
-        },
-        {
-          "link": "kado.net/news/articleView.html?idxno=2080581",
-          "title_norm": "정선청아랑몰유휴공간청년활동거점탈바꿈",
-          "sent_at": "2026-10-26T22:57:19.317523+00:00"
-        },
-        {
-          "link": "kwnews.co.kr/article/20261026500345",
-          "title_norm": "발언대인제군의2단계지정역차별탁상통계를바로잡아야산다",
-          "sent_at": "2026-10-26T22:57:19.317523+00:00"
-        },
-        {
-          "link": "newsworker.co.kr/news/articleView.html?idxno=510619",
-          "title_norm": "전남광주곡성군주거치유융합복합빌리지53명정착",
-          "sent_at": "2026-10-26T22:57:19.317523+00:00"
-        },
-        {
-          "link": "geconomy.co.kr/news/article.html?no=324875",
-          "title_norm": "곡성군돌아오지촌53명보금자리기존시설묶어정착여건넓힌",
-          "sent_at": "2026-10-26T22:57:19.317523+00:00"
-        },
-        {
-          "link": "betanews.net/article/view/beta202610260112",
-          "title_norm": "집만으로는부족한농촌정착곡성군돌아오지촌중심으로복합생",
-          "sent_at": "2026-10-26T22:57:19.317523+00:00"
-        },
-        {
-          "link": "segye.com/newsView/20261026518640?OutUrl=naver",
-          "title_norm": "조주홍영덕군수인구감소지역시장군수구청장협의회부회장선임",
-          "sent_at": "2026-10-26T22:57:19.317523+00:00"
-        },
-        {
-          "link": "newsfreezone.co.kr/news/articleView.html?idxno=716093",
-          "title_norm": "전북인구171만명대정책성과검증시급",
-          "sent_at": "2026-10-26T22:57:19.317523+00:00"
-        },
-        {
-          "link": "kjdaily.com/article.php?aid=1793009787690337008",
-          "title_norm": "영광군인구증가발판지속가능정착청사진내놨다",
-          "sent_at": "2026-10-26T22:57:19.317523+00:00"
-        },
-        {
           "link": "viva100.com/article/20261027501044",
           "title_norm": "돌봄늘리고빈집고친다울산정주여건개선사업추진",
           "sent_at": "2026-10-27T07:57:22.334431+00:00"
@@ -452,9 +367,79 @@
           "link": "news.google.com/rss/articles/CBMiggFBVV95cUxPRUVGZWY5M0o0NGdTdV9YWGdTYXFtUXNwMjYwRzZfTndUcGNTR3NFbi14NGp0bTNydnMzajRHNGRBUk1sZURFdERmSF9fUGhod01zbjlsalFaWFBEbDkyYXJlVUxIcEd2VURyLW93UlVEYmNBVHVEenB3aExVSzhTbEFB?oc=5",
           "title_norm": "소멸대응기금127억정착에초점",
           "sent_at": "2026-10-28T22:57:21.057467+00:00"
+        },
+        {
+          "link": "newstnt.com/news/articleView.html?idxno=725812",
+          "title_norm": "대전중구청춘살롱연말까지시범운영내년1월정식개관",
+          "sent_at": "2026-10-29T07:57:18.508481+00:00"
+        },
+        {
+          "link": "bzeronews.com/news/articleView.html?idxno=824526",
+          "title_norm": "오창호텔반려동물테마파크민간투자길찾는다",
+          "sent_at": "2026-10-29T07:57:18.508481+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3736247",
+          "title_norm": "충북도지역활성화투자펀드로드쇼제도운영경험공유",
+          "sent_at": "2026-10-29T07:57:18.508481+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiYEFVX3lxTE9BcTEtQkVzZ0RMczhQTFZaZ2sxbTNfRnR4b0NPLWxVNl93VTVtYWhQVFpfWVJLdDZXRXZ3bE43amkxVjE1WmtoaXZhd0tFS082UjEwZ3IyeS1fZHFaa01yag?oc=5",
+          "title_norm": "김천시지방소멸대응기금127억투입인구활력높인다",
+          "sent_at": "2026-10-29T07:57:18.508481+00:00"
+        },
+        {
+          "link": "busan.com/view/busan/view.php?code=2026102910562277731",
+          "title_norm": "강기윤창원시장현행지방자치제도통합특수성반영못해",
+          "sent_at": "2026-10-29T07:57:18.508481+00:00"
+        },
+        {
+          "link": "ccdn.co.kr/news/articleView.html?idxno=1107815",
+          "title_norm": "창간27주년특집신용한충북지사충북의성장은숫자가아닌도민",
+          "sent_at": "2026-10-29T07:57:18.508481+00:00"
+        },
+        {
+          "link": "nbntv.co.kr/news/articleView.html?idxno=4026708",
+          "title_norm": "인구소멸위기청도군행안부특교1순위는군의원7명위한92억신청",
+          "sent_at": "2026-10-29T07:57:18.508481+00:00"
+        },
+        {
+          "link": "amnews.co.kr/news/articleView.html?idxno=75308",
+          "title_norm": "농어촌기본소득이만든인구반등기적",
+          "sent_at": "2026-10-29T07:57:18.508481+00:00"
+        },
+        {
+          "link": "ttlnews.com/news/articleView.html?idxno=3156806",
+          "title_norm": "진안군민체육계320명결속체류형스포츠관광생태계로지역경제",
+          "sent_at": "2026-10-29T07:57:18.508481+00:00"
+        },
+        {
+          "link": "news1.kr/local/daejeon-chungnam/6335812",
+          "title_norm": "보령워케이션센터개관체류형관광거점",
+          "sent_at": "2026-10-29T07:57:18.508481+00:00"
+        },
+        {
+          "link": "pn.or.kr/news/articleView.html?idxno=34290",
+          "title_norm": "대구남구청지방소멸기금27억엉뚱한곳에사용행감방향성안맞",
+          "sent_at": "2026-10-29T07:57:18.508481+00:00"
+        },
+        {
+          "link": "etoday.co.kr/news/view/2641687",
+          "title_norm": "김천시지역맞춤형인구활력사업확충",
+          "sent_at": "2026-10-29T07:57:18.508481+00:00"
+        },
+        {
+          "link": "newsis.com/view/NISX20261029_0003846025",
+          "title_norm": "충북도반려동물테마파크지역활성화투자펀드성공할까",
+          "sent_at": "2026-10-29T07:57:18.508481+00:00"
+        },
+        {
+          "link": "incheontoday.com/news/articleView.html?idxno=325522",
+          "title_norm": "인구감소지역강화옹진강화는고령층늘고옹진은3년째인구",
+          "sent_at": "2026-10-29T07:57:18.508481+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-28T22:57:16.492688+00:00"
+      "last_checked_utc": "2026-10-29T07:57:12.365893+00:00"
     },
     "pop": {
       "articles": [
@@ -507,9 +492,149 @@
           "link": "sejungilbo.com/news/articleView.html?idxno=60782",
           "title_norm": "절세톡톡인구감소지역주택세제혜택은증여도적용될까요",
           "sent_at": "2026-10-28T22:57:24.644467+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTFBEclhvQmpXaHlkTW03a2xTUS1Wb19zRGZNWHZmQjNoWXJvcTVNQnZZM0JYYTNSRjJHT0U5RU9ZTklaTVV2VlBfUmc2bXJ2SHJHTjBIUjVrNmVIcDR2RzRIa3pkclpZYmxvb0hMODNR?oc=5",
+          "title_norm": "인구감소지역서1인당카드소비12만5000원체류인구소비늘었다",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "kbmaeil.com/article/20261029500513",
+          "title_norm": "경북도인구감소지역맞춤형대응전략마련나서",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "news.bbsi.co.kr/news/articleView.html?idxno=4115595",
+          "title_norm": "경북도인구감소지역대응5개년기본계획수립본격화맞춤형전략",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "kbsm.net/news/view.php?idx=539703",
+          "title_norm": "경북도인구감소지역5개년대응전략점검",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "imaeil.com/page/view/2026102915261314400",
+          "title_norm": "경북도인구감소지역5개년대응전략수립지역별맞춤정책발굴",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "mbceg.co.kr/post/141470",
+          "title_norm": "강원인구감소지역체류인구등록인구의최대83배",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiXEFVX3lxTE1xWmk1R3c1U2RGZEx5WXE3UmtMWXF2QTZ0OWdIeHV2cTdPS3ZXN3JsMm40MG1ZanB2VlNrVURwM0VFSDJtdmtpbTM4bjM4S09ROEw4V2NMdmJsRnJR?oc=5",
+          "title_norm": "주민486만명인데2800만명드나들었다인구감소지역체류인구58배",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiVEFVX3lxTE90dzJXUnlfRzRPRXd1cE1xX015dnNfT0g5aVVBblJDU0dSZkxNYVNTMUxRcmtaUEFNTzlmYjlCaG1jR1JmUUFaX2kyOWF1djJTa01YeA?oc=5",
+          "title_norm": "2분기인구감소지역체류인구주민의최대58배양양176배",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE11c1czUjduZlZvblhDM1VXd3psODRMRzN1N2tFVXg2ekM5ai12dUVPa0RVVlVzcGNJYjE4djdvcXdHUGZaOFNMYzNZU0ZycWpVLW04VTRLWTd0QXZBQ1lGRE5kSFd4eFJCa09R?oc=5",
+          "title_norm": "함안창녕인구감소지역체류인구재방문율50이상",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiakFVX3lxTE5vNHFPU0QxcnN1di1pTnZuWUZYalYxZ3hQQ1VuM2VHS0dSMUdtWE9LZXU3UEFrU2s4MzJIcl93OFJNRjlvSDNZTHAyRUpBTE1iaTI4MEFqbmttQWwyZGZNQkFmTkNjM0JUTUE?oc=5",
+          "title_norm": "대구경북6개인구감소지역3개월내재방문율50돌파",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "idomin.com/news/articleView.html?idxno=2018252",
+          "title_norm": "신성범의원인구감소지역은퇴자마을우선지정법안발의",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiSEFVX3lxTFBEeXc1azU5cm03MlBVYzFwcEQ5dlo3RDZJalJUZ2REZ1pnWk5Vb3pzYUQzd0NEZ0EzRFE0amhTaDFYV3llcjBBQw?oc=5",
+          "title_norm": "인구감소지역에3285만명몰렸다등록인구58배",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiVEFVX3lxTE85a3BWYUkyb3UyVHBBUU12ZEJxZWtUTm9GU0lmWkdyTXNYbm11b2MzUmlET0RYZXIzcm8ySzJvM0stcTBKQ2U0b01BSUxvV0RpbXRpNg?oc=5",
+          "title_norm": "5월황금연휴에인구감소지역찾은2800만명등록인구의58배",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiigFBVV95cUxQZy0xTGNTRXU5eDRzZkNfVHRWX3o3RWFaSnFGRk43cHBQUXVmY2dDTXk4Zm00Szl5Y1RwRGZGdU9CN1J2VFQ1TGZLWUl6R01OSThKQjFaakxxWlpQZFZUcmlDTEhiWEZIOFkwRW4waEVuSnhCaW56T252YUg3S1huUEVPbUZBVGVVNFE?oc=5",
+          "title_norm": "5월인구감소지역생활인구3285만명상반기최대기록",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiXkFVX3lxTFBWWW5VU0RqTFhIdzdkMVg1WTN5YzRfRDJlanFoMU1iZ2FUdU1JYXdwOE5YbGpFLWNQWlc2RWl1XzFYVGp0MmNyVXY1dzhqQXBDcFZvMjJPYTZ6QnY2MUE?oc=5",
+          "title_norm": "2026년5월생활인구상반기최대규모인구감소지역에활력더해",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiS0FVX3lxTE9EWGRXc1NEYllmUFNSQl9pRUhpUU5uRTF2d3o2NXZoWFdsbGYwdDZRQno4M0FvZnFJbERRYmZocEdFX2NIOFEzM0pxUQ?oc=5",
+          "title_norm": "인구감소지역2분기생활인구2860만명전년246월엔94만명줄어",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMic0FVX3lxTE9YVzk4SGl4Z1RRTi1qOEFNMVdGb09aLXJINGZlZ3hNZDlKQkctdUhSR3piRHBwN2tYTER1VjlyR2VmUVRKQjRGSkoxRWdzSjBvdVVuSUpNS0E3WVRWYlpEVnRvUG1HVHlRZjZUS3JfV19YR00?oc=5",
+          "title_norm": "봄철관광수요에방문객늘었다인구감소지역생활인구3285만명",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMib0FVX3lxTFBQRFY1TEcxWjlRTDdQcXNpZklNNkwtVGFuQUNoZlRWZHdseUZjSVYta3RrUlhqUGh6Ri1BamxfaXdwTTFQaFRJWGtBNEthemRuaG9YRUlLZFdJSjJ1RnRZaDJpWkFOWjB0bmJkMUlFaw?oc=5",
+          "title_norm": "한국관광공사티맵89개인구감소지역30km달리면최대3만포인트",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZ0FVX3lxTE4wRm5VZVpMQlVxbTBYaDhlMnVYWUtQb0pvSWFrVHJ4djlRR1NQdk1GVXNoazZQN0NieGJhT3NPb08ycno2bkdhWDZob29YSEQwNjJGTHMwT1Z1Q3ZwMEx0STBHN21NN3M?oc=5",
+          "title_norm": "인구감소지역으로가을드라이브떠나면최대3만포인트받는다",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZ0FVX3lxTE52Y3kyRHhOdTVKeFdBSFFIUUpxSzN5LXNianNpMlVmc01LMFpRdzk2U1h4RG01T2lxRTNGOXEyc2VMYmRQS1ZXeWNzOTJiM1ZsbTk2NW5HSVJNMlVLZjNYbzN6S3g4RzQ?oc=5",
+          "title_norm": "가을여행가고3만티맵포인트받자인구감소지역대상혜택은",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibEFVX3lxTE94YmdIWktCVXF1Y2plZDNmeWJHNFRmWmlsQXA0TG9Qdkd5RGNQSkV6Z1NtTU5ybDFFcXF5N3V3ZXBNMmFUZ0hKMlpsS0lmZTQ4Q3hOdVRxZ284d0pKV0RMUWlva0hROWZhbHdrcw?oc=5",
+          "title_norm": "인구감소지역관광지로30km이상달리면티맵포인트적립",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE1kV0ZzNWxpZ2NQYmwzaDBfb21ubzdlQ3FkZEpvNnhUSGg2ekQ3ZDNSWi1hTnlncWxxeExvTUxneEtIYmV6NXZXUzd2ampEczh3SUh0YUt3bVdVM3JVX1JKNkh0X0YwYm91bkxET2pB?oc=5",
+          "title_norm": "주민수17배가찾아온양양인구감소지역채우는체류인구",
+          "sent_at": "2026-10-29T07:57:22.297514+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMilwJBVV95cUxNRW1FOU9qN2tIWllGUVZiNmVfWExzMTdlNzJQN0Q5NFBkS1VOZlE2ZnJOMHBBZ3VHdWFmOEtlOHcxZzgzNnJjM285aUY4TEhhSW96VzhqalZJUnZLSGZUUTRJeC1rNk55cThNNk9vOXh5SEh0SGZRMnBhbW1OWWhoS0NzWmliSTlVbGZld2ZlT2g3NE9lWnhVaUxsaENQVjZuTjFxb3Y2akN0MkR4VTJWZDVpdENvbEptaGVrNlNRNmR0elo0dWdSeEVuQnhGOHVHVmNNNHN1bDFjbHBOVUxadUNqcVotb1NENHZYNlZqaEFkUkFTMzZ4TzRvUEx1NTlvSWVYQWNHeVhSRXdVSGJMZ0IzbF9fTjQ?oc=5",
+          "title_norm": "사는사람보다머무는사람이더많다인구감소지역생활인구증가",
+          "sent_at": "2026-10-29T07:57:23.873030+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiaEFVX3lxTFBScXhEempmMWZ6QkJXelJCc1A2QWVSZzhER3lYWmRVekowdi1XVnNDdEx5d2Z3aTl4MDl5RDlnLW5OaE1WQ1dYUXdnUWQwODJyS3dyam9pMTZmS0s5Mlg5dW1Da2pfSTlh?oc=5",
+          "title_norm": "엄태영농지법개정안발의인구감소지역농지임대허용확대",
+          "sent_at": "2026-10-29T07:57:23.873030+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiWEFVX3lxTE8zLV9qWm1ndkR3UG80cHRPWXFoS1lDellBT3hZRTZnUWl1Zl84WHZaZGtkOWFUeGYxRnhzUG5NX2NKdDcyWGdBemV6RW81M29CcWVCajZGUHbSAVhBVV95cUxPMy1falptZ3ZEd1BvNHB0T1lxaEtZQ3pZQU94WUU2Z1FpdWZfOFh2WmRrZDlhVHhmMUZ4c1BuTV9jSnQ3MlhnQXplekVvNTNvQnFlQmo2RlB2?oc=5",
+          "title_norm": "주민의49배몰렸다인구감소지역방문객28",
+          "sent_at": "2026-10-29T07:57:23.873030+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiWEFVX3lxTE4wTHNGLTNCemZGQ2VLaVZHX0xDWmJTQ25wOUVWdXp3ek10eWhZdjlqNEdxZktSS3lIVXJyQk0wZHVsVFVyWXQySXU2VHhGY2w3YWVzVGlfSUY?oc=5",
+          "title_norm": "국립김천치유의숲인구감소지역미래의숲을심다",
+          "sent_at": "2026-10-29T07:57:23.873030+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMicEFVX3lxTFA3UnRKUW9aaGxURW9zSTNhZWZ2SXNiSmxueE52R1pvOFZKbG5jbFlRMmxNTVJ2WnZvX093SEkxTU02aFlZWTgtMkRFY2xzTGk3Q2w3aTlDekRMMDJYN2RDNEhHaE1IX1lELUFKRnlSUGY?oc=5",
+          "title_norm": "티맵관광공사인구감소지역여행캠페인혜택풍성",
+          "sent_at": "2026-10-29T07:57:23.873030+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE9uOEFodHdjQ21LRXVBWHo5bnNLN3JkbkRWUGY2UFZfM0wtU1dqNDROOTFaYWlnQ0cwMHF4NHpzQVEyZmk4QXlqd04yaHg2dm9ldzhYX2J2eFlZdVNHdEFNNjdJWGdqUGxkY2RR0gFUQVVfeXFMTlBwQjlPbGZoZnlpMXdqR0U3Qlgwc1JYWEdlQnh4Sm53UElDeGhBNmtISnRMaklWYXFPLWlFazVwUXJ6TmI5Q195S25BWnRDNU9KOVAy?oc=5",
+          "title_norm": "성평등가족부청소년활동진흥원인구감소지역청소년성장기회확대",
+          "sent_at": "2026-10-29T07:57:23.873030+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-28T22:57:16.492688+00:00"
+      "last_checked_utc": "2026-10-29T07:57:12.365893+00:00"
     },
     "life": {
       "articles": [
@@ -582,13 +707,38 @@
           "link": "news.google.com/rss/articles/CBMiYEFVX3lxTFBhNHFLdnBHY0ZsSXl5M25pLTZaeDhlbGtlaERfRmQ2Z1oyRkhCZ2wyM0g5Y21oaVBST2xPaEdhVXhVcmVSSEphTWpGRXpvdVlrVFYyMl8zODhnZGFsS0dVcQ?oc=5",
           "title_norm": "더오래머물고더많이썼다김제찾은생활인구전북서1위",
           "sent_at": "2026-10-28T22:57:28.140060+00:00"
+        },
+        {
+          "link": "pressian.com/pages/articles/2026102912031301101?utm_source=naver&utm_medium=search",
+          "title_norm": "홍천군연중대규모대회유치로생활인구지역경제활성화",
+          "sent_at": "2026-10-29T07:57:27.502930+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiX0FVX3lxTFAweG1iOHdYVU9ZSVFvekJaRmJ6TURncmdBOHpOVV9Ta2xVRERTb3pDeTBFeTRmeFc3RU5Sa1FaQ3p4S2ZpbE5MMzljR0QyWUVXUGtDRGlfQV9CTzAtTzdB?oc=5",
+          "title_norm": "경북인구감소대응5개년계획마련정주생활인구초점",
+          "sent_at": "2026-10-29T07:57:27.502930+00:00"
+        },
+        {
+          "link": "jmbc.co.kr/news/view/69260",
+          "title_norm": "주춤했던전북생활인구다시증가",
+          "sent_at": "2026-10-29T07:57:27.502930+00:00"
+        },
+        {
+          "link": "tjb.co.kr/news05/bodo/view/id/105448",
+          "title_norm": "태안5월생활인구1년새16만명껑충",
+          "sent_at": "2026-10-29T07:57:27.502930+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiYEFVX3lxTFAwV1l1ZExCLVZjazVoSGhXQXhfU0swMXN5Z3UxT1d0TlRSNlNfSGlOdm1GWDJWYllwNDcweG5uNHhNSnliX3VSeEtvcUN4Z0hURE45Z1dGdFp3SWEyQ1pwTQ?oc=5",
+          "title_norm": "지방찾는발길늘었다5월생활인구3285만명",
+          "sent_at": "2026-10-29T07:57:27.502930+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-28T22:57:16.492688+00:00"
+      "last_checked_utc": "2026-10-29T07:57:12.365893+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-10-28",
+    "pm": "2026-10-29",
     "am": "2026-10-29"
   }
 }
