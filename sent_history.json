@@ -4,116 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "joongang.co.kr/article/25473443",
-          "title_norm": "152만원우린5만원기본소득절실한농어촌특급각오",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "jnilbo.com/news/articleView.html?idxno=90000077125",
-          "title_norm": "곡성군돌아오지촌으로농촌정주패러다임확바꾼다",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "jndn.com/article.php?aid=1793090687441895107",
-          "title_norm": "집일자리배움치유곡성복합빌리지조성",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "m-i.kr/news/articleView.html?idxno=2011056",
-          "title_norm": "곡성군주거일자리문화치유잇는라이프융합복합빌리지조성",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiakFVX3lxTE9DS2VDYUFGamU0RzlFbGNrRHpKbGxfM1JZVXJGXzdzMDc1WTNRUUFXcDRuQ0hZRDctMGg4ZVdxWmpPR1Y2YnNnV05SUkk3Sl9QRDZkVjNEYUJBQ05kS2RhRDM4czhoS005LXc?oc=5",
-          "title_norm": "울산소식상수도정주여건개선에재원확대",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "ksilbo.co.kr/news/articleView.html?idxno=1070774",
-          "title_norm": "행자위재정건전성인구감소대책등점검",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "gukjenews.com/news/articleView.html?idxno=3733568",
-          "title_norm": "응급환자절반넘게이용한영천응급실지정만료앞두고위기",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiVkFVX3lxTE10cl9McXcwUXZwbmRuZXctVy1yeTY5MkU0d3RmWDdKdVhjWS1DdFRlNGRJWWVHemRQS2JTY3FXQm5rc043MjNCZWdzQ2Vkbkx3V0NiZzVB?oc=5",
-          "title_norm": "울산시지방소멸대응기금26억추가확보아이청년이동권묶은5대정주혁신",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "ujeil.com/news/articleView.html?idxno=394184",
-          "title_norm": "지방소멸대응기금정주여건체감높여야",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "ujeil.com/news/articleView.html?idxno=394261",
-          "title_norm": "울산시정주여건개선속도낸다",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "ujeil.com/news/articleView.html?idxno=394240",
-          "title_norm": "2차공공기관이전준비도마",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "ujeil.com/news/articleView.html?idxno=394247",
-          "title_norm": "서범수울주군통합키움센터건립16억확보",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "gnnews.co.kr/news/articleView.html?idxno=648373",
-          "title_norm": "경남9개군지역농어촌기본소득유치전도전",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "sedaily.com/article/20106852?ref=naver",
-          "title_norm": "묻지도따지지도않고매달16만원씩따박따박기본소득줬더니지",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "inews365.com/news/article.html?no=940983",
-          "title_norm": "1천700명전입가맹점151곳증가송미령장관보은군농어촌기본소",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "news1.kr/local/sejong-chungbuk/6333733",
-          "title_norm": "송미령농식품부장관보은서농어촌기본소득시범사업점검",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "kwnews.co.kr/article/20261027501314",
-          "title_norm": "지방우대지수2권역인제군인근시군보다정부지원61개항목불이",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "jnilbo.com/news/articleView.html?idxno=90000077054",
-          "title_norm": "당일치기는돈안쓴다전남체류인구8할이지만소비는저조",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "news.ifm.kr/news/articleView.html?idxno=482711",
-          "title_norm": "배준영의원재외동포청항만공사통합은인천수탈시민힘으로",
-          "sent_at": "2026-10-27T22:57:20.553667+00:00"
-        },
-        {
-          "link": "m-i.kr/news/articleView.html?idxno=2011054",
-          "title_norm": "고흥군지방소멸대응기금활용해청년정착고령층복지지원확대",
-          "sent_at": "2026-10-27T22:57:22.057609+00:00"
-        },
-        {
-          "link": "news.lghellovision.net/news/articleView.html?idxno=559960",
-          "title_norm": "빈틈마산수백억지원만약마산이부산동구였다면",
-          "sent_at": "2026-10-27T22:57:22.057609+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiZ0FVX3lxTFB4bDFkS1M3Q01OZEtLeUFNanM1emRHalJBV2NBbmFEanhVemR1NmVtNXRVam0tWmt3bnQwcFhoTXUtNjczVU9jX085TDkzQXZOOHZuMnhCMlQzQnVVTGZtSkpKdzZfYVk?oc=5",
-          "title_norm": "서범수울주출신국회의원우리동네통합키움센터건립사업행안부소멸대응기금16억원확보쾌거",
-          "sent_at": "2026-10-27T22:57:22.057609+00:00"
-        },
-        {
           "link": "newstnt.com/news/articleView.html?idxno=725520",
           "title_norm": "청양군청양탑클래스멘토링5111회운영전년보다1194회증가",
           "sent_at": "2026-10-28T07:57:20.616228+00:00"
@@ -357,22 +247,107 @@
           "link": "gocj.net/news/articleView.html?idxno=153865",
           "title_norm": "대전중구어르신문화여가공간중구청춘살롱시범운영",
           "sent_at": "2026-10-29T22:57:20.210948+00:00"
+        },
+        {
+          "link": "news1.kr/local/jeonbuk/6338115",
+          "title_norm": "장수군계북면참샘골행복주택준공18가구조성",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
+        },
+        {
+          "link": "sisajournal.com/news/articleView.html?idxno=392342",
+          "title_norm": "임실장수24시임실군민선9기1호공약임실형농어촌기본소득",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
+        },
+        {
+          "link": "pressian.com/pages/articles/2026103013390103807?utm_source=naver&utm_medium=search",
+          "title_norm": "장수군1호행복주택준공청년신혼농촌유학생에희소식",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiaEFVX3lxTE5Deks1V0s1WWtFQkpMYnR1Z1NCWEF5RnBxdTd3aEpaUkVyN2VwSkVaMHpfWGV1RG9ucUdKNWg3ZnJ0MmVWSmQtVnd6ZnpwOXFTRnZySHRFS1JwcS0wNDZBNnVKWFJWYnZ6?oc=5",
+          "title_norm": "장수군1호공공임대주택참샘골행복주택준공청년정착온힘",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
+        },
+        {
+          "link": "weeklytoday.com/news/articleView.html?idxno=800386",
+          "title_norm": "위클리오늘평창군강원개발공사와그린바이오산업인프라확충협력",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
+        },
+        {
+          "link": "newsis.com/view/NISX20261030_0003848203",
+          "title_norm": "평창군그린바이오청년정주공간조성98억투입",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMickFVX3lxTE9TYWdZdVVLQkNwMGZwa1U2T3A4dDZlMTQzSXpxTkVkZWxjV3VUSU1rM1luVHU2emJrSW95MWx0U29DVlZpaWVycmRJcWdNbFlIY3FoTlE0WGtiMEJ3OHRPRDVXcG5OQlRpc3BvUjItYjRmdw?oc=5",
+          "title_norm": "장수군참샘골행복주택준공뉴스",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
+        },
+        {
+          "link": "enewstoday.co.kr/news/articleView.html?idxno=2486438",
+          "title_norm": "평창군그린바이오청년리빙하우스건립98억투입",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
+        },
+        {
+          "link": "sidae.com/article/2026103009480112991",
+          "title_norm": "장수소식청년신혼부부위한행복주택18가구첫준공",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
+        },
+        {
+          "link": "viva100.com/article/20261030500213",
+          "title_norm": "그린바이오수도평창청년연구원잡는다98억투입청년리",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
+        },
+        {
+          "link": "getnews.co.kr/news/articleView.html?idxno=885416",
+          "title_norm": "오늘의강화밥한끼나누고새이웃도왔다강화군온기채운",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
+        },
+        {
+          "link": "kmaeil.com/news/articleView.html?idxno=656466",
+          "title_norm": "강화군동네안내자교육및매칭프로그램호응",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
+        },
+        {
+          "link": "shinailbo.co.kr/news/articleView.html?idxno=5077907",
+          "title_norm": "강화군동네안내자64명활동새주민정착돕는다",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
+        },
+        {
+          "link": "asiatime.co.kr/article/20261030500215",
+          "title_norm": "30일인천강화군동네안내자11맞춤안내호응등",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiW0FVX3lxTE1BMGo1TGlxTkhwQU9jT0pRbkNFa1EzdUUzTTJtMm1FYzBab3gxOC1QMjItbGFNNmkzdnc2YXB5V2ppN2hmd3RteEVlT1FnSi1scWVfRjdraVBMWGfSAWBBVV95cUxOQ0NIZVZvREZTM20wMmFzbURLSDMyUGpta2ItRnphN01ITzMtXzJDR2ZOZE9oSjh2UGpRWUFEYlhTcnE4RUFkdFR3NDdEbmhTTkZBUkROaFZyQXdIcy0yY0M?oc=5",
+          "title_norm": "평창군그린바이오청년주택21가구건립2028년준공",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
+        },
+        {
+          "link": "seongjuro.co.kr/news/view.php?idx=61276",
+          "title_norm": "어쩌다할로윈팝업in성주성료",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
+        },
+        {
+          "link": "greened.kr/news/articleView.html?idxno=353477",
+          "title_norm": "강화군동네안내자1대1매칭으로귀농귀촌정착청신호",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
+        },
+        {
+          "link": "ktv.go.kr/content/view?content_id=763238",
+          "title_norm": "5년만의인구감소지역재지정지역정착활력지원",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
+        },
+        {
+          "link": "ibabynews.com/news/articleView.html?idxno=156379",
+          "title_norm": "저출생골든타임일본지방소멸10년의경고한국의미래는",
+          "sent_at": "2026-10-30T07:57:19.889427+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-29T22:57:15.380653+00:00"
+      "last_checked_utc": "2026-10-30T07:57:13.924775+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "ccreview.co.kr/news/articleView.html?idxno=361041",
-          "title_norm": "충북인구감소지역6곳중4권역은영동뿐",
-          "sent_at": "2026-10-27T22:57:25.586225+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiWkFVX3lxTE9keXJpeDlERGxoSVJoU0Ric0JyWTh5WG00Skh6T2JsS2FmMFA4RVhuUV9xUVQ2T2dKeC01ajRjZVBWakNzRjhLalRTQnR4RnQwMmFUdGYwa0ZzUdIBWEFVX3lxTE1CZlNTTEhCNmhTWjUtZjRCMGxQS283aXhmVjFCQUZtWXk5UWxhV0J3THlHeUNZcG83Y0VvRzNncjktaHBxTkRrNVA2eUxVVEx4TkJJNGlfMWw?oc=5",
-          "title_norm": "단독서울과직선거리로지방우대지수책정무의무변인구감소지역15곳최고우대제외",
-          "sent_at": "2026-10-27T22:57:25.586225+00:00"
-        },
         {
           "link": "news.google.com/rss/articles/CBMia0FVX3lxTE5ZS2NSY3lqXzZ4V1luSGNhTmxGQXNHU0ZFU19jWjdOZHBtdWN3a3pKb1V1SDlwRVJYcGg1NXRkcmZkT1hIajZpQnduR3RSOXRuMEd4ekJnZWxuY3pGVmVCVjdNZ0JPZTJkZjJR?oc=5",
           "title_norm": "전북인구감소지역중생활인구질적지표1위에오른김제시",
@@ -567,27 +542,37 @@
           "link": "news.google.com/rss/articles/CBMibkFVX3lxTE1JdXNtY0gxYjY1dUxKakI0N2F5NlJtZW5nYlYzQTlndThSUF8yYy1YRFg4R0lvWUJrTlhWcTI4bTd2LTBNYUdpVHRSZ2lBdjd6bEFJUnpFOUh3ZUE0T0t2R2hWMGlBdEdNM3JJNUhn?oc=5",
           "title_norm": "충남인구감소지역2분기체류인구활기태안공주등축제행사로유입극대화",
           "sent_at": "2026-10-29T22:57:23.939846+00:00"
+        },
+        {
+          "link": "lak.co.kr/news/boardview.php?id=24222",
+          "title_norm": "축제관광지에봄철여행객증가인구감소지역생활인구늘었다",
+          "sent_at": "2026-10-30T07:57:23.514740+00:00"
+        },
+        {
+          "link": "kmib.co.kr/article/20261030500283",
+          "title_norm": "인구감소지역으로30달리면최대3만티맵포인트",
+          "sent_at": "2026-10-30T07:57:23.514740+00:00"
+        },
+        {
+          "link": "discoverynews.kr/news/articleView.html?idxno=1105381",
+          "title_norm": "인천시인구감소지역강화옹진인구위기대응본격화",
+          "sent_at": "2026-10-30T07:57:23.514740+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiWEFVX3lxTFA5NXBmcEI1eTNPU2Y0a3BJUTEyaXF3Nl8zMGI0V1lkd2c3Y0JYWktyZ0xXcVQ1QjMwblhlejVVRGluWGZ6bVVGZ3R3X016UjduQ0lxNHVoSHY?oc=5",
+          "title_norm": "최상기인제군수지방우대지수4권역조정과인구감소지역추가지정해야",
+          "sent_at": "2026-10-30T07:57:23.514740+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiYEFVX3lxTE43czZsTktaenRsYy16b1Jzcmg5NVJ1Z0RjSEZraVUxdmVPY09NU29GZUNpenVIR0hnZS0zSEF1R1NTZVgwbVJDSUl0Ny1fNmRoUVF6cm1kR2VSZmhDZEU5UNIBeEFVX3lxTFBhV2dCVWVvMDN2NmZpbHdmMDVSb2tMczQybTZPMGdRSjRrWmpqOGhCRlY1M2xmNTZmUjdwSS1FOXFqbGFhTnZlNVZhYmR6T0piTkJzZ001UEp2aGNrZEI1emI2QkYyYzJwVFlJS1ktYnd5ZV9IY3NTUQ?oc=5",
+          "title_norm": "인구감소지역지정에도46청년여성은176급감",
+          "sent_at": "2026-10-30T07:57:23.514740+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-29T22:57:15.380653+00:00"
+      "last_checked_utc": "2026-10-30T07:57:13.924775+00:00"
     },
     "life": {
       "articles": [
-        {
-          "link": "munhwa.com/article/11626781?ref=naver",
-          "title_norm": "연725만생활인구붙잡는다보령시민선9기체류형혁신",
-          "sent_at": "2026-10-27T22:57:29.002761+00:00"
-        },
-        {
-          "link": "gukjenews.com/news/articleView.html?idxno=3734559",
-          "title_norm": "영천시생활인구확대위한3박4일프로젝트마무리",
-          "sent_at": "2026-10-27T22:57:29.002761+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE56NUlETE5VbVNYNllLUjRnZTBEQWppMGFLd0lwbkJDVnY1dS1GODRnNTVEUU5GZWdQUjNFVkMtTHVYeGozZjllZ1RobVVDY0FQYXFTSG5mV0p6TVlBWmtmUmhqYjhzaC1icDJj?oc=5",
-          "title_norm": "영천시영천checkin마무리생활인구확대해법찾았다",
-          "sent_at": "2026-10-27T22:57:29.002761+00:00"
-        },
         {
           "link": "shinailbo.co.kr/news/articleView.html?idxno=5077133",
           "title_norm": "영천시체류교류통한생활인구확대모색영천checkin마무리",
@@ -662,13 +647,28 @@
           "link": "incheonilbo.com/news/articleView.html?idxno=1335534",
           "title_norm": "인천옹진27만명강화66만명올2분기생활인구증가",
           "sent_at": "2026-10-29T22:57:27.572323+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMid0FVX3lxTE5UeV9vSUJJTFhBUkZ6ZWxNU0xKSjVEOU1tTVgzVjdRWUlqSnpOdXlLQ2VISFNwYXJHQnhCTXdhSEFWQ0lKeFBHTDVFV0Vpa3Q4UjBaQ0JVZkxBT3hEQW9mRzQtVm9HS3dLRG1OQ3FTWUFMQ1gyWFRB?oc=5",
+          "title_norm": "완도생활인구정책얼마나머무르냐가중요하다",
+          "sent_at": "2026-10-30T07:57:27.120297+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMib0FVX3lxTE41cU5teVJDQ2k4OURvM1VfbWUwdEM0U0RlVlJuQ3FqWXFnS1VrTHNLTUhkb1F6RDl4dGFZWVJmWFpueHVPWG93anp0MXhXOFVQRmRlOGQyMEZodkpLOU9zUVdUS3ZDWHBDcVhpMVVwaw?oc=5",
+          "title_norm": "연천생활인구느는데돈쓸곳이부족",
+          "sent_at": "2026-10-30T07:57:27.120297+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE53MmwtSUI5M0RtN3pEYXh0bmhNX1k4bTlld3JGbkVFUTRBZFV5aW81dGg3dEJfQXZmUnRBS3hoWDhOR3NkZWdJLXlOUXUyQkMwZWFJWGx1VjM5cFVzbTRNbTg5YlgxOUxaWGVj?oc=5",
+          "title_norm": "영월태안5월생활인구3285만명",
+          "sent_at": "2026-10-30T07:57:27.120297+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-29T22:57:15.380653+00:00"
+      "last_checked_utc": "2026-10-30T07:57:13.924775+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-10-29",
+    "pm": "2026-10-30",
     "am": "2026-10-30"
   }
 }
