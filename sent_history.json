@@ -4,51 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "dnews.co.kr/uhtml/view.jsp?idxno=202610281335476970549",
-          "title_norm": "ai인프라지방바다로1000억넣어1조판깐다정부ai인프라",
-          "sent_at": "2026-10-28T22:57:21.057467+00:00"
-        },
-        {
-          "link": "ksilbo.co.kr/news/articleView.html?idxno=1070875",
-          "title_norm": "경상시론주소가아닌머무는사람을셀때다",
-          "sent_at": "2026-10-28T22:57:21.057467+00:00"
-        },
-        {
-          "link": "kwnews.co.kr/article/20261028501729",
-          "title_norm": "사설접경지외면한지방우대지수전면재설계해야",
-          "sent_at": "2026-10-28T22:57:21.057467+00:00"
-        },
-        {
-          "link": "ulsanpress.net/news/articleView.html?idxno=585700",
-          "title_norm": "전현시정정책부터예산집행까지9대울산시의회첫행감",
-          "sent_at": "2026-10-28T22:57:21.057467+00:00"
-        },
-        {
-          "link": "gnnews.co.kr/news/articleView.html?idxno=648441",
-          "title_norm": "사설농어촌기본소득재정부담구조손질필요",
-          "sent_at": "2026-10-28T22:57:21.057467+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiX0FVX3lxTE0wbWZmR09HMks0V2xzcGJ0Q0lrM2lrX3gtWkQ4Rk1CVF9rLWhZQXRnSXlsODNZZzFfQl81WnctNkNLS3BIaVN4bW0tcTBra1BsWkVxWGVOUkE5QlhoRGxN?oc=5",
-          "title_norm": "김천지방소멸대응기금127억원일자리주거지원실제정착으로잇는다",
-          "sent_at": "2026-10-28T22:57:21.057467+00:00"
-        },
-        {
-          "link": "hankyung.com/article/2026102813431",
-          "title_norm": "강남집값해운대의5배시장특성맞는핀셋정책필요",
-          "sent_at": "2026-10-28T22:57:21.057467+00:00"
-        },
-        {
-          "link": "kyongbuk.co.kr/news/articleView.html?idxno=4088843",
-          "title_norm": "17억주차장부지2년째방치대구서구청수요더봐야",
-          "sent_at": "2026-10-28T22:57:21.057467+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiggFBVV95cUxPRUVGZWY5M0o0NGdTdV9YWGdTYXFtUXNwMjYwRzZfTndUcGNTR3NFbi14NGp0bTNydnMzajRHNGRBUk1sZURFdERmSF9fUGhod01zbjlsalFaWFBEbDkyYXJlVUxIcEd2VURyLW93UlVEYmNBVHVEenB3aExVSzhTbEFB?oc=5",
-          "title_norm": "소멸대응기금127억정착에초점",
-          "sent_at": "2026-10-28T22:57:21.057467+00:00"
-        },
-        {
           "link": "newstnt.com/news/articleView.html?idxno=725812",
           "title_norm": "대전중구청춘살롱연말까지시범운영내년1월정식개관",
           "sent_at": "2026-10-29T07:57:18.508481+00:00"
@@ -277,17 +232,47 @@
           "link": "news.google.com/rss/articles/CBMiWkFVX3lxTFBDZF9ESEVQaFNrbVpPbjlGdHh2MXdnUXdwUDBYLTdSdmhyUmEwcFdZZWtHS2FZZzJ5SVBNYWFJeUNWRU94ckF2akpISlRwSkdweDR0LUJONF9mZw?oc=5",
           "title_norm": "예결위미래소멸기금정면충돌검문소피하는162조vs빚만갚자는거냐",
           "sent_at": "2026-10-30T22:57:17.581477+00:00"
+        },
+        {
+          "link": "view.asiae.co.kr/article/2026103113371713857",
+          "title_norm": "춘천원주랑우리가동급삭발에궐기대회인제군발칵뒤집힌사",
+          "sent_at": "2026-10-31T07:57:16.510832+00:00"
+        },
+        {
+          "link": "news1.kr/politics/assembly/6338591",
+          "title_norm": "나경원사전투표그자체로구조적결함반드시폐지해야",
+          "sent_at": "2026-10-31T07:57:16.510832+00:00"
+        },
+        {
+          "link": "edaily.co.kr/News/Read?newsId=01951606645618496&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+          "title_norm": "산후조리원탓참비겁나경원다문화우대폐지직격",
+          "sent_at": "2026-10-31T07:57:16.510832+00:00"
+        },
+        {
+          "link": "hansbiz.co.kr/news/articleView.html?idxno=878362",
+          "title_norm": "지방소멸위기넘어미래성장도시로장수군지역경제대전환시동",
+          "sent_at": "2026-10-31T07:57:16.510832+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE0wR1EyQmRacXhVYmltMS0yamItTE5mRkFTUjhDaTRmWTRndkk1TUxnN01qY05PZ3p1X25rWC1yQlJ6LWFjajVZXzJSdjZ0OV94b1NoNDYzM1F4X2Y5NVM5MXJocm93WHQzendXdm5B?oc=5",
+          "title_norm": "2026국감결산교부세30조줄고공공조달절반은수도권으로지방은곳간도일감도없다",
+          "sent_at": "2026-10-31T07:57:16.510832+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3738256",
+          "title_norm": "강화군새이웃걱정마세요동네안내자11매칭프로그램호응",
+          "sent_at": "2026-10-31T07:57:16.510832+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3738206",
+          "title_norm": "평창군그린바이오벤처캠퍼스추진청년리빙하우스21세대건립",
+          "sent_at": "2026-10-31T07:57:16.510832+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-30T22:57:12.938904+00:00"
+      "last_checked_utc": "2026-10-31T07:57:11.176634+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "sejungilbo.com/news/articleView.html?idxno=60782",
-          "title_norm": "절세톡톡인구감소지역주택세제혜택은증여도적용될까요",
-          "sent_at": "2026-10-28T22:57:24.644467+00:00"
-        },
         {
           "link": "news.google.com/rss/articles/CBMibkFVX3lxTFBEclhvQmpXaHlkTW03a2xTUS1Wb19zRGZNWHZmQjNoWXJvcTVNQnZZM0JYYTNSRjJHT0U5RU9ZTklaTVV2VlBfUmc2bXJ2SHJHTjBIUjVrNmVIcDR2RzRIa3pkclpZYmxvb0hMODNR?oc=5",
           "title_norm": "인구감소지역서1인당카드소비12만5000원체류인구소비늘었다",
@@ -487,22 +472,22 @@
           "link": "news.google.com/rss/articles/CBMia0FVX3lxTE94emFsRm5FWkh5LVlFRjBSNHoxSWFZUm5UVlZyMDBKc095V3lpWHdBd05NQUhVNGhSbHZVWWREemFZSFVmUUl0Y3haa2Q3QUZUbElFeHZ4Tk50b3Y5YUY0bFZMbHVWVHp0aTNJ?oc=5",
           "title_norm": "김성원의원인구감소지역주택세제특례10년연장추진",
           "sent_at": "2026-10-30T22:57:21.137138+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3738252",
+          "title_norm": "김성원국회의원인구감소지역92곳으로늘자주택취득세제혜택203",
+          "sent_at": "2026-10-31T07:57:20.199008+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiWkFVX3lxTFBnMjhnWWVNYWc1eWRGM0pjMEZpZEFRcmg3aXpRc29jRjVjZGtfMnBoTk43dWQ5VjJ5MHpOaTlJU3NhMllDRExYWlhnVEhTZlBlZ3ZuZ244cEZvZw?oc=5",
+          "title_norm": "삭발투쟁나선최상기인제군수윤호중행안장관직접만나지방우대4권역인구감소지역지정촉구",
+          "sent_at": "2026-10-31T07:57:20.199008+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-30T22:57:12.938904+00:00"
+      "last_checked_utc": "2026-10-31T07:57:11.176634+00:00"
     },
     "life": {
       "articles": [
-        {
-          "link": "news.google.com/rss/articles/CBMia0FVX3lxTFBOY2VPWUI2cFJRcFYxU2ZDRkFlMFNUVXhHenJlSEVCcnp0SDFqTjhGamx6QU5CX3BtUU1ZZHJZZHRRY1JwQS1hTjZtcy1XMnhvODVOVXg0WFpmWWNkalFKUHYtZ2xmNmF2WWhB?oc=5",
-          "title_norm": "영천시체류교류로생활인구확대방안모색",
-          "sent_at": "2026-10-28T22:57:28.140060+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiYEFVX3lxTFBhNHFLdnBHY0ZsSXl5M25pLTZaeDhlbGtlaERfRmQ2Z1oyRkhCZ2wyM0g5Y21oaVBST2xPaEdhVXhVcmVSSEphTWpGRXpvdVlrVFYyMl8zODhnZGFsS0dVcQ?oc=5",
-          "title_norm": "더오래머물고더많이썼다김제찾은생활인구전북서1위",
-          "sent_at": "2026-10-28T22:57:28.140060+00:00"
-        },
         {
           "link": "pressian.com/pages/articles/2026102912031301101?utm_source=naver&utm_medium=search",
           "title_norm": "홍천군연중대규모대회유치로생활인구지역경제활성화",
@@ -554,11 +539,11 @@
           "sent_at": "2026-10-30T07:57:27.120297+00:00"
         }
       ],
-      "last_checked_utc": "2026-10-30T22:57:12.938904+00:00"
+      "last_checked_utc": "2026-10-31T07:57:11.176634+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-10-30",
+    "pm": "2026-10-31",
     "am": "2026-10-31"
   }
 }
