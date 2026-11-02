@@ -4,36 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "ytn.co.kr/_ln/0115_202610310421177460",
-          "title_norm": "지방우대지수가뭐길래군수삭발에주민상경투쟁",
-          "sent_at": "2026-10-30T22:57:17.581477+00:00"
-        },
-        {
-          "link": "ytn.co.kr/_ln/0101_202610302156058384",
-          "title_norm": "820조슈퍼예산심사돌입134조삭감vs선동그만",
-          "sent_at": "2026-10-30T22:57:17.581477+00:00"
-        },
-        {
-          "link": "jbnews.com/news/articleView.html?idxno=1514789",
-          "title_norm": "821조예산안미래기금공방여야예결위공청회서예산전쟁포",
-          "sent_at": "2026-10-30T22:57:17.581477+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMieEFVX3lxTFA1QnhyeXcwT0VDYWJ3NHItUGJLTHplclB0cktyMWU3ZlA1anp2eGtOOWQwU196d2ZrNDFSTUxCcmhLSVpTbFVidjFfNnUtVFZIcDRlSkxza1ZXMzJ6SFp6R3dYbG9JclJXZXdTZEVtSTNnX1Z2c0ZmVtIBeEFVX3lxTFBjWmRrcTByNEhoS2MwY1Fxd0Z0ak5WbnI0Zk5lMVQwOVM4SlVKdXZTQllvbXpzUldqeGdnS1FVUjVyMUFmZUNidThqOWExb0loZGpCMk5xNVpfazdkbEhZSlZnQXdMOVZJeFVfMjZVZGhGWWswaU8tVg?oc=5",
-          "title_norm": "미래대응기금두고여야공방imf도긍정평가미래소멸기금",
-          "sent_at": "2026-10-30T22:57:17.581477+00:00"
-        },
-        {
-          "link": "biz.sbs.co.kr/article_hub/20000343415?division=NAVER",
-          "title_norm": "국힘빚잔치vs성장동력확보내년예산안본격공방",
-          "sent_at": "2026-10-30T22:57:17.581477+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiWkFVX3lxTFBDZF9ESEVQaFNrbVpPbjlGdHh2MXdnUXdwUDBYLTdSdmhyUmEwcFdZZWtHS2FZZzJ5SVBNYWFJeUNWRU94ckF2akpISlRwSkdweDR0LUJONF9mZw?oc=5",
-          "title_norm": "예결위미래소멸기금정면충돌검문소피하는162조vs빚만갚자는거냐",
-          "sent_at": "2026-10-30T22:57:17.581477+00:00"
-        },
-        {
           "link": "view.asiae.co.kr/article/2026103113371713857",
           "title_norm": "춘천원주랑우리가동급삭발에궐기대회인제군발칵뒤집힌사",
           "sent_at": "2026-10-31T07:57:16.510832+00:00"
@@ -137,17 +107,132 @@
           "link": "kyeongin.com/article/1773834",
           "title_norm": "경인wide수천억예산강화옹진인구감소지역의역설",
           "sent_at": "2026-11-01T22:57:21.444867+00:00"
+        },
+        {
+          "link": "busan.com/view/busan/view.php?code=2026110215311873313",
+          "title_norm": "시정연설에혹평쏟아낸국힘나라곳간거덜내겠다는선전포고문",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "dnews.co.kr/uhtml/view.jsp?idxno=202611021627238720255",
+          "title_norm": "대통령시정연설에여야극명한온도차시한내처리재정",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "biz.chosun.com/policy/politics/assembly/2026/11/02/WN6ILKTKMVEGXERE6B2AMDIRWI/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+          "title_norm": "국힘내년예산안무책임한극단주의포퓰리즘강력한심사전개",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "ajunews.com/view/20261102160132988",
+          "title_norm": "국민의힘시정연설에미래약탈선언3일야당안공개",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "yna.co.kr/view/AKR20261102132600001?input=1195m",
+          "title_norm": "국힘내년예산안미래약탈선언맹폭송곳검증예고",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "metroseoul.co.kr/article/20261102500468",
+          "title_norm": "시정연설엇갈린반응미래선점예산안vs미래약탈선언",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1021947",
+          "title_norm": "기획지방소멸기금어디에썼나문경야간경관9000명가은읍5만명",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1021926",
+          "title_norm": "기획지방소멸기금어디에썼나성주막힌사업주택관광으로돌",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "mk.co.kr/article/12193632",
+          "title_norm": "경제살리기마중물vs빚더미30조원삭감821조원예산",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "thepublic.kr/news/articleView.html?idxno=324739",
+          "title_norm": "괴산군지방소멸대응기금400억투입50개사업추진",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "newstnt.com/news/articleView.html?idxno=726247",
+          "title_norm": "괴산군지방소멸대응기금400억투입생활인구정착성과",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZEFVX3lxTFB0NGdJTWw4S1dmc24tQ3I5NElLdVNCeTF1T0dEM09XeXZ6WTBGdTJUMVhSVmhYZWstYmh3RXdEVTRzbFUwVlN3aEUtVDZRbjhMRUllbEJfSk5IMFc3T2VSclEwYTY?oc=5",
+          "title_norm": "괴산지방소멸대응기금투입5년오고머물고정착하는성과",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "polinews.co.kr/news/articleView.html?idxno=747461",
+          "title_norm": "시정연설대통령국정기조에민주미래투자국힘재정도박12",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "kwnews.co.kr/article/20261102500541",
+          "title_norm": "정선와와버스연간100만명이용환경대폭개선",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "enewstoday.co.kr/news/articleView.html?idxno=2487197",
+          "title_norm": "정선군와와버스스마트쉼터확대교통약자편의높인다",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "shinailbo.co.kr/news/articleView.html?idxno=5078683",
+          "title_norm": "홍천군상반기적극행정우수공무원3명선정시상",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "ebn.co.kr/news/articleView.html?idxno=1730094",
+          "title_norm": "은행권3000억원출연해지방기업45조원지원지자체경쟁붙인다",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "newspim.com/news/view/20261102000531",
+          "title_norm": "은행권3년3000억원출연비수도권중소중견기업에45조저리대출",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiTkFVX3lxTE0tNHFyUmNGZWdoVjlfczZ6emM4U3hxMlQ0Y01sZXViSGxBdVY5NlFhaUpTZ24ySU5wblVJN1kzSFBIbElvZXM0S1g0dXJVUQ?oc=5",
+          "title_norm": "국가재정위협하는폭주소멸기금국힘미래대응기금맹공",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiW0FVX3lxTE1iekphSTRreVhNU2M2WEpqdHU3eHN6YWl0SFk5bmJEdXNzNE5kZjhfQ2dVNWhpcU1Pb21uWVUtSWdVTHVpUzZQZGJ4NW94QjJiYmhXTmU2Zkh6UFU?oc=5",
+          "title_norm": "예산국회시작여미래위한투자야미래소멸기금삭감",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiW0FVX3lxTFBMNVgzbE5KdHRmRFhOckxLb0c1UkpBR1hxbnpqWlFHRTVHMW9ZUXlkWVpuQUdadUVMVWtBWkU5cGYzV2lRc3JiYVhuU1BfRkVadFdiRWRhR0d2TTg?oc=5",
+          "title_norm": "국민의힘미래대응아닌미래소멸기금예산안대대적삭감예고",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiakFVX3lxTFBLMlZXTlVfMUZjUjh6LUExeEhQX1FiOUQ2ekZ5Z1RWTy1ScHd6M3ZTMG94V2pUU1RjUXNGZGxMcDItMzJrelhNaU41U2Etc29NenNRa00xZFUwcUYxLVVwSlNfWUc0b0cwSlE?oc=5",
+          "title_norm": "국힘미래대응기금아닌미래소멸기금쌈짓돈예산막아야",
+          "sent_at": "2026-11-02T07:57:17.058572+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE5zZ0NpemlDcjlZbHJTNndpT0llOS1qeGh5SGlkdGYxUF81TFpKRExUaWlKRHhxSlNESFJITnQ1WTNFQ01nS3o3NUN2TEE2cFZWS3hLMU0wR0ljZFFhSG9OYTNkWi1fZ1BudnlV?oc=5",
+          "title_norm": "기획지방소멸기금어디에썼나강릉7개사업끝낸강릉시이용자일자리성적표는없었다",
+          "sent_at": "2026-11-02T07:57:18.658911+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE1OZFg0Mi1BNkxXNExUTXpENklESHNycV9USm1zTXJZMmwtSl9fN0x0dGRQemNzb1dQYXRRSkNwTFkzMU5ieGxQMEZUM0Zac2NiQjlmYWdGbTAyZU04MFZpc2tPWldWMGdzWXJkSm5R?oc=5",
+          "title_norm": "괴산군지방소멸대응기금인구유입성과군지역2년연속1위",
+          "sent_at": "2026-11-02T07:57:18.658911+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-01T22:57:14.251505+00:00"
+      "last_checked_utc": "2026-11-02T07:57:11.809690+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE94emFsRm5FWkh5LVlFRjBSNHoxSWFZUm5UVlZyMDBKc095V3lpWHdBd05NQUhVNGhSbHZVWWREemFZSFVmUUl0Y3haa2Q3QUZUbElFeHZ4Tk50b3Y5YUY0bFZMbHVWVHp0aTNJ?oc=5",
-          "title_norm": "김성원의원인구감소지역주택세제특례10년연장추진",
-          "sent_at": "2026-10-30T22:57:21.137138+00:00"
-        },
         {
           "link": "gukjenews.com/news/articleView.html?idxno=3738252",
           "title_norm": "김성원국회의원인구감소지역92곳으로늘자주택취득세제혜택203",
@@ -162,9 +247,29 @@
           "link": "newsgn.com/news/articleView.html?idxno=582685",
           "title_norm": "경남인구감소지역새돌파구생활인구",
           "sent_at": "2026-11-01T07:57:20.863896+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZ0FVX3lxTE12Ym11bFFsc2JSNTF2QmU3elFMX0ZWYzI1dlNSY2M5VmJqZjV3Qlc3SEFnNk96UXFBM2QweXhkYkd1QUJKVWE0V19NbHh3MlBoSVZ5aXJ3NW0zam9SR3RJWFdORG5aaDg?oc=5",
+          "title_norm": "인구감소지역태안군에무슨일이5월한달84만명몰려",
+          "sent_at": "2026-11-02T07:57:22.153818+00:00"
+        },
+        {
+          "link": "incheontoday.com/news/articleView.html?idxno=325774",
+          "title_norm": "인구감소지역강화옹진수도권꼬리표에규제받고지원에선밀",
+          "sent_at": "2026-11-02T07:57:22.153818+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMicEFVX3lxTE1TYTR4WEpIMGktRFZWNVB1Tzdsa2pYbmpac3dXOGlCNjhfcDZRRENFNG55SU9aM2dVdU9FMFJFVk1NMVRuekx5WlhDRmo2VlRQLTNLcEFFSWdETzMyUVRQTHJJcTVud0NQTVQzT0o3aDc?oc=5",
+          "title_norm": "체육공단인구감소지역자립준비청년과뜨거운스포츠가치캠프열었다",
+          "sent_at": "2026-11-02T07:57:22.153818+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibEFVX3lxTFBXSi1TYV9hYWdCNXhTSzlpT0NwMmd1MXNjSjdWdW1tb0VrNkVTSXlrVkRKb3VLRzBRTVdWSm9sWEwwMWgzM3dQMk1EdFZ2enM4QnVLZEZJNXhtMGszQ0U3WTRrMUpKcG1YX09EUA?oc=5",
+          "title_norm": "김상훈인구감소지역주택추가취득과세특례31년까지연장추진",
+          "sent_at": "2026-11-02T07:57:22.153818+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-01T22:57:14.251505+00:00"
+      "last_checked_utc": "2026-11-02T07:57:11.809690+00:00"
     },
     "life": {
       "articles": [
@@ -182,13 +287,43 @@
           "link": "mbceg.co.kr/post/141538",
           "title_norm": "강원도사회적인구증가생활인구확대명시새조례시행",
           "sent_at": "2026-11-01T07:57:24.371850+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiXEFVX3lxTFBURVM1TTVNcDhhUTM3aDMxTVI2U1ZtZV9YX3Ytd2FPa19YUU45VkE5NHE2NlExT0N0TDJSekI0aEc2WWJYVEw0ZzZPYi0zNEdmTjNGMDF0SmlheFFX?oc=5",
+          "title_norm": "ai통계검색농어촌생활인구개발국가데이터처16명에6600만원포상",
+          "sent_at": "2026-11-02T07:57:25.789048+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMieEFVX3lxTE0tMGkzeGNqbldyZkVxRmZ3bFFwMWV1SWV6Y3doS2pYYlM2alJmYnV4NGxpR3FqRWpFZHdHbkw5QlEyV0U5a2VkbFVXcUtmdHRjMWVIMXpzNkpBYldoT1hPY1AyZVNZN3BBWTAyUlg2eVZRbXpQdXlfSNIBeEFVX3lxTE0tMGkzeGNqbldyZkVxRmZ3bFFwMWV1SWV6Y3doS2pYYlM2alJmYnV4NGxpR3FqRWpFZHdHbkw5QlEyV0U5a2VkbFVXcUtmdHRjMWVIMXpzNkpBYldoT1hPY1AyZVNZN3BBWTAyUlg2eVZRbXpQdXlfSA?oc=5",
+          "title_norm": "5월태안관광객84만명생활인구통계산정후최대치등태안소식",
+          "sent_at": "2026-11-02T07:57:25.789048+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiiwFBVV95cUxNbmU1WDAzaGVtUHc2VmE2ZnZfaFpDNUpFdzdlVWJqa2dKbXNvTGU4UmlNdlQ2VXVmMjdpN2ZZYTF2U1pCQXdMcS0ySkFacVVsVjg1OVRydnJISmJZSHNHTEZzQXl6UDNzaTRVTHdIVUZyYzc2THpSUFhaSl9ISDRvZUFTdm5kX0pIcmdV?oc=5",
+          "title_norm": "태안의뜨거운봄올5월84만몰려생활인구1번지도약",
+          "sent_at": "2026-11-02T07:57:25.789048+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiaEFVX3lxTFB1bHprM1VKNkdfMnM2TFM1dTQ5SGFvaGxkeXBpS3V5TDNpZDRXQTF4MEFWN183bThmVGhicFlCSTZoeTlhZEpMV0tFOGVpWVc0LVlGX2k0S290TnUxT1ZfalZ5UklrbWVw?oc=5",
+          "title_norm": "경남생활인구312만명지역소멸극복머무는인구가열쇠",
+          "sent_at": "2026-11-02T07:57:25.789048+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZ0FVX3lxTFBMVlBrUXdZTmFkOUh3ckJLczBCbnhiYlVfaXVtNThrOGdndEFUcTNldk1zYTlsQVRocFk2Yl95UzNJSTI4clBydVFmSDhQbXhPcUo0ZnotOVVqeG1aamZjZ3pnLUpnSUE?oc=5",
+          "title_norm": "정책이현장과만날때지역교육력정주의새어휘들생활인구관계인구마음의자리",
+          "sent_at": "2026-11-02T07:57:25.789048+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMicEFVX3lxTE5POFJiMTlOUWpmQm1FQ2NrRnN3M1V3bU1KRXBXSXJPTWFvWld0cE0zYXBEd1cxektVeFBiRzZveVBHdHJGZjVnY3NVNFozSE9fWDViZ25Nbms5T184UEpDTVZzX0JzMUdpSG9mblRxSm8?oc=5",
+          "title_norm": "태안군생활인구한달84만명전국2위",
+          "sent_at": "2026-11-02T07:57:25.789048+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-01T22:57:14.251505+00:00"
+      "last_checked_utc": "2026-11-02T07:57:11.809690+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-11-01",
+    "pm": "2026-11-02",
     "am": "2026-11-02"
   }
 }
