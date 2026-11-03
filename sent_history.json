@@ -4,31 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "ajunews.com/view/20261031190600053",
-          "title_norm": "장수계북면에첫공공임대주택들어섰다",
-          "sent_at": "2026-10-31T22:57:18.241748+00:00"
-        },
-        {
-          "link": "kihoilbo.co.kr/news/articleView.html?idxno=3039467",
-          "title_norm": "820조원안사수vs134조삭감",
-          "sent_at": "2026-11-01T07:57:17.290062+00:00"
-        },
-        {
-          "link": "kwnews.co.kr/article/20261030500138",
-          "title_norm": "평창군강개공98억투입그린바이오청년리빙하우스추진",
-          "sent_at": "2026-11-01T07:57:17.290062+00:00"
-        },
-        {
-          "link": "gw.newdaily.co.kr/site/data/html/2026/11/01/2026110100026.html",
-          "title_norm": "평창군강원개발공사와청년리빙하우스건립사업추진2028년준",
-          "sent_at": "2026-11-01T07:57:17.290062+00:00"
-        },
-        {
-          "link": "ytn.co.kr/_ln/0134_202611010940521096",
-          "title_norm": "정부제도에발칵군수주민달려와삭발투쟁자막뉴스",
-          "sent_at": "2026-11-01T07:57:17.290062+00:00"
-        },
-        {
           "link": "news.google.com/rss/articles/CBMiZkFVX3lxTFB1WVVjMjk1VWVOVlhFSU5FWVJTVllIb0JuYThHYmlrZ3c3V2RKMG1vS3AtX3JtZ3c5SnFtbDNmSHRtai1rdUlEalJXSVBHTkZmanpreERqcTlwNXQ5OVBBT3dnZjhEUQ?oc=5",
           "title_norm": "괴산군지방소멸대응기금5년생활인구2년연속도내군지역1위",
           "sent_at": "2026-11-01T22:57:21.444867+00:00"
@@ -277,17 +252,107 @@
           "link": "news.google.com/rss/articles/CBMiS0FVX3lxTE9HbEN6Y2lFQUs1N0haaVRKRDhGWUhxdTl5MFVBODBuTDVJVHB2RGxRTWxLSUJlaDFrc3QtdWZuZEZtemVEOFZibE9zVQ?oc=5",
           "title_norm": "국민의힘162조원미래대응기금에미래소멸기금비판정치",
           "sent_at": "2026-11-02T22:57:19.057928+00:00"
+        },
+        {
+          "link": "nocutnews.co.kr/news/6601546?utm_source=naver&utm_medium=article&utm_campaign=20261103162325",
+          "title_norm": "충북도청년농업인스마트팜창업지원대상자모집",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
+        },
+        {
+          "link": "kbmaeil.com/article/20261103500621",
+          "title_norm": "찬바람부는데포항가림막없는승강장에주민한숨",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
+        },
+        {
+          "link": "jeollailbo.com/news/articleView.html?idxno=815607",
+          "title_norm": "전북도내년노인간병비시범지원추진",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
+        },
+        {
+          "link": "kado.net/news/articleView.html?idxno=2082317",
+          "title_norm": "평창군강원개발공사와그린바이오산업인프라확충협력강화",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiX0FVX3lxTFA3OFVIXzNwcHFEcFpzclFNRk9jQ3pVVlJfWGFzZlltRGllVGdhbktVcWxOdDJIeGN0ajhXbVhwSzNKaWZ2ZVVybmRiczktb3NQX0lhYTRsUGZOYU9RYU0w?oc=5",
+          "title_norm": "이용우부여군수지방시대위찾아지방소멸대응7대현안건의보도자료기사",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
+        },
+        {
+          "link": "ajunews.com/view/20261103143533180",
+          "title_norm": "부여군농어촌기본소득공공기관유치등7대현안정부건의",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
+        },
+        {
+          "link": "dynews.co.kr/news/articleView.html?idxno=872187",
+          "title_norm": "이용우부여군수지방소멸해법찾아중앙정부문두드렸다",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZEFVX3lxTE1QWHEwa0ZkMTdSZ1NNRXBXR0ZaX3BUZmZuaVRlZjBkVW1ielNZOWV6OVFZdWFacVpGTzQzN3pHRGc0MmU4cDBzM29RQ1VRcmRTVkZlSFpUNXhJdm1xUUtQVkd3dlE?oc=5",
+          "title_norm": "이용우부여군수지방시대위원회에7대현안건의지방소멸대응총력",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
+        },
+        {
+          "link": "shinailbo.co.kr/news/articleView.html?idxno=5079110",
+          "title_norm": "부여군지방시대위원회에지역현안7건건의",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
+        },
+        {
+          "link": "weekly.hankooki.com/news/articleView.html?idxno=7191921",
+          "title_norm": "부여군지방소멸극복7대현안협조요청대통령직속위원회방문",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3740591",
+          "title_norm": "이용우군수지방소멸극복위해7대현안대통령직속위원회에건의",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMickFVX3lxTFAtYlBmMHZZTU9RRmhRVUxNMHpMTklMRW5rTWZXa0F1OEh1a3JPc2xySFR4anZjR2VQeGpFSDhpZUE4Y1hiVWE5anZVcVpRb0F3aFBlNi1hWHNjRWpWTG1CaC11bnJNQTR4dUgwS0tqMHhvUQ?oc=5",
+          "title_norm": "이용우부여군수지방소멸7대현안건의",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
+        },
+        {
+          "link": "chungnamilbo.co.kr/news/articleView.html?idxno=918428",
+          "title_norm": "부여군대통령직속지방시대위원회방문해지방소멸대응현안논의",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiRkFVX3lxTE9VcjlTbWs4OGt4MFI0aW5kR2JnN1JuN1hQNzVyNG1zVWpVX3h2cTAtX1FvNlpSUkdpdDQzV2xxQzVMSE15V2c?oc=5",
+          "title_norm": "부여군지방소멸대응7대현안건의국가차원지원요청",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
+        },
+        {
+          "link": "cc.newdaily.co.kr/site/data/html/2026/11/03/2026110300242.html",
+          "title_norm": "충북청년농스마트팜8곳지원사업비최대5억원",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1021789",
+          "title_norm": "기획지방소멸기금어디에썼나영양주택다음은청년농업창업",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1021792",
+          "title_norm": "기획지방소멸기금어디에썼나청도어린이1만명찾고청년창업",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
+        },
+        {
+          "link": "economytalk.kr/news/articleView.html?idxno=425046",
+          "title_norm": "2027년예산821조모두의성장대전환반도체호황세수로분배복",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiUkFVX3lxTE9UQnVURmdLNFZEUUJreTlScmdWbW1UT0x2bWhTcjZpb0pCWmYyVXJYRHFzV2pzVHltd1ZYbl9HbDI1RVBCZ2pPYXFtWVVYZ2pqVnc?oc=5",
+          "title_norm": "지방소멸에맞선김제5년이제정착과성과이어간다",
+          "sent_at": "2026-11-03T07:57:39.021062+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-02T22:57:12.156095+00:00"
+      "last_checked_utc": "2026-11-03T07:57:33.789716+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "newsgn.com/news/articleView.html?idxno=582685",
-          "title_norm": "경남인구감소지역새돌파구생활인구",
-          "sent_at": "2026-11-01T07:57:20.863896+00:00"
-        },
         {
           "link": "news.google.com/rss/articles/CBMiZ0FVX3lxTE12Ym11bFFsc2JSNTF2QmU3elFMX0ZWYzI1dlNSY2M5VmJqZjV3Qlc3SEFnNk96UXFBM2QweXhkYkd1QUJKVWE0V19NbHh3MlBoSVZ5aXJ3NW0zam9SR3RJWFdORG5aaDg?oc=5",
           "title_norm": "인구감소지역태안군에무슨일이5월한달84만명몰려",
@@ -322,27 +387,22 @@
           "link": "news.google.com/rss/articles/CBMibkFVX3lxTE9nSnhQSVlFMEFOSGxPc0VPT2RiMXFKclhVQWx3V2ZnVE9waEZvZEpKbTR3VDc1OHFKVXZSQ3lBSXFnVUcxMHdyOEhrYTRhMXlhUFVFUXB5UUxYVXppOVBTdHlFZTRLZ1ZMaW1DVzhn?oc=5",
           "title_norm": "신성범의원은퇴자마을인구감소지역우선지정추진",
           "sent_at": "2026-11-02T22:57:22.656347+00:00"
+        },
+        {
+          "link": "kado.net/news/articleView.html?idxno=2082384",
+          "title_norm": "인제군민집단반발에강원도의회도가세인구감소지역재지정촉구",
+          "sent_at": "2026-11-03T07:57:42.526073+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMid0FVX3lxTFBDTXJ4c0NJXzBpN3BUbUUyRXkyYTlnVFBqc1dzTEFDRm5DalViYU1RTFFwYVZrY0NXSXJNdlFfQzFxeFIybkFCTXpzUVc1cV85RlUtVFZtUVBFeUNrUmMwVlktTXlyUHlLY3U4Z0k1NlJpM0VNd1Nz0gF3QVVfeXFMUHJLc0pTM04tOXh2TUx6eUFMN3hQUkwyQUFVRkdONUVnV3Z6ZjRYQkx6TDBmektxbGplUWE2THVqRlVKTnpLak9YZUt1YWFaLUhjYkFXbFQ3c0NGSWN4UXo1bVVUYndfb0x5VTdjZXNKSFhiblBwSzg?oc=5",
+          "title_norm": "교육부인구감소지역32곳교육혁신선도지역지정연20억지원",
+          "sent_at": "2026-11-03T07:57:42.526073+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-02T22:57:12.156095+00:00"
+      "last_checked_utc": "2026-11-03T07:57:33.789716+00:00"
     },
     "life": {
       "articles": [
-        {
-          "link": "tjmbc.co.kr/NewsArticle/870650",
-          "title_norm": "리포트공주소도시여행지로각광생활인구도전국2위",
-          "sent_at": "2026-10-31T22:57:25.204621+00:00"
-        },
-        {
-          "link": "kbmaeil.com/article/20261101500143",
-          "title_norm": "대구경북6곳생활인구재방문율50넘어대구남구체류인구전국",
-          "sent_at": "2026-11-01T07:57:24.371850+00:00"
-        },
-        {
-          "link": "mbceg.co.kr/post/141538",
-          "title_norm": "강원도사회적인구증가생활인구확대명시새조례시행",
-          "sent_at": "2026-11-01T07:57:24.371850+00:00"
-        },
         {
           "link": "news.google.com/rss/articles/CBMiXEFVX3lxTFBURVM1TTVNcDhhUTM3aDMxTVI2U1ZtZV9YX3Ytd2FPa19YUU45VkE5NHE2NlExT0N0TDJSekI0aEc2WWJYVEw0ZzZPYi0zNEdmTjNGMDF0SmlheFFX?oc=5",
           "title_norm": "ai통계검색농어촌생활인구개발국가데이터처16명에6600만원포상",
@@ -382,13 +442,18 @@
           "link": "kyeongin.com/article/1773951",
           "title_norm": "강화군생활인구활성화중장기체류자정책필요",
           "sent_at": "2026-11-02T22:57:26.148360+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiakFVX3lxTE5EYXYydnItQ2N5ZC1nWWFldWh4RzBHdlpMbjUyV3A5VE0wek1yZ0NHeFZtUHd4Rl9mdUNza256SVQzRzMxS3paeE5mT2sxT0NQWF9INW5mdWhVT1hSd2U2U0o4YkJXcHd3MlE?oc=5",
+          "title_norm": "안동시워케이션기반생활인구늘린다국내최대공유오피스워케이션운영사와mou",
+          "sent_at": "2026-11-03T07:57:46.192730+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-02T22:57:12.156095+00:00"
+      "last_checked_utc": "2026-11-03T07:57:33.789716+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-11-02",
+    "pm": "2026-11-03",
     "am": "2026-11-03"
   }
 }
