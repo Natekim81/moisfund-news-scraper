@@ -4,61 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "kyongbuk.co.kr/news/articleView.html?idxno=4089758",
-          "title_norm": "영양군지방소멸대응기금시설투자쏠림논란",
-          "sent_at": "2026-11-05T07:57:19.578389+00:00"
-        },
-        {
-          "link": "tournews21.com/news/articleView.html?idxno=147604",
-          "title_norm": "이용우부여군수지방시대위원회찾아지방소멸돌파구찾는다7대",
-          "sent_at": "2026-11-05T07:57:19.578389+00:00"
-        },
-        {
-          "link": "cnbnews.com/news/articleView.html?idxno=1022445",
-          "title_norm": "기획지방소멸기금어디에썼나강원2삼척수소기업6곳홍천바",
-          "sent_at": "2026-11-05T07:57:19.578389+00:00"
-        },
-        {
-          "link": "yonhapmidas.com/news/articleView.html?idxno=10680",
-          "title_norm": "그래픽뉴스인구감소지역외",
-          "sent_at": "2026-11-05T07:57:19.578389+00:00"
-        },
-        {
-          "link": "cnbnews.com/news/articleView.html?idxno=1022411",
-          "title_norm": "기획지방소멸기금어디에썼나강원1평창고성횡성영월사",
-          "sent_at": "2026-11-05T07:57:19.578389+00:00"
-        },
-        {
-          "link": "cnbnews.com/news/articleView.html?idxno=1022400",
-          "title_norm": "기획지방소멸기금어디에썼나울진바다숲체류시설다음은일",
-          "sent_at": "2026-11-05T07:57:19.578389+00:00"
-        },
-        {
-          "link": "cnbnews.com/news/articleView.html?idxno=1022401",
-          "title_norm": "기획지방소멸기금어디에썼나영덕바다숲에머무는영덕체류",
-          "sent_at": "2026-11-05T07:57:19.578389+00:00"
-        },
-        {
-          "link": "cnbnews.com/news/articleView.html?idxno=1022402",
-          "title_norm": "기획지방소멸기금어디에썼나김천드론튜닝기업지원24억원",
-          "sent_at": "2026-11-05T07:57:19.578389+00:00"
-        },
-        {
-          "link": "cnbnews.com/news/articleView.html?idxno=1022398",
-          "title_norm": "기획지방소멸기금어디에썼나강릉청년주택16억원집행0원강",
-          "sent_at": "2026-11-05T07:57:19.578389+00:00"
-        },
-        {
-          "link": "metroseoul.co.kr/article/20261104500660",
-          "title_norm": "경북도의회히로시마현의회대표단방문우호협력확대논의",
-          "sent_at": "2026-11-05T07:57:19.578389+00:00"
-        },
-        {
-          "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8704540&ref=A",
-          "title_norm": "평창군의회군정현안일괄질의",
-          "sent_at": "2026-11-05T07:57:19.578389+00:00"
-        },
-        {
           "link": "news.tvchosun.com/site/data/html_dir/2026/11/06/2026110690021.html",
           "title_norm": "네트워크초대석강석주경남통영시장남해안교통과관광중심도",
           "sent_at": "2026-11-05T22:57:19.200680+00:00"
@@ -157,57 +102,17 @@
           "link": "kukinews.com/article/view/kuk202611060192",
           "title_norm": "평창군의회군정질문서민생현안집중점검기본소득의료지방소멸",
           "sent_at": "2026-11-06T22:57:18.623515+00:00"
+        },
+        {
+          "link": "ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003282031&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+          "title_norm": "농특세18조원이렇게쓰면청년실업까지완화",
+          "sent_at": "2026-11-07T22:57:16.032936+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-07T07:57:12.848592+00:00"
+      "last_checked_utc": "2026-11-07T22:57:11.816840+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "news.google.com/rss/articles/CBMicEFVX3lxTE4wcUl2aUYzNG5hck44d0lJRFNVV0xKN24tQ3BBamF5eFFiSVRWSnU1NEk5akJJaVlLVXcyUlhUWnhscmdleE5tWmpqUnFUcmJxc284S1lLR2FnUXRTQ2tnaWdTdklXYU1hMTFUNi1IcGk?oc=5",
-          "title_norm": "편삼범의원인구감소지역동대입특별전형확대해야",
-          "sent_at": "2026-11-05T07:57:23.219800+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMicEFVX3lxTE83ZFBBdE1PS3hWZ3RKLUdVZjA2UUltX2s4cWhWakljMERfWGFGUFd2eWJ3REctWlNVZFU5dEluYXZ6NU5xU1pFZWxKR2JYaGdpSVpUY3k3ZmlTMC1PNkhvQjV3Y05XNXJRbEN4TjNZc2Y?oc=5",
-          "title_norm": "인구감소지역철도여행42곳48곳승차권반값혜택확대",
-          "sent_at": "2026-11-05T07:57:23.219800+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMibEFVX3lxTE1mNm42OE5qY2p5dXpUbG1wUmZIRHR5d2RfZ0tNY2dRVUVHaDljX2syRTZYeEVaOW9QMEsxc3EzN1NiSlJEbmNHN0VRakdWc2Z6ZFVNTFY3eG40aHd1ckdtSDR5VXpDc3hYekZjZNIBb0FVX3lxTE81dFMxcFZBd0R6dDUxdDRtaW1lR2d2TjFOVmRFaTBFZTFfR3hESFBEXzhHMnpsVTdWLThyRGdOUEQwUHdzdFhBUl9HTVNDd3lEeGpUaFFlU1d6di1sbE9mRGZDU3hrd2VVQXF5WmUzOA?oc=5",
-          "title_norm": "통계로본인구감소지역생활인구충남월평균309만명찾는충남생활인구지역경제활력으로",
-          "sent_at": "2026-11-05T07:57:23.219800+00:00"
-        },
-        {
-          "link": "koreaittimes.com/news/articleView.html?idxno=158851",
-          "title_norm": "반값기차타고지방간다코레일인구감소지역48곳으로확대",
-          "sent_at": "2026-11-05T07:57:23.219800+00:00"
-        },
-        {
-          "link": "thefairnews.co.kr/news/articleView.html?idxno=93220",
-          "title_norm": "철도로지역경제살린다코레일인구감소지역반값열차6곳확대",
-          "sent_at": "2026-11-05T07:57:23.219800+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiZEFVX3lxTE01TXdITS1TV3NVdEJFLTRTWEpncHRQRG14Y3FTYnhCbWZZTElib1VIOHBxbWV4OUFXMFJUYmNpN21OSHl6ck9Ha280dnhGODg4Y1l0Xzhtc1UxZTd3YThUdkV6c2E?oc=5",
-          "title_norm": "공주시2분기인구감소지역생활인구전국2위충남1위",
-          "sent_at": "2026-11-05T07:57:23.219800+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMickFVX3lxTFBOT3JyN2JXRDgtd3U1SFM4QlNlMGdSYWRCc3BvVDczSVMzaExxRkdHc19jS2xNT1ZmZkdEc0JPODlPbkx2VVRwM3RiNGVxLXhpUmdCRl9TVmpRV1Q3d0cyRTJOdnV3ZXdBMUttc2dMelM2dw?oc=5",
-          "title_norm": "공주생활인구73만8740명인구감소지역전국2위",
-          "sent_at": "2026-11-05T07:57:23.219800+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMibEFVX3lxTE8zcUYzTk1mcnJlNzJLUnFkMF9PLUxMamlxNTRSRDFfd2VaUy05Ty1MX2F3aWdYUjlkZjZhWmE3UWo1ZWVPTE4yM1B0cU1FMDNFQ25yRy1tX05HNjdoQ21lSXM0VU1oc3RNZHZXRA?oc=5",
-          "title_norm": "인구감소지역세컨드홈특례2031년까지연장광역시도포함추진",
-          "sent_at": "2026-11-05T07:57:23.219800+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMia0FVX3lxTFB0bDBxZzdhdVdJeXRSNEdheG9BWmVJX0oxbnhWdWlCbUxZVElkU3NHRm9KQWJRTm9oNWlSVFM1dUw2ZGw3VnJ6WHdST3V1bTlQOVFMUkg0SmVycXVjLVZPbVFFZFNTNndVRktV?oc=5",
-          "title_norm": "인구감소지역생활인구2분기월2860만명",
-          "sent_at": "2026-11-05T07:57:23.219800+00:00"
-        },
         {
           "link": "kado.net/news/articleView.html?idxno=2083092",
           "title_norm": "강원인구감소지역카드소비10만원중4만원외지인",
@@ -249,70 +154,10 @@
           "sent_at": "2026-11-06T07:57:31.477017+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-07T07:57:12.848592+00:00"
+      "last_checked_utc": "2026-11-07T22:57:11.816840+00:00"
     },
     "life": {
       "articles": [
-        {
-          "link": "news.google.com/rss/articles/CBMiREFVX3lxTE5zMzlGT3RoMEtkUFZKQWtQY0htVHBqdlg1MjdPMF9VaEVtTVFuYnFFOHBaMWZCaTk1QV9HT2s2NHVXZWZT?oc=5",
-          "title_norm": "공주시생활인구73만명대전국2위충남1위",
-          "sent_at": "2026-11-05T07:57:27.450900+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiW0FVX3lxTE1wQU1yMFlHck1ya3BQQjZLOFh1Y2dqSXRKQjhWaVZDTTROMXpFaW4xcXN5UlFrLURJcGtydW96LXZPTXMteHpwekNmZTV3TnZmVmRFR0NBczd0OFE?oc=5",
-          "title_norm": "인구10만공주에74만명발길생활인구전국2위",
-          "sent_at": "2026-11-05T07:57:27.450900+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMia0FVX3lxTFBvb2hsREFFSzlSWWNkYzhRSVBaT2g0QlQta3VHdURqQzAtX2U2eWlGWVJCVGsxM0x0VzVYajBrM2wwMEM2YkM5Z3pUa00xR3F3aGVYN043NVMwTGRsY3JwZVJBMU1nMXAwNEo4?oc=5",
-          "title_norm": "공주시전국최고수준생활인구모범도시부상",
-          "sent_at": "2026-11-05T07:57:27.450900+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMickFVX3lxTE9JQVoyenpidUNrVlY3QXJFVUw1T3ZZZUFEMWZ3YWZsd1hXUmlEVXdtaXpyMjZQanEzZWl2ZURpb1UyVzllTUp2M2FtZ0Nld0ZJeXl0MlFfS3VKVzNHNTEzSThPTUZsYjhXMnloV0RXejhjdw?oc=5",
-          "title_norm": "공주시생활인구241증가충남1위기록",
-          "sent_at": "2026-11-05T07:57:27.450900+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiX0FVX3lxTE1XZ05mT1RydmRyb19QN3E1YVVfdkgtYjlWREQ4YW9md3QyT3l5OTg5aklPR3lhNFhqdHk1UmVyNk9mbEc1WVZMM2RvVTJ6Y0xXMUNWZDZkLUhmaG90eW1F?oc=5",
-          "title_norm": "공주시생활인구전국2위충남1위2분기73만명넘어보도자료기사",
-          "sent_at": "2026-11-05T07:57:27.450900+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiZ0FVX3lxTE9YUjdlTzk5WV9pNXlpMzNuWC1RQjNJMHB2b21tVnh4S3p3NEVuR1RmWUVyNERTZ1pXZXlPdE5jdU9qVmJRUWo1UUcxQm1SdVM2VUpyaTl4QWM3QjhBWWtKcHVPdXFHZzg?oc=5",
-          "title_norm": "체류형관광지로뜨는공주올2분기생활인구전국2위충남1위",
-          "sent_at": "2026-11-05T07:57:27.450900+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE9ZSWFrMWpPdzhCVmlFcjVyRGxTNEFDblpLM1JXZWprY3QxTHVKc2JvRHRNaHQ4WVdoN1B0bGQwekpCM1o4cnhIbENSOERhb2hhb0k2dlE2VzBwWnhlbFloWldHN3lucm55d3RDSVhB?oc=5",
-          "title_norm": "충남공주시2분기생활인구전국2위충남1위평균73만8천740명",
-          "sent_at": "2026-11-05T07:57:27.450900+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMia0FVX3lxTFBPT3pabWl5NHgweTRDR0t6R01GMVZtd1pCYnROOG1CTzl5V3NXbW9zZmRFRjlSdmM2QXF4NVVnZFNIWWlhMVpPLWVxMERlTUlSYUNsMC1JMVg4UU1TdDE3eFEyWGVCWHpUS0Nz?oc=5",
-          "title_norm": "공주시에사람이모인다생활인구전국2위",
-          "sent_at": "2026-11-05T07:57:27.450900+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE1obXh1OG9WRkdOMk80QkY4Q0hGcXdjZGVtU0V4eF95V3RPaTJBZkd0a3JFMmdCMTFjU0p3dVJSenkyWmpqaS1SWnhKTHFjRlI0VkV5STYtSmNYSS1wYjJxYmxreWJrV0xybnFkY1Fn?oc=5",
-          "title_norm": "공주시2분기생활인구전국2위전분기대비24증가",
-          "sent_at": "2026-11-05T07:57:27.450900+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMibEFVX3lxTFBuLXQxcUhWMk13Zl9oUjEwRHVkZnBjX3IxU3lGR0s2WlVNVmNLakstR0FBOGtxUGotbk9vSk5zQklqZllqb3hzbkRxUTJYcE42Uk1sMm5wd05rZWx4X3BFVWlEa1VjUTg5ZFQxWg?oc=5",
-          "title_norm": "공주시생활인구73만8740명등록인구의62배머물러",
-          "sent_at": "2026-11-05T07:57:27.450900+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE5GYWJRNGRpYzhnZ1RVY3BrLVQtYm9HLTNKS0d6aWVxMXN1UVZkdGtYRTllMV9EODZsRkYxWFdpX042S1hXNXp1aFA0NDJKRUxsWVZxZjJSY3ZCeThXc0JEbTBsT2Y1SzJqaWtaZHV3?oc=5",
-          "title_norm": "김승호동두천시의원생활인구유입통한지역경제활성화촉구",
-          "sent_at": "2026-11-05T07:57:27.450900+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMibEFVX3lxTE5HcmM3YWxpYW1sSk9lX3k1MDQ5UGM3UEdJbVhiYTYwNnZYVEc0ZThqNWNsTXBHWE5XVjVEVERyMU9QQW1mMmZaLVRNNmRWMlFZT3M2cnNnRDJqZWIyczBkcnMyQjVLY2dSTDI3RQ?oc=5",
-          "title_norm": "공주에몰린74만생활인구지역소비로이어질까",
-          "sent_at": "2026-11-05T07:57:27.450900+00:00"
-        },
         {
           "link": "news.google.com/rss/articles/CBMiY0FVX3lxTE5XR2dvWklBNmpBNTIySnZidGJWLWpoZmxQQjZ4Rm9wbTZ4NnpWZ08tc2hQMGhTcG4wbHN6b3ZOUHRCdnRpdDItSDdrVndZa0gtcXhNSHZ5V000b0V6ZzExNVB5WQ?oc=5",
           "title_norm": "기차타고순창으로순창군한국철도공사와손잡고관광활성생활인구유치총력",
@@ -364,11 +209,11 @@
           "sent_at": "2026-11-07T07:57:25.035354+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-07T07:57:12.848592+00:00"
+      "last_checked_utc": "2026-11-07T22:57:11.816840+00:00"
     }
   },
   "slot_runs": {
     "pm": "2026-11-07",
-    "am": "2026-11-07"
+    "am": "2026-11-08"
   }
 }
