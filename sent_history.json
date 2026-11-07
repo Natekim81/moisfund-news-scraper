@@ -4,41 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "gukjenews.com/news/articleView.html?idxno=3742668",
-          "title_norm": "경북도의회행정보건복지위고령서지방소멸대응복지현장점검",
-          "sent_at": "2026-11-04T22:57:18.103432+00:00"
-        },
-        {
-          "link": "seoul.co.kr/news/publicnews/local_govern/news_local/2026/11/04/20261104500354?wlog_tag3=naver",
-          "title_norm": "경북도의회행정보건복지위원회고령군복지시설등현지확인",
-          "sent_at": "2026-11-04T22:57:18.103432+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiakFVX3lxTE1Nb0YtXzFDbVN4d0tqdl9yYm9sYVpOU3dtS01CM1Q4X29fWGd6VExOcGdxWTBHdmppaGV0OTJ6azJOYjN6bFNhN094Y1EwaVhwNlRVRE8yTjZ4SjI1Wi1vWVVGeGUyMUMzV0HSAWxBVV95cUxNS19xcGtRcUc4c0RwUUNjUVkwWFoxWkwzanNNMzFtYmY2STNZdWFlbTMzMjgyeTYwSjFnNWJCamRyUE5lRGpGT1p6ZzJ6blpuX1R0M0xaVWF4NGlycV9zOWhfSV93cFNyZy1zbVE?oc=5",
-          "title_norm": "경북도의회고령군지방소멸대응사업복지시설현지확인",
-          "sent_at": "2026-11-04T22:57:18.103432+00:00"
-        },
-        {
-          "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8704071&ref=A",
-          "title_norm": "여기는원주원주서기후와원주한지기획전시외",
-          "sent_at": "2026-11-04T22:57:18.103432+00:00"
-        },
-        {
-          "link": "tjb.co.kr/news05/bodo/view/id/105702",
-          "title_norm": "대전시방치빈집정비에8억원비움5억채움3억투입",
-          "sent_at": "2026-11-04T22:57:18.103432+00:00"
-        },
-        {
-          "link": "gocj.net/news/articleView.html?idxno=154095",
-          "title_norm": "방치빈집주민불편해소위한정비사업추진",
-          "sent_at": "2026-11-04T22:57:18.103432+00:00"
-        },
-        {
-          "link": "gukjenews.com/news/articleView.html?idxno=3742462",
-          "title_norm": "조동준도의원대입소멸지역특별전형도입해야",
-          "sent_at": "2026-11-04T22:57:18.103432+00:00"
-        },
-        {
           "link": "kyongbuk.co.kr/news/articleView.html?idxno=4089758",
           "title_norm": "영양군지방소멸대응기금시설투자쏠림논란",
           "sent_at": "2026-11-05T07:57:19.578389+00:00"
@@ -194,15 +159,10 @@
           "sent_at": "2026-11-06T22:57:18.623515+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-06T22:57:13.899241+00:00"
+      "last_checked_utc": "2026-11-07T07:57:12.848592+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "news.google.com/rss/articles/CBMiYkFVX3lxTFBwLUhIT1NYQ3ctNVY0WC03ZG4tOGFBRkNYb0tVZXhSWU5UdUFJMk1ia3AyZWk5VWFIeFhyTEdsNjdKZmxFVkxuWE1vcFlQV1U3UjJBbmtqSnprTTFaLTJKeE5R?oc=5",
-          "title_norm": "김상훈의원세컨드홈세제특례확대추진광역시인구감소지역포함",
-          "sent_at": "2026-11-04T22:57:21.760975+00:00"
-        },
         {
           "link": "news.google.com/rss/articles/CBMicEFVX3lxTE4wcUl2aUYzNG5hck44d0lJRFNVV0xKN24tQ3BBamF5eFFiSVRWSnU1NEk5akJJaVlLVXcyUlhUWnhscmdleE5tWmpqUnFUcmJxc284S1lLR2FnUXRTQ2tnaWdTdklXYU1hMTFUNi1IcGk?oc=5",
           "title_norm": "편삼범의원인구감소지역동대입특별전형확대해야",
@@ -289,7 +249,7 @@
           "sent_at": "2026-11-06T07:57:31.477017+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-06T22:57:13.899241+00:00"
+      "last_checked_utc": "2026-11-07T07:57:12.848592+00:00"
     },
     "life": {
       "articles": [
@@ -397,13 +357,18 @@
           "link": "news.google.com/rss/articles/CBMiaEFVX3lxTE9md1RWdVFfdHh4ZUtXXzBiMG9mNVBvRDZaR0ZVTWlXdFZQNEhFMHUyUmwtWUpkTVlmdVFCNDVrZGFYeE1Kd3pvU1NQbnRNcWstZDZwdDJIdkw0TTc2SDFUNnBSbHY5dW1O?oc=5",
           "title_norm": "봉화생활인구34배확대스타트업5곳이만들었다",
           "sent_at": "2026-11-06T22:57:25.833710+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTFBOejVrU3Z2VnlUYmt0MTNyRmFjVzVGVXVkY2FTcEp3UVRqa09lSHZId2xxQU5vNnRpOF9BeWZrYmZmRy1Ob0QtSTBvVk1HQ2ZLMVZfckV4Z05mYnpjcUhlSkxfR2NvM1JuZHZxSG5R?oc=5",
+          "title_norm": "봉화에머무를이유만든5개스타트업생활인구유입34배확대",
+          "sent_at": "2026-11-07T07:57:25.035354+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-06T22:57:13.899241+00:00"
+      "last_checked_utc": "2026-11-07T07:57:12.848592+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-11-06",
+    "pm": "2026-11-07",
     "am": "2026-11-07"
   }
 }
