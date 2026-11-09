@@ -217,9 +217,39 @@
           "link": "cnbnews.com/news/articleView.html?idxno=1022775",
           "title_norm": "기획지방소멸기금어디에썼나영천공사인력220명투입상시운",
           "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "newsis.com/view/NISX20261109_0003859920",
+          "title_norm": "남구지방소멸대응기금72억내년상반기내집행실효성은과제",
+          "sent_at": "2026-11-09T22:57:18.629413+00:00"
+        },
+        {
+          "link": "kado.net/news/articleView.html?idxno=2083665",
+          "title_norm": "강릉시인구정책위원회구성출산청년정착대응나선다",
+          "sent_at": "2026-11-09T22:57:18.629413+00:00"
+        },
+        {
+          "link": "jeonmae.co.kr/news/articleView.html?idxno=1309657",
+          "title_norm": "강릉시인구정책위원회새로구성",
+          "sent_at": "2026-11-09T22:57:18.629413+00:00"
+        },
+        {
+          "link": "gocj.net/news/articleView.html?idxno=154243",
+          "title_norm": "행감대전시의회복지환경위원회8일간소관부서에대한행정사무감사",
+          "sent_at": "2026-11-09T22:57:18.629413+00:00"
+        },
+        {
+          "link": "ikbc.co.kr/article/view/kbc202611090051",
+          "title_norm": "장세일영광군수출산율7년째1위지만어르신이33인구늘었다고",
+          "sent_at": "2026-11-09T22:57:18.629413+00:00"
+        },
+        {
+          "link": "hidomin.com/news/articleView.html?idxno=728609",
+          "title_norm": "상주시주민주도솥뚜껑야시장으로전통시장활성화",
+          "sent_at": "2026-11-09T22:57:18.629413+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-09T07:57:12.249415+00:00"
+      "last_checked_utc": "2026-11-09T22:57:13.507402+00:00"
     },
     "pop": {
       "articles": [
@@ -242,17 +272,17 @@
           "link": "news.google.com/rss/articles/CBMiaEFVX3lxTE5SRzJCMVdUZ0puVTRva3hzdlpFRGRJMnViVzdwV1FZSVctNjN0QW9QSEd3djNkR05IUGI5dFZYbl84MnZjLXh2eF85Nzl6NHUySTdiWW04YXRyaG1ST3EwYS1uSm5IZVM5?oc=5",
           "title_norm": "기아무브투유순창확대인구감소지역정주여건개선",
           "sent_at": "2026-11-09T07:57:21.673660+00:00"
+        },
+        {
+          "link": "kwangju.co.kr/article.php?aid=1794216600805171005",
+          "title_norm": "기아pv5인구감소지역장보기돕는다생필품배송확대",
+          "sent_at": "2026-11-09T22:57:22.158392+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-09T07:57:12.249415+00:00"
+      "last_checked_utc": "2026-11-09T22:57:13.507402+00:00"
     },
     "life": {
       "articles": [
-        {
-          "link": "news.google.com/rss/articles/CBMibkFVX3lxTFBOejVrU3Z2VnlUYmt0MTNyRmFjVzVGVXVkY2FTcEp3UVRqa09lSHZId2xxQU5vNnRpOF9BeWZrYmZmRy1Ob0QtSTBvVk1HQ2ZLMVZfckV4Z05mYnpjcUhlSkxfR2NvM1JuZHZxSG5R?oc=5",
-          "title_norm": "봉화에머무를이유만든5개스타트업생활인구유입34배확대",
-          "sent_at": "2026-11-07T07:57:25.035354+00:00"
-        },
         {
           "link": "news.google.com/rss/articles/CBMibkFVX3lxTE1OVUwyejFoeXgyMzlRT3MtR3Baa3p6NWMtMU5zejNGa042ZFIzZEtpMDJ0ZXdDeTVvYkdoa1hfTmFvVk9TT2dYVGMtYUZXeWhEOWxHdkJSVmwxajZlRDZvcUFTcHpPMk1NZHJvalV3?oc=5",
           "title_norm": "김세훈화천군수전군민과함께500만생활인구시대열겠다",
@@ -279,11 +309,11 @@
           "sent_at": "2026-11-09T07:57:25.250837+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-09T07:57:12.249415+00:00"
+      "last_checked_utc": "2026-11-09T22:57:13.507402+00:00"
     }
   },
   "slot_runs": {
     "pm": "2026-11-09",
-    "am": "2026-11-09"
+    "am": "2026-11-10"
   }
 }
