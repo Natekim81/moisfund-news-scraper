@@ -4,16 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "newstown.co.kr/news/articleView.html?idxno=721075",
-          "title_norm": "연천군민선9기공약대해부김덕현ai그린바이오104만육성지",
-          "sent_at": "2026-11-06T22:57:18.623515+00:00"
-        },
-        {
-          "link": "kukinews.com/article/view/kuk202611060192",
-          "title_norm": "평창군의회군정질문서민생현안집중점검기본소득의료지방소멸",
-          "sent_at": "2026-11-06T22:57:18.623515+00:00"
-        },
-        {
           "link": "ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003282031&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
           "title_norm": "농특세18조원이렇게쓰면청년실업까지완화",
           "sent_at": "2026-11-07T22:57:16.032936+00:00"
@@ -107,9 +97,129 @@
           "link": "sjbnews.com/news/news.php?number=892016",
           "title_norm": "지방균형발전통한성장잠재력모색절실",
           "sent_at": "2026-11-08T22:57:18.308049+00:00"
+        },
+        {
+          "link": "news1.kr/local/kangwon/6348078",
+          "title_norm": "강릉시인구정책위원회첫회의개최인구감소대응책논의",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "ajunews.com/view/20261109154407972",
+          "title_norm": "강릉시인구정책위원회출범14명위원2년임기인구감소대응본격",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "weeklytoday.com/news/articleView.html?idxno=801411",
+          "title_norm": "위클리오늘강릉시인구감소대응정책본격화",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3746260",
+          "title_norm": "강릉시인구정책위원회첫회의개최다양한의견반영할것",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "mbceg.co.kr/post/141780",
+          "title_norm": "강릉시새로구성된인구정책위원회첫회의개최",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "nocutnews.co.kr/news/6603852?utm_source=naver&utm_medium=article&utm_campaign=20261109101132",
+          "title_norm": "강릉시인구감소대응민관이맞손강릉시인구정책위원회새구성",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "kukinews.com/article/view/kuk202611090019",
+          "title_norm": "강릉인구20만5442명고령층287인구감소대응14명정책위원회출",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "greened.kr/news/articleView.html?idxno=354152",
+          "title_norm": "전북도교육청폐교활용사례2건전국우수사례선정교육부장관",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "betanews.net/article/view/beta202611090115",
+          "title_norm": "문닫은학교에2만명발길부안임실폐교의변신교육부장관상수",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "news1.kr/local/jeonbuk/6347585",
+          "title_norm": "문닫은학교가체험생태교육장으로부안임실교육장관상수상",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3745996",
+          "title_norm": "전북교육청부안임실폐교활용사례교육부장관상수상",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "jeonmae.co.kr/news/articleView.html?idxno=1309664",
+          "title_norm": "전북교육청폐교활용우수사례전국에알렸다",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "inews24.com/view/2024104",
+          "title_norm": "배준영소방관지원은당연미래기금땜방모면이문제",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "dt.co.kr/article/12093884?ref=naver",
+          "title_norm": "이슈트렌드파리의불길남일아냐정부승부수미래투자기금",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "dkilbo.com/news/articleView.html?idxno=560025",
+          "title_norm": "상주시마을리빙랩주민주도로전통시장활성화모색",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "kbsm.net/news/view.php?idx=540951",
+          "title_norm": "상주시주민주도형마을리빙랩남원동마을탐방프로그램운영",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "sidae.com/article/2026110913300947421",
+          "title_norm": "상주소식남원동솥뚜껑야시장성과공유프로그램진행",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "kbmaeil.com/article/20261109500180",
+          "title_norm": "주민스스로해결해가는마을리빙랩견문이지름길",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "tournews21.com/news/articleView.html?idxno=147721",
+          "title_norm": "텅장걱정없이강진여행여행비반값에숙박혜택까지챙겨볼까",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "veritas-a.com/news/articleView.html?idxno=635922",
+          "title_norm": "가톨릭관동대앵커사업단등4개기관2026강원산림치유포럼공동개",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "jeonmin.co.kr/news/articleView.html?idxno=450020",
+          "title_norm": "전북경제성패덩치아닌성장경로재설계에달렸다한은세미나",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "nocutnews.co.kr/news/6603907?utm_source=naver&utm_medium=article&utm_campaign=20261109105732",
+          "title_norm": "성장률전국절반도안되는전북새만금피지컬ai서돌파구찾아야",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1022805",
+          "title_norm": "기획지방소멸기금어디에썼나강원건물보다사람강원지방소멸",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1022775",
+          "title_norm": "기획지방소멸기금어디에썼나영천공사인력220명투입상시운",
+          "sent_at": "2026-11-09T07:57:18.111641+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-08T22:57:12.863278+00:00"
+      "last_checked_utc": "2026-11-09T07:57:12.249415+00:00"
     },
     "pop": {
       "articles": [
@@ -122,17 +232,22 @@
           "link": "news.google.com/rss/articles/CBMibkFVX3lxTE8xWEZrbS00RXhTN21zV2U5ak9ueDVSLWl5S0Nic1YxZi1jSkwzVWN0OWN4S3JZZm1URm1EdkV4Nl9NbVdHZkFQOU01b1BuR002MGlSaVF4Ukx5Z1dVMXZPR3pyYW5WTFBYbFdCbkNn?oc=5",
           "title_norm": "고향사랑기부20만원까지전액공제인구감소지역우대해야",
           "sent_at": "2026-11-08T22:57:21.818805+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMickFVX3lxTE1KVWJkU1d6WGU1Vml4cWR2Ul9rcTcxR1J2ZDFtLXg1NmU4SW5uMUV1TDl1c2ZwRDlzbkIwamJVTzVhSGF6QmRvU3NkOU5IakRVYWx5aHNvVHFhTU5MOEFsWWJEQTlHcVZLQ1VQNm9Wamk1QQ?oc=5",
+          "title_norm": "통계로본인구감소지역생활인구보령시편",
+          "sent_at": "2026-11-09T07:57:21.673660+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiaEFVX3lxTE5SRzJCMVdUZ0puVTRva3hzdlpFRGRJMnViVzdwV1FZSVctNjN0QW9QSEd3djNkR05IUGI5dFZYbl84MnZjLXh2eF85Nzl6NHUySTdiWW04YXRyaG1ST3EwYS1uSm5IZVM5?oc=5",
+          "title_norm": "기아무브투유순창확대인구감소지역정주여건개선",
+          "sent_at": "2026-11-09T07:57:21.673660+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-08T22:57:12.863278+00:00"
+      "last_checked_utc": "2026-11-09T07:57:12.249415+00:00"
     },
     "life": {
       "articles": [
-        {
-          "link": "news.google.com/rss/articles/CBMiaEFVX3lxTE9md1RWdVFfdHh4ZUtXXzBiMG9mNVBvRDZaR0ZVTWlXdFZQNEhFMHUyUmwtWUpkTVlmdVFCNDVrZGFYeE1Kd3pvU1NQbnRNcWstZDZwdDJIdkw0TTc2SDFUNnBSbHY5dW1O?oc=5",
-          "title_norm": "봉화생활인구34배확대스타트업5곳이만들었다",
-          "sent_at": "2026-11-06T22:57:25.833710+00:00"
-        },
         {
           "link": "news.google.com/rss/articles/CBMibkFVX3lxTFBOejVrU3Z2VnlUYmt0MTNyRmFjVzVGVXVkY2FTcEp3UVRqa09lSHZId2xxQU5vNnRpOF9BeWZrYmZmRy1Ob0QtSTBvVk1HQ2ZLMVZfckV4Z05mYnpjcUhlSkxfR2NvM1JuZHZxSG5R?oc=5",
           "title_norm": "봉화에머무를이유만든5개스타트업생활인구유입34배확대",
@@ -147,13 +262,28 @@
           "link": "news.google.com/rss/articles/CBMickFVX3lxTE4xUW1acE9BRkh5QVoxcFNLTGRVVnNVak5rdUpoLUU0a2tKMjlqMkVXUXNVZTcwNWdBSUhxN2xsQTd3MTFfVTBxWDNHQzBrSDFaX0JDMXVnazdxWk8zN1JNZDZrMjAtZVpTc3RNc3ZKTC1hdw?oc=5",
           "title_norm": "공주시충남에서가장생활인구많은도시전국두번째",
           "sent_at": "2026-11-08T07:57:28.876835+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZkFVX3lxTFAzMmhuOWlZMXBNZHFGVzFZby1zbFNJX0tGNXdGOV9OLUw2ekxRTXVEdWdkeG1sUW9ZdlN1dm4tZThXT2dacTQwdlFIZHN5VEl1TENJSEJ0OFloS2ZINW0ybzdnVUhjZw?oc=5",
+          "title_norm": "성주군체류형작은정원활성화로농촌지역생활인구유입",
+          "sent_at": "2026-11-09T07:57:25.250837+00:00"
+        },
+        {
+          "link": "jjn.co.kr/news/articleView.html?idxno=1056731",
+          "title_norm": "김제디지털시민증2만명돌파생활인구쑥",
+          "sent_at": "2026-11-09T07:57:25.250837+00:00"
+        },
+        {
+          "link": "sisajournal.com/news/articleView.html?idxno=393289",
+          "title_norm": "김제시생활인구확대일환모바일시민증발급자2만명돌파",
+          "sent_at": "2026-11-09T07:57:25.250837+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-08T22:57:12.863278+00:00"
+      "last_checked_utc": "2026-11-09T07:57:12.249415+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-11-08",
+    "pm": "2026-11-09",
     "am": "2026-11-09"
   }
 }
