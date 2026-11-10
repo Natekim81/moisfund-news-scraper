@@ -4,11 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003282031&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
-          "title_norm": "농특세18조원이렇게쓰면청년실업까지완화",
-          "sent_at": "2026-11-07T22:57:16.032936+00:00"
-        },
-        {
           "link": "jeonmae.co.kr/news/articleView.html?idxno=1309539",
           "title_norm": "문경시어르신236명삶기록마을역사보존",
           "sent_at": "2026-11-08T07:57:21.537141+00:00"
@@ -247,9 +242,134 @@
           "link": "hidomin.com/news/articleView.html?idxno=728609",
           "title_norm": "상주시주민주도솥뚜껑야시장으로전통시장활성화",
           "sent_at": "2026-11-09T22:57:18.629413+00:00"
+        },
+        {
+          "link": "jnilbo.com/news/articleView.html?idxno=90000081268",
+          "title_norm": "영암군창업지원센터상상마루개소",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "newsworker.co.kr/news/articleView.html?idxno=513260",
+          "title_norm": "영암군상상을현실로메이커스페이스상상마루가동",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "kwnews.co.kr/article/20261110501228",
+          "title_norm": "의정소식철원군의회2026년11월10일",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "m-i.kr/news/articleView.html?idxno=2016624",
+          "title_norm": "철원군의회2026년도행정사무감사실시",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "idaegu.com/news/articleView.html?idxno=666899",
+          "title_norm": "문경의역사는사람들의삶속에있다사라지는마을의기억을기록",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "joongdo.co.kr/web/view.php?key=20261110010003481",
+          "title_norm": "대전빈집1486호남았다대덕구에452호집중",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "ttlnews.com/news/articleView.html?idxno=3160588",
+          "title_norm": "제천시의림지뜰자연치유특구체류형관광단지로재편",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "kbmaeil.com/article/20261110500468",
+          "title_norm": "영천시의회이갑균의원2026서울평화문화대상산업진흥자치의정",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "imaeil.com/page/view/2026111011174005455",
+          "title_norm": "이갑균영천시의원서울평화문화대상자치의정대상수상",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiX0FVX3lxTFBKcGpjZzdBdGZMRGtFbEdUdHFRbllRdWVqVmtiaF9PU21IV3dmaDJQTy1aUXR4U1BBUWVEbE1xVlgwTEFqNm9mM3V3ajJ0UzdOSTF1VWhhOGtZMWJiekNj?oc=5",
+          "title_norm": "이정균강원도의원지방채발행예산안에끼워넣기안돼지방채발행계획별도안건제출약속받아내",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "newspim.com/news/view/20261110001087",
+          "title_norm": "법통과전편성한예산도마박홍근예산처리과정서반영하면돼",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "shinailbo.co.kr/news/articleView.html?idxno=5081751",
+          "title_norm": "철원군의회지방소멸대응기금예산확보적극추진해야",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "goodmorningcc.com/news/articleView.html?idxno=455512",
+          "title_norm": "농어촌기본소득두번고배마셨지만유승광서천군수이번에는반드",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1023001",
+          "title_norm": "기획지방소멸기금어디에썼나경북2의성은바이오봉화영주는",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1023000",
+          "title_norm": "기획지방소멸기금어디에썼나경북1고령은전입상주영덕은",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "enewstoday.co.kr/news/articleView.html?idxno=2490254",
+          "title_norm": "골목침체상인과주민이푼다상주시남원동마을리빙랩솥뚜껑",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "pressian.com/pages/articles/2026111010170346700?utm_source=naver&utm_medium=search",
+          "title_norm": "이원택도정민선9기첫실행예산꼼꼼히따져보니특징은도민소",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "news1.kr/local/jeonbuk/6348868",
+          "title_norm": "전북도11조3533억규모내년도예산안편성3522억증가",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "asiatoday.co.kr/kn/view.php?key=20261110010003636",
+          "title_norm": "전북도내년예산11조3533억편성기업성장민생안정방점",
+          "sent_at": "2026-11-10T07:57:19.379761+00:00"
+        },
+        {
+          "link": "shinailbo.co.kr/news/articleView.html?idxno=5081706",
+          "title_norm": "대전시의회복지환경위원회시민사회국소관행정사무감사실시",
+          "sent_at": "2026-11-10T07:57:20.876520+00:00"
+        },
+        {
+          "link": "ccdn.co.kr/news/articleView.html?idxno=1109998",
+          "title_norm": "대전시의회복환위시민사회국행정사무감사청년노동대학정책집",
+          "sent_at": "2026-11-10T07:57:20.876520+00:00"
+        },
+        {
+          "link": "ikbc.co.kr/article/view/kbc202611100020",
+          "title_norm": "인구늘어도고령자33영광군농어촌기본소득우대기준요구와",
+          "sent_at": "2026-11-10T07:57:20.876520+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1022999",
+          "title_norm": "기획지방소멸기금어디에썼나안동출산돌봄에129억원안동시",
+          "sent_at": "2026-11-10T07:57:20.876520+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1022812",
+          "title_norm": "취재수첩자료에답한행정침묵한행정",
+          "sent_at": "2026-11-10T07:57:20.876520+00:00"
+        },
+        {
+          "link": "g1tv.co.kr/news?mid=1_207_3&newsid=350841",
+          "title_norm": "강릉시인구정책위원회본격가동",
+          "sent_at": "2026-11-10T07:57:20.876520+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-09T22:57:13.507402+00:00"
+      "last_checked_utc": "2026-11-10T07:57:13.634009+00:00"
     },
     "pop": {
       "articles": [
@@ -277,9 +397,24 @@
           "link": "kwangju.co.kr/article.php?aid=1794216600805171005",
           "title_norm": "기아pv5인구감소지역장보기돕는다생필품배송확대",
           "sent_at": "2026-11-09T22:57:22.158392+00:00"
+        },
+        {
+          "link": "kmib.co.kr/article/20261110501096",
+          "title_norm": "단독인구감소지역11곳에정신건강전문요원0명",
+          "sent_at": "2026-11-10T07:57:24.392851+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMickFVX3lxTFAyVGpHRDRwSXZEMy10aGpRcVlxWGtKLTd6WDY5Q05zV2FJdTB2RUpoU0lSblRaUUt6MTVBVm9TY2tkNkNkdjFXR1FVcDEtSmlJRjFKNExNdVcyMXZNVjZVSzFNZWVXWWR5dU1VLVRBdEk5Zw?oc=5",
+          "title_norm": "통계로본인구감소지역생활인구논산시편논산오래머물고다시찾는다체류숙박재방문율최고",
+          "sent_at": "2026-11-10T07:57:24.392851+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZ0FVX3lxTFAxZW5jWXl6YkJUT2twakhUemJzRUJ3LUx3VUFZYldPOTZ3LWFwMktMQjRGaVg5c2RWMHNBREE5MnhWXzBkdm9lajBySEVmakVPa1FXT3U2dFVfR0dkT2JreUwwTklPTkE?oc=5",
+          "title_norm": "산경칼럼지방소멸막을현실적대안인구감소지역기본소득월20만원의기적",
+          "sent_at": "2026-11-10T07:57:24.392851+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-09T22:57:13.507402+00:00"
+      "last_checked_utc": "2026-11-10T07:57:13.634009+00:00"
     },
     "life": {
       "articles": [
@@ -309,11 +444,11 @@
           "sent_at": "2026-11-09T07:57:25.250837+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-09T22:57:13.507402+00:00"
+      "last_checked_utc": "2026-11-10T07:57:13.634009+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-11-09",
+    "pm": "2026-11-10",
     "am": "2026-11-10"
   }
 }
