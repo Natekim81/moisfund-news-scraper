@@ -4,36 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003282101&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
-          "title_norm": "시장그릇가게에몰린2030전주남부시장에무슨일이",
-          "sent_at": "2026-11-08T22:57:18.308049+00:00"
-        },
-        {
-          "link": "kwnews.co.kr/article/20261107500257",
-          "title_norm": "평창군의회군정질문주민생활개선등대책주문",
-          "sent_at": "2026-11-08T22:57:18.308049+00:00"
-        },
-        {
-          "link": "breaknews.com/1249242",
-          "title_norm": "국민의힘장동혁정점식이재명공소취소특검은탈옥법재판즉",
-          "sent_at": "2026-11-08T22:57:18.308049+00:00"
-        },
-        {
-          "link": "g1tv.co.kr/news?mid=1_207_6&newsid=350770",
-          "title_norm": "기본소득효과본정선군정착에총력",
-          "sent_at": "2026-11-08T22:57:18.308049+00:00"
-        },
-        {
-          "link": "kyeongin.com/article/1774299",
-          "title_norm": "인구감소지역지정동두천경제활력기대",
-          "sent_at": "2026-11-08T22:57:18.308049+00:00"
-        },
-        {
-          "link": "sjbnews.com/news/news.php?number=892016",
-          "title_norm": "지방균형발전통한성장잠재력모색절실",
-          "sent_at": "2026-11-08T22:57:18.308049+00:00"
-        },
-        {
           "link": "news1.kr/local/kangwon/6348078",
           "title_norm": "강릉시인구정책위원회첫회의개최인구감소대응책논의",
           "sent_at": "2026-11-09T07:57:18.111641+00:00"
@@ -347,17 +317,77 @@
           "link": "kyongbuk.co.kr/news/articleView.html?idxno=4090275",
           "title_norm": "국립의대품은예천의료스포츠관광으로성장판넓힌다",
           "sent_at": "2026-11-10T22:57:16.359095+00:00"
+        },
+        {
+          "link": "metroseoul.co.kr/article/20261111500396",
+          "title_norm": "장성군농촌인력부족문제중장기적대책마련",
+          "sent_at": "2026-11-11T07:57:24.083409+00:00"
+        },
+        {
+          "link": "sentv.co.kr/article/view/sentv202611110140",
+          "title_norm": "김한종장성군수농촌인력난해소에행정력집중기숙사인력망확",
+          "sent_at": "2026-11-11T07:57:24.083409+00:00"
+        },
+        {
+          "link": "daily.hankooki.com/news/articleView.html?idxno=1424093",
+          "title_norm": "장성군농업근로자기숙사준공농촌일손확보박차",
+          "sent_at": "2026-11-11T07:57:24.083409+00:00"
+        },
+        {
+          "link": "shinailbo.co.kr/news/articleView.html?idxno=5082340",
+          "title_norm": "장성군농업인력난해소위해중장기수급대책마련",
+          "sent_at": "2026-11-11T07:57:24.083409+00:00"
+        },
+        {
+          "link": "newsworker.co.kr/news/articleView.html?idxno=513525",
+          "title_norm": "기획장성군기숙사준공해외공급망구축농촌인력수급망",
+          "sent_at": "2026-11-11T07:57:24.083409+00:00"
+        },
+        {
+          "link": "thefairnews.co.kr/news/articleView.html?idxno=93845",
+          "title_norm": "장성군기숙사준공라오스협약농촌일손가뭄해소총력",
+          "sent_at": "2026-11-11T07:57:24.083409+00:00"
+        },
+        {
+          "link": "news.lghellovision.net/news/articleView.html?idxno=561942",
+          "title_norm": "반전꾀하는금정구소멸기금어디에어떻게쓸까",
+          "sent_at": "2026-11-11T07:57:24.083409+00:00"
+        },
+        {
+          "link": "news.mtn.co.kr/article/2026111115204891758",
+          "title_norm": "전남광주반도체포럼호남권반도체클러스터왜곡폄훼중단해야",
+          "sent_at": "2026-11-11T07:57:24.083409+00:00"
+        },
+        {
+          "link": "newsprime.co.kr/news/article.html?no=754494",
+          "title_norm": "용인에선대책호남에선문제반도체클러스터지역차별논란",
+          "sent_at": "2026-11-11T07:57:24.083409+00:00"
+        },
+        {
+          "link": "straightnews.co.kr/news/articleView.html?idxno=315136",
+          "title_norm": "경북연구원지방소멸대응어번ai로생활soc혁신제안",
+          "sent_at": "2026-11-11T07:57:24.083409+00:00"
+        },
+        {
+          "link": "ggilbo.com/news/articleView.html?idxno=1192538",
+          "title_norm": "서천군의회제349회임시회군정질문돌입",
+          "sent_at": "2026-11-11T07:57:24.083409+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1023287",
+          "title_norm": "기획지방소멸기금어디에썼나경북사람을남긴기금시설에머",
+          "sent_at": "2026-11-11T07:57:24.083409+00:00"
+        },
+        {
+          "link": "news1.kr/local/sejong-chungbuk/6350275",
+          "title_norm": "옥천보은금강수계주민지원비감액왜예산확보군전체가나서야",
+          "sent_at": "2026-11-11T07:57:24.083409+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-10T22:57:12.137104+00:00"
+      "last_checked_utc": "2026-11-11T07:57:16.008707+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE8xWEZrbS00RXhTN21zV2U5ak9ueDVSLWl5S0Nic1YxZi1jSkwzVWN0OWN4S3JZZm1URm1EdkV4Nl9NbVdHZkFQOU01b1BuR002MGlSaVF4Ukx5Z1dVMXZPR3pyYW5WTFBYbFdCbkNn?oc=5",
-          "title_norm": "고향사랑기부20만원까지전액공제인구감소지역우대해야",
-          "sent_at": "2026-11-08T22:57:21.818805+00:00"
-        },
         {
           "link": "news.google.com/rss/articles/CBMickFVX3lxTE1KVWJkU1d6WGU1Vml4cWR2Ul9rcTcxR1J2ZDFtLXg1NmU4SW5uMUV1TDl1c2ZwRDlzbkIwamJVTzVhSGF6QmRvU3NkOU5IakRVYWx5aHNvVHFhTU5MOEFsWWJEQTlHcVZLQ1VQNm9Wamk1QQ?oc=5",
           "title_norm": "통계로본인구감소지역생활인구보령시편",
@@ -387,9 +417,54 @@
           "link": "news.google.com/rss/articles/CBMiZ0FVX3lxTFAxZW5jWXl6YkJUT2twakhUemJzRUJ3LUx3VUFZYldPOTZ3LWFwMktMQjRGaVg5c2RWMHNBREE5MnhWXzBkdm9lajBySEVmakVPa1FXT3U2dFVfR0dkT2JreUwwTklPTkE?oc=5",
           "title_norm": "산경칼럼지방소멸막을현실적대안인구감소지역기본소득월20만원의기적",
           "sent_at": "2026-11-10T07:57:24.392851+00:00"
+        },
+        {
+          "link": "ajunews.com/view/20261111161212817",
+          "title_norm": "기정원인구감소지역대표상품구매세종시취약계층기부",
+          "sent_at": "2026-11-11T07:57:29.402345+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMickFVX3lxTE9JaHlKTDkxeGVjc3RWZm5iOEtEcFhrQm85c2hJU0ppNWptMFRfWnp6SERQdUt2YnpoUWdGYnJ5ZG1ZU01MbnJUaDd1a2k1YkdJdUNjN3hwTkJ0R3VobGF6LWxveFpLMzFkeEt6c3h1ZVd5QQ?oc=5",
+          "title_norm": "통계로본인구감소지역생활인구금산군편금산타시도체류비중928반복방문도두각",
+          "sent_at": "2026-11-11T07:57:29.402345+00:00"
+        },
+        {
+          "link": "dongponews.net/news/articleView.html?idxno=61602",
+          "title_norm": "관광벤처키워해외시장공략인구감소지역도새성장거점으로",
+          "sent_at": "2026-11-11T07:57:29.402345+00:00"
+        },
+        {
+          "link": "viva100.com/article/20261111500917",
+          "title_norm": "내년시행앞둔은퇴자마을특별법신성범인구감소지역우선지정해",
+          "sent_at": "2026-11-11T07:57:29.402345+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiYEFVX3lxTE5hZjY0QVhfbUpCTU1tam9xcFF4MlRxdDVxTE5YTDdtNWJJRlVQSzV4ajQ5X3JHVUZsR0I2Z2lVRkQtMEJsOFNyNThoWHR1eW5FamxsdXBha2pXM3hWWE53LQ?oc=5",
+          "title_norm": "인구감소지역에서ai배우면수당4배준다지만기관75는수도권노동예산톺아보기",
+          "sent_at": "2026-11-11T07:57:29.402345+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiWkFVX3lxTE1RRGpJWDhLbVpRRGFZLVZSczUtOFJHbWo1NjVwd0s3dXdoOEl5VjdUMURSNDNNVjc2NkV6VmRlbk0yLUxNcmVYTmZFc2FuTzljdldKZG5BcnMtdw?oc=5",
+          "title_norm": "관광관광벤처6투자유치지원인구감소지역사업성과도공유",
+          "sent_at": "2026-11-11T07:57:29.402345+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiW0FVX3lxTE03cHE0bS1xN0pfeUVEa2JWaXd1TlFLbzlJVW1pWjY1d0ZDTGp4MzRqQ201Q1hUZHJITjVfdkFfNXVpeWVoTmNIVWZFODc0enNwazZjMVo1Y2RScUU?oc=5",
+          "title_norm": "인구감소지역주택공급도관리공급관리지역도입법안발의",
+          "sent_at": "2026-11-11T07:57:29.402345+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiXkFVX3lxTE9sT0JBdFV3eXBmbl92bDdxdF9kQVFlYmoxa1ItcEh2YW5VQmdkTzBlLWVES2N6VWg4d1FqYjZVSTZ3aDd0T0RuejRUVDdjWWhOXzZ3TEZJeXdwRUMtU1E?oc=5",
+          "title_norm": "다산정약용집필공간에서묵는다인구감소지역강진김제서체류형관광실증",
+          "sent_at": "2026-11-11T07:57:29.402345+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiVkFVX3lxTE1uWllqblhWR3pVYlFCRHBNRWNWYkJ4MDdEVG9oZzdvUmtaTTFrcGw3Q1VneEZfQm11VF9BMjhIOUFWcjVxR1FwRTRLcDNSZnlPM1ZZNDZB?oc=5",
+          "title_norm": "관광벤처아이디어로인구감소지역충전관광공사better4년차강진김제서체류형실증",
+          "sent_at": "2026-11-11T07:57:29.402345+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-10T22:57:12.137104+00:00"
+      "last_checked_utc": "2026-11-11T07:57:16.008707+00:00"
     },
     "life": {
       "articles": [
@@ -409,11 +484,11 @@
           "sent_at": "2026-11-09T07:57:25.250837+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-10T22:57:12.137104+00:00"
+      "last_checked_utc": "2026-11-11T07:57:16.008707+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-11-10",
+    "pm": "2026-11-11",
     "am": "2026-11-11"
   }
 }
