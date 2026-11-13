@@ -4,46 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "breaknews.com/1250030",
-          "title_norm": "서천군의회예산효율성인구소멸대응행정개혁집중점검",
-          "sent_at": "2026-11-10T22:57:16.359095+00:00"
-        },
-        {
-          "link": "newstnt.com/news/articleView.html?idxno=727804",
-          "title_norm": "서천군의회제349회임시회제2차본회의개최2026년도군정질문진",
-          "sent_at": "2026-11-10T22:57:16.359095+00:00"
-        },
-        {
-          "link": "gukjenews.com/news/articleView.html?idxno=3748230",
-          "title_norm": "서천군의회군정질문서지역현안집중점검",
-          "sent_at": "2026-11-10T22:57:16.359095+00:00"
-        },
-        {
-          "link": "donga.com/news/Society/article/all/20261111/135001551/2",
-          "title_norm": "전북내년예산113조기업민생에집중",
-          "sent_at": "2026-11-10T22:57:16.359095+00:00"
-        },
-        {
-          "link": "kwnews.co.kr/article/20261110501605",
-          "title_norm": "우상호지사직속지역문화자원활성화위원회설치강원판홍대거",
-          "sent_at": "2026-11-10T22:57:16.359095+00:00"
-        },
-        {
-          "link": "paxetv.com/news/articleView.html?idxno=286558",
-          "title_norm": "장세일영광군수2027년부터군민1인당연20만원햇빛바람연금추",
-          "sent_at": "2026-11-10T22:57:16.359095+00:00"
-        },
-        {
-          "link": "jndn.com/article.php?aid=1794301944442839001",
-          "title_norm": "전남광주미래달렸다현안법안정기국회통과촉각",
-          "sent_at": "2026-11-10T22:57:16.359095+00:00"
-        },
-        {
-          "link": "kyongbuk.co.kr/news/articleView.html?idxno=4090275",
-          "title_norm": "국립의대품은예천의료스포츠관광으로성장판넓힌다",
-          "sent_at": "2026-11-10T22:57:16.359095+00:00"
-        },
-        {
           "link": "metroseoul.co.kr/article/20261111500396",
           "title_norm": "장성군농촌인력부족문제중장기적대책마련",
           "sent_at": "2026-11-11T07:57:24.083409+00:00"
@@ -252,9 +212,44 @@
           "link": "jbnews.com/news/articleView.html?idxno=1515841",
           "title_norm": "토론회김현수단국대교수지방소멸대응위해k콤팩트시티도입",
           "sent_at": "2026-11-12T22:57:19.911205+00:00"
+        },
+        {
+          "link": "news.bbsi.co.kr/news/articleView.html?idxno=4118496",
+          "title_norm": "대구시의회기획행정위기획조정실행정사무감사현안집중점검",
+          "sent_at": "2026-11-13T07:57:21.986224+00:00"
+        },
+        {
+          "link": "newscj.com/news/articleView.html?idxno=3448497",
+          "title_norm": "장성군외국인계절근로자확보기숙사준공라오스협약",
+          "sent_at": "2026-11-13T07:57:21.986224+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE1IQ1N0OXZsX3pnbnFQTWwzeVFMbThaWV93ZnZLdnN5Vkx1SDhZblZxWVJhWkRPSDlNT2I3MDYxUVBjaXB3OERIUkU0cnk0bEg4OFY0RWdmOFlGeXU3a2QtMEZaeVJROXhiMTF2eHNn?oc=5",
+          "title_norm": "김한슬의원비례지방소멸대응기금불합리지적제도개선요구",
+          "sent_at": "2026-11-13T07:57:21.986224+00:00"
+        },
+        {
+          "link": "kukinews.com/article/view/kuk202611130081",
+          "title_norm": "간호학교40명에서졸업생1만8000명으로대동대55년다음반세기는",
+          "sent_at": "2026-11-13T07:57:21.986224+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiTEFVX3lxTE9vR0dDODhpWnM1Q1lkR1pIemV3aDdLNE9MakxVQ2JpRXE0cnd3Q3Zva3QtMTdSZzkzeUdMekRWN2RiSTE1NmdkeGJ5dVQ?oc=5",
+          "title_norm": "경기도의회김한슬의원인구감소지역22인데기금배분은02경기북부역차별해소해야",
+          "sent_at": "2026-11-13T07:57:21.986224+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE1Eb3h4bFhmVUdvbUFTTEpDZlBNSTN1UG5nQXctYmprdFFIS2VndW5WR1gyZ1NWNTRPWmt4WGQza0IwTXlaZnkxa3l6dm9jaVk4SFc3OFhTRDFhc2dKbnNQZTVVSU5zczQzdjFV?oc=5",
+          "title_norm": "가평연천지방소멸대응기금02그쳐경기도의회불합리한배분구조지적",
+          "sent_at": "2026-11-13T07:57:21.986224+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1023642",
+          "title_norm": "취재수첩다시물으니숫자가달랐다",
+          "sent_at": "2026-11-13T07:57:21.986224+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-12T22:57:15.451272+00:00"
+      "last_checked_utc": "2026-11-13T07:57:16.413055+00:00"
     },
     "pop": {
       "articles": [
@@ -337,9 +332,24 @@
           "link": "news.google.com/rss/articles/CBMibEFVX3lxTE1YU0tSMERMTEFoVDRtdXVFb0VKX3I3d210aU9lTlVwdHZ2Zm5JUjMydkE3N05MUmQtUno1ekZoeWplNzNIMHNHSGhzQzN0QkYzNnV2MEZSVHdhZ00yMXlKUm1QUi1NckRZeUk3Mg?oc=5",
           "title_norm": "장애이주배경인구감소지역영유아지원사각지대살핀다육아정책연구소12일제57차심포지엄개최",
           "sent_at": "2026-11-12T07:57:24.673503+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMickFVX3lxTE1PRFQ4eE1vd3Z6RWxUdEFtX2tGNjYyNXBlNGZGdVRwVWY4NDZqR2lzMzVQNlJXd3RiRE01OG9yMEJOWFc3T3pEdzVNdzZDa0VqZWljOXRRSVItUXBQVGlIUHI5TFY1Yk12YzhYbGRZOXNVUQ?oc=5",
+          "title_norm": "경기도의회김한슬의원경기북부인구감소지역지원확대촉구",
+          "sent_at": "2026-11-13T07:57:25.548415+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE1ZVjlOMXoxYVdEeXdodzlEOHVqUDZhMmlYOEVIaThiTnByLW40QmlsY3dKd2ExZGI2ZUM3U2FsdC00WWdFTk1SNVgyUnpRcW5kSXhJbEhnazVoYi1fZC1ZRkpscDh0TzRWejl6eWZB?oc=5",
+          "title_norm": "인천남부교육지원청인구감소지역강원화천경기연천과돌봄경험공유",
+          "sent_at": "2026-11-13T07:57:25.548415+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMickFVX3lxTFAtUGg0NmphX2JCVk0wNWFTR2RmZ1JScUpqWml0N19hZUZreENSaWN5bDZPNWxOeW9GX2V4NE1sLTVYY0ttX181ZE9ZSWs3UmtnbDdvZ1I5UmJNU0Z5VVJqenlIYmxHME5sdFRaS3RIMVZxdw?oc=5",
+          "title_norm": "통계로본인구감소지역생활인구서천군편서천타시도방문비중841머무는발길연결관건",
+          "sent_at": "2026-11-13T07:57:25.548415+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-12T22:57:15.451272+00:00"
+      "last_checked_utc": "2026-11-13T07:57:16.413055+00:00"
     },
     "life": {
       "articles": [
@@ -417,13 +427,23 @@
           "link": "news.google.com/rss/articles/CBMibEFVX3lxTE9wZ2lfbk9OSW9uQlVEbWwyVW5sM1AxOW9vVEVWNmlKMmVoYnh5X1FwaFpTdVVFaDFUcHUwRzdEX3hwT29TN0l0dTgwRU1adjRNM2ZKcTJzdkZLeXpwQjY5YUtjcWp1NHVjcE5sWg?oc=5",
           "title_norm": "주민3만7000명괴산에생활인구91만명머무는도시로변신",
           "sent_at": "2026-11-12T22:57:26.973644+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibEFVX3lxTE15SGF4MGd0eHBVZjFvYTdGT3IwOW5kd0NXX2ZkYy00cE1ZZDFxVXd3R1lSeXNqZ1lnbzZ1bDBsa3NTY1pCOFkwUTB6T0hsMmNMMjZsRWh0eVpidFBLT0F2THBUZU5ubmRFVHdGNw?oc=5",
+          "title_norm": "보령시농촌체험로컬사업장묶어생활인구확대",
+          "sent_at": "2026-11-13T07:57:29.040564+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMicEFVX3lxTE9mNkpkV245ZmtFVTAwY3htSi1Pck1SQ08xUks2dVNuWVM4Rkp3djB4bUQ4OVNFWktwbExYYTBwYVd4d0RLOXRadlVpQUpoWmtnelE4cVJXRFRZSXhuQXhIVWRvNzhET1RtSlRwOW82Ql8?oc=5",
+          "title_norm": "생활인구주민자치이재관의원주민자치회참여문턱낮춘다법개정추진",
+          "sent_at": "2026-11-13T07:57:29.040564+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-12T22:57:15.451272+00:00"
+      "last_checked_utc": "2026-11-13T07:57:16.413055+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-11-12",
+    "pm": "2026-11-13",
     "am": "2026-11-13"
   }
 }
