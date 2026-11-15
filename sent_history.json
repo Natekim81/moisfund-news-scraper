@@ -4,46 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "seoul.co.kr/news/publicnews/local_govern/news_local/2026/11/13/20261113022002?wlog_tag3=naver",
-          "title_norm": "진도대전환농수산업에ai입히고풍력체류관광키운다",
-          "sent_at": "2026-11-12T22:57:19.911205+00:00"
-        },
-        {
-          "link": "hankookilbo.com/news/article/A2026111210160001578?did=NA",
-          "title_norm": "인구문제해결할부총리신설해국정시스템대전환해야인터뷰",
-          "sent_at": "2026-11-12T22:57:19.911205+00:00"
-        },
-        {
-          "link": "donga.com/news/Opinion/article/all/20261112/135017381/2",
-          "title_norm": "인구절벽위기를기회로바꿔야기고민주홍",
-          "sent_at": "2026-11-12T22:57:19.911205+00:00"
-        },
-        {
-          "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8711634&ref=A",
-          "title_norm": "평창군인구감소대응에932억원투입",
-          "sent_at": "2026-11-12T22:57:19.911205+00:00"
-        },
-        {
-          "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8711385&ref=A",
-          "title_norm": "여기는원주원주시겨울철가축전염병차단방역외",
-          "sent_at": "2026-11-12T22:57:19.911205+00:00"
-        },
-        {
-          "link": "kjdaily.com/article.php?aid=1794478060692089008",
-          "title_norm": "농촌인력난해소장성군중장기수급대책마련주력",
-          "sent_at": "2026-11-12T22:57:19.911205+00:00"
-        },
-        {
-          "link": "jbnews.com/news/articleView.html?idxno=1515850",
-          "title_norm": "한학기라도농촌에서충남농촌유학활성화제안",
-          "sent_at": "2026-11-12T22:57:19.911205+00:00"
-        },
-        {
-          "link": "jbnews.com/news/articleView.html?idxno=1515841",
-          "title_norm": "토론회김현수단국대교수지방소멸대응위해k콤팩트시티도입",
-          "sent_at": "2026-11-12T22:57:19.911205+00:00"
-        },
-        {
           "link": "news.bbsi.co.kr/news/articleView.html?idxno=4118496",
           "title_norm": "대구시의회기획행정위기획조정실행정사무감사현안집중점검",
           "sent_at": "2026-11-13T07:57:21.986224+00:00"
@@ -107,9 +67,49 @@
           "link": "jnilbo.com/news/articleView.html?idxno=90000082188",
           "title_norm": "장성군중장기인력수급대책으로영농환경개선한다",
           "sent_at": "2026-11-14T22:57:19.767365+00:00"
+        },
+        {
+          "link": "hidomin.com/news/articleView.html?idxno=729379",
+          "title_norm": "대구시재정공공기관관리도마대구시의회대구시기획조정실행정",
+          "sent_at": "2026-11-15T07:57:18.956996+00:00"
+        },
+        {
+          "link": "imaeil.com/page/view/2026111515404376188",
+          "title_norm": "대구시의회2차공공기관이전지역선정임박대구시유치논리집중",
+          "sent_at": "2026-11-15T07:57:18.956996+00:00"
+        },
+        {
+          "link": "kbmaeil.com/article/20261115500390",
+          "title_norm": "대구산하공공기관12곳결원314명시의회충원대책마련해야",
+          "sent_at": "2026-11-15T07:57:18.956996+00:00"
+        },
+        {
+          "link": "dkilbo.com/news/articleView.html?idxno=560768",
+          "title_norm": "경북도내인구감소관심지역18곳대책없나",
+          "sent_at": "2026-11-15T07:57:18.956996+00:00"
+        },
+        {
+          "link": "inews365.com/news/article.html?no=943658",
+          "title_norm": "일자리부족하고의료불편영동군민이꼽은지역소멸의현실",
+          "sent_at": "2026-11-15T07:57:18.956996+00:00"
+        },
+        {
+          "link": "dkilbo.com/news/articleView.html?idxno=560674",
+          "title_norm": "대구시의회기조실행감서314명산하기관결원국비관리부실집중",
+          "sent_at": "2026-11-15T07:57:18.956996+00:00"
+        },
+        {
+          "link": "jeonmae.co.kr/news/articleView.html?idxno=1311811",
+          "title_norm": "옹진군인구18개월연속감소내년반등주목",
+          "sent_at": "2026-11-15T07:57:18.956996+00:00"
+        },
+        {
+          "link": "100ssd.co.kr/news/articleView.html?idxno=214503",
+          "title_norm": "대한노인회대전중구지회어르신문화여가공간중구청춘살롱개소식",
+          "sent_at": "2026-11-15T07:57:18.956996+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-14T22:57:12.581247+00:00"
+      "last_checked_utc": "2026-11-15T07:57:13.533706+00:00"
     },
     "pop": {
       "articles": [
@@ -127,17 +127,17 @@
           "link": "news.google.com/rss/articles/CBMickFVX3lxTFAtUGg0NmphX2JCVk0wNWFTR2RmZ1JScUpqWml0N19hZUZreENSaWN5bDZPNWxOeW9GX2V4NE1sLTVYY0ttX181ZE9ZSWs3UmtnbDdvZ1I5UmJNU0Z5VVJqenlIYmxHME5sdFRaS3RIMVZxdw?oc=5",
           "title_norm": "통계로본인구감소지역생활인구서천군편서천타시도방문비중841머무는발길연결관건",
           "sent_at": "2026-11-13T07:57:25.548415+00:00"
+        },
+        {
+          "link": "ggilbo.com/news/articleView.html?idxno=1193048",
+          "title_norm": "이재관의원주민자치회참여문턱낮춘다인구감소지역활로모",
+          "sent_at": "2026-11-15T07:57:22.702641+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-14T22:57:12.581247+00:00"
+      "last_checked_utc": "2026-11-15T07:57:13.533706+00:00"
     },
     "life": {
       "articles": [
-        {
-          "link": "news.google.com/rss/articles/CBMibEFVX3lxTE9wZ2lfbk9OSW9uQlVEbWwyVW5sM1AxOW9vVEVWNmlKMmVoYnh5X1FwaFpTdVVFaDFUcHUwRzdEX3hwT29TN0l0dTgwRU1adjRNM2ZKcTJzdkZLeXpwQjY5YUtjcWp1NHVjcE5sWg?oc=5",
-          "title_norm": "주민3만7000명괴산에생활인구91만명머무는도시로변신",
-          "sent_at": "2026-11-12T22:57:26.973644+00:00"
-        },
         {
           "link": "news.google.com/rss/articles/CBMibEFVX3lxTE15SGF4MGd0eHBVZjFvYTdGT3IwOW5kd0NXX2ZkYy00cE1ZZDFxVXd3R1lSeXNqZ1lnbzZ1bDBsa3NTY1pCOFkwUTB6T0hsMmNMMjZsRWh0eVpidFBLT0F2THBUZU5ubmRFVHdGNw?oc=5",
           "title_norm": "보령시농촌체험로컬사업장묶어생활인구확대",
@@ -154,11 +154,11 @@
           "sent_at": "2026-11-14T22:57:29.388858+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-14T22:57:12.581247+00:00"
+      "last_checked_utc": "2026-11-15T07:57:13.533706+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-11-14",
+    "pm": "2026-11-15",
     "am": "2026-11-15"
   }
 }
