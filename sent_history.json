@@ -4,16 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "yna.co.kr/view/AKR20261113100400065?input=1195m",
-          "title_norm": "18개월연속인구감소인천옹진군내년엔반등할까",
-          "sent_at": "2026-11-13T22:57:21.173561+00:00"
-        },
-        {
-          "link": "pressian.com/pages/articles/2026111317463963009?utm_source=naver&utm_medium=search",
-          "title_norm": "대구시의회기획행정위원회2차공공기관이전유치전략대구시재정",
-          "sent_at": "2026-11-13T22:57:21.173561+00:00"
-        },
-        {
           "link": "news.google.com/rss/articles/CBMia0FVX3lxTE0xUjIyZUNINWkwQkxvQl9XQWN0dkxtWThjWWxQOHM4YmFlMGd0djdRVXZrMjU1cE16QmtoTTZwamg5cFNKSnZmdVdUQlNEYXVuSm1PYjZxbzBEZVk2MHZYWEQ2bU05U0d6VHRR?oc=5",
           "title_norm": "행정감사대구시의회기획행정위원회공공기관결원314명지방소멸대응기금집행률33집중질타",
           "sent_at": "2026-11-14T07:57:20.986662+00:00"
@@ -97,9 +87,114 @@
           "link": "inews24.com/view/2026250",
           "title_norm": "대구시국비따내고도시비못댔다산하공공기관결원도314명",
           "sent_at": "2026-11-15T22:57:17.287480+00:00"
+        },
+        {
+          "link": "enewstoday.co.kr/news/articleView.html?idxno=2493082",
+          "title_norm": "경남고성군제4회추경예산안8315억원편성97억원증가",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "newsgn.com/news/articleView.html?idxno=585987",
+          "title_norm": "고성군제4회추경예산8315억군의회제출",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "newsfreezone.co.kr/news/articleView.html?idxno=719563",
+          "title_norm": "경남고성군추경제출속친환경농업전부문싹쓸이겹경사",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3753290",
+          "title_norm": "경남고성군8315억원규모제4회추경안제출",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "metroseoul.co.kr/article/20261116500442",
+          "title_norm": "진도군보배아이맘쉼표프로그램성료",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "newsworker.co.kr/news/articleView.html?idxno=514306",
+          "title_norm": "진도군지방소멸대응기금투입영유아임산부양육지원",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "sentv.co.kr/article/view/sentv202611160178",
+          "title_norm": "진도군영유아발달부모양육지원강화지역형육아프로그램성과",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "pointdaily.co.kr/news/articleView.html?idxno=326166",
+          "title_norm": "충남도사회연대경제국출범100일민관협력확대",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "daily.hankooki.com/news/articleView.html?idxno=1425544",
+          "title_norm": "인구감소넘어지역자립으로충남도사회연대경제육성",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "newsis.com/view/NISX20261116_0003870012",
+          "title_norm": "충남형사회연대경제본격추진소득일자리창출",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "newspim.com/news/view/20261116000973",
+          "title_norm": "충남도사회연대경제국출범100일3년간30억투입",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "newstown.co.kr/news/articleView.html?idxno=722104",
+          "title_norm": "충남도사회연대경제국출범100일충남형사회연대경제본격추진",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "shinailbo.co.kr/news/articleView.html?idxno=5083914",
+          "title_norm": "충남사회연대경제100일18개공공기관16개단체묶어연대경제판",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "newsworker.co.kr/news/articleView.html?idxno=514275",
+          "title_norm": "충남도사회연대경제국출범100일맞아지역문제해결모델본격화",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibEFVX3lxTE9SOHRnb2RKVFdOaWw5QXEyMTB3X1QzRGp5cUNsWnNLcm8zS19vNW1idlQxd3U1Uk8xaUduVE5VWmtFNGVNZHdqemNKOEVaZ2pmc01jVzVkTTU0ZjNJc3RETkFZNmpJN2NvMTRWRQ?oc=5",
+          "title_norm": "진도군지방소멸대응기금활용보배아이맘쉼표운영",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "sisafocus.co.kr/news/articleView.html?idxno=367657",
+          "title_norm": "청도군외국인유학생주민함께한세계음악회개최",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "kyongbuk.co.kr/news/articleView.html?idxno=4090902",
+          "title_norm": "영양군지방소멸대응기금190억원미집행사업지연에발목",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "imaeil.com/page/view/2026111115420677790",
+          "title_norm": "대구곳곳들어서는전망대개장지연사업성논란까지들끓어",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "enewstoday.co.kr/news/articleView.html?idxno=2492952",
+          "title_norm": "국경허문선율로하나된농촌2026청도세계음악회성료",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "idomin.com/news/articleView.html?idxno=2019688",
+          "title_norm": "영유아복합놀이공간남해군다같이키움센터문열어",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMicEFVX3lxTE1EVlpqcjRMV29BQmlXUjRxNU5tcXJTZUVvV0xCOWVpUXZzQmFWRGNiSnQxS18tampCRGY3RGpvbVdUd0lRSVQ1SmpwYWZPRENITGxnTV92T29kREZtTEc3NkFqeEd3NlhkVXB1aS1GdVPSAXRBVV95cUxOUzBJTzFOR2hoLXZlbXdCY0prNHBfNjdrYnFqaVMtbnoxc1RyUENoY3U4d2FaYXpZZV82Wmh4U18zQnBnY0dXWUxscGV1THFfaFM3Yl9KM3ZlZU5aa1Jia3lxMFZmYWhRazNTZnlPVnZBSExfSQ?oc=5",
+          "title_norm": "대구시지방소멸대응기금집행률33그쳐",
+          "sent_at": "2026-11-16T07:57:21.578199+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-15T22:57:12.570304+00:00"
+      "last_checked_utc": "2026-11-16T07:57:15.563921+00:00"
     },
     "pop": {
       "articles": [
@@ -122,9 +217,39 @@
           "link": "wikitree.co.kr/articles/1174784",
           "title_norm": "인구감소지역89가응급취약지인데지원금은오히려삭감거점병",
           "sent_at": "2026-11-15T22:57:20.866442+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3753411",
+          "title_norm": "공영홈쇼핑인구감소지역중소기업판로지원23일까지신청",
+          "sent_at": "2026-11-16T07:57:25.099686+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiTkFVX3lxTFBFMTNxTE50dE9iTUFfTS16OGNQc3dyNG13cW1LUVNrWjJYQ3liU0puT0hWN0xxWV9fV0NWRXZ6YXRYb1ZkeU5aektJTm1MZw?oc=5",
+          "title_norm": "공영홈쇼핑인구감소지역중소기업소상공인판로지원내달기획전",
+          "sent_at": "2026-11-16T07:57:25.099686+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZEFVX3lxTFBuc0p1a3paNGp2LTFmYkV3cW9xYUxfRmN1aVVPZU1lUFNKYVBUZ1ZUbmJ0V0hYSlBkZnF5eUlxQ3dubzNCT1pzSGc2ZldqdXZOLXBuUE4zeGQ5NXVRb2pwVmZKOTI?oc=5",
+          "title_norm": "공영홈쇼핑지역소상공인판로지원인구감소지역특별기획전",
+          "sent_at": "2026-11-16T07:57:25.099686+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMickFVX3lxTFBzcTJJT3lLM1pfaXN4cTR6bjZ5TkxyckY2ZkRaNkhDZHR3c2I3U196MDdscWkwazNDMTdtSzNBWllpaTBwZ2hMQmp5bFkxdnlyZTZlY0NYeXRjeEFLOTBxUVVZeWplQUtxY2hlNWF1OXh1QQ?oc=5",
+          "title_norm": "통계로본인구감소지역생활인구청양군편청양겨울에도찾는다재방문숙박강점살려야",
+          "sent_at": "2026-11-16T07:57:25.099686+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMifEFVX3lxTFA5cEJIRzMzQkFKd2dyV3NVV0ZTaVBVM1Rua2I2WHNpYnFfUXFybkhtTGVMcXl4OUNBa2lFVEpwUGFsQUZfc3RWRUNwVmFiZmdiZTRLS3lOanJNUEU2S1ZfbWZzQkNFS1NHY1E0Rk9SY05uQVhCbGxiTHI2ckI?oc=5",
+          "title_norm": "인구감소지역소멸시대정치는무엇을해야하나이현출교수신간",
+          "sent_at": "2026-11-16T07:57:25.099686+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiakFVX3lxTE9sSXJIUXZjenhDUFVHaHYzMTJPeHNxZGtQNzl0T1o3QlE1eW51c1NveW96MEx6SnJ3Q2lXVVVPSDZ2YXhRSGRqNFZ4bS0yZ2Q2YlVWMHFoTnh6bjZYWUx4TnJYR0w1RmJ5SEE?oc=5",
+          "title_norm": "인구감소지역거점의료기관우선지원근거마련",
+          "sent_at": "2026-11-16T07:57:25.099686+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-15T22:57:12.570304+00:00"
+      "last_checked_utc": "2026-11-16T07:57:15.563921+00:00"
     },
     "life": {
       "articles": [
@@ -137,13 +262,28 @@
           "link": "news.google.com/rss/articles/CBMiakFVX3lxTE1oMGIzaGlnWlJWRFk3OEZXRFVqUmZoTGFMNHBmSEFDS1BwZ0NUb3lGVmtUa3hiR1pVNmYyLTVUMUo4MzVpeVZPYl9xRk50bGdvU0trbnYtNkxnendabkVWRFl1VW1ILWJiM0E?oc=5",
           "title_norm": "30억절감에생활인구판꼴한숨쉬는섬주민들김인배의똘배경제",
           "sent_at": "2026-11-15T22:57:24.325789+00:00"
+        },
+        {
+          "link": "etoday.co.kr/news/view/2648733",
+          "title_norm": "경북도의회생활인구늘려원도심살린다도심형관광정책전환추진",
+          "sent_at": "2026-11-16T07:57:28.509905+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiW0FVX3lxTE41aDJsdHFEZ2sxYVROM2I1eHRZZGFITU0wRXlWVUk5b2cwWWNJLWhMMzFkSjB1MC1DeWh6ZEhyendSNm5Fc2JVWFktNmtvS0lEN3FzTmhZZEo3cU3SAWBBVV95cUxOQUNTbzhPTEVHUVRhcnVKYTQ4N3M3OUl1UlhQTkU0WUtuMFNGSGlwaW9CVno2elBnOFlFbFJZaDRSYmtTR2F2bHpMenlfSkJjRnBOZDdHQ3V2bTFFWGlZZHU?oc=5",
+          "title_norm": "밀양시5도2촌활성화로생활인구늘리고농촌활력높여야",
+          "sent_at": "2026-11-16T07:57:28.509905+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTFBRSGs3MEQyTTliU1d2OHRCdkNkVmlLa05kbmtObUxhRDVka3RxYzN0dmctZ0EtUXZGd1ZjN2hSeXZPdTZYeE90TzVfbzhIOE52Rmd3UlZVcVZXZnhhaW9ZY0gweFBhQWVDUEp0VnVR?oc=5",
+          "title_norm": "김남희문경시의원체류치유복합밸리제안생활인구확대",
+          "sent_at": "2026-11-16T07:57:28.509905+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-15T22:57:12.570304+00:00"
+      "last_checked_utc": "2026-11-16T07:57:15.563921+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-11-15",
+    "pm": "2026-11-16",
     "am": "2026-11-16"
   }
 }
