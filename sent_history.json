@@ -4,21 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE0xUjIyZUNINWkwQkxvQl9XQWN0dkxtWThjWWxQOHM4YmFlMGd0djdRVXZrMjU1cE16QmtoTTZwamg5cFNKSnZmdVdUQlNEYXVuSm1PYjZxbzBEZVk2MHZYWEQ2bU05U0d6VHRR?oc=5",
-          "title_norm": "행정감사대구시의회기획행정위원회공공기관결원314명지방소멸대응기금집행률33집중질타",
-          "sent_at": "2026-11-14T07:57:20.986662+00:00"
-        },
-        {
-          "link": "breaknews.com/1250991",
-          "title_norm": "국민의힘장동혁정점식특검예산사법여권전방위맹공",
-          "sent_at": "2026-11-14T07:57:20.986662+00:00"
-        },
-        {
-          "link": "gokorea.kr/news/articleView.html?idxno=885627",
-          "title_norm": "인구감소멈출까옹진군의혁신적변화와기대되는미래",
-          "sent_at": "2026-11-14T07:57:20.986662+00:00"
-        },
-        {
           "link": "jnilbo.com/news/articleView.html?idxno=90000082188",
           "title_norm": "장성군중장기인력수급대책으로영농환경개선한다",
           "sent_at": "2026-11-14T22:57:19.767365+00:00"
@@ -192,6 +177,31 @@
           "link": "news.google.com/rss/articles/CBMicEFVX3lxTE1EVlpqcjRMV29BQmlXUjRxNU5tcXJTZUVvV0xCOWVpUXZzQmFWRGNiSnQxS18tampCRGY3RGpvbVdUd0lRSVQ1SmpwYWZPRENITGxnTV92T29kREZtTEc3NkFqeEd3NlhkVXB1aS1GdVPSAXRBVV95cUxOUzBJTzFOR2hoLXZlbXdCY0prNHBfNjdrYnFqaVMtbnoxc1RyUENoY3U4d2FaYXpZZV82Wmh4U18zQnBnY0dXWUxscGV1THFfaFM3Yl9KM3ZlZU5aa1Jia3lxMFZmYWhRazNTZnlPVnZBSExfSQ?oc=5",
           "title_norm": "대구시지방소멸대응기금집행률33그쳐",
           "sent_at": "2026-11-16T07:57:21.578199+00:00"
+        },
+        {
+          "link": "seoul.co.kr/news/plan/2026/11/17/20261117012005?wlog_tag3=naver",
+          "title_norm": "전남광주판교마곡처럼직주락혁신지구로인구댐쌓아야",
+          "sent_at": "2026-11-16T22:57:19.163948+00:00"
+        },
+        {
+          "link": "seoul.co.kr/news/plan/2026/11/17/20261117012003?wlog_tag3=naver",
+          "title_norm": "광주ai전남조선맞손전공일자리늘려청년붙잡자하나된",
+          "sent_at": "2026-11-16T22:57:19.163948+00:00"
+        },
+        {
+          "link": "jnilbo.com/news/articleView.html?idxno=90000083098",
+          "title_norm": "진도군영유아임산부대상보배아이맘쉼표완주",
+          "sent_at": "2026-11-16T22:57:19.163948+00:00"
+        },
+        {
+          "link": "view.asiae.co.kr/article/2026111619094059123",
+          "title_norm": "목포원정육아덜었다진도군보배아이맘쉼표성료",
+          "sent_at": "2026-11-16T22:57:19.163948+00:00"
+        },
+        {
+          "link": "gnmaeil.com/news/articleView.html?idxno=598801",
+          "title_norm": "남해군87억투입다같이키움센터개관",
+          "sent_at": "2026-11-16T22:57:19.163948+00:00"
         }
       ],
       "last_checked_utc": "2026-11-16T07:57:15.563921+00:00"
@@ -249,7 +259,7 @@
           "sent_at": "2026-11-16T07:57:25.099686+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-16T07:57:15.563921+00:00"
+      "last_checked_utc": "2026-11-16T22:57:13.789854+00:00"
     },
     "life": {
       "articles": [
@@ -284,6 +294,6 @@
   },
   "slot_runs": {
     "pm": "2026-11-16",
-    "am": "2026-11-16"
+    "am": "2026-11-17"
   }
 }
