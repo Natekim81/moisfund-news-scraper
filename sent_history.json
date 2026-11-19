@@ -4,156 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "seoul.co.kr/news/plan/2026/11/17/20261117012005?wlog_tag3=naver",
-          "title_norm": "전남광주판교마곡처럼직주락혁신지구로인구댐쌓아야",
-          "sent_at": "2026-11-16T22:57:19.163948+00:00"
-        },
-        {
-          "link": "seoul.co.kr/news/plan/2026/11/17/20261117012003?wlog_tag3=naver",
-          "title_norm": "광주ai전남조선맞손전공일자리늘려청년붙잡자하나된",
-          "sent_at": "2026-11-16T22:57:19.163948+00:00"
-        },
-        {
-          "link": "jnilbo.com/news/articleView.html?idxno=90000083098",
-          "title_norm": "진도군영유아임산부대상보배아이맘쉼표완주",
-          "sent_at": "2026-11-16T22:57:19.163948+00:00"
-        },
-        {
-          "link": "view.asiae.co.kr/article/2026111619094059123",
-          "title_norm": "목포원정육아덜었다진도군보배아이맘쉼표성료",
-          "sent_at": "2026-11-16T22:57:19.163948+00:00"
-        },
-        {
-          "link": "gnmaeil.com/news/articleView.html?idxno=598801",
-          "title_norm": "남해군87억투입다같이키움센터개관",
-          "sent_at": "2026-11-16T22:57:19.163948+00:00"
-        },
-        {
-          "link": "ekn.kr/web/view.php?key=20261117022480990",
-          "title_norm": "패트롤경북도의회",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "kbmaeil.com/article/20261117500572",
-          "title_norm": "경북도의회행정보건복지위안전지방소멸감사행정전방위점검",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "etoday.co.kr/news/view/2649306",
-          "title_norm": "경북도의회행감고향사랑기부줄고안전지수는낮고정책실효성질",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "kmaeil.com/news/articleView.html?idxno=658680",
-          "title_norm": "강화군2026년뉴로컬캠프마무리",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "gukjenews.com/news/articleView.html?idxno=3754743",
-          "title_norm": "강화군뉴로컬캠프8회마무리청년86명참여",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "newsfreezone.co.kr/news/articleView.html?idxno=719791",
-          "title_norm": "강화군청년86명과지역의미래잇다뉴로컬캠프올해일정마무리",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "greened.kr/news/articleView.html?idxno=354812",
-          "title_norm": "강화군뉴로컬캠프성료청년86명참여재방문의향94로관계인",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "asiatime.co.kr/article/20261117500303",
-          "title_norm": "17일인천강화군각종대외평가서잇단수상등",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "kukinews.com/article/view/kuk202611170161",
-          "title_norm": "평창청옥산관광허브150억투입공정률50겨울철공사중단내년",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "enewstoday.co.kr/news/articleView.html?idxno=2493532",
-          "title_norm": "평창군청옥산지방정원조성동절기공사중지공정률50",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "newsis.com/view/NISX20261117_0003871424",
-          "title_norm": "평창청옥산혹한에지방정원공사멈춘다내년봄재개",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "gukjenews.com/news/articleView.html?idxno=3754468",
-          "title_norm": "평창군청옥산은하수산악관광허브공사중지내년4월초까지",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "incheontoday.com/news/articleView.html?idxno=326482",
-          "title_norm": "인구감소지역강화옹진기금5년시설짓다해넘기고인구",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "nocutnews.co.kr/news/6608098?utm_source=naver&utm_medium=article&utm_campaign=20261117141938",
-          "title_norm": "고향사랑기부금집행률높인다정부업무가이드마련",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "edaily.co.kr/News/Read?newsId=03847446645646704&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-          "title_norm": "고향사랑기부금집행률제고체납관리단확충중앙지방협력강화",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "viva100.com/article/20261117500471",
-          "title_norm": "지방소멸대응기금지역상품권집행률높인다중앙지방공동대응",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "public25.com/news/articleView.html?idxno=58574",
-          "title_norm": "모금집행고향사랑기부금개선책찾는다",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "yna.co.kr/view/AKR20261117057300530?input=1195m",
-          "title_norm": "중앙지방정책협의회개최고향사랑기부금집행률높여야",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "news1.kr/local/moi/6356089",
-          "title_norm": "정부고향사랑기부금집행률높인다혐오비방현수막정비도강화",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "view.asiae.co.kr/article/2026111712020391860",
-          "title_norm": "집행부진고향사랑기금손본다민생겨울재난대응에도총력",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "newsis.com/view/NISX20261117_0003871356",
-          "title_norm": "지역상품권집행률높인다공정수당지자체예산반영",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "etoday.co.kr/news/view/2649036",
-          "title_norm": "고향사랑기부금모금늘었는데집행저조행안부12월지침마련",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "jeollailbo.com/news/articleView.html?idxno=816945",
-          "title_norm": "진안군주민자치회전환속도지역경제복지아우르는자치모델모색",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "newspim.com/news/view/20261117000655",
-          "title_norm": "진안군주민자치회전환준비박차주민리더역량강화",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
-          "link": "pressian.com/pages/articles/2026111711271626869?utm_source=naver&utm_medium=search",
-          "title_norm": "순창찾은진안군마을수익으로주민복지해결우수사례벤치마킹",
-          "sent_at": "2026-11-17T07:57:18.257637+00:00"
-        },
-        {
           "link": "cctoday.co.kr/news/articleView.html?idxno=2240461",
           "title_norm": "사설지방소멸대응기금배분보다성과가중요하다",
           "sent_at": "2026-11-17T22:57:17.766563+00:00"
@@ -327,37 +177,97 @@
           "link": "queen.co.kr/news/articleView.html?idxno=466563",
           "title_norm": "담양군쓰담달리기대나무밭환경정화전통문화체험행사21일개최",
           "sent_at": "2026-11-18T22:57:18.717245+00:00"
+        },
+        {
+          "link": "ekn.kr/web/view.php?key=20261119025332069",
+          "title_norm": "패트롤포항시영주시영양군농협영양군지부영덕군청송군청송군의",
+          "sent_at": "2026-11-19T07:57:27.112499+00:00"
+        },
+        {
+          "link": "kukinews.com/article/view/kuk202611190180",
+          "title_norm": "영양군청년신혼부부보금자리24가구짓는다",
+          "sent_at": "2026-11-19T07:57:27.112499+00:00"
+        },
+        {
+          "link": "news.bbsi.co.kr/news/articleView.html?idxno=4119689",
+          "title_norm": "영양군경북개발공사공공임대형주거타운조성협약체결",
+          "sent_at": "2026-11-19T07:57:27.112499+00:00"
+        },
+        {
+          "link": "kyongbuk.co.kr/news/articleView.html?idxno=4091394",
+          "title_norm": "영양군서부리에청년신혼부부위한공공임대주택24호추진",
+          "sent_at": "2026-11-19T07:57:27.112499+00:00"
+        },
+        {
+          "link": "shinailbo.co.kr/news/articleView.html?idxno=5085553",
+          "title_norm": "영양군151억원투입공공임대주택24호조성추진",
+          "sent_at": "2026-11-19T07:57:27.112499+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3757192",
+          "title_norm": "영양군공공임대주택건설업무대행협약경북개발공사참여",
+          "sent_at": "2026-11-19T07:57:27.112499+00:00"
+        },
+        {
+          "link": "pressian.com/pages/articles/2026111914251319901?utm_source=naver&utm_medium=search",
+          "title_norm": "영양군공공임대주택24호건립본격화경북개발공사와업무협약",
+          "sent_at": "2026-11-19T07:57:27.112499+00:00"
+        },
+        {
+          "link": "daily.hankooki.com/news/articleView.html?idxno=1426999",
+          "title_norm": "영양군공공임대주택24호건립2029년준공목표",
+          "sent_at": "2026-11-19T07:57:27.112499+00:00"
+        },
+        {
+          "link": "metroseoul.co.kr/article/20261119500113",
+          "title_norm": "영양군경북개발공사와공공임대주택24호건립본격화",
+          "sent_at": "2026-11-19T07:57:27.112499+00:00"
+        },
+        {
+          "link": "news1.kr/local/jeonbuk/6359844",
+          "title_norm": "진안군마령면행복주택준공신혼부부등18세대입주",
+          "sent_at": "2026-11-19T07:57:27.112499+00:00"
+        },
+        {
+          "link": "ttlnews.com/news/articleView.html?idxno=3164269",
+          "title_norm": "진안군58억5500만원투입한마령면행복주택준공12월1일입주개",
+          "sent_at": "2026-11-19T07:57:27.112499+00:00"
+        },
+        {
+          "link": "yna.co.kr/view/AKR20261119113600055?input=1195m",
+          "title_norm": "진안군마령면에행복주택준공18가구53명입주",
+          "sent_at": "2026-11-19T07:57:27.112499+00:00"
+        },
+        {
+          "link": "jeollailbo.com/news/articleView.html?idxno=817251",
+          "title_norm": "진안마령면에행복주택18세대준공인구유입작은학교살리기기",
+          "sent_at": "2026-11-19T07:57:27.112499+00:00"
+        },
+        {
+          "link": "imaeil.com/page/view/2026111810040498588",
+          "title_norm": "청년친화도시도전한대구3개구군모두탈락정책내실화과제",
+          "sent_at": "2026-11-19T07:57:27.112499+00:00"
+        },
+        {
+          "link": "joongdo.co.kr/web/view.php?key=20261119010006682",
+          "title_norm": "고창군의회2026년행정사무감사돌입군정전반점검",
+          "sent_at": "2026-11-19T07:57:27.112499+00:00"
+        },
+        {
+          "link": "pinpointnews.co.kr/news/articleView.html?idxno=505809",
+          "title_norm": "전남개발공사월세1만원진도청년드림만원주택60세대모집",
+          "sent_at": "2026-11-19T07:57:27.112499+00:00"
+        },
+        {
+          "link": "mk.co.kr/article/12212284",
+          "title_norm": "동두천시미군공여지반환속도교통산업기반확충박차",
+          "sent_at": "2026-11-19T07:57:27.112499+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-18T22:57:14.821199+00:00"
+      "last_checked_utc": "2026-11-19T07:57:22.409527+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "jeollailbo.com/news/articleView.html?idxno=816977",
-          "title_norm": "인구감소지역산지규제20완화현대로템무주생산기지탄력",
-          "sent_at": "2026-11-17T07:57:21.850984+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMickFVX3lxTE1pQ3AwcXZLNmJ0SUEzR3k2NWtaOHpnaFU4N1l1QzdFZXJIM3k2NEQ5bjRwVW41alJCXzhlWC1OZXAzbFVFM2lBdVpSekRBRU1LU2RHc09RNVRSOGZycm9NM19NNkwzTGxOdXJveUpwSUxvQQ?oc=5",
-          "title_norm": "인구감소지역보성군정주여건개선인구정책대응강화",
-          "sent_at": "2026-11-17T07:57:21.850984+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiTkFVX3lxTFBIMUlvaUZJb3A5VGVIVGxiZ2hDT2tMeWdKSGlnejF2TXZoaW1fNzlJamw1eWJVRlB6N2NGTmlZZlk5Y1Bab3lERnpDUzdMQQ?oc=5",
-          "title_norm": "인구감소지역에활기불어넣은롯데리아농촌관광활성화캠페인성공적마무리",
-          "sent_at": "2026-11-17T07:57:21.850984+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMickFVX3lxTE5lQ191d1VENjYxZkFCTnZaZXc0ZFdKcUJxdUZwVjRvemcwS29uZEZRaEFpVThibVVTQTFIWW9sNERQbGQ2ZjhUWFcwTUFsYURIVm0ybHhoTllZc2FaMzhyS3BNeUZESVhsOEQ3elJpLW8xZw?oc=5",
-          "title_norm": "김성원의원순국선열의날공휴일지정인구감소지역세제지원연장추진",
-          "sent_at": "2026-11-17T07:57:21.850984+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMidEFVX3lxTFBWT3ZoUk9FUDI1aWRsVjBieEQ2ckhsdEJla2tNRzRaeUNwSTBoUll3OVc0YTF5bW5qWUZLS0FIVmZmVTVlX0FoR2d5VFVOX3BaYkZ3WnlxY2F2TXlydWgzUVpZalFFV3RKYVc5d0VXdlRJT2lH?oc=5",
-          "title_norm": "상생경영인구감소지역파고든쿠팡온동네케어누적3100명돌파",
-          "sent_at": "2026-11-17T07:57:21.850984+00:00"
-        },
         {
           "link": "news.google.com/rss/articles/CBMia0FVX3lxTFBpRTdwNTJMWE5RalNfcVJEMzBZNkR3WGxVUVZBcDBOc0lRbExwSDVFN3FzNEc0U2laOC0wUmJsdFRNdDE1RXd1WTY3QU1rVHlWdnRObXVqM1hfZ0pDMWdjUlAyT1pqUTgwdVBZ?oc=5",
           "title_norm": "산간인구감소지역통소재활가산확대검토",
@@ -402,9 +312,14 @@
           "link": "woodkorea.co.kr/news/articleView.html?idxno=92675",
           "title_norm": "산림청인구감소지역산지전용기준최대20완화축사수목원규제",
           "sent_at": "2026-11-18T22:57:22.189131+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiYEFVX3lxTE5kcmpjZlp1Wkw0aGtvZ1dxMTg4N3phUDNBYmNUenpSWThrVzBnX3AwblV3bFNJSGFkVkVEVFNmUFNUWUlKaHR0c1hQT2tXaG1URmdGeU9wNWU4ZFdvYmRYSA?oc=5",
+          "title_norm": "금산인삼fc축구단하나로지역소비22억인구감소지역금산의승부수",
+          "sent_at": "2026-11-19T07:57:30.500607+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-18T22:57:14.821199+00:00"
+      "last_checked_utc": "2026-11-19T07:57:22.409527+00:00"
     },
     "life": {
       "articles": [
@@ -612,13 +527,53 @@
           "link": "news.google.com/rss/articles/CBMiYEFVX3lxTFBSU0owZHkzdVo5NEJRTHJvN2dSR0poNFh5UWFFWWRaUnMyT2dPeHI0RjFYV1NhNjI4c1dJMzJrdzQtSE9jaTZBVVNXcG1qZnQ0MGRQSmpfQktGTE9SQWJtaA?oc=5",
           "title_norm": "신안군생활인구19만명체류소비확대박차",
           "sent_at": "2026-11-18T22:57:25.984675+00:00"
+        },
+        {
+          "link": "joongdo.co.kr/web/view.php?key=20261119010006919",
+          "title_norm": "사설생활인구성과와과제함께살펴보라",
+          "sent_at": "2026-11-19T07:57:34.006605+00:00"
+        },
+        {
+          "link": "kmib.co.kr/article/20261119501728",
+          "title_norm": "가평군생활인구빅데이터로체류형관광육성",
+          "sent_at": "2026-11-19T07:57:34.006605+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMidEFVX3lxTE1KZDJ5UHFHUkd3cFFyZ1hZREh5RjVBWElxTWZmMkJTX2piMmV3NW9YNWo0QXltWktWcVJGcEVSQzN0SGNZTDdXeGUydmdDeEh4YVJwSjFYZ0VsZl9MbHNMeHU1RDJpbzM0QTMxZExILWtKMmQt?oc=5",
+          "title_norm": "가평군생활인구분석기반체류형관광활성화추진",
+          "sent_at": "2026-11-19T07:57:34.006605+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE54cFBHR3lVd20tTVFNRWIyZ1ZXMVRlUEZqX1FvOUZNaGtEYU11VlJ3SmJZV3Vld1FJSnM3OTF6cE1TQURzMVdfMEFOSWZ4RWVUYVlJRWV5cTlWV185LXhrdDY1WGZ6N2FOWHF3?oc=5",
+          "title_norm": "가평군체류형관광확대연평균생활인구82만수도권866유입",
+          "sent_at": "2026-11-19T07:57:34.006605+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE1tWDROV2Fyd19td1IwOGxHWmk4RTdhREVXc1ZSbDVsMzl5b2FPNnVfb1ViaGRlUk5zX2lCcUFLZWYycFBRcjRpUEdmUnhqX0Y1TmNsNnQ5VndPSXoyeHRrLXRSc0x3X0d1eW1tSm1R?oc=5",
+          "title_norm": "가평군생활인구분석으로체류형관광키운다읍면별특성반영",
+          "sent_at": "2026-11-19T07:57:34.006605+00:00"
+        },
+        {
+          "link": "ccdn.co.kr/news/articleView.html?idxno=1112248",
+          "title_norm": "대전중구빅데이터실증기반생활인구심층분석결과발표",
+          "sent_at": "2026-11-19T07:57:34.006605+00:00"
+        },
+        {
+          "link": "breaknews.com/1252295",
+          "title_norm": "경기가평군맞춤형생활인구심층분석결과",
+          "sent_at": "2026-11-19T07:57:34.006605+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZkFVX3lxTE9fS1pjTEhNeF9zc0ZHSFdLLTZrX09DU2MtblpwVlh6Y0I1SVo3dnh6ekN6TDlVSjlzSkFSQ001cENrcTZ2elVCZVA4b2hFQldxRDV0NVpscXd2MzNsNkptZUtpUmNVUQ?oc=5",
+          "title_norm": "고령군생활인구지역메인상권으로유입유도",
+          "sent_at": "2026-11-19T07:57:34.006605+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-18T22:57:14.821199+00:00"
+      "last_checked_utc": "2026-11-19T07:57:22.409527+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-11-18",
+    "pm": "2026-11-19",
     "am": "2026-11-19"
   }
 }
