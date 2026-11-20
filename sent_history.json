@@ -4,81 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "cctoday.co.kr/news/articleView.html?idxno=2240461",
-          "title_norm": "사설지방소멸대응기금배분보다성과가중요하다",
-          "sent_at": "2026-11-17T22:57:17.766563+00:00"
-        },
-        {
-          "link": "cctoday.co.kr/news/articleView.html?idxno=2240423",
-          "title_norm": "속보지방소멸대응기금내달배분확정충청권18곳확보액촉각",
-          "sent_at": "2026-11-17T22:57:17.766563+00:00"
-        },
-        {
-          "link": "jnilbo.com/news/articleView.html?idxno=90000083737",
-          "title_norm": "무안군의회국고보조율상향지방비부담완화건의",
-          "sent_at": "2026-11-17T22:57:17.766563+00:00"
-        },
-        {
-          "link": "ajunews.com/view/20261117201728483",
-          "title_norm": "무안군의회양영복의원국고보조사업지방비부담구조개선해야",
-          "sent_at": "2026-11-17T22:57:17.766563+00:00"
-        },
-        {
-          "link": "00news.co.kr/news/articleView.html?idxno=108144",
-          "title_norm": "고향사랑기부금실효성도마제도손질나선다",
-          "sent_at": "2026-11-17T22:57:17.766563+00:00"
-        },
-        {
-          "link": "geconomy.co.kr/news/article.html?no=325769",
-          "title_norm": "무안군인구늘어도농촌은소멸위기이호성의원지원기준개선촉",
-          "sent_at": "2026-11-17T22:57:17.766563+00:00"
-        },
-        {
-          "link": "knnews.co.kr/news/articleView.php?idxno=1555335",
-          "title_norm": "공정55남해보물섬인생학교조성착착",
-          "sent_at": "2026-11-17T22:57:17.766563+00:00"
-        },
-        {
-          "link": "kjdaily.com/article.php?aid=1794912349692671008",
-          "title_norm": "생각이현실로영암군창업지원센터상상마루개소",
-          "sent_at": "2026-11-17T22:57:17.766563+00:00"
-        },
-        {
-          "link": "m-i.kr/news/articleView.html?idxno=2019814",
-          "title_norm": "경북도의회행정보건복지위재난대응공직기강개선촉구",
-          "sent_at": "2026-11-17T22:57:17.766563+00:00"
-        },
-        {
-          "link": "seoul.co.kr/news/publicnews/local_govern/news_local/2026/11/17/20261117500329?wlog_tag3=naver",
-          "title_norm": "경북도의회행정보건복지위원회안전행정실지방정부전략국감사관",
-          "sent_at": "2026-11-17T22:57:17.766563+00:00"
-        },
-        {
-          "link": "kyongbuk.co.kr/news/articleView.html?idxno=4091126",
-          "title_norm": "서로다른문화하나의선율청도서유학생주민함께한세계음악회",
-          "sent_at": "2026-11-17T22:57:17.766563+00:00"
-        },
-        {
-          "link": "jeonmae.co.kr/news/articleView.html?idxno=1312702",
-          "title_norm": "청도군2026청도세계음악회개최",
-          "sent_at": "2026-11-17T22:57:17.766563+00:00"
-        },
-        {
-          "link": "newsmaker.or.kr/news/articleView.html?idxno=185990",
-          "title_norm": "진도군31주간운영한영유아임산부지원프로그램마쳐",
-          "sent_at": "2026-11-17T22:57:17.766563+00:00"
-        },
-        {
-          "link": "gokorea.kr/news/articleView.html?idxno=886129",
-          "title_norm": "한국대나무박물관2026담양대나무밭플로깅행사개최",
-          "sent_at": "2026-11-17T22:57:17.766563+00:00"
-        },
-        {
-          "link": "kyongbuk.co.kr/news/articleView.html?idxno=4091112",
-          "title_norm": "수도권주민을문경생활인구로체류형치유농업밸리제안",
-          "sent_at": "2026-11-17T22:57:17.766563+00:00"
-        },
-        {
           "link": "sports.donga.com/region/article/all/20261118/135047211/1",
           "title_norm": "담양군대나무밭플로깅부터전통문화체험까지한자리에",
           "sent_at": "2026-11-18T07:57:24.667189+00:00"
@@ -292,27 +217,102 @@
           "link": "sjbnews.com/news/news.php?number=893045",
           "title_norm": "진안군마령면행복주택준공18세대53명새보금자리마련",
           "sent_at": "2026-11-19T22:57:17.942864+00:00"
+        },
+        {
+          "link": "jnilbo.com/news/articleView.html?idxno=90000085031",
+          "title_norm": "청년정착지원사업줄줄이차질예산집행관리부실도마",
+          "sent_at": "2026-11-20T07:57:24.256523+00:00"
+        },
+        {
+          "link": "yna.co.kr/view/AKR20261120132100054?input=1195m",
+          "title_norm": "거창한계획에용두사미전남광주청년정책허점",
+          "sent_at": "2026-11-20T07:57:24.256523+00:00"
+        },
+        {
+          "link": "jbnews.com/news/articleView.html?idxno=1516520",
+          "title_norm": "뿌리깊은나무는바람에흔들리지않는다민광준의원재정위기",
+          "sent_at": "2026-11-20T07:57:24.256523+00:00"
+        },
+        {
+          "link": "view.asiae.co.kr/article/2026112013143005626",
+          "title_norm": "기획제대로된키즈카페도없어요해남완도진도휴일마다원",
+          "sent_at": "2026-11-20T07:57:24.256523+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3758255",
+          "title_norm": "남원시의회자치행정위18개부서감사민간위탁20곳미감사지적",
+          "sent_at": "2026-11-20T07:57:24.256523+00:00"
+        },
+        {
+          "link": "kukinews.com/article/view/kuk202611200090",
+          "title_norm": "평창아동돌봄놀이교육한곳에23일임시운영시작12월예약서비",
+          "sent_at": "2026-11-20T07:57:24.256523+00:00"
+        },
+        {
+          "link": "newsjeju.net/news/articleView.html?idxno=428721",
+          "title_norm": "민선9기공약사업기본사회실현사회연대경제성장지원본격추진",
+          "sent_at": "2026-11-20T07:57:24.256523+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiYEFVX3lxTE00ZzVQUlcwZkRNWEdNQ0dQWWJsbUo5RWVBUXZVVVhIRk5SRktRMmhuMVoyWjFfSGs5bEM3em13eFhTT2tZYkZ3WTBjTjZBcmxJSTQ1Y0NPbm9wZlBCVFdZVdIBeEFVX3lxTFBENlJGLXdHcE1wRGhLZ1o3OGRqZ1lkTUUxTjZrZmt3dEV2R0VBaVczeXZaNzkwd19VUERfN1FCcm9iNFBfdkRTdlBiMHhvZ1BjYU1FYTZDVVhtck90a2FWOVpxUER5OUJqQ3NjcC1Gc1pDRHdqYk84MA?oc=5",
+          "title_norm": "제주도기본사회실현10억투입사회연대경제지원",
+          "sent_at": "2026-11-20T07:57:24.256523+00:00"
+        },
+        {
+          "link": "jejudomin.co.kr/news/articleView.html?idxno=402559",
+          "title_norm": "제주기본사회실현성장지원사업추진",
+          "sent_at": "2026-11-20T07:57:24.256523+00:00"
+        },
+        {
+          "link": "jejusori.net/news/articleView.html?idxno=508505",
+          "title_norm": "제주도사회연대경제성장지원에10억원투입",
+          "sent_at": "2026-11-20T07:57:24.256523+00:00"
+        },
+        {
+          "link": "news1.kr/local/jeju/6360610",
+          "title_norm": "제주도기본사회창업아이디어공모사회연대경제육성에10억투입",
+          "sent_at": "2026-11-20T07:57:24.256523+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE9uVkpiNW1nUEdXeE5aVWlDU2xYR2NUbjdmcVU2c0tNaWdhT0p2MUgyUTBvcmJrZlJMSHBlMXdPX2hKUGRMMk5DUTNXZ1dEVzlpU1dYSlY2cHgwZ3VxYVF2SjUtMklocVVBRDl6ZEtn?oc=5",
+          "title_norm": "제주기본사회모델사회연대경제성장지원사업으로구현",
+          "sent_at": "2026-11-20T07:57:24.256523+00:00"
+        },
+        {
+          "link": "pressian.com/pages/articles/2026112011142965727?utm_source=naver&utm_medium=search",
+          "title_norm": "합계출산율전국1위영광군인구회복성과도국가지원에반영해야",
+          "sent_at": "2026-11-20T07:57:24.256523+00:00"
+        },
+        {
+          "link": "ajunews.com/view/20261120105754524",
+          "title_norm": "진안군마령면행복주택준공",
+          "sent_at": "2026-11-20T07:57:24.256523+00:00"
+        },
+        {
+          "link": "weeklytoday.com/news/articleView.html?idxno=802695",
+          "title_norm": "위클리오늘영양군오늘1119",
+          "sent_at": "2026-11-20T07:57:24.256523+00:00"
+        },
+        {
+          "link": "jmbc.co.kr/news/view/69893",
+          "title_norm": "진안마령면행복주택완공다음달1일부터입주시작글로컬소식",
+          "sent_at": "2026-11-20T07:57:24.256523+00:00"
+        },
+        {
+          "link": "newsprime.co.kr/news/article.html?no=755754",
+          "title_norm": "이용우부여군수청년이미래설계하는부여지역소멸위기산업정",
+          "sent_at": "2026-11-20T07:57:24.256523+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiY0FVX3lxTE5sVGpWa1dSb0ZKRk5zak1BLU5GeGtRM1FIdjkyRnhPTFk5Q0ZhVlRZb3NMU1Q4ck13VV9SQkdGeU1NYS1oTXFCMEZLU2pKc3U3NDd0cl9abG1jYlA2TUhrVUFIcw?oc=5",
+          "title_norm": "특집비혼만혼주의등만연출산율저하비상걸린지자체들인구소멸대책없나",
+          "sent_at": "2026-11-20T07:57:24.256523+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-19T22:57:12.609609+00:00"
+      "last_checked_utc": "2026-11-20T07:57:16.047468+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "news.google.com/rss/articles/CBMia0FVX3lxTFBpRTdwNTJMWE5RalNfcVJEMzBZNkR3WGxVUVZBcDBOc0lRbExwSDVFN3FzNEc0U2laOC0wUmJsdFRNdDE1RXd1WTY3QU1rVHlWdnRObXVqM1hfZ0pDMWdjUlAyT1pqUTgwdVBZ?oc=5",
-          "title_norm": "산간인구감소지역통소재활가산확대검토",
-          "sent_at": "2026-11-17T22:57:21.316625+00:00"
-        },
-        {
-          "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8715332&ref=A",
-          "title_norm": "ai시사상식인구감소지역대안생활인구란",
-          "sent_at": "2026-11-17T22:57:21.316625+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiakFVX3lxTE9xZFlYaDNyQWhpVi1HU09oUDE1ME1PNTNsekJRaTU0RzFVNWVlekNYR0YwQzZVaEktdmM2cmhVM3JwSXRUNkdaMTZJUUFKdEZxQWIzQURXcjRfY25BTXE5N2NwRDA1WjhxeHc?oc=5",
-          "title_norm": "쿠팡인구감소지역찾아의료지원금산주민400명에무료건강검진",
-          "sent_at": "2026-11-17T22:57:21.316625+00:00"
-        },
         {
           "link": "news.google.com/rss/articles/CBMia0FVX3lxTE1qa29XWDhSN0ROLWxEc0czWnpwdnlYN29BbU00bVFkODFxbjByRFl4c1ZQQjE4U3RCYXZsQlJfb3UtS25NdmRMdHlBb1V2bHFHaWc2OUFGZFFHUzViZ3FiWm1kVHdDenJmTDhZ?oc=5",
           "title_norm": "생활인구데이터로인구감소지역맞춤처방가평신안대전중구첫심층분석",
@@ -347,17 +347,17 @@
           "link": "news.google.com/rss/articles/CBMiYEFVX3lxTE5kcmpjZlp1Wkw0aGtvZ1dxMTg4N3phUDNBYmNUenpSWThrVzBnX3AwblV3bFNJSGFkVkVEVFNmUFNUWUlKaHR0c1hQT2tXaG1URmdGeU9wNWU4ZFdvYmRYSA?oc=5",
           "title_norm": "금산인삼fc축구단하나로지역소비22억인구감소지역금산의승부수",
           "sent_at": "2026-11-19T07:57:30.500607+00:00"
+        },
+        {
+          "link": "eroun.net/news/articleView.html?idxno=96091",
+          "title_norm": "목원대로컬콘텐츠중점대학전공실습캠프결실인구감소지역부여",
+          "sent_at": "2026-11-20T07:57:29.288745+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-19T22:57:12.609609+00:00"
+      "last_checked_utc": "2026-11-20T07:57:16.047468+00:00"
     },
     "life": {
       "articles": [
-        {
-          "link": "kjmbc.co.kr/NewsArticle/1546211",
-          "title_norm": "전남5월생활인구455만명전월보다6만명감소",
-          "sent_at": "2026-11-17T22:57:24.803183+00:00"
-        },
         {
           "link": "viva100.com/article/20261118501281",
           "title_norm": "한화이글스보러왔다가원도심까지생활인구로찾아낸지역경제",
@@ -602,13 +602,28 @@
           "link": "news.google.com/rss/articles/CBMickFVX3lxTE1mYW9ORmF1bnlOOTR5bHh2aXZtZ00ybXFzSkFjLVUwVWtCamRLbkNSY0FoQVc5c25XRkRSWGotNE9CbS1aeXJPdmRZUmtZX1hWVHllZThwMU1XRkFJZ1Q3R1BKRmU0blI3YmFKeVQ4NlZaZw?oc=5",
           "title_norm": "대전중구빅데이터로생활인구4배유입확인",
           "sent_at": "2026-11-19T22:57:25.068759+00:00"
+        },
+        {
+          "link": "ajunews.com/view/20261120162544327",
+          "title_norm": "동해시11월생활인구21급감도째비페스타비수기로옮겼다",
+          "sent_at": "2026-11-20T07:57:34.452113+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE1zNFBUTVgyckE2OVAyMzdMSUdESzJQZ1NrTHNZbGhwN1NCdXBTbE5BVG5jQ3pWTFZVZEwxNm5GbkwySlhaYjNXVXdld3FWdWhjbnN5Z2x6MlIwcWJUYkMwTkdTN0JmTTJRQ3ZHaExR?oc=5",
+          "title_norm": "보령시청년귀농귀촌정착과생활인구확대논의",
+          "sent_at": "2026-11-20T07:57:34.452113+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiWkFVX3lxTE56MGp0RHo1UlFsVThnb2RLaDlWaC1UV2ZaZlYxcmxHZ2ExbzRoNlVoandJUlpHT09GTW4xcVFXOTJwcGNDQWhtbkdqY0NENXJ2NnRoSlAtdjFxZw?oc=5",
+          "title_norm": "김태석5도2촌활성화로생활인구확대촉구",
+          "sent_at": "2026-11-20T07:57:34.452113+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-19T22:57:12.609609+00:00"
+      "last_checked_utc": "2026-11-20T07:57:16.047468+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-11-19",
+    "pm": "2026-11-20",
     "am": "2026-11-20"
   }
 }
