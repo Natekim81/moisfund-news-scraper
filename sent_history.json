@@ -4,11 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "news.google.com/rss/articles/CBMibEFVX3lxTE1ZVFNTOFVMcmh2ZEN5aEFTTFFPbURkUzByNUxlNVlsRTA5a1ZubHVfNm5LVHVrUnU0NXh2VUNzYnF6XzZjWERVLVdKbi0wQWkzTWQ4c2YxeEJhV00tbk9ZN2hmVW1CVklOdlFOLQ?oc=5",
-          "title_norm": "제주도지방소멸대응기금10억투입기본사회실현사회연대경제성장본격화",
-          "sent_at": "2026-11-21T07:57:18.800092+00:00"
-        },
-        {
           "link": "youngnong.co.kr/news/articleView.html?idxno=72063",
           "title_norm": "기자수첩1차베이비부머들귀농귀촌포기했나",
           "sent_at": "2026-11-21T22:57:26.493281+00:00"
@@ -172,17 +167,37 @@
           "link": "hankyung.com/article/202611222609H",
           "title_norm": "지뢰밭됐는데누가오겠냐예약줄취소에비명전선의손익계산",
           "sent_at": "2026-11-23T07:57:19.653882+00:00"
+        },
+        {
+          "link": "kado.net/news/articleView.html?idxno=2086727",
+          "title_norm": "정선군의회중계석고향사랑기부제답례품공급소규모업체참여홍",
+          "sent_at": "2026-11-23T22:57:25.004619+00:00"
+        },
+        {
+          "link": "kwnews.co.kr/article/20261123500471",
+          "title_norm": "시니어정책포럼ai는사람이사람을더잘돌보게해야강원형",
+          "sent_at": "2026-11-23T22:57:25.004619+00:00"
+        },
+        {
+          "link": "kyongbuk.co.kr/news/articleView.html?idxno=4091788",
+          "title_norm": "영양군지방소멸대응기금대형시설에집중운영비부담우려",
+          "sent_at": "2026-11-23T22:57:25.004619+00:00"
+        },
+        {
+          "link": "news.skbroadband.com/news/articleView.html?idxno=244000",
+          "title_norm": "대구서구내년예산안6634억역세권개발등중점",
+          "sent_at": "2026-11-23T22:57:25.004619+00:00"
+        },
+        {
+          "link": "pressian.com/pages/articles/2026112317070282152?utm_source=naver&utm_medium=search",
+          "title_norm": "성주군6900억원예산편성민생경제살리고지속가능한지역만든다",
+          "sent_at": "2026-11-23T22:57:25.004619+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-23T07:57:14.659454+00:00"
+      "last_checked_utc": "2026-11-23T22:57:17.954175+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "newsis.com/view/NISX20261119_0003874621",
-          "title_norm": "인구감소지역공공시설유지비서울의20배국가재정흔드는빈",
-          "sent_at": "2026-11-21T07:57:22.293549+00:00"
-        },
         {
           "link": "seoul.co.kr/news/plan/this-week-bill/2026/11/22/20261122500053?wlog_tag3=naver",
           "title_norm": "인구감소지역20만원초과기부금세액공제율30확대법안나왔다주",
@@ -199,30 +214,10 @@
           "sent_at": "2026-11-23T07:57:23.165542+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-23T07:57:14.659454+00:00"
+      "last_checked_utc": "2026-11-23T22:57:17.954175+00:00"
     },
     "life": {
       "articles": [
-        {
-          "link": "chungnamilbo.co.kr/news/articleView.html?idxno=922142",
-          "title_norm": "부여군생활인구28만8천명체류인구575하루만머문다",
-          "sent_at": "2026-11-21T07:57:25.849580+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMickFVX3lxTE1rbTZFTE8zQVJSUEc4dFBGQWhEc3EtcGNXSmRiOE1RRGpfNW96OWxQUkZESzBTTUZOa01lWVY1Tk00Rk1icE1meEVxZHdSZzlSaHpRRTh5UnhLMWJIU3czeTUzb1hORXFHcnVGTE5oZjNFdw?oc=5",
-          "title_norm": "한국지방정부신문한국언론진흥재단공동기획카드뉴스1편머무는사람이지역의내일을만듭니다생활인구와생활기반",
-          "sent_at": "2026-11-21T07:57:25.849580+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMibEFVX3lxTFBGMGZid0tMaWNfWXY3Y0NteUI5Y0tNVkFOTC1waWFHeDFydWx4ckFyQWZwc205WnprNk1iTGw5S25pYTN2ZTdFcVlYT2dacEJQZ3BHbV9xNzJpMlU4Y2V0SmtVWjhmMl9FaEVSaA?oc=5",
-          "title_norm": "부여군의회생활인구월평균28만8천명분석체류관광영농형태양광제안",
-          "sent_at": "2026-11-21T07:57:25.849580+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMidEFVX3lxTE1sdEZpenhYbURXWlhraEZFNTBOZU10TEQ1dFpIRWtPelpVRUo5VzZ2SkF5V1JPZE00SE9HNHpFUHpNMERDSElxUFVKTzYzeHNfNGNDeE5jXzRkQWc1ZE9ETjdnUG9nMWM3VlRLZlFlVUl5dEtO?oc=5",
-          "title_norm": "서울광진구민150명강원생활도민가입수도권생활인구확대",
-          "sent_at": "2026-11-21T07:57:25.849580+00:00"
-        },
         {
           "link": "asiatoday.co.kr/kn/view.php?key=20261122010008433",
           "title_norm": "강원도생활도민14만명돌파수도권생활인구유입확대",
@@ -327,13 +322,23 @@
           "link": "news.google.com/rss/articles/CBMiakFVX3lxTE1RbjhVSHN5MF9UOVQ3aWZvNi13cm5pZ0RhMVd4ZXdDVlZ2YXc3UTRsVndNdUVHRTFONkYyOVNXZDRBcU1ObmVSQ1hhQ3h3d1gwS1AzVWR5TGFGYjhWS0dwWnJLWHRfOTF6MFE?oc=5",
           "title_norm": "생활인구분석사람몰려도지역경제는달랐다",
           "sent_at": "2026-11-23T07:57:26.830733+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE9VMDhSNzlrRzI3c2dsM1JoR1ExZG5PM3pKZ2pOOHV5OXVUYWNkdGVUNnFqX29VdUVwOFVYemFjNXJPSDVTT3RRMjhhekd0YzdZWkZmZGZ6MjJfTms2b0ZzWlJ2NGZ4Y0lDQjhN?oc=5",
+          "title_norm": "행감정종훈대전중구의원체류형생활인구늘려야",
+          "sent_at": "2026-11-23T22:57:35.035584+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiY0FVX3lxTE9MeTNnRGE2V1BzQ2hEUHBKaG1DME50a29RZm5FUnNIMEZPdXVUVnlWdWxRS2JOQzcwazY1SnhoWHd1V2JIdHVMS1dyRGxSemJlVUNHa3lhN2o5VFhVUUN6SHJBZw?oc=5",
+          "title_norm": "속초시면적당생활인구전국1위도시연중활력넘친다",
+          "sent_at": "2026-11-23T22:57:35.035584+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-23T07:57:14.659454+00:00"
+      "last_checked_utc": "2026-11-23T22:57:17.954175+00:00"
     }
   },
   "slot_runs": {
     "pm": "2026-11-23",
-    "am": "2026-11-23"
+    "am": "2026-11-24"
   }
 }
