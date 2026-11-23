@@ -4,11 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "jemin.com/news/articleView.html?idxno=847931",
-          "title_norm": "제주기본사회실현에10억원투입",
-          "sent_at": "2026-11-20T22:57:19.542448+00:00"
-        },
-        {
           "link": "news.google.com/rss/articles/CBMibEFVX3lxTE1ZVFNTOFVMcmh2ZEN5aEFTTFFPbURkUzByNUxlNVlsRTA5a1ZubHVfNm5LVHVrUnU0NXh2VUNzYnF6XzZjWERVLVdKbi0wQWkzTWQ4c2YxeEJhV00tbk9ZN2hmVW1CVklOdlFOLQ?oc=5",
           "title_norm": "제주도지방소멸대응기금10억투입기본사회실현사회연대경제성장본격화",
           "sent_at": "2026-11-21T07:57:18.800092+00:00"
@@ -122,17 +117,67 @@
           "link": "news.google.com/rss/articles/CBMibkFVX3lxTE14TUE2V3RVMHl1UTYxSGpLaW9NNHExOF9mVlc1UUtuSDRRUDhMNHpMUjBzTEdlN3J4MWpyUmhibi00bHRvMXJGSFBfOUF6bFdCdDJaRzkxZEl2UGlNdTBlZEFfeVFYeE5KVHpQcWtn?oc=5",
           "title_norm": "제주도기본사회실현사회연대경제성장지원본격추진",
           "sent_at": "2026-11-22T22:57:23.795409+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1024891",
+          "title_norm": "김병삼영천시장마사회유치강점설명",
+          "sent_at": "2026-11-23T07:57:19.653882+00:00"
+        },
+        {
+          "link": "imaeil.com/page/view/2026112316112888532",
+          "title_norm": "성주군2027년본예산6천900억원편성",
+          "sent_at": "2026-11-23T07:57:19.653882+00:00"
+        },
+        {
+          "link": "seongjuro.co.kr/news/view.php?idx=61452",
+          "title_norm": "성주군내년도예산안6천900억원편성329증가",
+          "sent_at": "2026-11-23T07:57:19.653882+00:00"
+        },
+        {
+          "link": "idaegu.com/news/articleView.html?idxno=667216",
+          "title_norm": "성주군내년예산6천900억원편성민생안정지원금182억원반영",
+          "sent_at": "2026-11-23T07:57:19.653882+00:00"
+        },
+        {
+          "link": "view.asiae.co.kr/article/2026112311413272250",
+          "title_norm": "성주군민생경제회복내년예산6900억원편성",
+          "sent_at": "2026-11-23T07:57:19.653882+00:00"
+        },
+        {
+          "link": "ibuan.com/news/articleView.html?idxno=56835",
+          "title_norm": "중도포기청년특화임대주택기본소득에내몰린청년정책",
+          "sent_at": "2026-11-23T07:57:19.653882+00:00"
+        },
+        {
+          "link": "dkilbo.com/news/articleView.html?idxno=561743",
+          "title_norm": "기획비혼만혼주의팽배출산율저하비상걸린지자체들",
+          "sent_at": "2026-11-23T07:57:19.653882+00:00"
+        },
+        {
+          "link": "jeonmae.co.kr/news/articleView.html?idxno=1314882",
+          "title_norm": "정선군의회중계석",
+          "sent_at": "2026-11-23T07:57:19.653882+00:00"
+        },
+        {
+          "link": "cnbnews.com/news/articleView.html?idxno=1024761",
+          "title_norm": "인제군내년본예산7317억원편성군의회제출",
+          "sent_at": "2026-11-23T07:57:19.653882+00:00"
+        },
+        {
+          "link": "viva100.com/article/20261123500017",
+          "title_norm": "인제군사상첫본예산7000억시대개막7317억원편성",
+          "sent_at": "2026-11-23T07:57:19.653882+00:00"
+        },
+        {
+          "link": "hankyung.com/article/202611222609H",
+          "title_norm": "지뢰밭됐는데누가오겠냐예약줄취소에비명전선의손익계산",
+          "sent_at": "2026-11-23T07:57:19.653882+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-22T22:57:19.338176+00:00"
+      "last_checked_utc": "2026-11-23T07:57:14.659454+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "news.google.com/rss/articles/CBMiZ0FVX3lxTFBPZjdoSXRpWktVNklGeG5vRWlzSWVzUmpKcmlfM2FWYzhTU3JjWDdWSjVLZUdBSFEycXcxNVBKbm8xVWRkOEFwYXZ0aHBKSkFobVo4QV9PdGNhQV9Yc1cwSUt5U1F5d28?oc=5",
-          "title_norm": "사람과삶농어촌기본소득도입과인구감소지역살리기",
-          "sent_at": "2026-11-20T22:57:23.094195+00:00"
-        },
         {
           "link": "newsis.com/view/NISX20261119_0003874621",
           "title_norm": "인구감소지역공공시설유지비서울의20배국가재정흔드는빈",
@@ -147,27 +192,17 @@
           "link": "kwnews.co.kr/article/20261122500925",
           "title_norm": "월요칼럼인구감소지역특례양적확대에서현장안착으로가야",
           "sent_at": "2026-11-22T22:57:27.230657+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiakFVX3lxTFBILWNhTnZLN2laLW1DaFFlaGRMWnIzUWJwcEp3RVBwczZCYkw0Y3ctOUlBUFd0NUpMblJRVXRSRE9yUDBGRXNUOHVzM0IwaXJmTFhSenB0TjNkTEFpMmVVcXFXMHZjaDJVUXc?oc=5",
+          "title_norm": "이슈분석인구감소지역92곳재지정지역활력지표가놓치는것은",
+          "sent_at": "2026-11-23T07:57:23.165542+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-22T22:57:19.338176+00:00"
+      "last_checked_utc": "2026-11-23T07:57:14.659454+00:00"
     },
     "life": {
       "articles": [
-        {
-          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE1NR25HdkRKdnZJclpIX0wtUG9VcGIzSmotbDJ3cG5BM3ZJbDNxZFo2VjRhaE94Y1praXN2WTNCelBpYzBQWDJrNlQybGZzQzl3U3ZvbkVGb0puRTVucVlwOTZ5N1ZyN2hfYzhV?oc=5",
-          "title_norm": "논산연산문화창고방문객증가세생활인구거점자리매김",
-          "sent_at": "2026-11-20T22:57:26.733358+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMickFVX3lxTFBDLTZyWnFuTHV3TjF6U05XUXhCdVByNUVva214NDRMVjVnd3JUN1JtUnN5alFmX1hzUm55cS1EcmpjUWVTemVMdVRkU1piampwVlVQcjNMQTVicFB4cmM3dVhXWDVocVVhOWtTRlJyTGtJUQ?oc=5",
-          "title_norm": "부여군의회생활인구영농형태양광활성화전략제시",
-          "sent_at": "2026-11-20T22:57:26.733358+00:00"
-        },
-        {
-          "link": "newsworker.co.kr/news/articleView.html?idxno=515354",
-          "title_norm": "부여군의회월평균생활인구28만8천명체류전환정책모색",
-          "sent_at": "2026-11-20T22:57:26.733358+00:00"
-        },
         {
           "link": "chungnamilbo.co.kr/news/articleView.html?idxno=922142",
           "title_norm": "부여군생활인구28만8천명체류인구575하루만머문다",
@@ -222,13 +257,83 @@
           "link": "tk.newdaily.co.kr/site/data/html/2026/11/22/2026112250092.html",
           "title_norm": "인터뷰최기영봉화군수보고서보다현장변화생활인구20만시대",
           "sent_at": "2026-11-22T22:57:30.775987+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiakFVX3lxTE54M1JlaGNwRW5vU25zNXgzbl9ZN0RPUjJJVHJHTTUyRVVTMmFkdlNsSElUWFo4dTNXLXR6S3M0TERzcjIxMFZ1TXFadGdOcUlkNkJqQm9rekgwVG9tQjVUakdGcVZwLXhPREE?oc=5",
+          "title_norm": "제천시의회정책연구회생활인구체류확대지역소비활성화해법모색",
+          "sent_at": "2026-11-23T07:57:26.830733+00:00"
+        },
+        {
+          "link": "news.lghellovision.net/news/articleView.html?idxno=563389",
+          "title_norm": "속초면적당생활인구전국25개시중1위",
+          "sent_at": "2026-11-23T07:57:26.830733+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTFBZUFdKUlNqejFIOHFuSk12SHByc2x1M1U4WXRTQUd1S0xTdy0xTlN2aTd5VzBnTEN2bjNOdUt5UlMzLTQzRTRHcEhiV0thcC1CQWc3UWZ1ZXdlS0w2Ui1CV3RsQnluTWhhU0hxWE1B?oc=5",
+          "title_norm": "위클리오늘속초시면적당생활인구시지역1위",
+          "sent_at": "2026-11-23T07:57:26.830733+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiS0FVX3lxTFBkcVkwa0RXbmtXODZVblBqdW5QaTlOM3JtREVCQ0pGQXFyTGVyZUdWYzZNV1BXXzRjcHNkSGlLS29CU2I5WXpELW43TQ?oc=5",
+          "title_norm": "콤팩트시티속초면적대비생활인구전국시지역1위뉴스데스크",
+          "sent_at": "2026-11-23T07:57:26.830733+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiVEFVX3lxTFBmNzVWeXgzNmg1czJ2VXBEaUNVaVk5NXdsQ0xOQ0JZYTRuaDVNcWN1MW5pVHI2cjBSYnBZeTRnT3lIQ0dDUkxHVmZpQ0VFNm5zVzZJNw?oc=5",
+          "title_norm": "작지만사람몰리는속초면적당생활인구전국시지역1위",
+          "sent_at": "2026-11-23T07:57:26.830733+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE1xQTkya0NwQjluT2U0WHpKT1JGUm1FR2VYVDFTaXpMcG9lZ3BNbmZhYjRuQ29Ca3VtUkRYRnNtN08ta0NtbmlJdmQxVE9iRlpNOFRqOWN2LTZFRFRtWGp5dDNQZHYyXzFWNG9QNXNn?oc=5",
+          "title_norm": "콤팩트시티속초의저력면적당생활인구전국인구감소관심시1위",
+          "sent_at": "2026-11-23T07:57:26.830733+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiYEFVX3lxTE5mMUNSR3kzUUFiZF81VzJKMUhXSGNqZVQ1MFZJRGFCb0pMTjREUkRvUHBUQjJyUU9UX3Q3Yi1NU2JOb2ZEYlpielRqanJrWnJTaDJZbWlFaXZGRjN3Q0JOYdIBYEFVX3lxTE5mMUNSR3kzUUFiZF81VzJKMUhXSGNqZVQ1MFZJRGFCb0pMTjREUkRvUHBUQjJyUU9UX3Q3Yi1NU2JOb2ZEYlpielRqanJrWnJTaDJZbWlFaXZGRjN3Q0JOYQ?oc=5",
+          "title_norm": "속초시면적당생활인구1당7천536명전국시지역1위",
+          "sent_at": "2026-11-23T07:57:26.830733+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMickFVX3lxTE8zX2V4My1VRzNqclhTZGl2QWNFaElNYjZmcTJzX040NUNCcTVtYkVZNjRtbkE0MkstMVNoQ2NPaFA0WEZYeGU3elVLY1NDc3Fnb2NNUHdQWGNsSmNabGUwZUxubDB0bzJvdUVkWHdQR3I3Zw?oc=5",
+          "title_norm": "작은도시의반란속초전국생활인구밀도1위찍었다",
+          "sent_at": "2026-11-23T07:57:26.830733+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiYEFVX3lxTE1OX2tVNHlpb2taOHRERmYzYXVrMjB6bWFZQ3N2X0lGN3BNbEFQTzB2R1hXN2NhcjY2V0RnZzRYY3VBUXp1YTRIYmxUOWxJMGZMck5TTVdJdUxLSzZhd0RrYw?oc=5",
+          "title_norm": "속초시1당생활인구7536명인구감소관심지역25개시중1위",
+          "sent_at": "2026-11-23T07:57:26.830733+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibEFVX3lxTE5BS2l3UzdJaEQ0eGtKaEhEdXBmbDBGQjRieWdXdlh3bnF3dWFmcG0teThHUXhXaDlMSnpPdUZOLVFTS1Q0ak9VVHpUcUJyZWJwRnROWU5aaE5xZWJ1cjhBRkROaHVMblBld1VDaw?oc=5",
+          "title_norm": "속초시면적당생활인구전국시지역1위동두천의24배",
+          "sent_at": "2026-11-23T07:57:26.830733+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMib0FVX3lxTE04SGs2UlZDUUlqYVpWckRDRjBMWURlajNZbHNxaE1hNzJqMURTbGdXSVdpTTNRaDJkVExmZ2RDcmtUc1VMWmJwQ281Q1lMZXFDQ0hGcEZVOE9xMTFBYXo1ZVRBelZHci1RUGsxdUhUd9IBc0FVX3lxTFBnRlRHT3IyYW5FZlBqWEE4MHdBUjltTWg3SFA5d01CSjlXVGVpMFZBWU1fc0tfQnBpQkF4U1lvZklBd2U5ZVFwcGJ5blhaWWprVTB5RWtXWlY2bmJIYVk2WkNWT2Rla0lOUDFSNkR3X2EyRkk?oc=5",
+          "title_norm": "부여군의회생활인구확대영농형태양광활성화전략제시",
+          "sent_at": "2026-11-23T07:57:26.830733+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZEFVX3lxTE94RWIzWWRBN0IxSnBCUUJOY0dJLTFPRFdSMGhhR3ZDbGt4RjNCaHJ0czc2RzFpRHBPaklXTndpSzlSa0lNVzJPOUdIbTlWOXlyUDZ0bkRmYnJaZ1R3RE5DaUhrcTI?oc=5",
+          "title_norm": "가평군생활인구빅데이터활용해체류형관광활성화나선다",
+          "sent_at": "2026-11-23T07:57:26.830733+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMigwFBVV95cUxQYXZfT2tPZUFZMDlBMlY4aS1FXzVROGlJcXUxSlY5ZGV5YXdUNjdyUmk2VW9ISnVZX3A4UWtzQnMxZVBQVFpYTFQzTVg4T0dMd0hlbHk2M0N3dkVScTVTS3Z6RlJWUHdoeFlBRUk4VEI0LUNlQnRSanl6SUs1NFBMbFU2TQ?oc=5",
+          "title_norm": "땅은좁아도발길은초만원전국생활인구압도하는속초의힘",
+          "sent_at": "2026-11-23T07:57:26.830733+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiakFVX3lxTE1RbjhVSHN5MF9UOVQ3aWZvNi13cm5pZ0RhMVd4ZXdDVlZ2YXc3UTRsVndNdUVHRTFONkYyOVNXZDRBcU1ObmVSQ1hhQ3h3d1gwS1AzVWR5TGFGYjhWS0dwWnJLWHRfOTF6MFE?oc=5",
+          "title_norm": "생활인구분석사람몰려도지역경제는달랐다",
+          "sent_at": "2026-11-23T07:57:26.830733+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-22T22:57:19.338176+00:00"
+      "last_checked_utc": "2026-11-23T07:57:14.659454+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-11-22",
+    "pm": "2026-11-23",
     "am": "2026-11-23"
   }
 }
