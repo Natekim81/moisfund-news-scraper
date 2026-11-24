@@ -4,16 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "youngnong.co.kr/news/articleView.html?idxno=72063",
-          "title_norm": "기자수첩1차베이비부머들귀농귀촌포기했나",
-          "sent_at": "2026-11-21T22:57:26.493281+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiaEFVX3lxTE5xWEpoaEUxOWVDWnJyZEw3T3lyTDJHYjlBLVk4b1psay1GWU5MLWE1MFBORTYxNTczdVlzdGJDUjVGZjRmWG52RjA3TjBYRkZ1MzAydEoxQmFRZ2NxUnJCckpxb3Zpbkty?oc=5",
-          "title_norm": "양양군행정사무감사첫날인구감소대응기금배분상하수도안전집중점검",
-          "sent_at": "2026-11-21T22:57:26.493281+00:00"
-        },
-        {
           "link": "shinailbo.co.kr/news/articleView.html?idxno=5086330",
           "title_norm": "인제군내년예산7317억원편성사상첫7000억원돌파",
           "sent_at": "2026-11-22T07:57:21.105959+00:00"
@@ -192,9 +182,109 @@
           "link": "pressian.com/pages/articles/2026112317070282152?utm_source=naver&utm_medium=search",
           "title_norm": "성주군6900억원예산편성민생경제살리고지속가능한지역만든다",
           "sent_at": "2026-11-23T22:57:25.004619+00:00"
+        },
+        {
+          "link": "hidomin.com/news/articleView.html?idxno=730831",
+          "title_norm": "안병윤예천군수시정연설서2027년5대군정과제제시",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "hansbiz.co.kr/news/articleView.html?idxno=886700",
+          "title_norm": "안병윤예천군수시정연설내년본예산7400억편성5대과제제시",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "kukinews.com/article/view/kuk202611240079",
+          "title_norm": "안병윤예천군수한푼도허투루쓰지않겠다내년예산7400억",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "imaeil.com/page/view/2026112413010377424",
+          "title_norm": "안병윤예천군수내년도5대군정과제제시민생미래성장에방점",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "dkilbo.com/news/articleView.html?idxno=561892",
+          "title_norm": "예천군7400억원규모2027년도예산안편성민생미래성장에집",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "jnilbo.com/news/articleView.html?idxno=90000086185",
+          "title_norm": "전남광주시기본사회생활플랫폼조성사업공모추진",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "newspim.com/news/view/20261124001166",
+          "title_norm": "전남광주시인구감소23개군기본사회온마을육성추진",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "newsprime.co.kr/news/article.html?no=756311",
+          "title_norm": "전남광주인구감소군중심기본사회모델시동",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "greened.kr/news/articleView.html?idxno=355443",
+          "title_norm": "전남광주통합특별시온마을생활플랫폼공모17억2000만원투입",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "nocutnews.co.kr/news/6611873?utm_source=naver&utm_medium=article&utm_campaign=20261124155503",
+          "title_norm": "전남광주통합특별시23개군에기본사회시범모델구축",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "kjmbc.co.kr/NewsArticle/1547113",
+          "title_norm": "먹거리생활편의직접제공온마을생활플랫폼공모",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "news1.kr/local/gwangju-jeonnam/6364404",
+          "title_norm": "인구감소전남광주23개군기본사회모델만든다",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "kbmaeil.com/article/20261124500258",
+          "title_norm": "군위형희망주택조성본격추진청년이머무는도시만든다",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "pressian.com/pages/articles/2026112415184190055?utm_source=naver&utm_medium=search",
+          "title_norm": "경로당짓는것보다더큰도움남원시비대면스마트진료1년성과",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "shinailbo.co.kr/news/articleView.html?idxno=5087282",
+          "title_norm": "남원시스마트경로당비대면진료누적이용350건",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "newsworker.co.kr/news/articleView.html?idxno=515916",
+          "title_norm": "전남광주통합특별시인구감소16개군생활서비스혁신23개군시",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "kyongbuk.co.kr/news/articleView.html?idxno=4091868",
+          "title_norm": "노트북을열며숫자뒤에가려진소멸의그늘기금의주인은누구인",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "yna.co.kr/view/AKR20261124127300062?input=1195m",
+          "title_norm": "화천군농촌유학가구에주택공급추진10가구조성목표",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "shinailbo.co.kr/news/articleView.html?idxno=5087220",
+          "title_norm": "화천군농촌유학가구주거지원확대10세대규모주택단지조성",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
+        },
+        {
+          "link": "kukinews.com/article/view/kuk202611240118",
+          "title_norm": "영덕어린이발레단특별한무대눈길",
+          "sent_at": "2026-11-24T07:57:18.588850+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-23T22:57:17.954175+00:00"
+      "last_checked_utc": "2026-11-24T07:57:13.388517+00:00"
     },
     "pop": {
       "articles": [
@@ -212,9 +302,29 @@
           "link": "news.google.com/rss/articles/CBMiakFVX3lxTFBILWNhTnZLN2laLW1DaFFlaGRMWnIzUWJwcEp3RVBwczZCYkw0Y3ctOUlBUFd0NUpMblJRVXRSRE9yUDBGRXNUOHVzM0IwaXJmTFhSenB0TjNkTEFpMmVVcXFXMHZjaDJVUXc?oc=5",
           "title_norm": "이슈분석인구감소지역92곳재지정지역활력지표가놓치는것은",
           "sent_at": "2026-11-23T07:57:23.165542+00:00"
+        },
+        {
+          "link": "idomin.com/news/articleView.html?idxno=2020446",
+          "title_norm": "통영시의회인구감소지역실효성있는정부지원촉구",
+          "sent_at": "2026-11-24T07:57:22.152610+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiW0FVX3lxTE84cDFQNS1ZemFRN011QzY5bkZ5b3dIWXBfcWN6c0Vvazd4TmdUZkgyaVNUWlljVTVNM2tXT09BQTlTTDN1VU80R2RjWFU5MlNIa0F0Y1FVc29zdTA?oc=5",
+          "title_norm": "인제군의회인구감소지역지방우대지수대응집중질의",
+          "sent_at": "2026-11-24T07:57:22.152610+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTFBXSGt2NlRWaUVvbGo5aE1QbDl3bEgyU1VEYlFXZUdaQzBwX3dKM3VaUFVncDdOSFF1Vk0tNGhoc0lZYVZia2h2VUdZT2ZHZGhFNU5INFBQT0ExaHo0RmdsS1Y1LW00aVJYMDhyLXVR?oc=5",
+          "title_norm": "상주시인구감소지역규제개선본격화",
+          "sent_at": "2026-11-24T07:57:22.152610+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiV0FVX3lxTE01R2xjZjZuUjBpMHhoZmxwLUpDc1hocjEtbXR1V0lQUnlHV1cyTHFUUkpVZTI1NlJUZ1RkbUlnc0RXNlRMRXNrMGMwZUFKNlBPWmQxMkJGbw?oc=5",
+          "title_norm": "인구감소지역생활서비스시설많아도주민활용도는낮아",
+          "sent_at": "2026-11-24T07:57:22.152610+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-23T22:57:17.954175+00:00"
+      "last_checked_utc": "2026-11-24T07:57:13.388517+00:00"
     },
     "life": {
       "articles": [
@@ -332,13 +442,33 @@
           "link": "news.google.com/rss/articles/CBMiY0FVX3lxTE9MeTNnRGE2V1BzQ2hEUHBKaG1DME50a29RZm5FUnNIMEZPdXVUVnlWdWxRS2JOQzcwazY1SnhoWHd1V2JIdHVMS1dyRGxSemJlVUNHa3lhN2o5VFhVUUN6SHJBZw?oc=5",
           "title_norm": "속초시면적당생활인구전국1위도시연중활력넘친다",
           "sent_at": "2026-11-23T22:57:35.035584+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTFA0T0tmSE55Um1lQkI3Zy1fNEU5NWlCQ1U3clhvQ2doTXdZeTFMckc0RGlvbmp1ekU2ZEkydUhvZGNza0tyOEZJVHozWlI0NktBR0lOS0RpMWtWc2NfQ19rMzFTX1YwUUlaV3NzbEx3?oc=5",
+          "title_norm": "정종훈중구의원생활인구4배인데당일치기뿐머물조건만들어야",
+          "sent_at": "2026-11-24T07:57:25.663723+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMigAFBVV95cUxNTHBqd3pGS1F5WFRHNHZ0Vnk1NnhQa2s1Yk9kTjhxTk10NndBdGhzc0d3a2s4VjE0OFk0dWtJUmRZQmE0QnR0bXFBSGhXTU5uRUZSQksyMWZOSTBCTXRWMEJpYnluZGh0b3k3dGJMT2NmNTBnb19SdWZYYjRjZnJuYw?oc=5",
+          "title_norm": "상주시생활인구확대지방규제합리화시범사업추진",
+          "sent_at": "2026-11-24T07:57:25.663723+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMickFVX3lxTE5wbEtWLUNaUHdEbW1vRzlzQ3V5T3ZQTEFtOG9RM2NkUDVGWnc4UXFyejJfQnlDdV9mRWM2WlZhckpMUy04QmdVTFdJMTd0MjAtTWFJbzZuSjUxN0VBV0pPQUxpaWhUMTA5Z3dOakI1Szk4dw?oc=5",
+          "title_norm": "영월군청년만남정착지원썸박3일성료체류형프로그램통한생활인구유입기반마련",
+          "sent_at": "2026-11-24T07:57:25.663723+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiVEFVX3lxTE9leExkZnBQWWxSWHM4YnVSNExQTzB5WEppNmVrcndKUmZEbl9PaENBTXNNZzF0SFVSSWo5UXV3SEZaV0o4TlloTHVXeGRLUzhYcDRsVA?oc=5",
+          "title_norm": "정종훈중구의회의원생활인구정주인구의4배체류대책필요",
+          "sent_at": "2026-11-24T07:57:25.663723+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-23T22:57:17.954175+00:00"
+      "last_checked_utc": "2026-11-24T07:57:13.388517+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-11-23",
+    "pm": "2026-11-24",
     "am": "2026-11-24"
   }
 }
