@@ -4,41 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "kado.net/news/articleView.html?idxno=2086416",
-          "title_norm": "양양군의회중계석지방소멸대응기금정주여건개선사업에우선배",
-          "sent_at": "2026-11-22T22:57:23.795409+00:00"
-        },
-        {
-          "link": "idaegu.co.kr/news/articleView.html?idxno=566116",
-          "title_norm": "영양청년신혼부부공공임대형24호추진",
-          "sent_at": "2026-11-22T22:57:23.795409+00:00"
-        },
-        {
-          "link": "news.kbs.co.kr/news/pc/view/view.do?ncd=8719454&ref=A",
-          "title_norm": "사회연대경제성장지원지방소멸대응10억원투입",
-          "sent_at": "2026-11-22T22:57:23.795409+00:00"
-        },
-        {
-          "link": "g1tv.co.kr/news?mid=1_207_6&newsid=351384",
-          "title_norm": "철원종합장사시설곧착공",
-          "sent_at": "2026-11-22T22:57:23.795409+00:00"
-        },
-        {
-          "link": "sjbnews.com/news/news.php?number=893265",
-          "title_norm": "남원시의회행정사무감사행정난맥상짚으로송곳질의",
-          "sent_at": "2026-11-22T22:57:23.795409+00:00"
-        },
-        {
-          "link": "kwnews.co.kr/article/20261122500637",
-          "title_norm": "인제군2027년본예산역대최대7317억원편성",
-          "sent_at": "2026-11-22T22:57:23.795409+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE14TUE2V3RVMHl1UTYxSGpLaW9NNHExOF9mVlc1UUtuSDRRUDhMNHpMUjBzTEdlN3J4MWpyUmhibi00bHRvMXJGSFBfOUF6bFdCdDJaRzkxZEl2UGlNdTBlZEFfeVFYeE5KVHpQcWtn?oc=5",
-          "title_norm": "제주도기본사회실현사회연대경제성장지원본격추진",
-          "sent_at": "2026-11-22T22:57:23.795409+00:00"
-        },
-        {
           "link": "cnbnews.com/news/articleView.html?idxno=1024891",
           "title_norm": "김병삼영천시장마사회유치강점설명",
           "sent_at": "2026-11-23T07:57:19.653882+00:00"
@@ -292,17 +257,87 @@
           "link": "yna.co.kr/view/AKR20261124159100052?input=1195m",
           "title_norm": "통영시의회지역특성반영한인구감소대책마련촉구건의안",
           "sent_at": "2026-11-24T22:57:20.556329+00:00"
+        },
+        {
+          "link": "m-i.kr/news/articleView.html?idxno=2023416",
+          "title_norm": "화순군첨단바이오광역교통망구축위해정부예산확보총력",
+          "sent_at": "2026-11-25T07:57:18.958781+00:00"
+        },
+        {
+          "link": "cbci.co.kr/news/articleView.html?idxno=630607",
+          "title_norm": "임지락화순군수중앙부처국회찾아역점사업국비확보총력",
+          "sent_at": "2026-11-25T07:57:18.958781+00:00"
+        },
+        {
+          "link": "newsprime.co.kr/news/article.html?no=756471",
+          "title_norm": "임지락화순군수국비확보위해중앙부처국회총력행보",
+          "sent_at": "2026-11-25T07:57:18.958781+00:00"
+        },
+        {
+          "link": "queen.co.kr/news/articleView.html?idxno=466920",
+          "title_norm": "화순군2027년핵심사업국비확보총력기울여중앙부처국회방문",
+          "sent_at": "2026-11-25T07:57:18.958781+00:00"
+        },
+        {
+          "link": "gj.newdaily.co.kr/site/data/html/2026/11/25/2026112550183.html",
+          "title_norm": "임지락화순군수행안부국회찾아2027년국비확보건의",
+          "sent_at": "2026-11-25T07:57:18.958781+00:00"
+        },
+        {
+          "link": "shinailbo.co.kr/news/articleView.html?idxno=5087678",
+          "title_norm": "화순군내년역점사업국비확보총력행안부국회방문",
+          "sent_at": "2026-11-25T07:57:18.958781+00:00"
+        },
+        {
+          "link": "viva100.com/article/20261125500726",
+          "title_norm": "화순군첨단바이오광역교통망확충에국비승부수",
+          "sent_at": "2026-11-25T07:57:18.958781+00:00"
+        },
+        {
+          "link": "newsworker.co.kr/news/articleView.html?idxno=516066",
+          "title_norm": "임지락화순군수2027년도핵심역점사업국비확보위해중앙부처국",
+          "sent_at": "2026-11-25T07:57:18.958781+00:00"
+        },
+        {
+          "link": "pressian.com/pages/articles/2026112515555221019?utm_source=naver&utm_medium=search",
+          "title_norm": "영광군2027년예산안7486억원편성복지농업에절반투입",
+          "sent_at": "2026-11-25T07:57:18.958781+00:00"
+        },
+        {
+          "link": "newsworker.co.kr/news/articleView.html?idxno=516130",
+          "title_norm": "영광군7486억원규모2027년도예산안돌봄민생집중",
+          "sent_at": "2026-11-25T07:57:18.958781+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMibkFVX3lxTE42NTBldjYtbUg5NUFQR3JWLVpMNHhVaEI4bWM2WnIzaG1WY3lPQ0wtNXVXTkJ3R1pMTE1LQ2hrRVhVRl9abVBZTDlhM2o3UF85Z2JQXzJOMnBBX1Y3LTFzX1YyLXl5czYwbGpUTndB?oc=5",
+          "title_norm": "화순군국회행정안전부에2027년국비건의광역철도광주3순환고속도로국가계획반영요청",
+          "sent_at": "2026-11-25T07:57:18.958781+00:00"
+        },
+        {
+          "link": "naeil.com/news/read/609977?ref=naver",
+          "title_norm": "내년지방재정정률분95증가관건은",
+          "sent_at": "2026-11-25T07:57:18.958781+00:00"
+        },
+        {
+          "link": "asiatoday.co.kr/kn/view.php?key=20261125010009643",
+          "title_norm": "예천군내년예산7400억원편성민생안정지역균형발전집중",
+          "sent_at": "2026-11-25T07:57:18.958781+00:00"
+        },
+        {
+          "link": "newsgn.com/news/articleView.html?idxno=587880",
+          "title_norm": "고성군제3차종합사회복지관운영위원회개최",
+          "sent_at": "2026-11-25T07:57:18.958781+00:00"
+        },
+        {
+          "link": "breaknews.com/1253689",
+          "title_norm": "전남광주특별시기본사회온마을생활플랫폼공모설명회개최",
+          "sent_at": "2026-11-25T07:57:18.958781+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-24T22:57:15.606758+00:00"
+      "last_checked_utc": "2026-11-25T07:57:13.964022+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "kwnews.co.kr/article/20261122500925",
-          "title_norm": "월요칼럼인구감소지역특례양적확대에서현장안착으로가야",
-          "sent_at": "2026-11-22T22:57:27.230657+00:00"
-        },
         {
           "link": "news.google.com/rss/articles/CBMiakFVX3lxTFBILWNhTnZLN2laLW1DaFFlaGRMWnIzUWJwcEp3RVBwczZCYkw0Y3ctOUlBUFd0NUpMblJRVXRSRE9yUDBGRXNUOHVzM0IwaXJmTFhSenB0TjNkTEFpMmVVcXFXMHZjaDJVUXc?oc=5",
           "title_norm": "이슈분석인구감소지역92곳재지정지역활력지표가놓치는것은",
@@ -327,22 +362,27 @@
           "link": "news.google.com/rss/articles/CBMiV0FVX3lxTE01R2xjZjZuUjBpMHhoZmxwLUpDc1hocjEtbXR1V0lQUnlHV1cyTHFUUkpVZTI1NlJUZ1RkbUlnc0RXNlRMRXNrMGMwZUFKNlBPWmQxMkJGbw?oc=5",
           "title_norm": "인구감소지역생활서비스시설많아도주민활용도는낮아",
           "sent_at": "2026-11-24T07:57:22.152610+00:00"
+        },
+        {
+          "link": "jbnews.com/news/articleView.html?idxno=1516890",
+          "title_norm": "최부림충북도의원충북인구감소지역필수의료지원해야",
+          "sent_at": "2026-11-25T07:57:22.553907+00:00"
+        },
+        {
+          "link": "dynews.co.kr/news/articleView.html?idxno=875635",
+          "title_norm": "알림청양군인구감소지역시장군수구청장협의회참석",
+          "sent_at": "2026-11-25T07:57:22.553907+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTFA4SUw2LVFkRWdycnFxblZ2MWdaTklsNGRRSU0zMVc4UmdFTTdpVnhMX3lQc3R5WkNDN0dfSUJpLW1MTnNZZXBsVmVlQS1YQXJ3X1JMRFluR2pUcXJQSklmbGtEN3F6ZDVlZTJF?oc=5",
+          "title_norm": "청년문화패스34세까지전북인구감소지역문화누리카드5만원추가",
+          "sent_at": "2026-11-25T07:57:22.553907+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-24T22:57:15.606758+00:00"
+      "last_checked_utc": "2026-11-25T07:57:13.964022+00:00"
     },
     "life": {
       "articles": [
-        {
-          "link": "kado.net/news/articleView.html?idxno=2086419",
-          "title_norm": "생활인구확대지역경제활성화횡성출향군민협력논의",
-          "sent_at": "2026-11-22T22:57:30.775987+00:00"
-        },
-        {
-          "link": "tk.newdaily.co.kr/site/data/html/2026/11/22/2026112250092.html",
-          "title_norm": "인터뷰최기영봉화군수보고서보다현장변화생활인구20만시대",
-          "sent_at": "2026-11-22T22:57:30.775987+00:00"
-        },
         {
           "link": "news.google.com/rss/articles/CBMiakFVX3lxTE54M1JlaGNwRW5vU25zNXgzbl9ZN0RPUjJJVHJHTTUyRVVTMmFkdlNsSElUWFo4dTNXLXR6S3M0TERzcjIxMFZ1TXFadGdOcUlkNkJqQm9rekgwVG9tQjVUakdGcVZwLXhPREE?oc=5",
           "title_norm": "제천시의회정책연구회생활인구체류확대지역소비활성화해법모색",
@@ -444,11 +484,11 @@
           "sent_at": "2026-11-24T07:57:25.663723+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-24T22:57:15.606758+00:00"
+      "last_checked_utc": "2026-11-25T07:57:13.964022+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-11-24",
+    "pm": "2026-11-25",
     "am": "2026-11-25"
   }
 }
