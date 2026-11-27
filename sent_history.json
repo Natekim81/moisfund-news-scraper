@@ -4,81 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003286726&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
-          "title_norm": "나도중지시키기어려울걸요대통령발언뒤설악산서생긴일",
-          "sent_at": "2026-11-24T22:57:20.556329+00:00"
-        },
-        {
-          "link": "kado.net/news/articleView.html?idxno=2087008",
-          "title_norm": "화천군농촌유학생품을주택단지만든다",
-          "sent_at": "2026-11-24T22:57:20.556329+00:00"
-        },
-        {
-          "link": "ppss.kr/news/articleView.html?idxno=322704",
-          "title_norm": "화천군농촌유학가족에주택10가구공급내년하반기까지주거단지",
-          "sent_at": "2026-11-24T22:57:20.556329+00:00"
-        },
-        {
-          "link": "kr.aving.net/news/articleView.html?idxno=1817354",
-          "title_norm": "성신여대로컬디자인정책연구소로컬바이브2026서로컬교육연구플",
-          "sent_at": "2026-11-24T22:57:20.556329+00:00"
-        },
-        {
-          "link": "idaegu.co.kr/news/articleView.html?idxno=566311",
-          "title_norm": "상주입석1리커뮤니티센터준공",
-          "sent_at": "2026-11-24T22:57:20.556329+00:00"
-        },
-        {
-          "link": "natv.go.kr/natv/news/newsView.do?newsId=514651",
-          "title_norm": "임이자청와대개각은설명없는회전문인사강금실국정원장후보자",
-          "sent_at": "2026-11-24T22:57:20.556329+00:00"
-        },
-        {
-          "link": "kjdaily.com/article.php?aid=1795515627693431002",
-          "title_norm": "전남광주햇빛소득마을126곳즉시계통접속5곳뿐",
-          "sent_at": "2026-11-24T22:57:20.556329+00:00"
-        },
-        {
-          "link": "ngonews.kr/news/articleView.html?idxno=244018",
-          "title_norm": "초록우산지역별아동성장격차해법찾는다229개시군구실태분",
-          "sent_at": "2026-11-24T22:57:20.556329+00:00"
-        },
-        {
-          "link": "ccdn.co.kr/news/articleView.html?idxno=1113297",
-          "title_norm": "충북인구감소지역6곳20년동안청년반토막",
-          "sent_at": "2026-11-24T22:57:20.556329+00:00"
-        },
-        {
-          "link": "view.asiae.co.kr/article/2026112417444269566",
-          "title_norm": "예천군2027년군정청사진제시7400억원예산편성",
-          "sent_at": "2026-11-24T22:57:20.556329+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMic0FVX3lxTE4xc1drOTdqellQbHJVNVVxZldGRDlIdjVXS2FtdkF4c2xpV0wyQUFNVnE2WWZ0VXZkdUc2b21PV0VVeTNESGdteHMxdGIyWWFrV3N3MW82cUk1RHF4QU5OVzIycjhQaXdfam5BTjdrNzlSUjTSAXdBVV95cUxNZ3hQY3JuMUZ5VU5VUGlLS2FoZHFiMlV1NWNYQnQ5RFhrZ1ByeC1FMjZULVItSjlkN0VQOU5RNTV5ZTM5MGtodWdUNVNON0owZmpTcWhOS09pZ3FNVTNwUWVUVXZ5aENjbS12a3YybVJfUzFOa1c2TQ?oc=5",
-          "title_norm": "전남광주특별시인구감소농어촌지역기본사회시범모델구축",
-          "sent_at": "2026-11-24T22:57:20.556329+00:00"
-        },
-        {
-          "link": "enewstoday.co.kr/news/articleView.html?idxno=2496552",
-          "title_norm": "전남광주특별시기본사회모델만든다인구감소지역중23곳선",
-          "sent_at": "2026-11-24T22:57:20.556329+00:00"
-        },
-        {
-          "link": "jjn.co.kr/news/articleView.html?idxno=1058108",
-          "title_norm": "1주년맞은스마트경로당비대면진료성공안착",
-          "sent_at": "2026-11-24T22:57:20.556329+00:00"
-        },
-        {
-          "link": "sisajournal.com/news/articleView.html?idxno=395094",
-          "title_norm": "전북금융타운조성대형건설사참여열쇠는지역활성화펀드",
-          "sent_at": "2026-11-24T22:57:20.556329+00:00"
-        },
-        {
-          "link": "yna.co.kr/view/AKR20261124159100052?input=1195m",
-          "title_norm": "통영시의회지역특성반영한인구감소대책마련촉구건의안",
-          "sent_at": "2026-11-24T22:57:20.556329+00:00"
-        },
-        {
           "link": "m-i.kr/news/articleView.html?idxno=2023416",
           "title_norm": "화순군첨단바이오광역교통망구축위해정부예산확보총력",
           "sent_at": "2026-11-25T07:57:18.958781+00:00"
@@ -462,9 +387,54 @@
           "link": "news.lghellovision.net/news/articleView.html?idxno=563930",
           "title_norm": "양구군관광안내소명품관27일문열어",
           "sent_at": "2026-11-26T22:57:23.592555+00:00"
+        },
+        {
+          "link": "kyongbuk.co.kr/news/articleView.html?idxno=4092338",
+          "title_norm": "조주홍영덕군수인구감소지역시장군수협의회감사선출",
+          "sent_at": "2026-11-27T07:57:20.873851+00:00"
+        },
+        {
+          "link": "eroun.net/news/articleView.html?idxno=96785",
+          "title_norm": "조주홍영덕군수지방소멸대응공조의중심에서다",
+          "sent_at": "2026-11-27T07:57:20.873851+00:00"
+        },
+        {
+          "link": "ekn.kr/web/view.php?key=20261127025085726",
+          "title_norm": "패트롤안동시영주시의성군봉화군영덕군안동교육지원청농어촌공",
+          "sent_at": "2026-11-27T07:57:20.873851+00:00"
+        },
+        {
+          "link": "seoulfn.com/news/articleView.html?idxno=644187",
+          "title_norm": "박원종전남광주시의원햇빛소득마을100곳지원계획에제동",
+          "sent_at": "2026-11-27T07:57:20.873851+00:00"
+        },
+        {
+          "link": "bzeronews.com/news/articleView.html?idxno=825875",
+          "title_norm": "영동군내년4886억원편성올보다602억줄었다정영철군수민생농",
+          "sent_at": "2026-11-27T07:57:20.873851+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZ0FVX3lxTE1VYzdMT2pfVDVUZDJMTDVWRE5pc0NpaUREQzdaRDBpR1l4OUJsWV9KeFN4cTRZdm0zbFI0QlpwVnpKZ1lJQzF4bk1GalVCYjVGSXM1YlpWdnJBRllHT0R3ckdRNzdWTkU?oc=5",
+          "title_norm": "인구는줄어도지역의미래까지줄어들순없다",
+          "sent_at": "2026-11-27T07:57:20.873851+00:00"
+        },
+        {
+          "link": "bzeronews.com/news/articleView.html?idxno=825922",
+          "title_norm": "지방소멸기금5배확대요구인구감소지역에공공기관우선배치촉구",
+          "sent_at": "2026-11-27T07:57:20.873851+00:00"
+        },
+        {
+          "link": "cc.newdaily.co.kr/site/data/html/2026/11/26/2026112650425.html",
+          "title_norm": "송인헌괴산군수지방소멸기금1조원5조원확대건의",
+          "sent_at": "2026-11-27T07:57:20.873851+00:00"
+        },
+        {
+          "link": "mpmbc.co.kr/NewsArticle/1547622",
+          "title_norm": "옛장흥교도소에이색숙박시설프리즌호텔조성",
+          "sent_at": "2026-11-27T07:57:20.873851+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-26T22:57:17.185701+00:00"
+      "last_checked_utc": "2026-11-27T07:57:16.020661+00:00"
     },
     "pop": {
       "articles": [
@@ -547,9 +517,44 @@
           "link": "news.google.com/rss/articles/CBMia0FVX3lxTE5jWC1nYURSdy0tRXEyVzBKWXdDQ1NyeTJWTjJLeDlGNmxSLTNrMkptRk8wZl9DWkZLT1piTnpVOW5XQWVhbFZ0ZWpIZi0yeWFUbzhHOFNOZ1ctejA3ZnpBal9ZY0pzcVI3UTZz?oc=5",
           "title_norm": "인구감소지역돌봄공백방문통원재활제외",
           "sent_at": "2026-11-26T22:57:27.117417+00:00"
+        },
+        {
+          "link": "gukjenews.com/news/articleView.html?idxno=3765472",
+          "title_norm": "김성원국회의원인구감소지역개발지원법개정안대표발의보조율",
+          "sent_at": "2026-11-27T07:57:24.561136+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiX0FVX3lxTFBxNnBNLXRId2JWdFBkQlBtSk9NcUk3a2NpVlBFeGJKZi1YbFNIUlo1Q0t6ZUwxOERDdG1tUkUtWXhKTy1WSnRqZDNxY0FnY0V3NVFCTGhueGVoVGk1ZWY0?oc=5",
+          "title_norm": "청양군청소년재단인구감소지역청소년성장지원사업4년연속수상보도자료기사",
+          "sent_at": "2026-11-27T07:57:24.561136+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE40ek9xZFZGdFhfdGdfcUNnTVdUc25ZR3FIVjV6bkZQVXNYS0tZSWZaYmNUNnlQN19CMzd0Z0dnclFBQWJxaTFKV196UDBNVXh3VWF5SWRjaUxXVjZLNjdDSVZmZzZ2ODJDcGtV?oc=5",
+          "title_norm": "청양군청소년재단인구감소지역성장지원4년연속수상정책연구원장상영예",
+          "sent_at": "2026-11-27T07:57:24.561136+00:00"
+        },
+        {
+          "link": "ytn.co.kr/_ln/0115_202611271532205427",
+          "title_norm": "부산부산시광역시인구감소지역도정책혜택필요",
+          "sent_at": "2026-11-27T07:57:24.561136+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMirAJBVV95cUxNRk5EUWl5aWVqZFVTTU81S3hLa3hYdnQxZFNFa2treHd3dXd5ZUFTWU8tbDh6NnFJNFQ1NlNwM21CeVVTQkhWeTFwRTE3azZJcl83WVNMUGhQdzJQUmxxZUQtNGtObzFEVHlJYVYzR2xFejJITUZIODRieV9aLUE2VUtOREpxNWNFRzRvc3Juc3pmY0E3bTJZWHFReThOTHZpejE0bWxSanZqTkhMM0hXUEx6SWN5RTh6dnF2bGVKcFZ4LWJ2MGxjeVJlWE1uTVhSbklSVlM4Zi1HVGFyTENRM2hWX2xSaExVRlQtSG9KUUJUcjBNY0JtX04wWk83VHZDb21WY2cyMlJVdVUyaVNJX3lfZmdiclJndDJlb2tmVUJYWk9tOVkzaTRieEM?oc=5",
+          "title_norm": "인구감소지역기본서비스보장중소기업자금공급지역격차완화해법모색",
+          "sent_at": "2026-11-27T07:57:24.561136+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiYEFVX3lxTFBDZi1KOHBsYmF4Sl9QVGRubnhUTFlqMDFFbWRMRWpwNzBlYklEYzF2V3Fpbkl6QWxiNkVac2prXy0wTUttelZyMm42SjhhU2tqelo4UEp4RU5xeTRnTWV1NA?oc=5",
+          "title_norm": "인구감소지역에관광객유입gkl상생기업대상중기부장관상",
+          "sent_at": "2026-11-27T07:57:24.561136+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiYEFVX3lxTE9mZHdoRlBLelpFUmJqWDJYN2J4em9KQXZzZ2pBS2RLQUNIQTEyelIyaDNtWmJPaXlfSS12YTdEZE8zLVFHOHFLV0Z2eEtsS2R3VTMwTVNyY28tTHNYSUhlVQ?oc=5",
+          "title_norm": "lg헬로비전ai미디어교육으로인구감소지역디지털격차해소",
+          "sent_at": "2026-11-27T07:57:24.561136+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-26T22:57:17.185701+00:00"
+      "last_checked_utc": "2026-11-27T07:57:16.020661+00:00"
     },
     "life": {
       "articles": [
@@ -592,13 +597,23 @@
           "link": "sjbnews.com/news/news.php?number=893699",
           "title_norm": "김제시체류형생활인구사업큰호응",
           "sent_at": "2026-11-26T22:57:30.566569+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMicEFVX3lxTE02Q1VxQ0RYLTlRLUlmUlhMZ3NETm4zcEpTaGQ4U2lwLXZPQTBvaWlYTVJQNTA0MEpsUmlMbGVxaXlyT0tXR21XSE5pSDZtdVdvakFJZmRVcDVVQzIyWHl2Sjl5YjluaHlmM090dGEteXXSAXRBVV95cUxNZXV1U0tCOENFYTRwSE5ic1F1TFVVRXpjaEZBN3ZRcURnTU1pNjM4OWxfTHNHcmhMWEdTcnAzQXdOOEdwR3JHV2hTUmctLWFEZnZYdmZJNHNCcVdSYXlic1RUdlFrN2dXZ09yZFdfcDhxWFE0dA?oc=5",
+          "title_norm": "김제시체류형생활인구사업슬로우in김제살아보기만족도95",
+          "sent_at": "2026-11-27T07:57:28.067839+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiggJBVV95cUxQNzRIVDNNTGxQalJ2dXFuQ0pPWm5hdFRpQUtnLXVMYVNCV0lxMVkzSmRZRFlWcGNCa1lLVHhPUU9WS1Q0THVzdXJZQktEdVlFMmk2UjdYalFGaHJub2p1N0dxT0FTbjNwV2k4R2dDdVZyeVpHTElpVkRfSm9XbU5KN1N6UWI0M1A4R1BKWjRWQl9XZlF1WVlnRlR2MHc0eDMtSE5XTngtWlBxTDA0LURXNHlLMlU0ZTNaVXpGMnM0NnIyNFRYTjBlUUxNS0ZzTXN5WWtlRjVJX3BKUFRhQkFhYy1iTE9PVDZYZnd4STZMRGFuOGo4S0JiaC0wajdxRnNFVlE?oc=5",
+          "title_norm": "빛은더밝게빚은더없게지역소생의길생활인구",
+          "sent_at": "2026-11-27T07:57:28.067839+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-26T22:57:17.185701+00:00"
+      "last_checked_utc": "2026-11-27T07:57:16.020661+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-11-26",
+    "pm": "2026-11-27",
     "am": "2026-11-27"
   }
 }
