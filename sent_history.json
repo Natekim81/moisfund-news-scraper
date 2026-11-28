@@ -4,96 +4,6 @@
     "fund": {
       "articles": [
         {
-          "link": "khan.co.kr/article/202611260600021",
-          "title_norm": "하루5000원인데사설보다넓은방원정산후조리부담덜어낸",
-          "sent_at": "2026-11-25T22:57:21.828770+00:00"
-        },
-        {
-          "link": "idaegu.co.kr/news/articleView.html?idxno=566491",
-          "title_norm": "예천내년군정방향활력도시농업혁신복지확대",
-          "sent_at": "2026-11-25T22:57:21.828770+00:00"
-        },
-        {
-          "link": "fsnews.co.kr/news/articleView.html?idxno=62767",
-          "title_norm": "안동시유치원식판세척지원한다",
-          "sent_at": "2026-11-25T22:57:21.828770+00:00"
-        },
-        {
-          "link": "pinpointnews.co.kr/news/articleView.html?idxno=508087",
-          "title_norm": "화순군2027년국비확보총력",
-          "sent_at": "2026-11-25T22:57:21.828770+00:00"
-        },
-        {
-          "link": "joongangenews.com/news/articleView.html?idxno=566645",
-          "title_norm": "임지락화순군수6490억규모바이오역점사업국비확보총력",
-          "sent_at": "2026-11-25T22:57:21.828770+00:00"
-        },
-        {
-          "link": "geconomy.co.kr/news/article.html?no=326032",
-          "title_norm": "임지락화순군수석탄산업의터전서첨단바이오도시로6490억원규",
-          "sent_at": "2026-11-25T22:57:21.828770+00:00"
-        },
-        {
-          "link": "view.asiae.co.kr/article/2026112516510466340",
-          "title_norm": "임지락화순군수5천800억바이오캠퍼스국비확보총력",
-          "sent_at": "2026-11-25T22:57:21.828770+00:00"
-        },
-        {
-          "link": "joongangenews.com/news/articleView.html?idxno=566650",
-          "title_norm": "영광군내년예산안7486억원편성민생안정미래성장집중투자",
-          "sent_at": "2026-11-25T22:57:21.828770+00:00"
-        },
-        {
-          "link": "breaknews.com/1253888",
-          "title_norm": "가평군내년예산4665억편성민생성장집중",
-          "sent_at": "2026-11-25T22:57:21.828770+00:00"
-        },
-        {
-          "link": "imaeil.com/page/view/2026112517113296827",
-          "title_norm": "소멸위기에내몰린군위청년불러들일정책은어디에청년유출보고",
-          "sent_at": "2026-11-25T22:57:21.828770+00:00"
-        },
-        {
-          "link": "kukinews.com/article/view/kuk202611250189",
-          "title_norm": "서태원가평군수경제는살리고일상은채운다민선9기핵심청사",
-          "sent_at": "2026-11-25T22:57:21.828770+00:00"
-        },
-        {
-          "link": "kyeongin.com/article/1775390",
-          "title_norm": "내년인천군구예산안빨간불두달치직원인건비도미반영",
-          "sent_at": "2026-11-25T22:57:21.828770+00:00"
-        },
-        {
-          "link": "viva100.com/article/20261125501381",
-          "title_norm": "채기자의미래지도햇빛팔아돈벌고약초로연금만들고자생력",
-          "sent_at": "2026-11-25T22:57:21.828770+00:00"
-        },
-        {
-          "link": "asiatoday.co.kr/kn/view.php?key=20261126010010036",
-          "title_norm": "관광넘어정주피난거점으로부산에재팬타운만들자",
-          "sent_at": "2026-11-25T22:57:21.828770+00:00"
-        },
-        {
-          "link": "gndomin.com/news/articleView.html?idxno=498326",
-          "title_norm": "창원시의회군만주는농어촌기본소득도농복합시차별없애야",
-          "sent_at": "2026-11-25T22:57:21.828770+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiSkFVX3lxTFBhazlaZkpQWTdJcUQzVDJrVlFJb0R3UG54Rm5NWDJ6MXdjblBaMnNLM2tGQ2JkWUk4Z3Fab3RJeFdPTDFOaWFkWG9n?oc=5",
-          "title_norm": "경기도의회김미경의원lpg소형탱크안전관리강화대기오염경보실효성높여야",
-          "sent_at": "2026-11-25T22:57:21.828770+00:00"
-        },
-        {
-          "link": "newsis.com/view/NISX20261125_0003883401",
-          "title_norm": "충북도의회예결위충북도4회추경원안의결",
-          "sent_at": "2026-11-25T22:57:21.828770+00:00"
-        },
-        {
-          "link": "viva100.com/article/20261125501311",
-          "title_norm": "채기자의미래지도주민소득높이고양육부담낮추고사람이돌",
-          "sent_at": "2026-11-25T22:57:21.828770+00:00"
-        },
-        {
           "link": "kyongbuk.co.kr/news/articleView.html?idxno=4092182",
           "title_norm": "경북도의회내년예산안예비심사두상임위서180억여원감액",
           "sent_at": "2026-11-26T07:57:22.967432+00:00"
@@ -377,37 +287,22 @@
           "link": "weeklytoday.com/news/articleView.html?idxno=803800",
           "title_norm": "위클리오늘영덕군오늘1127",
           "sent_at": "2026-11-27T22:57:18.099677+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMiZkFVX3lxTE5rV2x4M2FHdHNUX3lsTU5wb0JtTmZzOVRXcjczWDVCQTJJTkpXbDJwMk1CV0xLM1lwYkpFRmJpc3BHMUlvNTh3S3B1QTlueVBrMXBORVBCd3hsZE9sRkdTOWlpNGI4dw?oc=5",
+          "title_norm": "슈코체크강원나란히받던소멸기금갈라진성적표",
+          "sent_at": "2026-11-28T07:57:19.676378+00:00"
+        },
+        {
+          "link": "polinews.co.kr/news/articleView.html?idxno=749508",
+          "title_norm": "산청청소년이군수에게건넨다섯가지제안",
+          "sent_at": "2026-11-28T07:57:19.676378+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-27T22:57:12.881759+00:00"
+      "last_checked_utc": "2026-11-28T07:57:15.038224+00:00"
     },
     "pop": {
       "articles": [
-        {
-          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE5NQWQyQVhsaWk4YWNYVENZcFlMbnB4bHpCS2Y0emo0YWdnT3NBRjV1R3Jsamk0T0NYX2VkTUk3LVVDcTB1TmV4akNKN1ZRM3ZjNGtWNWVPampNY2pFVm1YT2NPQ0RaQ2l2SjFF?oc=5",
-          "title_norm": "지역청소년성장기회확대인구감소지역맞춤형지원성과",
-          "sent_at": "2026-11-25T22:57:25.410064+00:00"
-        },
-        {
-          "link": "news.google.com/rss/articles/CBMiW0FVX3lxTFB0N1RMV1RyeENxRnZRX2NRb1VMMVR0YkRMZlBfWUNzYjFvSGFJNFVWUExFb2JqQUdjYlBZbFRqOVlGdFVtVHNoNDRZSlFQdXNTY0R6TDhmbEZ5U1HSAWBBVV95cUxOMkVuMGZuM1VPVFRweWlqUURXWFk0cmRrdnpITlI4SU9WejFjUWlHTEtyR0NvTTVIYmhiRGw2MEZDOExUbXNNUzNBejc0UktxcnpEQlNPdHpUQ1dwaGNFdE8?oc=5",
-          "title_norm": "단양완도군인구감소지역청소년성장지원우수지역선정",
-          "sent_at": "2026-11-25T22:57:25.410064+00:00"
-        },
-        {
-          "link": "news1.kr/society/women-family/6366179",
-          "title_norm": "교통비지원섬마을공연인구감소지역청소년성장사례공유",
-          "sent_at": "2026-11-25T22:57:25.410064+00:00"
-        },
-        {
-          "link": "newsis.com/view/NISX20261125_0003883269",
-          "title_norm": "인구감소지역청소년활동지원했더니리더십시민성",
-          "sent_at": "2026-11-25T22:57:25.410064+00:00"
-        },
-        {
-          "link": "newspim.com/news/view/20261125001130",
-          "title_norm": "사는곳달라도성장기회같게인구감소지역청소년지원성과살핀",
-          "sent_at": "2026-11-25T22:57:25.410064+00:00"
-        },
         {
           "link": "kyongbuk.co.kr/news/articleView.html?idxno=4092181",
           "title_norm": "경북도의회기획경제위인구감소지역기업지원예산삭감지적",
@@ -487,9 +382,14 @@
           "link": "news.google.com/rss/articles/CBMiakFVX3lxTE5La1dHRENYNHp2RE5SQ3NBYlczLVlUeF9WWkJEOXZ3M2tiYnFpSDdmRW5LMWFXYWlja3hyeHhNanBrRElwVnc0cTBIcmpwWWxpSmlkNzhlSGxKY1RsRXNyT2VKTHdpQU5JaXc?oc=5",
           "title_norm": "정부지원약속12년인구감소지역된동두천",
           "sent_at": "2026-11-27T22:57:21.686952+00:00"
+        },
+        {
+          "link": "news.google.com/rss/articles/CBMia0FVX3lxTE90dHFyd0h4TlJSd3ZMN1V1Qkh5dVE5QW9SM2FFSEt3OGRzUWFDQmhUT1F0MFFQOHNEV3Z3UDZrdVNrMjBHVXQwVy1UWXNBZ05mLVVlYy1vcWNiWF85UUF1ZkVKQ25KODdiMnFv?oc=5",
+          "title_norm": "단양군2393명청소년이서울포스타워에서2026년인구감소지역성장지원사업장관상수상",
+          "sent_at": "2026-11-28T07:57:23.390227+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-27T22:57:12.881759+00:00"
+      "last_checked_utc": "2026-11-28T07:57:15.038224+00:00"
     },
     "life": {
       "articles": [
@@ -544,11 +444,11 @@
           "sent_at": "2026-11-27T07:57:28.067839+00:00"
         }
       ],
-      "last_checked_utc": "2026-11-27T22:57:12.881759+00:00"
+      "last_checked_utc": "2026-11-28T07:57:15.038224+00:00"
     }
   },
   "slot_runs": {
-    "pm": "2026-11-27",
+    "pm": "2026-11-28",
     "am": "2026-11-28"
   }
 }
